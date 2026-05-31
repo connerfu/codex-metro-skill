@@ -1,4 +1,4 @@
-// === METRO BUILDER v7.11 [line-batch POI fill, cache-first, smart rescue] ===
+﻿// === METRO BUILDER v7.11 [line-batch POI fill, cache-first, smart rescue] ===
 var fs = require("fs"), https = require("https");
 var args = process.argv;
 var CITY = args[2], CITY_CN = args[3];
@@ -175,6 +175,7 @@ async function main() {
   });
   var preHits = stationPairs.filter(function(p) { return coords[p.name + "|" + p.lid].lat !== 0; }).length;
   if (preHits > 0) console.log("  Pre-coords matched: " + preHits + "/" + stationPairs.length);
+  if (preHits === stationPairs.length) { console.log("  [FAST PATH] 100% pre-coords, skipping OSM+POI"); console.log("\n[Build] Assembling..."); var stats2 = buildOutput(coords); var elapsed2 = ((Date.now()-t0)/1000).toFixed(1); console.log("\nDone in " + elapsed2 + "s! " + stats2.lines + "线 " + stats2.stations + "站 " + stats2.transfers + "换乘 " + stats2.distance.toFixed(0) + "km 警告:" + stats2.warnings); console.log("Output: " + OUT_FILE); process.exit(0); }
 
 var osmNodes = [];
     var hasCache = false;
@@ -197,7 +198,7 @@ var osmNodes = [];
     });
     console.log("  Matched: " + osmHits + "/" + nameList.length + " (" + (osmHits/nameList.length*100).toFixed(0) + "%)");
 
-    // Phase 2: LINE-BATCH POI fill — one query per line, match by name
+    // Phase 2: LINE-BATCH POI fill 鈥?one query per line, match by name
     console.log("\n[2/3] Line-batch POI fill...");
     var lineEntries = Object.entries(LINE_DATA);
     var batchHits = 0;
@@ -207,13 +208,7 @@ var osmNodes = [];
         // Handle special line IDs (S1, CA, JX, YZ, YF, FS, CP, etc.)
         var searchNum = lineNum;
         if (lid === "BJS1") searchNum = "S1";
-        else if (lid === "BJCA") searchNum = "\u9996\u90FD\u673A\u573A\u7EBF"; // 首都机场线
-        else if (lid === "BJJX") searchNum = "\u5927\u5174\u673A\u573A\u7EBF"; // 大兴机场线
-        else if (lid === "BJYZ") searchNum = "\u4EA6\u5E84\u7EBF"; // 亦庄线
-        else if (lid === "BJYF") searchNum = "\u71D5\u623F\u7EBF"; // 燕房线
-        else if (lid === "BJFS") searchNum = "\u623F\u5C71\u7EBF"; // 房山线
-        else if (lid === "BJCP") searchNum = "\u660C\u5E73\u7EBF"; // 昌平线
-        else if (lid === "BJ1ZX") searchNum = "1\u53F7\u7EBF\u652F\u7EBF"; // 1号线支线
+        else if (lid === "BJCA") searchNum = "\u9996\u90FD\u673A\u573A\u7EBF"; // 棣栭兘鏈哄満绾?        else if (lid === "BJJX") searchNum = "\u5927\u5174\u673A\u573A\u7EBF"; // 澶у叴鏈哄満绾?        else if (lid === "BJYZ") searchNum = "\u4EA6\u5E84\u7EBF"; // 浜﹀簞绾?        else if (lid === "BJYF") searchNum = "\u71D5\u623F\u7EBF"; // 鐕曟埧绾?        else if (lid === "BJFS") searchNum = "\u623F\u5C71\u7EBF"; // 鎴垮北绾?        else if (lid === "BJCP") searchNum = "\u660C\u5E73\u7EBF"; // 鏄屽钩绾?        else if (lid === "BJ1ZX") searchNum = "1\u53F7\u7EBF\u652F\u7EBF"; // 1鍙风嚎鏀嚎
 
         var pois = await amapLineSearch(searchNum);
         
@@ -298,3 +293,4 @@ var osmNodes = [];
     console.log("Output: " + OUT_FILE);
 }
 main().catch(function(e) { console.error("FATAL:", e.message || e); });
+
