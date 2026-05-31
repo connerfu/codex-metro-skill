@@ -1,86 +1,69 @@
 ﻿---
 name: replicate-metro-json
 description: One-command metro JSON generation. Say "复刻XX地铁" — fully automatic, zero confirmations.
-version: 8.2
+version: 3.0
 ---
 
-# Metro Replicator v8.2
+# Metro Replicator v3.0
 
 ## Usage
 ```
 复刻XX地铁
 ```
-→ `node metro_scraper.js {slug} "{中文名}"` → `node metro_builder.js` → `Downloads/{slug}_metro.json`
-
-Zero confirmations. One sentence, one command.
+One sentence, zero confirmations. Auto scrapes, builds, outputs to `Downloads/{slug}_metro.json`.
 
 ---
 
 ## Architecture
 
 ```
-metro_scraper.js v2.1 (unified, cached, auto-branch)
+metro_scraper.js v2.2 — unified scraper
   ├── metroman.cn → lines, stations, colors, coords
-  ├── cache/ → 24h TTL (line data + coords)
-  ├── references/ → {slug}_lines.json
-  └── {slug}_coords.json
+  ├── auto branch detection (haversine)
+  ├── S-line handling (line-s1 → NJ_LINE_S1)
+  ├── phase line handling (line-6-phase-ii → TJ6P2)
+  ├── cache/ → 24h TTL
+  └── references/{slug}_lines.json + coords
 
-metro_builder.js v7.11
-  └── Phase 0: load coords → 100% match → assemble
+metro_builder.js v7.11 — builder
+  └── Phase 0 pre-coords → 100% match → anomaly detection → assemble
 ```
 
-## Key Features v8.2
+---
 
-### Unified Scraper (v2.1)
-One script for all cities: `node metro_scraper.js {slug} "{中文名}"`
-- Auto-detects line types (numeric, special, tram, phase-ii/iii)
-- **Auto branch detection** — haversine-based: scans each line for junction→detour→resume patterns
-- Handles naming conventions per city
-- Phase line handling: `line-6-phase-ii` → LID `TJ6P2`, name "天津地铁6号线二期"
+## v3.0 What's New
 
-### 24h Cache
-- Line data: `cache/{slug}_lines.json` (TTL 24h)
-- Coordinates: `cache/{slug}_coords.json` (TTL 24h)
-- Second run on same city: ~2-5s (skips all HTTP)
-- `--nocache` flag to force refresh
+### S-Line Support
+- `line-s1` through `line-s9` auto-detected per city
+- LID format: `{prefix}_LINE_S{n}` (e.g., `NJ_LINE_S1`)
+- City-specific LINE_NAMES: 南京S1(机场线), S2(宁马线), etc.
+
+### Ring Line Fix
+- `isRing()` now uses LID-based detection, not num-based
+- Only true ring lines (环线/loop-line) marked as ring
+- Fixes false ring detection on num=0 special lines
+
+### Expanded LINE_NAMES
+- Hangzhou: 杭海城际, 绍兴地铁1/2号线
+- Nanjing: S1-S9, 宁滁线
+- Chengdu: 资阳线(S3), 蓉2号线
+- Chongqing: 空港线, 国博线, 环线, 江跳线, 璧铜线, 云巴
+- Tianjin: 津静线, Z4线, 6号线二期
 
 ### Auto Branch Detection
-Haversine-based algorithm in `detectBranches()`:
-- Scans each line for junction→detour→resume patterns
-- Condition: `detourDist / directDist > 3` AND `directDist < 6km`
-- Skips ring lines automatically
-- Takes best ratio per line
+Haversine-based: junction→detour→resume where `detourDist / directDist > 3`
 
-### Phase Line Detection
-`getLid()` auto-detects phase suffixes:
-- `line-6-phase-ii` → `TJ6P2`, name "天津地铁6号线二期"
-- Handles i/ii/iii/iv/v Roman numerals
+Verified on:
+- Shanghai: 5/10/11号线支线 ✓
+- Hangzhou: 3/6号线支线, 绍兴1号线支线 ✓
+- Chongqing: 6号线支线 ✓
 
 ---
 
-## Data Sources
+## Supported Cities (28 total)
 
-### Primary: metroman.cn
-- Line list + colors: `https://www.metroman.cn/cities/{slug}/lines`
-- Station lists: `https://www.metroman.cn/cities/{slug}/lines/{line-slug}`
-- Station coords: individual station pages → `position=lat,lng`
-- Station naming: `&#183;` → `·`, `(N号线)` stripped
-
-### Fallback: AMap API
-- Key: `c037d67ccb46f69c5f1b7a9b84c61e0e`
-- Used only for zero-coord fixes
-
-### Pre-coords System (v7.11)
-- Builder loads coords file directly → 100% match
-- No OSM/Overpass dependency for coords
-- Auto-fallback to AMap for any missing
-
----
-
-## City Quick Reference
-
-| City | Slug | BBox (lat/lng) |
-|------|------|-----------------|
+| City | Slug | BBox |
+|------|------|------|
 | 北京 | beijing | 39.4-41.0 / 115.5-117.5 |
 | 上海 | shanghai | 30.5-31.8 / 120.8-122.2 |
 | 广州 | guangzhou | 22.3-23.8 / 112.8-114.2 |
@@ -110,8 +93,10 @@ Haversine-based algorithm in `detectBranches()`:
 | 乌鲁木齐 | wulumuqi | 43.4-44.2 / 87.1-88.2 |
 | 中山 | zhongshan | 22.3-22.8 / 113.1-113.7 |
 
+## Data Sources
+- **Primary**: metroman.cn (lines, stations, colors, coords)
+- **Fallback**: AMap API (`c037d67ccb46f69c5f1b7a9b84c61e0e`)
+
 ## Environment
 - Node: `$env:USERPROFILE\codex-node\node.exe`
-- Git: `C:\Program Files\Git\bin\git.exe`
 - GitHub: `connerfu/codex-metro-skill`
-- AMap Key: `c037d67ccb46f69c5f1b7a9b84c61e0e`
