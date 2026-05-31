@@ -50,7 +50,7 @@ const BBOX = {
     zhongshan:[22.3,22.8,113.1,113.7],
 };
 const PREFIX = { beijing:"BJ",shanghai:"SH",guangzhou:"GZ",shenzhen:"SZ",chengdu:"CD",chongqing:"CQ",hangzhou:"HZ",nanjing:"NJ",tianjin:"TJ",wuhan:"WH",shenyang:"SY",changchun:"CC",xian:"XA",zhengzhou:"ZZ",qingdao:"QD",suzhou:"SZ2",wuxi:"WX",xiamen:"XM",dalian:"DL",haerbin:"HEB",dongguan:"DG",nanning:"NN",foshan:"FS",shaoxing:"SX",zhuhai:"ZH",xianyang:"XY",wulumuqi:"WLMQ",zhongshan:"ZS" };
-const SPECIAL_IDS = { "guangfo-line":"GZ_GUANGFO_LINE","apm-line":"GZ_APM_LINE","tram-haizhu":"GZ_TRAM_HAIZHU","pujiang-line":"SHPJ","airport-link-line":"SH_AIRPORT_LINK","jinshan-railway":"SH_JINSHAN","maglev-line":"SH_MAGLEV","pingshan-skyshuttle-line-1":"SZ_PINGSHAN","foshan-line-2":"GZ_FOSHAN_LINE_2","foshan-line-3":"GZ_FOSHAN_LINE_3","nanhai-tram-line-1":"GZ_NANHAI_TRAM","tram-huangpu-line-1":"GZ_TRAM_HP1","tram-huangpu-line-2":"GZ_TRAM_HP2","yizhuang-line":"BJYZ","changping-line":"BJCP","fangshan-line":"BJFS","yanfang-line":"BJYF","line-s1":"BJS1","xijiao-line":"BJXJ","capital-airport-express":"BJCA","daxing-airport-express":"BJJX","yizhuang-t1-line":"BJYZT1" };
+const SPECIAL_IDS = { "guangfo-line":"GZ_GUANGFO_LINE","apm-line":"GZ_APM_LINE","tram-haizhu":"GZ_TRAM_HAIZHU","pujiang-line":"SHPJ","airport-link-line":"SH_AIRPORT_LINK","jinshan-railway":"SH_JINSHAN","maglev-line":"SH_MAGLEV","pingshan-skyshuttle-line-1":"SZ_PINGSHAN","foshan-line-2":"GZ_FOSHAN_LINE_2","foshan-line-3":"GZ_FOSHAN_LINE_3","nanhai-tram-line-1":"GZ_NANHAI_TRAM","tram-huangpu-line-1":"GZ_TRAM_HP1","tram-huangpu-line-2":"GZ_TRAM_HP2","yizhuang-line":"BJYZ","changping-line":"BJCP","fangshan-line":"BJFS","yanfang-line":"BJYF","xijiao-line":"BJXJ","capital-airport-express":"BJCA","daxing-airport-express":"BJJX","yizhuang-t1-line":"BJYZT1" };
 const LINE_NAMES = {
     "GZ_GUANGFO_LINE":"广佛线",
     "GZ_APM_LINE":"广州APM线",
@@ -83,6 +83,21 @@ const LINE_NAMES = {
     "CQ_JIANGTIAO_LINE":"江跳线",
     "CQ_BITONG_LINE":"璧铜线",
     "CQ_CHONGQING_SKYSHUTTLE":"重庆云巴",
+    "CD_LINE_S3":"资阳线(S3)",
+    "CD_TRAMWAY_RONG_2_LINE":"蓉2号线",
+    "CD_TRAMWAY_RONG_2_LINE_BRANCH":"蓉2号线(支线)",
+    "HZ_HANGZHOU_HAINING_INTERCITY_RAIL":"杭海城际",
+    "HZ_SHAOXING_LINE_1":"绍兴地铁1号线",
+    "HZ_SHAOXING_LINE_2":"绍兴地铁2号线",
+    "HZ_SHAOXING_LINE_1_BRANCH":"绍兴地铁1号线(支线)",
+    "NJ_LINE_S1":"南京地铁S1号线(机场线)",
+    "NJ_LINE_S2":"南京地铁S2号线(宁马线)",
+    "NJ_LINE_S3":"南京地铁S3号线(宁和线)",
+    "NJ_LINE_S6":"南京地铁S6号线(宁句线)",
+    "NJ_LINE_S7":"南京地铁S7号线(宁溧线)",
+    "NJ_LINE_S8":"南京地铁S8号线(宁天线)",
+    "NJ_LINE_S9":"南京地铁S9号线(宁高线)",
+    "NJ_NANJING_CHUZHOU_LINE":"宁滁线",
 };
 const RINGS = { beijing:[2,10], guangzhou:[11], shanghai:[4], wuhan:[12], chengdu:[7], chongqing:[0], xian:[8] };
 
@@ -268,6 +283,7 @@ async function main() {
     }
 }
 main().catch(e => console.error(e));
+
 
 
 
