@@ -114,14 +114,14 @@ function getCars(num, lid) {
     if ([17,19,22].includes(num)) return 8;
     return 6;
 }
-function isRing(num) { return (RINGS[SLUG]||[]).includes(num); }
+function isRing(num, lidOrSlug) { const rings = RINGS[SLUG]||[]; if (rings.includes(num)) { if (SLUG==="chongqing") return lidOrSlug==="CQ_LOOP_LINE" || lidOrSlug==="loop-line"; return true; } return false; }
 
 // ---- Auto-detect branches ----
 function detectBranches(allLines, slugCoords) {
     const branches = [];
     for (const [slug, line] of Object.entries(allLines)) { if (slug === "_ts") continue;
         if (line.stations.length < 5 || slug.endsWith("-branch")) continue;
-        if (isRing(line.num)) continue; // skip ring lines
+        if (isRing(line.num, slug)) continue; // skip ring lines
         const stns = line.stations;
         const coords = stns.map(s => slugCoords[s.slug] || null);
         let best = null, bestRatio = 0;
@@ -228,7 +228,7 @@ async function main() {
         ref[lid] = {
             line: line.num||0, name: LINE_NAMES[lid]||(function(){const ps=lid.match(/P(\d+)/);const pm={"1":"一期","2":"二期","3":"三期","4":"四期"};return CITY_NAME+"地铁"+(line.num||"")+"号线"+(ps?pm[ps[1]]||"":"")+(line.isBranch?"(支线)":"");})(),
             color: line.color, speed: getSpeed(line.num, lid), cars: getCars(line.num, lid),
-            ring: isRing(line.num), so: 360, sc: 1380, stations: line.stations.map(s=>s.name)
+            ring: isRing(line.num, lid), so: 360, sc: 1380, stations: line.stations.map(s=>s.name)
         };
         line.stations.forEach(s => { const c = slugCoords[s.slug]; if(c) coordsOut[s.name+"|"+lid] = { lat:c.lat, lng:c.lng, source:"metroman" }; });
     }
@@ -268,6 +268,8 @@ async function main() {
     }
 }
 main().catch(e => console.error(e));
+
+
 
 
 
