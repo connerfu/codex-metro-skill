@@ -1,12 +1,12 @@
 ﻿const https = require("https");
 const fs = require("fs");
 
-// === AMap Polyline Anchor Builder v3.4 ===
+// === AMap Polyline Anchor Builder v3.5 ===
 const AMAP_KEY = "c037d67ccb46f69c5f1b7a9b84c61e0e";
 const CONCURRENCY = 10;
 const TIMEOUT_MS = 8000;
 const RATE_LIMIT_MS = 30;
-const RDP_EPSILON = 40;  // meters: points within 80m of simplified line are removed
+const SEGMENT_EPSILON = 20;  // per-segment RDP: 20m, only strip redundant collinear points
 
 https.globalAgent.maxSockets = 20;
 
@@ -14,7 +14,7 @@ function amapGet(path) {
     return new Promise(r => {
         const timer = setTimeout(() => r(null), TIMEOUT_MS);
         const req = https.get("https://restapi.amap.com" + path, {
-            headers: { "User-Agent": "CodexMetro/3.4" }
+            headers: { "User-Agent": "CodexMetro/3.5" }
         }, res => {
             let d = "";
             res.on("data", c => d += c);
@@ -47,25 +47,23 @@ function getLinePolyline(city, fromLng, fromLat, toLng, toLat) {
     });
 }
 
-// Ramer-Douglas-Peucker: simplify polyline while preserving shape
-function rdpSimplify(points, epsilon) {
-    if (points.length <= 2) return points;
-    // Convert epsilon (meters) to approximate degrees
-    const epsDeg = epsilon / 111000;
+// Per-segment RDP: simplifies one segment between two stations
+function rdpSegment(pts, epsilonM) {
+    if (pts.length <= 2) return pts;
+    const epsDeg = epsilonM / 111000;
 
     function perpDist(pt, a, b) {
         const dx = b.lng - a.lng, dy = b.lat - a.lat;
         const lenSq = dx * dx + dy * dy;
         if (lenSq === 0) return Math.hypot(pt.lng - a.lng, pt.lat - a.lat);
         const t = Math.max(0, Math.min(1, ((pt.lng - a.lng) * dx + (pt.lat - a.lat) * dy) / lenSq));
-        const projLng = a.lng + t * dx, projLat = a.lat + t * dy;
-        return Math.hypot(pt.lng - projLng, pt.lat - projLat);
+        return Math.hypot(pt.lng - a.lng - t * dx, pt.lat - a.lat - t * dy);
     }
 
     function recurse(start, end) {
         let maxDist = 0, maxIdx = start;
         for (let i = start + 1; i < end; i++) {
-            const d = perpDist(points[i], points[start], points[end]);
+            const d = perpDist(pts[i], pts[start], pts[end]);
             if (d > maxDist) { maxDist = d; maxIdx = i; }
         }
         if (maxDist > epsDeg) {
@@ -74,9 +72,9 @@ function rdpSimplify(points, epsilon) {
             left.pop();
             return left.concat(right);
         }
-        return [points[start], points[end]];
+        return [pts[start], pts[end]];
     }
-    return recurse(0, points.length - 1);
+    return recurse(0, pts.length - 1);
 }
 
 function dist(a, b) {
@@ -86,26 +84,30 @@ function dist(a, b) {
 }
 
 function buildAnchors(polylinePts, stations) {
-    // First simplify the polyline
-    const simplified = rdpSimplify(polylinePts, RDP_EPSILON);
-
-    // Match stations to simplified polyline
+    // Match stations to RAW polyline (no global simplify)
     let currentIdx = 0;
     const stationIndices = [];
     for (const s of stations) {
         let bestIdx = currentIdx, bestDist = Infinity;
-        for (let j = currentIdx; j < simplified.length; j++) {
-            const d = dist(s, simplified[j]);
+        for (let j = currentIdx; j < polylinePts.length; j++) {
+            const d = dist(s, polylinePts[j]);
             if (d < bestDist) { bestDist = d; bestIdx = j; }
         }
         stationIndices.push(bestIdx);
         currentIdx = bestIdx;
     }
 
+    // Per-segment: extract points between stations, then light RDP
     const anchors = [];
     for (let i = 0; i < stations.length - 1; i++) {
         const start = stationIndices[i], end = stationIndices[i + 1];
-        anchors.push(simplified.slice(start + 1, end).map(p => ({ lat: p.lat, lng: p.lng })));
+        if (end - start <= 1) {
+            anchors.push([]);
+            continue;
+        }
+        const segPts = polylinePts.slice(start + 1, end);
+        const simplified = rdpSegment(segPts, SEGMENT_EPSILON);
+        anchors.push(simplified.map(p => ({ lat: p.lat, lng: p.lng })));
     }
     return anchors;
 }
@@ -142,7 +144,7 @@ async function processCity(slug, cityName, inputFile, outputFile) {
         if (hasAnchors) { console.log("  SKIP " + l.id + " (cached)"); continue; }
         queue.push(l);
     }
-    console.log("Lines to process: " + queue.length + " (concurrency=" + CONCURRENCY + ", RDP=" + RDP_EPSILON + "m)");
+    console.log("Lines to process: " + queue.length + " (concurrency=" + CONCURRENCY + ", segRDP=" + SEGMENT_EPSILON + "m)");
 
     let totalAnchors = 0, totalRaw = 0, ok = 0, fail = 0;
     let i = 0;
