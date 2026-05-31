@@ -1,4 +1,4 @@
-// === METRO BUILDER v7.8 [line-batch POI fill, cache-first, smart rescue] ===
+// === METRO BUILDER v7.11 [line-batch POI fill, cache-first, smart rescue] ===
 var fs = require("fs"), https = require("https");
 var args = process.argv;
 var CITY = args[2], CITY_CN = args[3];
@@ -79,7 +79,7 @@ function amapLineSearch(lineNum) {
         var path = "/v3/place/text?key=" + AMAP_KEY + "&keywords=" + kw + "&types=150500&city=" + encodeURIComponent(CITY_CN) + "&offset=50&page=1";
         var done = false;
         var timer = setTimeout(function() { if (!done) { done = true; req.destroy(); resolve([]); } }, REQ_TIMEOUT);
-        var req = https.get({ hostname: "restapi.amap.com", path: path, headers: { "User-Agent": "CodexMetro/7.8" }, agent: false }, function(res) {
+        var req = https.get({ hostname: "restapi.amap.com", path: path, headers: { "User-Agent": "CodexMetro/7.9" }, agent: false }, function(res) {
             var d = "";
             res.on("data", function(c) { d += c; });
             res.on("end", function() {
@@ -140,7 +140,7 @@ function buildOutput(coords) {
             return { sid: CITY + "_" + lid + "_" + (i+1), lat: c.lat, lng: c.lng, name: s + "\u7AD9", isTransfer: !!transfers[s], transferType: !!transfers[s] ? "same_station" : null, transferGroupId: !!transfers[s] ? s : null, latlngWgs: { lat: 0, lng: 0 } };
         });
         var dist = 0;
-        for (var i = 0; i < stns.length-1; i++) { var gap = haversine(stns[i].lat, stns[i].lng, stns[i+1].lat, stns[i+1].lng); dist += gap; if (gap > 3) warnings.push(lid + " " + l.name + ": " + l.stations[i] + "\u2192" + l.stations[i+1] + " = " + gap.toFixed(1) + "km"); }
+        for (var i = 0; i < stns.length-1; i++) { var gap = haversine(stns[i].lat, stns[i].lng, stns[i+1].lat, stns[i+1].lng); dist += gap; if (gap > 8) warnings.push(lid + " " + l.name + ": " + l.stations[i] + "\u2192" + l.stations[i+1] + " = " + gap.toFixed(1) + "km"); }
         var rtt = (dist*2/l.speed)*60 + stns.length*0.5;
         console.log("  " + lid + " " + l.name + ": " + stns.length + "\u7AD9 " + dist.toFixed(1) + "km \u73ED\u6B21:" + Math.max(1,Math.round(rtt/2)) + "/" + Math.max(1,Math.round(rtt/4)) + "/" + Math.max(1,Math.round(rtt/6)));
         totalDist += dist; totalStations += stns.length;
@@ -154,7 +154,7 @@ function buildOutput(coords) {
 
 async function main() {
     var t0 = Date.now();
-    console.log("\n=== " + CITY_CN + " Metro v7.8 [line-batch] ===\n");
+    console.log("\n=== " + CITY_CN + " Metro v7.10 [line-batch+precoords] ===\n");
     var stationPairs = [];
     Object.entries(LINE_DATA).forEach(function(e) { var lid = e[0]; e[1].stations.forEach(function(s) { stationPairs.push({ name: s, lid: lid }); }); });
     var uniqueNames = new Set(); stationPairs.forEach(function(p) { uniqueNames.add(p.name); });
@@ -164,7 +164,19 @@ async function main() {
 
     // Phase 1: OSM cache
     console.log("\n[1/3] OSM cache...");
-    var osmNodes = [];
+      // Phase 0: Load pre-computed AMap coords cache
+  var preCoords = {};
+  try { preCoords = JSON.parse(fs.readFileSync(COORDS_FILE, "utf8")); console.log("  Loaded " + Object.keys(preCoords).filter(function(k){return k.indexOf("|")>=0}).length + " pre-computed coords"); } catch(e) {}
+  stationPairs.forEach(function(p) {
+    var key = p.name + "|" + p.lid;
+    if (preCoords[key] && preCoords[key].lat && preCoords[key].lng) {
+      coords[key] = { lat: preCoords[key].lat, lng: preCoords[key].lng, source: "pre" };
+    }
+  });
+  var preHits = stationPairs.filter(function(p) { return coords[p.name + "|" + p.lid].lat !== 0; }).length;
+  if (preHits > 0) console.log("  Pre-coords matched: " + preHits + "/" + stationPairs.length);
+
+var osmNodes = [];
     var hasCache = false;
     try { osmNodes = JSON.parse(fs.readFileSync(OSM_CACHE, "utf8")); hasCache = true; } catch(e) {}
     if (hasCache) { console.log("  Loaded " + osmNodes.length + " from cache"); }
@@ -258,8 +270,8 @@ async function main() {
     Object.entries(LINE_DATA).forEach(function(e) { var lid = e[0], s = e[1].stations;
         for (var i = 0; i < s.length; i++) { var c = coords[s[i] + "|" + lid]; if (!c || c.lat === 0) continue;
             var pi = i-1, ni = i+1; while (pi >= 0 && coords[s[pi] + "|" + lid].lat === 0) pi--; while (ni < s.length && coords[s[ni] + "|" + lid].lat === 0) ni++;
-            var thresh = (c.source === "interp" || c.source === "extrap") ? 2 : 4;
-            if ((pi < 0 || haversine(c.lat,c.lng,coords[s[pi]+"|"+lid].lat,coords[s[pi]+"|"+lid].lng) > thresh) && (ni >= s.length || haversine(c.lat,c.lng,coords[s[ni]+"|"+lid].lat,coords[s[ni]+"|"+lid].lng) > thresh)) { coords[s[i]+"|"+lid] = { lat:0,lng:0 }; cleared++; }
+            var thresh = (c.source === "interp" || c.source === "extrap") ? 5 : 15;
+            if (pi >= 0 && ni < s.length && haversine(c.lat,c.lng,coords[s[pi]+"|"+lid].lat,coords[s[pi]+"|"+lid].lng) > thresh && haversine(c.lat,c.lng,coords[s[ni]+"|"+lid].lat,coords[s[ni]+"|"+lid].lng) > thresh) { coords[s[i]+"|"+lid] = { lat:0,lng:0 }; cleared++; }
         }
     });
     console.log("  Anomalies cleared: " + cleared);

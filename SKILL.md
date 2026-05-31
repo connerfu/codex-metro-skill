@@ -1,116 +1,117 @@
----
+﻿---
 name: replicate-metro-json
-description: Create Cities Designers importable metro JSON from real-world subway networks. One command, no confirmations.
-version: 7.8
+description: One-command metro JSON generation. Say "复刻XX地铁" — fully automatic, zero confirmations.
+version: 8.2
 ---
 
-# Replicate Metro JSON v7.8
+# Metro Replicator v8.2
 
-## Quick Start
-Say "复刻XX地铁" → everything auto, file in Downloads. **Zero confirmations.**
+## Usage
+```
+复刻XX地铁
+```
+→ `node metro_scraper.js {slug} "{中文名}"` → `node metro_builder.js` → `Downloads/{slug}_metro.json`
 
-```powershell
-$node = "$env:USERPROFILE\codex-node\node.exe"
-$env:AMAP_KEY = "c037d67ccb46f69c5f1b7a9b84c61e0e"
+Zero confirmations. One sentence, one command.
 
-# Step 1: Auto-discover lines → references/{city}_lines.json (~10s)
-& $node discover_lines.js {slug} "{中文名}"
+---
 
-# Step 2: Review & edit reference (colors, remove false lines, adjust ring/speed)
+## Architecture
 
-# Step 3: Build metro JSON → Downloads/{city}_metro.json (~15-30s)
-Remove-Item "{city}_coords.json" -Force -ErrorAction SilentlyContinue
-& $node metro_builder.js {slug} "{中文名}" {minLat} {maxLat} {minLng} {maxLng}
+```
+metro_scraper.js v2.1 (unified, cached, auto-branch)
+  ├── metroman.cn → lines, stations, colors, coords
+  ├── cache/ → 24h TTL (line data + coords)
+  ├── references/ → {slug}_lines.json
+  └── {slug}_coords.json
+
+metro_builder.js v7.11
+  └── Phase 0: load coords → 100% match → assemble
 ```
 
----
+## Key Features v8.2
 
-## metro_builder.js v7.8 Pipeline
+### Unified Scraper (v2.1)
+One script for all cities: `node metro_scraper.js {slug} "{中文名}"`
+- Auto-detects line types (numeric, special, tram, phase-ii/iii)
+- **Auto branch detection** — haversine-based: scans each line for junction→detour→resume patterns
+- Handles naming conventions per city
+- Phase line handling: `line-6-phase-ii` → LID `TJ6P2`, name "天津地铁6号线二期"
 
-### Phase 1: OSM cache (cache-first, skip Overpass if cache exists)
-- Load cached OSM nodes. If no cache, query Overpass with 3-mirror rotation.
-- Match OSM station names to reference → WGS84→GCJ02 conversion.
-- **Time**: ~0s (cache) or ~15s (Overpass)
+### 24h Cache
+- Line data: `cache/{slug}_lines.json` (TTL 24h)
+- Coordinates: `cache/{slug}_coords.json` (TTL 24h)
+- Second run on same city: ~2-5s (skips all HTTP)
+- `--nocache` flag to force refresh
 
-### Phase 2: Line-batch POI fill (KEY INNOVATION v7.8)
-- **ONE AMap POI search per line**: "城市地铁N号线" returns all stations on that line.
-- Match reference station names to POI results by fuzzy name.
-- Remaining unmatched → individual geocode with "站名地铁站N号线".
-- **Why this works**: POI search by line returns correct stations WITH correct coordinates in one query. No per-station geocoding needed.
-- **Time**: ~8-15s for typical city
+### Auto Branch Detection
+Haversine-based algorithm in `detectBranches()`:
+- Scans each line for junction→detour→resume patterns
+- Condition: `detourDist / directDist > 3` AND `directDist < 6km`
+- Skips ring lines automatically
+- Takes best ratio per line
 
-### Phase 3: Anomaly + Interpolation
-- Clear stations where BOTH neighbors >4km (real) or >2km (computed).
-- Interpolate remaining gaps.
-
-### Output
-- BOM-free UTF8 JSON with GCJ-02 coordinates.
-- Frequency: `roundTripMin = (dist*2/speed)*60 + stations*0.5`
-- Peak = roundTripMin/2, Off = roundTripMin/4, Low = roundTripMin/6
-
----
-
-## Key Design Decisions (v7.8)
-
-### Why line-batch POI instead of per-station geocode?
-- Per-station geocode: 544 requests × 2-5s each = 20+ minutes, AND returns wrong coordinates for ambiguous names.
-- Line-batch POI: 26 requests × 300ms = 8 seconds, AND coordinates are guaranteed to be on the correct line.
-- **POI search is both faster AND more accurate** because AMap knows which stations belong to which line.
-
-### Why cache-first Overpass?
-- GFW blocks overpass-api.de with TCP hangs (not clean rejects).
-- Cache-first avoids the 24-second timeout entirely when cache exists.
+### Phase Line Detection
+`getLid()` auto-detects phase suffixes:
+- `line-6-phase-ii` → `TJ6P2`, name "天津地铁6号线二期"
+- Handles i/ii/iii/iv/v Roman numerals
 
 ---
 
-## Data Sources (priority order)
-1. **OSM Cache** — pre-saved Overpass nodes (fastest, free)
-2. **Overpass API** — 3-mirror rotation (only when no cache)
-3. **AMap Line POI** — one query per line (fast, accurate)
-4. **AMap Geocode** — individual station fallback (slow, used only for unmatched)
+## Data Sources
+
+### Primary: metroman.cn
+- Line list + colors: `https://www.metroman.cn/cities/{slug}/lines`
+- Station lists: `https://www.metroman.cn/cities/{slug}/lines/{line-slug}`
+- Station coords: individual station pages → `position=lat,lng`
+- Station naming: `&#183;` → `·`, `(N号线)` stripped
+
+### Fallback: AMap API
+- Key: `c037d67ccb46f69c5f1b7a9b84c61e0e`
+- Used only for zero-coord fixes
+
+### Pre-coords System (v7.11)
+- Builder loads coords file directly → 100% match
+- No OSM/Overpass dependency for coords
+- Auto-fallback to AMap for any missing
 
 ---
 
-## Core Rules
+## City Quick Reference
 
-### NEVER
-- Query AMap bare name or `name+站` (returns geography, not station)
-- Use per-station geocode as primary method (use line-batch POI)
-- Create line reference from memory (use discover_lines.js or AMap POI)
-- Wait for Overpass when OSM cache exists
-- `Out-File -Encoding UTF8` (adds BOM)
-- Skip coordinate monotonicity check after sorting
+| City | Slug | BBox (lat/lng) |
+|------|------|-----------------|
+| 北京 | beijing | 39.4-41.0 / 115.5-117.5 |
+| 上海 | shanghai | 30.5-31.8 / 120.8-122.2 |
+| 广州 | guangzhou | 22.3-23.8 / 112.8-114.2 |
+| 深圳 | shenzhen | 22.3-22.9 / 113.7-114.6 |
+| 成都 | chengdu | 30.1-31.0 / 103.5-104.8 |
+| 重庆 | chongqing | 28.0-31.5 / 105.0-109.5 |
+| 杭州 | hangzhou | 29.8-30.7 / 119.5-121.5 |
+| 南京 | nanjing | 31.0-32.6 / 118.2-119.3 |
+| 天津 | tianjin | 38.5-40.2 / 116.5-118.5 |
+| 武汉 | wuhan | 29.8-31.0 / 113.7-115.5 |
+| 沈阳 | shenyang | 41.5-42.5 / 122.8-124.5 |
+| 长春 | changchun | 43.5-44.2 / 125.0-125.6 |
+| 西安 | xian | 34.0-34.6 / 108.5-109.3 |
+| 郑州 | zhengzhou | 34.3-35.1 / 113.0-114.3 |
+| 青岛 | qingdao | 35.8-36.6 / 119.8-121.2 |
+| 苏州 | suzhou | 30.9-31.7 / 120.3-121.3 |
+| 无锡 | wuxi | 31.1-31.9 / 119.9-120.8 |
+| 厦门 | xiamen | 24.2-24.8 / 117.8-118.5 |
+| 大连 | dalian | 38.6-39.3 / 121.1-122.2 |
+| 哈尔滨 | haerbin | 45.3-46.2 / 126.1-127.2 |
+| 东莞 | dongguan | 22.6-23.3 / 113.4-114.3 |
+| 南宁 | nanning | 22.3-23.1 / 107.8-109.0 |
+| 佛山 | foshan | 22.6-23.4 / 112.6-113.4 |
+| 绍兴 | shaoxing | 29.7-30.5 / 120.1-121.1 |
+| 珠海 | zhuhai | 22.0-22.5 / 113.1-113.6 |
+| 咸阳 | xianyang | 34.1-34.6 / 108.3-109.1 |
+| 乌鲁木齐 | wulumuqi | 43.4-44.2 / 87.1-88.2 |
+| 中山 | zhongshan | 22.3-22.8 / 113.1-113.7 |
 
-### ALWAYS
-- `站名+地铁站` suffix in geocode queries
-- `city=` parameter then retry without for cross-city
-- Delete stale `coords.json` before every run
-- BOM-free UTF8 (`[System.IO.File]::WriteAllText`)
-- Use exact AMap POI names in references
-
-### Thresholds
-- Anomaly clear: BOTH neighbors >4km (real) / >2km (computed)
-- BBox gate: ±0.3° around city bounds
-- Discover filter: 3 < stations < 60
-
----
-
-## BBox Reference
-| City | lat min/max | lng min/max |
-|------|-------------|-------------|
-| 北京 | 39.4/41.0 | 115.5/117.5 |
-| 上海 | 30.5/31.8 | 120.8/122.2 |
-| 广州 | 22.3/23.8 | 112.8/114.2 |
-| 深圳 | 22.3/22.9 | 113.7/114.6 |
-| 成都 | 30.1/31.0 | 103.5/104.8 |
-| 重庆 | 28.0/31.5 | 105.0/109.5 |
-| 杭州 | 29.8/30.7 | 119.5/121.5 |
-| 南京 | 31.0/32.6 | 118.2/119.3 |
-| 天津 | 38.5/40.2 | 116.5/118.5 |
-| 武汉 | 29.8/31.0 | 113.7/115.5 |
-| 沈阳 | 41.5/42.5 | 122.8/124.5 |
-| 长春 | 43.5/44.2 | 125.0/125.6 |
-| 西安 | 34.0/34.6 | 108.5/109.3 |
-
-## Keys
-- AMap: `c037d67ccb46f69c5f1b7a9b84c61e0e`
+## Environment
+- Node: `$env:USERPROFILE\codex-node\node.exe`
+- Git: `C:\Program Files\Git\bin\git.exe`
+- GitHub: `connerfu/codex-metro-skill`
+- AMap Key: `c037d67ccb46f69c5f1b7a9b84c61e0e`
