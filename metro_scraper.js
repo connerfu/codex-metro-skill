@@ -213,13 +213,18 @@ async function main() {
     if (missing.length > 0) {
         console.log("\n  Coords: fetching " + missing.length + " (cached: " + (uniqueSlugs.length-missing.length) + ")");
         let done = Object.keys(slugCoords).length;
-        for (const s of missing) {
-            const h = await fetch("https://www.metroman.cn" + s);
-            const m = h.match(/position=([\d.]+),([\d.]+)/);
-            if (m) { slugCoords[s] = { lng: parseFloat(m[1]), lat: parseFloat(m[2]) }; done++; }
-            if (done % 50 === 0) console.log("    " + done + "/" + uniqueSlugs.length);
-            await new Promise(r => setTimeout(r, 60));
+        // Parallel fetch with concurrency pool
+        const POOL = 8, queue = [...missing];
+        async function worker() {
+            while (queue.length > 0) {
+                const s = queue.shift(); if (!s) break;
+                const h = await fetch("https://www.metroman.cn" + s);
+                const m = h.match(/position=([\d.]+),([\d.]+)/);
+                if (m) { slugCoords[s] = { lng: parseFloat(m[1]), lat: parseFloat(m[2]) }; done++; }
+                if (done % 50 === 0 && done <= uniqueSlugs.length) console.log("    " + done + "/" + uniqueSlugs.length);
+            }
         }
+        await Promise.all(Array.from({length: Math.min(POOL, missing.length)}, () => worker()));
         saveJson(COORD_CACHE, slugCoords);
         console.log("    Done: " + done + "/" + uniqueSlugs.length + " [CACHED coords]");
     } else { console.log("\n  Coords: " + uniqueSlugs.length + " [ALL CACHED]"); }
