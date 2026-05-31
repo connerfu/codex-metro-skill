@@ -1,5 +1,4 @@
-﻿cache/
+cache/
 *_coords.json
 *_osm_cache.json
-fix_*.js
 check_*.js
