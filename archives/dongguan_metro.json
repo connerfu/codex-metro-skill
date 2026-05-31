@@ -1,0 +1,624 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:09.804Z",
+  "data": {
+    "cityKey": "dongguan",
+    "lineCounter": 2,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "DG1",
+        "name": "东莞地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#467DD6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 47,
+        "freqOff": 23,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "dongguan_DG1_1",
+            "lat": 23.009702,
+            "lng": 113.626343,
+            "name": "东莞西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_2",
+            "lat": 23.009387,
+            "lng": 113.661132,
+            "name": "厚德站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_3",
+            "lat": 23.01678,
+            "lng": 113.687505,
+            "name": "昌平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_4",
+            "lat": 23.026269,
+            "lng": 113.698684,
+            "name": "人民医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_5",
+            "lat": 23.032737,
+            "lng": 113.714206,
+            "name": "曲海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_6",
+            "lat": 23.021898,
+            "lng": 113.726866,
+            "name": "坝头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_7",
+            "lat": 23.016721,
+            "lng": 113.741818,
+            "name": "元美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_8",
+            "lat": 23.01427,
+            "lng": 113.753181,
+            "name": "中心广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_9",
+            "lat": 23.01038,
+            "lng": 113.759163,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_10",
+            "lat": 23.003903,
+            "lng": 113.772705,
+            "name": "立新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_11",
+            "lat": 22.987596,
+            "lng": 113.775837,
+            "name": "东城南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_12",
+            "lat": 22.969962,
+            "lng": 113.774969,
+            "name": "同沙公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_13",
+            "lat": 22.959565,
+            "lng": 113.775966,
+            "name": "牛山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_14",
+            "lat": 22.928158,
+            "lng": 113.805984,
+            "name": "连平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_15",
+            "lat": 22.914098,
+            "lng": 113.831274,
+            "name": "大岭山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_16",
+            "lat": 22.911055,
+            "lng": 113.852781,
+            "name": "金桔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_17",
+            "lat": 22.9208,
+            "lng": 113.866794,
+            "name": "广东医大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_18",
+            "lat": 22.928564,
+            "lng": 113.873857,
+            "name": "松山湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_19",
+            "lat": 22.933102,
+            "lng": 113.901583,
+            "name": "松佛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_20",
+            "lat": 22.928827,
+            "lng": 113.925335,
+            "name": "大朗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_21",
+            "lat": 22.917967,
+            "lng": 113.951195,
+            "name": "荔香公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_22",
+            "lat": 22.907749,
+            "lng": 113.973837,
+            "name": "凤山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_23",
+            "lat": 22.894513,
+            "lng": 113.998672,
+            "name": "黄江站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_24",
+            "lat": 22.873706,
+            "lng": 113.997732,
+            "name": "黄牛埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_25",
+            "lat": 22.843696,
+            "lng": 113.98513,
+            "name": "梅塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "DG2",
+        "name": "东莞地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E62B2D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 31,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "dongguan_DG2_1",
+            "lat": 22.85934,
+            "lng": 113.671653,
+            "name": "虎门火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_2",
+            "lat": 22.902383,
+            "lng": 113.661567,
+            "name": "展览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_3",
+            "lat": 22.926217,
+            "lng": 113.664214,
+            "name": "珊美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_4",
+            "lat": 22.940976,
+            "lng": 113.67361,
+            "name": "寮厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_5",
+            "lat": 22.957699,
+            "lng": 113.690217,
+            "name": "陈屋站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_6",
+            "lat": 22.978081,
+            "lng": 113.728908,
+            "name": "蛤地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_7",
+            "lat": 22.993907,
+            "lng": 113.746892,
+            "name": "西平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_8",
+            "lat": 23.01038,
+            "lng": 113.759163,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_9",
+            "lat": 23.019951,
+            "lng": 113.767704,
+            "name": "旗峰公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_10",
+            "lat": 23.032663,
+            "lng": 113.776398,
+            "name": "东城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_11",
+            "lat": 23.04732,
+            "lng": 113.778679,
+            "name": "天宝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_12",
+            "lat": 23.062816,
+            "lng": 113.788297,
+            "name": "下桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_13",
+            "lat": 23.080272,
+            "lng": 113.814231,
+            "name": "榴花公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_14",
+            "lat": 23.079696,
+            "lng": 113.845077,
+            "name": "茶山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_15",
+            "lat": 23.088625,
+            "lng": 113.860183,
+            "name": "东莞火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

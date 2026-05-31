@@ -1,0 +1,1494 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:03.505Z",
+  "data": {
+    "cityKey": "wuxi",
+    "lineCounter": 5,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "WX1",
+        "name": "无锡地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F44242",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "wuxi_WX1_1",
+            "lat": 31.675558,
+            "lng": 120.314897,
+            "name": "堰桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "堰桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_2",
+            "lat": 31.662277,
+            "lng": 120.314881,
+            "name": "锡北运河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_3",
+            "lat": 31.645842,
+            "lng": 120.303643,
+            "name": "西漳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_4",
+            "lat": 31.637857,
+            "lng": 120.304313,
+            "name": "天一站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_5",
+            "lat": 31.626632,
+            "lng": 120.304404,
+            "name": "刘潭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "刘潭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_6",
+            "lat": 31.60984,
+            "lng": 120.304898,
+            "name": "庄前站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_7",
+            "lat": 31.600958,
+            "lng": 120.303541,
+            "name": "民丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_8",
+            "lat": 31.589366,
+            "lng": 120.306738,
+            "name": "无锡火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "无锡火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_9",
+            "lat": 31.581936,
+            "lng": 120.299882,
+            "name": "胜利门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_10",
+            "lat": 31.575794,
+            "lng": 120.299823,
+            "name": "三阳广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三阳广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_11",
+            "lat": 31.567485,
+            "lng": 120.306164,
+            "name": "南禅寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_12",
+            "lat": 31.562045,
+            "lng": 120.305123,
+            "name": "谈渡桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_13",
+            "lat": 31.555193,
+            "lng": 120.305204,
+            "name": "太湖广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_14",
+            "lat": 31.549246,
+            "lng": 120.311303,
+            "name": "清名桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_15",
+            "lat": 31.541913,
+            "lng": 120.319344,
+            "name": "人民医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_16",
+            "lat": 31.533798,
+            "lng": 120.327976,
+            "name": "华清大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_17",
+            "lat": 31.521123,
+            "lng": 120.3245,
+            "name": "扬名站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_18",
+            "lat": 31.50979,
+            "lng": 120.324156,
+            "name": "南湖家园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_19",
+            "lat": 31.50078,
+            "lng": 120.325884,
+            "name": "塘铁桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_20",
+            "lat": 31.493462,
+            "lng": 120.320208,
+            "name": "金匮公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_21",
+            "lat": 31.491569,
+            "lng": 120.306733,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_22",
+            "lat": 31.490017,
+            "lng": 120.29116,
+            "name": "文化宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_23",
+            "lat": 31.483938,
+            "lng": 120.278746,
+            "name": "江南大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_24",
+            "lat": 31.473364,
+            "lng": 120.277386,
+            "name": "长广溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_25",
+            "lat": 31.459947,
+            "lng": 120.279601,
+            "name": "雪浪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_26",
+            "lat": 31.44772,
+            "lng": 120.274268,
+            "name": "葛埭桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX1_27",
+            "lat": 31.436891,
+            "lng": 120.270277,
+            "name": "南方泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "WX2",
+        "name": "无锡地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3FBC56",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 24,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "wuxi_WX2_1",
+            "lat": 31.550952,
+            "lng": 120.219571,
+            "name": "梅园开原寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_2",
+            "lat": 31.556639,
+            "lng": 120.236479,
+            "name": "荣巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_3",
+            "lat": 31.559199,
+            "lng": 120.24944,
+            "name": "小桃源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_4",
+            "lat": 31.562014,
+            "lng": 120.260866,
+            "name": "河埒口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "河埒口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_5",
+            "lat": 31.564803,
+            "lng": 120.275661,
+            "name": "大王基站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_6",
+            "lat": 31.567262,
+            "lng": 120.286368,
+            "name": "梁溪大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_7",
+            "lat": 31.573633,
+            "lng": 120.290531,
+            "name": "五爱广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_8",
+            "lat": 31.575794,
+            "lng": 120.299823,
+            "name": "三阳广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三阳广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_9",
+            "lat": 31.578496,
+            "lng": 120.308405,
+            "name": "东林广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_10",
+            "lat": 31.582371,
+            "lng": 120.320754,
+            "name": "上马墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_11",
+            "lat": 31.583349,
+            "lng": 120.330399,
+            "name": "靖海站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "靖海",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_12",
+            "lat": 31.586566,
+            "lng": 120.341332,
+            "name": "广益站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_13",
+            "lat": 31.585999,
+            "lng": 120.351063,
+            "name": "柏庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_14",
+            "lat": 31.582142,
+            "lng": 120.363648,
+            "name": "东亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_15",
+            "lat": 31.578121,
+            "lng": 120.379044,
+            "name": "庄桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_16",
+            "lat": 31.579538,
+            "lng": 120.395019,
+            "name": "云林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_17",
+            "lat": 31.580397,
+            "lng": 120.408623,
+            "name": "九里河公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_18",
+            "lat": 31.581137,
+            "lng": 120.431358,
+            "name": "查桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_19",
+            "lat": 31.587224,
+            "lng": 120.449672,
+            "name": "映月湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_20",
+            "lat": 31.59162,
+            "lng": 120.454457,
+            "name": "迎宾广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX2_21",
+            "lat": 31.59685,
+            "lng": 120.460097,
+            "name": "无锡东站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "WX3",
+        "name": "无锡地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3CB9F1",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "wuxi_WX3_1",
+            "lat": 31.596785,
+            "lng": 120.216033,
+            "name": "苏庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_2",
+            "lat": 31.596504,
+            "lng": 120.22964,
+            "name": "钱桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_3",
+            "lat": 31.600342,
+            "lng": 120.244103,
+            "name": "龙山梢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_4",
+            "lat": 31.597397,
+            "lng": 120.259174,
+            "name": "石门路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_5",
+            "lat": 31.591868,
+            "lng": 120.270857,
+            "name": "盛岸站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "盛岸",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_6",
+            "lat": 31.593881,
+            "lng": 120.285945,
+            "name": "吴桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_7",
+            "lat": 31.590932,
+            "lng": 120.297111,
+            "name": "北栅口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_8",
+            "lat": 31.589366,
+            "lng": 120.306738,
+            "name": "无锡火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "无锡火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_9",
+            "lat": 31.588845,
+            "lng": 120.319365,
+            "name": "广瑞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_10",
+            "lat": 31.583349,
+            "lng": 120.330399,
+            "name": "靖海站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "靖海",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_11",
+            "lat": 31.573353,
+            "lng": 120.332422,
+            "name": "东风站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_12",
+            "lat": 31.566409,
+            "lng": 120.337044,
+            "name": "叙丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_13",
+            "lat": 31.55916,
+            "lng": 120.343867,
+            "name": "太湖花园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_14",
+            "lat": 31.549413,
+            "lng": 120.352622,
+            "name": "新光路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_15",
+            "lat": 31.541026,
+            "lng": 120.358805,
+            "name": "旺庄路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_16",
+            "lat": 31.529681,
+            "lng": 120.369874,
+            "name": "黄山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_17",
+            "lat": 31.523334,
+            "lng": 120.376118,
+            "name": "高浪东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_18",
+            "lat": 31.513694,
+            "lng": 120.385688,
+            "name": "周泾巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_19",
+            "lat": 31.499385,
+            "lng": 120.392107,
+            "name": "无锡新区站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_20",
+            "lat": 31.497375,
+            "lng": 120.403144,
+            "name": "长江南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX3_21",
+            "lat": 31.502578,
+            "lng": 120.430806,
+            "name": "硕放机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "WX4",
+        "name": "无锡地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#BB41BE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 21,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "wuxi_WX4_1",
+            "lat": 31.626632,
+            "lng": 120.304404,
+            "name": "刘潭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "刘潭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_2",
+            "lat": 31.617789,
+            "lng": 120.29003,
+            "name": "广石路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_3",
+            "lat": 31.599368,
+            "lng": 120.280009,
+            "name": "黄巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_4",
+            "lat": 31.591868,
+            "lng": 120.270857,
+            "name": "盛岸站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "盛岸",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_5",
+            "lat": 31.581154,
+            "lng": 120.27767,
+            "name": "惠山古镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_6",
+            "lat": 31.568737,
+            "lng": 120.26976,
+            "name": "青山湾荣院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_7",
+            "lat": 31.562014,
+            "lng": 120.260866,
+            "name": "河埒口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "河埒口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_8",
+            "lat": 31.548645,
+            "lng": 120.262088,
+            "name": "西园弄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_9",
+            "lat": 31.540992,
+            "lng": 120.262796,
+            "name": "体育中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_10",
+            "lat": 31.532497,
+            "lng": 120.263407,
+            "name": "夏家边站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_11",
+            "lat": 31.522109,
+            "lng": 120.26624,
+            "name": "蠡湖大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_12",
+            "lat": 31.511773,
+            "lng": 120.281314,
+            "name": "大剧院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_13",
+            "lat": 31.505974,
+            "lng": 120.287537,
+            "name": "五湖大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_14",
+            "lat": 31.504328,
+            "lng": 120.301334,
+            "name": "周新苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_15",
+            "lat": 31.491569,
+            "lng": 120.306733,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_16",
+            "lat": 31.481621,
+            "lng": 120.30878,
+            "name": "吴都路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_17",
+            "lat": 31.474191,
+            "lng": 120.315303,
+            "name": "丰润道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX4_18",
+            "lat": 31.4769,
+            "lng": 120.325452,
+            "name": "博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "WX_LINE_S1",
+        "name": "无锡地铁号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F44242",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 24,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "wuxi_WX_LINE_S1_1",
+            "lat": 31.923298,
+            "lng": 120.258383,
+            "name": "江阴外滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_2",
+            "lat": 31.906396,
+            "lng": 120.271043,
+            "name": "中山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_3",
+            "lat": 31.891457,
+            "lng": 120.271687,
+            "name": "南门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_4",
+            "lat": 31.877446,
+            "lng": 120.272159,
+            "name": "江阴中医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_5",
+            "lat": 31.860467,
+            "lng": 120.28005,
+            "name": "江阴高铁站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_6",
+            "lat": 31.843188,
+            "lng": 120.266617,
+            "name": "南闸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_7",
+            "lat": 31.814989,
+            "lng": 120.272304,
+            "name": "峭岐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_8",
+            "lat": 31.769535,
+            "lng": 120.29418,
+            "name": "青阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_9",
+            "lat": 31.709452,
+            "lng": 120.310396,
+            "name": "马镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "wuxi_WX_LINE_S1_10",
+            "lat": 31.675558,
+            "lng": 120.314897,
+            "name": "堰桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "堰桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

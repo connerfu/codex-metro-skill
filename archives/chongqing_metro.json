@@ -1,0 +1,5189 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:05:44.787Z",
+  "data": {
+    "cityKey": "chongqing",
+    "lineCounter": 16,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "CQ1",
+        "name": "重庆地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EA3D3D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ1_1",
+            "lat": 29.564144,
+            "lng": 106.585847,
+            "name": "朝天门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_2",
+            "lat": 29.560008,
+            "lng": 106.583638,
+            "name": "小什字站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小什字",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_3",
+            "lat": 29.553174,
+            "lng": 106.571827,
+            "name": "较场口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "较场口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_4",
+            "lat": 29.55506,
+            "lng": 106.562015,
+            "name": "七星岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "七星岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_5",
+            "lat": 29.552863,
+            "lng": 106.548998,
+            "name": "两路口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "两路口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_6",
+            "lat": 29.547983,
+            "lng": 106.533921,
+            "name": "鹅岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_7",
+            "lat": 29.540649,
+            "lng": 106.518811,
+            "name": "大坪站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大坪",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_8",
+            "lat": 29.538111,
+            "lng": 106.508309,
+            "name": "石油路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_9",
+            "lat": 29.535487,
+            "lng": 106.49835,
+            "name": "歇台子(1)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_10",
+            "lat": 29.53277,
+            "lng": 106.484888,
+            "name": "石桥铺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石桥铺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_11",
+            "lat": 29.536412,
+            "lng": 106.469206,
+            "name": "高庙村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_12",
+            "lat": 29.544988,
+            "lng": 106.468031,
+            "name": "马家岩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_13",
+            "lat": 29.553704,
+            "lng": 106.468216,
+            "name": "小龙坎站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小龙坎",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_14",
+            "lat": 29.556004,
+            "lng": 106.460426,
+            "name": "沙坪坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沙坪坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_15",
+            "lat": 29.561542,
+            "lng": 106.45022,
+            "name": "杨公桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_16",
+            "lat": 29.567432,
+            "lng": 106.445434,
+            "name": "烈士墓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_17",
+            "lat": 29.576719,
+            "lng": 106.446421,
+            "name": "磁器口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_18",
+            "lat": 29.589418,
+            "lng": 106.444285,
+            "name": "石井坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_19",
+            "lat": 29.605772,
+            "lng": 106.444368,
+            "name": "双碑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_20",
+            "lat": 29.610283,
+            "lng": 106.381439,
+            "name": "赖家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_21",
+            "lat": 29.609667,
+            "lng": 106.361859,
+            "name": "微电园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_22",
+            "lat": 29.607414,
+            "lng": 106.330657,
+            "name": "陈家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_23",
+            "lat": 29.607347,
+            "lng": 106.30891,
+            "name": "大学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_24",
+            "lat": 29.607325,
+            "lng": 106.292966,
+            "name": "尖顶坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ1_25",
+            "lat": 29.612256,
+            "lng": 106.232609,
+            "name": "璧山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "璧山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ2",
+        "name": "重庆地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0E9E3A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ2_1",
+            "lat": 29.553174,
+            "lng": 106.571827,
+            "name": "较场口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "较场口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_2",
+            "lat": 29.558357,
+            "lng": 106.575022,
+            "name": "临江门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_3",
+            "lat": 29.563393,
+            "lng": 106.564838,
+            "name": "黄花园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_4",
+            "lat": 29.566173,
+            "lng": 106.558396,
+            "name": "大溪沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_5",
+            "lat": 29.566442,
+            "lng": 106.550124,
+            "name": "曾家岩站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "曾家岩",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_6",
+            "lat": 29.56068,
+            "lng": 106.542601,
+            "name": "牛角沱站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牛角沱",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_7",
+            "lat": 29.55289,
+            "lng": 106.537657,
+            "name": "李子坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_8",
+            "lat": 29.549346,
+            "lng": 106.531504,
+            "name": "佛图关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_9",
+            "lat": 29.540649,
+            "lng": 106.518811,
+            "name": "大坪站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大坪",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_10",
+            "lat": 29.52881,
+            "lng": 106.513743,
+            "name": "袁家岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_11",
+            "lat": 29.520403,
+            "lng": 106.517718,
+            "name": "谢家湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "谢家湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_12",
+            "lat": 29.50784,
+            "lng": 106.513901,
+            "name": "杨家坪(2)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_13",
+            "lat": 29.500051,
+            "lng": 106.509398,
+            "name": "动物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_14",
+            "lat": 29.499621,
+            "lng": 106.499188,
+            "name": "大堰村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_15",
+            "lat": 29.496092,
+            "lng": 106.488761,
+            "name": "马王场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_16",
+            "lat": 29.488732,
+            "lng": 106.485048,
+            "name": "平安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_17",
+            "lat": 29.481838,
+            "lng": 106.478211,
+            "name": "大渡口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_18",
+            "lat": 29.471979,
+            "lng": 106.476401,
+            "name": "新山村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_19",
+            "lat": 29.466829,
+            "lng": 106.472313,
+            "name": "天堂堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_20",
+            "lat": 29.449942,
+            "lng": 106.474726,
+            "name": "建桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_21",
+            "lat": 29.437798,
+            "lng": 106.475533,
+            "name": "金家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_22",
+            "lat": 29.427531,
+            "lng": 106.482741,
+            "name": "刘家坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_23",
+            "lat": 29.414619,
+            "lng": 106.491975,
+            "name": "白居寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白居寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_24",
+            "lat": 29.384135,
+            "lng": 106.501078,
+            "name": "大江站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ2_25",
+            "lat": 29.37587,
+            "lng": 106.5059,
+            "name": "鱼洞站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鱼洞",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ3",
+        "name": "重庆地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3863CC",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 48,
+        "freqOff": 24,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ3_1",
+            "lat": 29.37587,
+            "lng": 106.5059,
+            "name": "鱼洞站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鱼洞",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_2",
+            "lat": 29.37555,
+            "lng": 106.523882,
+            "name": "金竹站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_3",
+            "lat": 29.377747,
+            "lng": 106.539203,
+            "name": "鱼胡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_4",
+            "lat": 29.397962,
+            "lng": 106.543116,
+            "name": "学堂湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_5",
+            "lat": 29.412858,
+            "lng": 106.543654,
+            "name": "大山村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_6",
+            "lat": 29.432288,
+            "lng": 106.55021,
+            "name": "花溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_7",
+            "lat": 29.448674,
+            "lng": 106.554586,
+            "name": "岔路口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_8",
+            "lat": 29.458463,
+            "lng": 106.559085,
+            "name": "九公里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_9",
+            "lat": 29.466958,
+            "lng": 106.562565,
+            "name": "麒龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_10",
+            "lat": 29.478107,
+            "lng": 106.565863,
+            "name": "八公里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_11",
+            "lat": 29.488582,
+            "lng": 106.572768,
+            "name": "重庆交通大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_12",
+            "lat": 29.497787,
+            "lng": 106.573332,
+            "name": "六公里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_13",
+            "lat": 29.507335,
+            "lng": 106.57388,
+            "name": "重庆工商大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_14",
+            "lat": 29.517334,
+            "lng": 106.576355,
+            "name": "四公里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "四公里",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_15",
+            "lat": 29.52671,
+            "lng": 106.569231,
+            "name": "南坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_16",
+            "lat": 29.531552,
+            "lng": 106.563395,
+            "name": "工贸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_17",
+            "lat": 29.536008,
+            "lng": 106.551562,
+            "name": "铜元局站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_18",
+            "lat": 29.552863,
+            "lng": 106.548998,
+            "name": "两路口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "两路口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_19",
+            "lat": 29.56068,
+            "lng": 106.542601,
+            "name": "牛角沱站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牛角沱",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_20",
+            "lat": 29.563959,
+            "lng": 106.537133,
+            "name": "华新街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_21",
+            "lat": 29.57346,
+            "lng": 106.532471,
+            "name": "观音桥(3)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_22",
+            "lat": 29.585394,
+            "lng": 106.526215,
+            "name": "红旗河沟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红旗河沟",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_23",
+            "lat": 29.595521,
+            "lng": 106.522157,
+            "name": "嘉州路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "嘉州路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_24",
+            "lat": 29.599459,
+            "lng": 106.529944,
+            "name": "郑家院子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_25",
+            "lat": 29.599152,
+            "lng": 106.540627,
+            "name": "唐家院子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_26",
+            "lat": 29.60131,
+            "lng": 106.549202,
+            "name": "狮子坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_27",
+            "lat": 29.606824,
+            "lng": 106.54927,
+            "name": "重庆北站南广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆北站南广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_28",
+            "lat": 29.616769,
+            "lng": 106.549626,
+            "name": "龙头寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_29",
+            "lat": 29.628396,
+            "lng": 106.555092,
+            "name": "童家院子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_30",
+            "lat": 29.63537,
+            "lng": 106.570666,
+            "name": "金渝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_31",
+            "lat": 29.643189,
+            "lng": 106.567526,
+            "name": "金童路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_32",
+            "lat": 29.661316,
+            "lng": 106.560146,
+            "name": "鸳鸯站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_33",
+            "lat": 29.674634,
+            "lng": 106.563774,
+            "name": "园博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_34",
+            "lat": 29.685859,
+            "lng": 106.572708,
+            "name": "翠云站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_35",
+            "lat": 29.687604,
+            "lng": 106.588608,
+            "name": "长福路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_36",
+            "lat": 29.690342,
+            "lng": 106.60575,
+            "name": "回兴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_37",
+            "lat": 29.697894,
+            "lng": 106.618789,
+            "name": "双龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_38",
+            "lat": 29.711157,
+            "lng": 106.632644,
+            "name": "碧津站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "碧津",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ3_39",
+            "lat": 29.718704,
+            "lng": 106.63829,
+            "name": "江北机场T2航站楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江北机场T2航站楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ4",
+        "name": "重庆地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F47F00",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 49,
+        "freqOff": 24,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ4_1",
+            "lat": 29.585701,
+            "lng": 106.468186,
+            "name": "石马河立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_2",
+            "lat": 29.580582,
+            "lng": 106.476122,
+            "name": "玉带山(4)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_3",
+            "lat": 29.575153,
+            "lng": 106.483419,
+            "name": "盘溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_4",
+            "lat": 29.570757,
+            "lng": 106.495219,
+            "name": "大石坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大石坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_5",
+            "lat": 29.576147,
+            "lng": 106.503437,
+            "name": "大庆村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_6",
+            "lat": 29.583217,
+            "lng": 106.51181,
+            "name": "花卉园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "花卉园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_7",
+            "lat": 29.589372,
+            "lng": 106.516389,
+            "name": "龙溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_8",
+            "lat": 29.595521,
+            "lng": 106.522157,
+            "name": "嘉州路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "嘉州路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_9",
+            "lat": 29.608714,
+            "lng": 106.52842,
+            "name": "民安大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "民安大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_10",
+            "lat": 29.612923,
+            "lng": 106.551186,
+            "name": "重庆北站北广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆北站北广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_11",
+            "lat": 29.608208,
+            "lng": 106.573327,
+            "name": "头塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "头塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_12",
+            "lat": 29.61661,
+            "lng": 106.58369,
+            "name": "保税港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "保税港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_13",
+            "lat": 29.621818,
+            "lng": 106.606152,
+            "name": "寸滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_14",
+            "lat": 29.62464,
+            "lng": 106.621016,
+            "name": "黑石子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_15",
+            "lat": 29.619784,
+            "lng": 106.631767,
+            "name": "港城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_16",
+            "lat": 29.605729,
+            "lng": 106.641545,
+            "name": "太平冲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_17",
+            "lat": 29.605375,
+            "lng": 106.659548,
+            "name": "唐家沱站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_18",
+            "lat": 29.613942,
+            "lng": 106.669499,
+            "name": "铁山坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_19",
+            "lat": 29.600407,
+            "lng": 106.716276,
+            "name": "鹿栖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_20",
+            "lat": 29.609753,
+            "lng": 106.738889,
+            "name": "果园物流枢纽站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_21",
+            "lat": 29.623147,
+            "lng": 106.762115,
+            "name": "鱼嘴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_22",
+            "lat": 29.626863,
+            "lng": 106.775484,
+            "name": "雁坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_23",
+            "lat": 29.638217,
+            "lng": 106.799586,
+            "name": "石河清站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_24",
+            "lat": 29.656023,
+            "lng": 106.800299,
+            "name": "复盛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_25",
+            "lat": 29.667798,
+            "lng": 106.797675,
+            "name": "三板溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_26",
+            "lat": 29.689518,
+            "lng": 106.79402,
+            "name": "龙驿大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_27",
+            "lat": 29.701386,
+            "lng": 106.801769,
+            "name": "龙兴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_28",
+            "lat": 29.711132,
+            "lng": 106.802913,
+            "name": "高石塔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_29",
+            "lat": 29.728606,
+            "lng": 106.804125,
+            "name": "普福站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_30",
+            "lat": 29.742034,
+            "lng": 106.815394,
+            "name": "桐梓林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_31",
+            "lat": 29.759475,
+            "lng": 106.833679,
+            "name": "石船站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ4_32",
+            "lat": 29.771862,
+            "lng": 106.841295,
+            "name": "黄岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ5",
+        "name": "重庆地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00A6D8",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 42,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ5_1",
+            "lat": 29.753464,
+            "lng": 106.569521,
+            "name": "悦港北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_2",
+            "lat": 29.744829,
+            "lng": 106.569346,
+            "name": "悦港大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_3",
+            "lat": 29.733857,
+            "lng": 106.570824,
+            "name": "椿萱大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_4",
+            "lat": 29.7237,
+            "lng": 106.572342,
+            "name": "中央公园西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_5",
+            "lat": 29.711284,
+            "lng": 106.571231,
+            "name": "鲁家沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_6",
+            "lat": 29.702927,
+            "lng": 106.569074,
+            "name": "甘悦大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_7",
+            "lat": 29.694405,
+            "lng": 106.56927,
+            "name": "玉河沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_8",
+            "lat": 29.675291,
+            "lng": 106.560441,
+            "name": "园博中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_9",
+            "lat": 29.666653,
+            "lng": 106.550955,
+            "name": "丹鹤站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_10",
+            "lat": 29.659786,
+            "lng": 106.538579,
+            "name": "湖霞街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_11",
+            "lat": 29.64801,
+            "lng": 106.529883,
+            "name": "重光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_12",
+            "lat": 29.62968,
+            "lng": 106.533451,
+            "name": "和睦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_13",
+            "lat": 29.623323,
+            "lng": 106.522245,
+            "name": "人和站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_14",
+            "lat": 29.616562,
+            "lng": 106.508205,
+            "name": "幸福广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_15",
+            "lat": 29.598625,
+            "lng": 106.498815,
+            "name": "冉家坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "冉家坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_16",
+            "lat": 29.589492,
+            "lng": 106.498792,
+            "name": "大龙山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大龙山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_17",
+            "lat": 29.570757,
+            "lng": 106.495219,
+            "name": "大石坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大石坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_18",
+            "lat": 29.563076,
+            "lng": 106.494043,
+            "name": "忠恕沱站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_19",
+            "lat": 29.551157,
+            "lng": 106.494551,
+            "name": "红岩村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岩村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_20",
+            "lat": 29.538756,
+            "lng": 106.499105,
+            "name": "歇台子(5)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_21",
+            "lat": 29.53277,
+            "lng": 106.484888,
+            "name": "石桥铺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石桥铺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_22",
+            "lat": 29.525707,
+            "lng": 106.477472,
+            "name": "石新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_23",
+            "lat": 29.520574,
+            "lng": 106.469514,
+            "name": "巴山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_24",
+            "lat": 29.513699,
+            "lng": 106.454297,
+            "name": "凤西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_25",
+            "lat": 29.500105,
+            "lng": 106.43938,
+            "name": "重庆西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_26",
+            "lat": 29.493949,
+            "lng": 106.445598,
+            "name": "华岩寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_27",
+            "lat": 29.480451,
+            "lng": 106.453531,
+            "name": "华成路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_28",
+            "lat": 29.473236,
+            "lng": 106.45054,
+            "name": "半山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_29",
+            "lat": 29.459249,
+            "lng": 106.446079,
+            "name": "中梁山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_30",
+            "lat": 29.442539,
+            "lng": 106.442084,
+            "name": "金建路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_31",
+            "lat": 29.429159,
+            "lng": 106.440427,
+            "name": "华岩中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ5_32",
+            "lat": 29.40825,
+            "lng": 106.437558,
+            "name": "跳磴站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "跳磴",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ6",
+        "name": "重庆地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F9709A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 42,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ6_1",
+            "lat": 29.825452,
+            "lng": 106.437659,
+            "name": "北碚站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_2",
+            "lat": 29.816262,
+            "lng": 106.423755,
+            "name": "西南大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_3",
+            "lat": 29.803191,
+            "lng": 106.398893,
+            "name": "状元碑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_4",
+            "lat": 29.789495,
+            "lng": 106.403913,
+            "name": "龙凤溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_5",
+            "lat": 29.739269,
+            "lng": 106.47323,
+            "name": "向家岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_6",
+            "lat": 29.736013,
+            "lng": 106.492271,
+            "name": "蔡家站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_7",
+            "lat": 29.721018,
+            "lng": 106.494313,
+            "name": "曹家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_8",
+            "lat": 29.679864,
+            "lng": 106.492057,
+            "name": "金山寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_9",
+            "lat": 29.667231,
+            "lng": 106.488106,
+            "name": "礼嘉站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "礼嘉",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_10",
+            "lat": 29.653999,
+            "lng": 106.482876,
+            "name": "九曲河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_11",
+            "lat": 29.634788,
+            "lng": 106.478971,
+            "name": "康庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_12",
+            "lat": 29.628055,
+            "lng": 106.478349,
+            "name": "大竹林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_13",
+            "lat": 29.61608,
+            "lng": 106.499396,
+            "name": "光电园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_14",
+            "lat": 29.598625,
+            "lng": 106.498815,
+            "name": "冉家坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "冉家坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_15",
+            "lat": 29.589492,
+            "lng": 106.498792,
+            "name": "大龙山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大龙山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_16",
+            "lat": 29.583217,
+            "lng": 106.51181,
+            "name": "花卉园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "花卉园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_17",
+            "lat": 29.585394,
+            "lng": 106.526215,
+            "name": "红旗河沟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红旗河沟",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_18",
+            "lat": 29.588467,
+            "lng": 106.53807,
+            "name": "黄泥塝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_19",
+            "lat": 29.584018,
+            "lng": 106.551173,
+            "name": "红土地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红土地",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_20",
+            "lat": 29.585169,
+            "lng": 106.565177,
+            "name": "五里店站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五里店",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_21",
+            "lat": 29.575823,
+            "lng": 106.572068,
+            "name": "江北城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江北城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_22",
+            "lat": 29.569585,
+            "lng": 106.57694,
+            "name": "大剧院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_23",
+            "lat": 29.560008,
+            "lng": 106.583638,
+            "name": "小什字站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小什字",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_24",
+            "lat": 29.556094,
+            "lng": 106.597197,
+            "name": "上新街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上新街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_25",
+            "lat": 29.524718,
+            "lng": 106.655732,
+            "name": "刘家坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_26",
+            "lat": 29.514437,
+            "lng": 106.66639,
+            "name": "百乐园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "百乐园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_27",
+            "lat": 29.510924,
+            "lng": 106.658045,
+            "name": "长生桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_28",
+            "lat": 29.497913,
+            "lng": 106.649608,
+            "name": "邱家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6_29",
+            "lat": 29.48756,
+            "lng": 106.642895,
+            "name": "茶园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ9",
+        "name": "重庆地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A34040",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 35,
+        "freqOff": 18,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ9_1",
+            "lat": 29.539442,
+            "lng": 106.449715,
+            "name": "高滩岩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_2",
+            "lat": 29.549706,
+            "lng": 106.450769,
+            "name": "天梨路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_3",
+            "lat": 29.556004,
+            "lng": 106.460426,
+            "name": "沙坪坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沙坪坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_4",
+            "lat": 29.553704,
+            "lng": 106.468216,
+            "name": "小龙坎站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小龙坎",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_5",
+            "lat": 29.551233,
+            "lng": 106.480452,
+            "name": "土湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_6",
+            "lat": 29.551157,
+            "lng": 106.494551,
+            "name": "红岩村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岩村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_7",
+            "lat": 29.550921,
+            "lng": 106.504104,
+            "name": "富华路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "富华路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_8",
+            "lat": 29.549871,
+            "lng": 106.518857,
+            "name": "化龙桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_9",
+            "lat": 29.5637,
+            "lng": 106.521049,
+            "name": "李家坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_10",
+            "lat": 29.569825,
+            "lng": 106.525287,
+            "name": "蚂蝗梁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_11",
+            "lat": 29.572931,
+            "lng": 106.534524,
+            "name": "观音桥(9)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_12",
+            "lat": 29.572964,
+            "lng": 106.550152,
+            "name": "鲤鱼池站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鲤鱼池",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_13",
+            "lat": 29.572815,
+            "lng": 106.56366,
+            "name": "刘家台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_14",
+            "lat": 29.575823,
+            "lng": 106.572068,
+            "name": "江北城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江北城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_15",
+            "lat": 29.585169,
+            "lng": 106.565177,
+            "name": "五里店站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五里店",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_16",
+            "lat": 29.594363,
+            "lng": 106.571631,
+            "name": "溉澜溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_17",
+            "lat": 29.608208,
+            "lng": 106.573327,
+            "name": "头塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "头塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_18",
+            "lat": 29.61661,
+            "lng": 106.58369,
+            "name": "保税港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "保税港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_19",
+            "lat": 29.625063,
+            "lng": 106.596045,
+            "name": "何家梁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_20",
+            "lat": 29.638399,
+            "lng": 106.597209,
+            "name": "石盘河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_21",
+            "lat": 29.64989,
+            "lng": 106.608956,
+            "name": "上湾路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上湾路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_22",
+            "lat": 29.660801,
+            "lng": 106.616828,
+            "name": "青岗坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_23",
+            "lat": 29.678301,
+            "lng": 106.609262,
+            "name": "宝圣湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_24",
+            "lat": 29.68818,
+            "lng": 106.603229,
+            "name": "兴科大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_25",
+            "lat": 29.706374,
+            "lng": 106.599727,
+            "name": "春华大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_26",
+            "lat": 29.714271,
+            "lng": 106.596433,
+            "name": "兰桂大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_27",
+            "lat": 29.723648,
+            "lng": 106.593523,
+            "name": "中央公园东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_28",
+            "lat": 29.744486,
+            "lng": 106.585172,
+            "name": "丛岩寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ9_29",
+            "lat": 29.752676,
+            "lng": 106.59031,
+            "name": "花石沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ10",
+        "name": "重庆地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#8547B2",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 37,
+        "freqOff": 19,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ10_1",
+            "lat": 29.504304,
+            "lng": 106.557702,
+            "name": "兰花路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_2",
+            "lat": 29.51667,
+            "lng": 106.556276,
+            "name": "南湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_3",
+            "lat": 29.523263,
+            "lng": 106.562897,
+            "name": "万寿路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_4",
+            "lat": 29.538512,
+            "lng": 106.569126,
+            "name": "后堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_5",
+            "lat": 29.55506,
+            "lng": 106.562015,
+            "name": "七星岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "七星岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_6",
+            "lat": 29.561747,
+            "lng": 106.555676,
+            "name": "大礼堂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_7",
+            "lat": 29.566442,
+            "lng": 106.550124,
+            "name": "曾家岩站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "曾家岩",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_8",
+            "lat": 29.572964,
+            "lng": 106.550152,
+            "name": "鲤鱼池站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鲤鱼池",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_9",
+            "lat": 29.584018,
+            "lng": 106.551173,
+            "name": "红土地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红土地",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_10",
+            "lat": 29.598563,
+            "lng": 106.550625,
+            "name": "龙头寺公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_11",
+            "lat": 29.606824,
+            "lng": 106.54927,
+            "name": "重庆北站南广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆北站南广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_12",
+            "lat": 29.612923,
+            "lng": 106.551186,
+            "name": "重庆北站北广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆北站北广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_13",
+            "lat": 29.626609,
+            "lng": 106.567617,
+            "name": "民心佳园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_14",
+            "lat": 29.638342,
+            "lng": 106.584785,
+            "name": "三亚湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_15",
+            "lat": 29.64989,
+            "lng": 106.608956,
+            "name": "上湾路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上湾路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_16",
+            "lat": 29.658848,
+            "lng": 106.622115,
+            "name": "环山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_17",
+            "lat": 29.674045,
+            "lng": 106.629419,
+            "name": "长河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_18",
+            "lat": 29.708427,
+            "lng": 106.655274,
+            "name": "江北机场T3航站楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_19",
+            "lat": 29.718704,
+            "lng": 106.63829,
+            "name": "江北机场T2航站楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江北机场T2航站楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_20",
+            "lat": 29.718554,
+            "lng": 106.629772,
+            "name": "渝北广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_21",
+            "lat": 29.720586,
+            "lng": 106.608362,
+            "name": "鹿山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_22",
+            "lat": 29.723648,
+            "lng": 106.593523,
+            "name": "中央公园东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_23",
+            "lat": 29.723676,
+            "lng": 106.583571,
+            "name": "中央公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_24",
+            "lat": 29.7237,
+            "lng": 106.572342,
+            "name": "中央公园西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_25",
+            "lat": 29.725506,
+            "lng": 106.547956,
+            "name": "悦来站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "悦来",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ10_26",
+            "lat": 29.743498,
+            "lng": 106.545658,
+            "name": "王家庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王家庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ18",
+        "name": "重庆地铁18号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#29D2C9",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 160,
+        "freqPeak": 15,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ18_1",
+            "lat": 29.550921,
+            "lng": 106.504104,
+            "name": "富华路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "富华路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_2",
+            "lat": 29.536894,
+            "lng": 106.498787,
+            "name": "歇台子(18)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_3",
+            "lat": 29.523451,
+            "lng": 106.501273,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_4",
+            "lat": 29.515674,
+            "lng": 106.506265,
+            "name": "石坪桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_5",
+            "lat": 29.507893,
+            "lng": 106.515935,
+            "name": "杨家坪(18)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_6",
+            "lat": 29.499524,
+            "lng": 106.527364,
+            "name": "滩子口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_7",
+            "lat": 29.496518,
+            "lng": 106.536653,
+            "name": "黄桷坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_8",
+            "lat": 29.488186,
+            "lng": 106.543121,
+            "name": "四川美术学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_9",
+            "lat": 29.482646,
+            "lng": 106.537947,
+            "name": "电厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_10",
+            "lat": 29.468794,
+            "lng": 106.527805,
+            "name": "李家沱大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_11",
+            "lat": 29.460471,
+            "lng": 106.521073,
+            "name": "重庆理工大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_12",
+            "lat": 29.447814,
+            "lng": 106.516699,
+            "name": "花溪工业园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_13",
+            "lat": 29.43269,
+            "lng": 106.517575,
+            "name": "巴滨路湿地公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_14",
+            "lat": 29.423951,
+            "lng": 106.504025,
+            "name": "茄子溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_15",
+            "lat": 29.414619,
+            "lng": 106.491975,
+            "name": "白居寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白居寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_16",
+            "lat": 29.415712,
+            "lng": 106.481107,
+            "name": "伏牛溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_17",
+            "lat": 29.41502,
+            "lng": 106.458891,
+            "name": "金鳌山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_18",
+            "lat": 29.40825,
+            "lng": 106.437558,
+            "name": "跳磴站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "跳磴",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ18_19",
+            "lat": 29.39383,
+            "lng": 106.435306,
+            "name": "跳磴南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_KONGGANG_LINE",
+        "name": "空港线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3863CC",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 9,
+        "freqOff": 5,
+        "freqLow": 3,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_1",
+            "lat": 29.711157,
+            "lng": 106.632644,
+            "name": "碧津站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "碧津",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_2",
+            "lat": 29.728925,
+            "lng": 106.632669,
+            "name": "双凤桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_3",
+            "lat": 29.736327,
+            "lng": 106.633615,
+            "name": "空港广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_4",
+            "lat": 29.751894,
+            "lng": 106.642983,
+            "name": "高堡湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_5",
+            "lat": 29.774956,
+            "lng": 106.652792,
+            "name": "观月路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_6",
+            "lat": 29.785524,
+            "lng": 106.655895,
+            "name": "莲花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_KONGGANG_LINE_7",
+            "lat": 29.791376,
+            "lng": 106.667438,
+            "name": "举人坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_INTERNATIONAL_EXPO_LINE",
+        "name": "国博线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F9709A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 21,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_1",
+            "lat": 29.667231,
+            "lng": 106.488106,
+            "name": "礼嘉站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "礼嘉",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_2",
+            "lat": 29.669117,
+            "lng": 106.508856,
+            "name": "欢乐谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_3",
+            "lat": 29.676214,
+            "lng": 106.531481,
+            "name": "黄茅坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_4",
+            "lat": 29.702777,
+            "lng": 106.527897,
+            "name": "高义口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_5",
+            "lat": 29.71662,
+            "lng": 106.545427,
+            "name": "国博中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_6",
+            "lat": 29.725506,
+            "lng": 106.547956,
+            "name": "悦来站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "悦来",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_7",
+            "lat": 29.743498,
+            "lng": 106.545658,
+            "name": "王家庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王家庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_8",
+            "lat": 29.764024,
+            "lng": 106.547945,
+            "name": "清溪河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_9",
+            "lat": 29.781876,
+            "lng": 106.554495,
+            "name": "刘家院子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_10",
+            "lat": 29.807036,
+            "lng": 106.549256,
+            "name": "思源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_11",
+            "lat": 29.822152,
+            "lng": 106.550034,
+            "name": "复兴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_12",
+            "lat": 29.83309,
+            "lng": 106.549361,
+            "name": "红岩坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_INTERNATIONAL_EXPO_LINE_13",
+            "lat": 29.844187,
+            "lng": 106.55647,
+            "name": "沙河坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_LOOP_LINE",
+        "name": "重庆环线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F4BF4A",
+        "isRing": true,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 43,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_1",
+            "lat": 29.532532,
+            "lng": 106.455786,
+            "name": "重庆图书馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_2",
+            "lat": 29.541707,
+            "lng": 106.458827,
+            "name": "天星桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_3",
+            "lat": 29.556004,
+            "lng": 106.460426,
+            "name": "沙坪坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沙坪坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_4",
+            "lat": 29.568333,
+            "lng": 106.46361,
+            "name": "重庆大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_5",
+            "lat": 29.580576,
+            "lng": 106.476304,
+            "name": "玉带山(环线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_6",
+            "lat": 29.59036,
+            "lng": 106.482439,
+            "name": "南桥寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_7",
+            "lat": 29.598623,
+            "lng": 106.487635,
+            "name": "体育公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_8",
+            "lat": 29.598625,
+            "lng": 106.498815,
+            "name": "冉家坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "冉家坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_9",
+            "lat": 29.603942,
+            "lng": 106.505346,
+            "name": "动步公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_10",
+            "lat": 29.607645,
+            "lng": 106.512521,
+            "name": "洪湖东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_11",
+            "lat": 29.608714,
+            "lng": 106.52842,
+            "name": "民安大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "民安大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_12",
+            "lat": 29.606824,
+            "lng": 106.54927,
+            "name": "重庆北站南广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆北站南广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_13",
+            "lat": 29.595616,
+            "lng": 106.559834,
+            "name": "渝鲁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_14",
+            "lat": 29.585169,
+            "lng": 106.565177,
+            "name": "五里店站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五里店",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_15",
+            "lat": 29.585884,
+            "lng": 106.592415,
+            "name": "弹子石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_16",
+            "lat": 29.575955,
+            "lng": 106.60013,
+            "name": "涂山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_17",
+            "lat": 29.564959,
+            "lng": 106.599595,
+            "name": "仁济站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_18",
+            "lat": 29.556094,
+            "lng": 106.597197,
+            "name": "上新街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上新街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_19",
+            "lat": 29.546483,
+            "lng": 106.593806,
+            "name": "上浩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_20",
+            "lat": 29.534544,
+            "lng": 106.587056,
+            "name": "海棠溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_21",
+            "lat": 29.526223,
+            "lng": 106.5829,
+            "name": "罗家坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_22",
+            "lat": 29.517334,
+            "lng": 106.576355,
+            "name": "四公里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "四公里",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_23",
+            "lat": 29.51667,
+            "lng": 106.556276,
+            "name": "南湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_24",
+            "lat": 29.518399,
+            "lng": 106.546362,
+            "name": "海峡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_25",
+            "lat": 29.520403,
+            "lng": 106.517718,
+            "name": "谢家湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "谢家湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_26",
+            "lat": 29.523451,
+            "lng": 106.501273,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_27",
+            "lat": 29.523877,
+            "lng": 106.489488,
+            "name": "陈家坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_28",
+            "lat": 29.516034,
+            "lng": 106.471831,
+            "name": "彩云湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_29",
+            "lat": 29.505033,
+            "lng": 106.462157,
+            "name": "二郎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_30",
+            "lat": 29.495545,
+            "lng": 106.453159,
+            "name": "华龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_31",
+            "lat": 29.500105,
+            "lng": 106.43938,
+            "name": "重庆西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "重庆西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_32",
+            "lat": 29.517692,
+            "lng": 106.442419,
+            "name": "上桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_LOOP_LINE_33",
+            "lat": 29.524458,
+            "lng": 106.449365,
+            "name": "凤鸣山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_JIANGTIAO_LINE",
+        "name": "江跳线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#157DCD",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 21,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_1",
+            "lat": 29.40825,
+            "lng": 106.437558,
+            "name": "跳磴站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "跳磴",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_2",
+            "lat": 29.404345,
+            "lng": 106.429993,
+            "name": "石林寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_3",
+            "lat": 29.39893,
+            "lng": 106.354639,
+            "name": "九龙园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_4",
+            "lat": 29.398607,
+            "lng": 106.312197,
+            "name": "双福站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_5",
+            "lat": 29.381536,
+            "lng": 106.261626,
+            "name": "享堂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_6",
+            "lat": 29.342872,
+            "lng": 106.256829,
+            "name": "江津高铁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_JIANGTIAO_LINE_7",
+            "lat": 29.307554,
+            "lng": 106.259646,
+            "name": "圣泉寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_BITONG_LINE",
+        "name": "璧铜线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0C66BF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_1",
+            "lat": 29.825672,
+            "lng": 106.046013,
+            "name": "铜梁西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_2",
+            "lat": 29.831331,
+            "lng": 106.079249,
+            "name": "铜梁龙城天街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_3",
+            "lat": 29.816084,
+            "lng": 106.108156,
+            "name": "科创新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_4",
+            "lat": 29.789461,
+            "lng": 106.149653,
+            "name": "庆隆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_5",
+            "lat": 29.722926,
+            "lng": 106.219469,
+            "name": "大路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_6",
+            "lat": 29.651281,
+            "lng": 106.21099,
+            "name": "河边站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_7",
+            "lat": 29.62468,
+            "lng": 106.221756,
+            "name": "璧城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_BITONG_LINE_8",
+            "lat": 29.612256,
+            "lng": 106.232609,
+            "name": "璧山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "璧山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ_CHONGQING_SKYSHUTTLE",
+        "name": "重庆云巴",
+        "_lineNameCustomizedByUser": true,
+        "color": "#8A9CAE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 15,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_1",
+            "lat": 29.611423,
+            "lng": 106.232353,
+            "name": "1号地铁站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_2",
+            "lat": 29.611541,
+            "lng": 106.220242,
+            "name": "科创小镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_3",
+            "lat": 29.60608,
+            "lng": 106.218537,
+            "name": "景山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_4",
+            "lat": 29.597227,
+            "lng": 106.215382,
+            "name": "千层岩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_5",
+            "lat": 29.58787,
+            "lng": 106.211316,
+            "name": "秀湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_6",
+            "lat": 29.575782,
+            "lng": 106.20998,
+            "name": "秀水湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_7",
+            "lat": 29.567505,
+            "lng": 106.205828,
+            "name": "东岳公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_8",
+            "lat": 29.555756,
+            "lng": 106.206215,
+            "name": "儿童公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_9",
+            "lat": 29.54114,
+            "lng": 106.203715,
+            "name": "聚金大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_10",
+            "lat": 29.532561,
+            "lng": 106.200249,
+            "name": "双鱼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_11",
+            "lat": 29.522815,
+            "lng": 106.200314,
+            "name": "莲花湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_12",
+            "lat": 29.516878,
+            "lng": 106.203017,
+            "name": "刘家嘴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_13",
+            "lat": 29.510893,
+            "lng": 106.20836,
+            "name": "高观音站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_14",
+            "lat": 29.501397,
+            "lng": 106.21557,
+            "name": "沙坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ_CHONGQING_SKYSHUTTLE_15",
+            "lat": 29.504217,
+            "lng": 106.221954,
+            "name": "成渝高铁站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CQ6Z",
+        "name": "重庆地铁6号线(支线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F9709A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 3,
+        "freqOff": 1,
+        "freqLow": 1,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chongqing_CQ6Z_1",
+            "lat": 29.514437,
+            "lng": 106.66639,
+            "name": "百乐园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "百乐园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6Z_2",
+            "lat": 29.503803,
+            "lng": 106.662104,
+            "name": "桃花桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chongqing_CQ6Z_3",
+            "lat": 29.486706,
+            "lng": 106.668013,
+            "name": "重庆东站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

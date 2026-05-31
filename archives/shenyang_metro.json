@@ -1,0 +1,2204 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:28.240Z",
+  "data": {
+    "cityKey": "shenyang",
+    "lineCounter": 6,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "SY1",
+        "name": "沈阳地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EF4B4B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY1_1",
+            "lat": 41.765458,
+            "lng": 123.230511,
+            "name": "十三号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_2",
+            "lat": 41.765395,
+            "lng": 123.242535,
+            "name": "中央大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_3",
+            "lat": 41.76538,
+            "lng": 123.259337,
+            "name": "七号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_4",
+            "lat": 41.766028,
+            "lng": 123.277277,
+            "name": "四号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_5",
+            "lat": 41.771934,
+            "lng": 123.294096,
+            "name": "张士站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_6",
+            "lat": 41.781055,
+            "lng": 123.30525,
+            "name": "开发大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_7",
+            "lat": 41.794184,
+            "lng": 123.305685,
+            "name": "于洪广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_8",
+            "lat": 41.801585,
+            "lng": 123.309666,
+            "name": "迎宾路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_9",
+            "lat": 41.805069,
+            "lng": 123.331975,
+            "name": "重工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_10",
+            "lat": 41.803736,
+            "lng": 123.343553,
+            "name": "启工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_11",
+            "lat": 41.800287,
+            "lng": 123.356113,
+            "name": "保工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_12",
+            "lat": 41.794114,
+            "lng": 123.370749,
+            "name": "铁西广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "铁西广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_13",
+            "lat": 41.79651,
+            "lng": 123.380509,
+            "name": "云峰北街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_14",
+            "lat": 41.793772,
+            "lng": 123.396796,
+            "name": "沈阳站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_15",
+            "lat": 41.790112,
+            "lng": 123.405397,
+            "name": "太原街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太原街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_16",
+            "lat": 41.789396,
+            "lng": 123.419907,
+            "name": "南市场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_17",
+            "lat": 41.792212,
+            "lng": 123.432748,
+            "name": "青年大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青年大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_18",
+            "lat": 41.796945,
+            "lng": 123.447255,
+            "name": "怀远门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_19",
+            "lat": 41.801347,
+            "lng": 123.460386,
+            "name": "中街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_20",
+            "lat": 41.802834,
+            "lng": 123.470594,
+            "name": "东中街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_21",
+            "lat": 41.808477,
+            "lng": 123.488527,
+            "name": "滂江街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滂江街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_22",
+            "lat": 41.808117,
+            "lng": 123.504305,
+            "name": "黎明广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_23",
+            "lat": 41.806626,
+            "lng": 123.520872,
+            "name": "新惠街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_24",
+            "lat": 41.813033,
+            "lng": 123.53134,
+            "name": "新宁街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_25",
+            "lat": 41.818835,
+            "lng": 123.546957,
+            "name": "东大营街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_26",
+            "lat": 41.821459,
+            "lng": 123.564361,
+            "name": "农业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_27",
+            "lat": 41.822567,
+            "lng": 123.579669,
+            "name": "前陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_28",
+            "lat": 41.829538,
+            "lng": 123.595493,
+            "name": "东陵公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_29",
+            "lat": 41.845304,
+            "lng": 123.61579,
+            "name": "水泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_30",
+            "lat": 41.854993,
+            "lng": 123.626214,
+            "name": "伯官北大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_31",
+            "lat": 41.853641,
+            "lng": 123.639737,
+            "name": "植物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_32",
+            "lat": 41.854912,
+            "lng": 123.659249,
+            "name": "双马站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SY2",
+        "name": "沈阳地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF8F43",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 40,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY2_1",
+            "lat": 41.956448,
+            "lng": 123.405528,
+            "name": "蒲田路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_2",
+            "lat": 41.946825,
+            "lng": 123.408582,
+            "name": "蒲河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_3",
+            "lat": 41.936614,
+            "lng": 123.398313,
+            "name": "人杰湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_4",
+            "lat": 41.929389,
+            "lng": 123.393711,
+            "name": "辽宁大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_5",
+            "lat": 41.917793,
+            "lng": 123.403077,
+            "name": "航天航空大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_6",
+            "lat": 41.907622,
+            "lng": 123.408635,
+            "name": "师范大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_7",
+            "lat": 41.886277,
+            "lng": 123.415393,
+            "name": "医学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_8",
+            "lat": 41.868337,
+            "lng": 123.417132,
+            "name": "三台子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_9",
+            "lat": 41.855423,
+            "lng": 123.418238,
+            "name": "陵西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_10",
+            "lat": 41.847475,
+            "lng": 123.418894,
+            "name": "新乐遗址站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_11",
+            "lat": 41.839398,
+            "lng": 123.424239,
+            "name": "北陵公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_12",
+            "lat": 41.832603,
+            "lng": 123.429305,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_13",
+            "lat": 41.82273,
+            "lng": 123.429254,
+            "name": "岐山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_14",
+            "lat": 41.817354,
+            "lng": 123.435972,
+            "name": "沈阳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈阳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_15",
+            "lat": 41.811745,
+            "lng": 123.438258,
+            "name": "金融中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_16",
+            "lat": 41.804497,
+            "lng": 123.434228,
+            "name": "人民广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_17",
+            "lat": 41.792212,
+            "lng": 123.432748,
+            "name": "青年大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青年大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_18",
+            "lat": 41.784519,
+            "lng": 123.435954,
+            "name": "青年公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_19",
+            "lat": 41.773279,
+            "lng": 123.435074,
+            "name": "工业展览馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_20",
+            "lat": 41.760047,
+            "lng": 123.435899,
+            "name": "市图书馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_21",
+            "lat": 41.75275,
+            "lng": 123.44101,
+            "name": "五里河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_22",
+            "lat": 41.742922,
+            "lng": 123.453743,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_23",
+            "lat": 41.731347,
+            "lng": 123.45649,
+            "name": "营盘街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_24",
+            "lat": 41.719785,
+            "lng": 123.461957,
+            "name": "世纪大厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_25",
+            "lat": 41.709424,
+            "lng": 123.471677,
+            "name": "白塔河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_26",
+            "lat": 41.707487,
+            "lng": 123.482503,
+            "name": "全运路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_27",
+            "lat": 41.693361,
+            "lng": 123.479461,
+            "name": "沈本大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_28",
+            "lat": 41.68815,
+            "lng": 123.464914,
+            "name": "沈中大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_29",
+            "lat": 41.678923,
+            "lng": 123.458158,
+            "name": "省博物馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_30",
+            "lat": 41.666537,
+            "lng": 123.458025,
+            "name": "中央公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_31",
+            "lat": 41.651795,
+            "lng": 123.457907,
+            "name": "创新一路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_32",
+            "lat": 41.640114,
+            "lng": 123.457828,
+            "name": "综合保税区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_33",
+            "lat": 41.633618,
+            "lng": 123.494472,
+            "name": "桃仙机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SY3",
+        "name": "沈阳地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F973BA",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY3_1",
+            "lat": 41.667761,
+            "lng": 123.141464,
+            "name": "李达站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_2",
+            "lat": 41.681756,
+            "lng": 123.152063,
+            "name": "铁西汽车工厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_3",
+            "lat": 41.695548,
+            "lng": 123.172379,
+            "name": "马贝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_4",
+            "lat": 41.700019,
+            "lng": 123.190313,
+            "name": "中德大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_5",
+            "lat": 41.711262,
+            "lng": 123.21831,
+            "name": "细河悠谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_6",
+            "lat": 41.720376,
+            "lng": 123.23714,
+            "name": "翟家站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_7",
+            "lat": 41.730042,
+            "lng": 123.262085,
+            "name": "工业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_8",
+            "lat": 41.738234,
+            "lng": 123.274282,
+            "name": "宁官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_9",
+            "lat": 41.739957,
+            "lng": 123.283352,
+            "name": "余良站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_10",
+            "lat": 41.746425,
+            "lng": 123.307681,
+            "name": "甘官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_11",
+            "lat": 41.743478,
+            "lng": 123.323525,
+            "name": "千岛湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_12",
+            "lat": 41.748329,
+            "lng": 123.333153,
+            "name": "南阳湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_13",
+            "lat": 41.752457,
+            "lng": 123.347465,
+            "name": "大通湖街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大通湖街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_14",
+            "lat": 41.757913,
+            "lng": 123.362171,
+            "name": "南李官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SY4",
+        "name": "沈阳地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#8959C1",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 29,
+        "freqOff": 14,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY4_1",
+            "lat": 41.882693,
+            "lng": 123.480024,
+            "name": "正新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_2",
+            "lat": 41.871121,
+            "lng": 123.486686,
+            "name": "文官街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_3",
+            "lat": 41.864302,
+            "lng": 123.491102,
+            "name": "望花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_4",
+            "lat": 41.849293,
+            "lng": 123.483238,
+            "name": "观泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_5",
+            "lat": 41.839077,
+            "lng": 123.477792,
+            "name": "北大营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_6",
+            "lat": 41.829232,
+            "lng": 123.4744,
+            "name": "合作街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "合作街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_7",
+            "lat": 41.822266,
+            "lng": 123.467488,
+            "name": "洮昌街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_8",
+            "lat": 41.819284,
+            "lng": 123.458985,
+            "name": "沈阳大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_9",
+            "lat": 41.817354,
+            "lng": 123.435972,
+            "name": "沈阳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈阳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_10",
+            "lat": 41.810751,
+            "lng": 123.420295,
+            "name": "皇寺路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_11",
+            "lat": 41.803962,
+            "lng": 123.415927,
+            "name": "市府大路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_12",
+            "lat": 41.790112,
+            "lng": 123.405397,
+            "name": "太原街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太原街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_13",
+            "lat": 41.783219,
+            "lng": 123.400207,
+            "name": "南五马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_14",
+            "lat": 41.768034,
+            "lng": 123.391422,
+            "name": "砂阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_15",
+            "lat": 41.751662,
+            "lng": 123.399136,
+            "name": "南京桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_16",
+            "lat": 41.742523,
+            "lng": 123.402797,
+            "name": "长白岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_17",
+            "lat": 41.727246,
+            "lng": 123.409311,
+            "name": "长白南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长白南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_18",
+            "lat": 41.710404,
+            "lng": 123.406147,
+            "name": "金仓路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_19",
+            "lat": 41.698286,
+            "lng": 123.399188,
+            "name": "云杉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_20",
+            "lat": 41.690236,
+            "lng": 123.403128,
+            "name": "红椿路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_21",
+            "lat": 41.681531,
+            "lng": 123.415794,
+            "name": "城建学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_22",
+            "lat": 41.668358,
+            "lng": 123.409554,
+            "name": "沈阳南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_23",
+            "lat": 41.655495,
+            "lng": 123.413345,
+            "name": "创新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SY9",
+        "name": "沈阳地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3A88D6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY9_1",
+            "lat": 41.842252,
+            "lng": 123.388935,
+            "name": "怒江公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_2",
+            "lat": 41.830642,
+            "lng": 123.390823,
+            "name": "淮河街沈医二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "淮河街沈医二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_3",
+            "lat": 41.82105,
+            "lng": 123.386577,
+            "name": "皇姑屯站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_4",
+            "lat": 41.812753,
+            "lng": 123.383835,
+            "name": "重型文化广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_5",
+            "lat": 41.804704,
+            "lng": 123.378759,
+            "name": "北二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_6",
+            "lat": 41.794114,
+            "lng": 123.370749,
+            "name": "铁西广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "铁西广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_7",
+            "lat": 41.787636,
+            "lng": 123.365839,
+            "name": "兴华公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_8",
+            "lat": 41.781586,
+            "lng": 123.361261,
+            "name": "沈辽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_9",
+            "lat": 41.772412,
+            "lng": 123.358989,
+            "name": "滑翔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_10",
+            "lat": 41.760991,
+            "lng": 123.345237,
+            "name": "吉力湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_11",
+            "lat": 41.752457,
+            "lng": 123.347465,
+            "name": "大通湖街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大通湖街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_12",
+            "lat": 41.732253,
+            "lng": 123.361363,
+            "name": "曹仲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_13",
+            "lat": 41.728207,
+            "lng": 123.369082,
+            "name": "浑河站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_14",
+            "lat": 41.724808,
+            "lng": 123.398266,
+            "name": "胜利南街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_15",
+            "lat": 41.727246,
+            "lng": 123.409311,
+            "name": "长白南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长白南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_16",
+            "lat": 41.729801,
+            "lng": 123.421601,
+            "name": "榆树台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_17",
+            "lat": 41.731683,
+            "lng": 123.430201,
+            "name": "金阳大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_18",
+            "lat": 41.73412,
+            "lng": 123.441295,
+            "name": "彩霞街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_19",
+            "lat": 41.742922,
+            "lng": 123.453743,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_20",
+            "lat": 41.743594,
+            "lng": 123.467937,
+            "name": "天成街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_21",
+            "lat": 41.741203,
+            "lng": 123.485067,
+            "name": "朗日街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_22",
+            "lat": 41.744571,
+            "lng": 123.501639,
+            "name": "长青南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长青南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_23",
+            "lat": 41.747295,
+            "lng": 123.516111,
+            "name": "建筑大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SY10",
+        "name": "沈阳地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#84C136",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY10_1",
+            "lat": 41.863906,
+            "lng": 123.348284,
+            "name": "丁香湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_2",
+            "lat": 41.851338,
+            "lng": 123.35638,
+            "name": "元江街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_3",
+            "lat": 41.835836,
+            "lng": 123.363834,
+            "name": "向工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_4",
+            "lat": 41.829769,
+            "lng": 123.374297,
+            "name": "塔湾街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_5",
+            "lat": 41.830642,
+            "lng": 123.390823,
+            "name": "淮河街沈医二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "淮河街沈医二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_6",
+            "lat": 41.831135,
+            "lng": 123.40114,
+            "name": "百鸟公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_7",
+            "lat": 41.831727,
+            "lng": 123.413114,
+            "name": "长江街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_8",
+            "lat": 41.832603,
+            "lng": 123.429305,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_9",
+            "lat": 41.833164,
+            "lng": 123.444588,
+            "name": "陵东街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_10",
+            "lat": 41.833511,
+            "lng": 123.456813,
+            "name": "北塔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_11",
+            "lat": 41.829232,
+            "lng": 123.4744,
+            "name": "合作街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "合作街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_12",
+            "lat": 41.820633,
+            "lng": 123.481886,
+            "name": "东北大马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_13",
+            "lat": 41.808477,
+            "lng": 123.488527,
+            "name": "滂江街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滂江街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_14",
+            "lat": 41.798951,
+            "lng": 123.48592,
+            "name": "长安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_15",
+            "lat": 41.790153,
+            "lng": 123.483276,
+            "name": "万莲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_16",
+            "lat": 41.777591,
+            "lng": 123.478429,
+            "name": "泉园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_17",
+            "lat": 41.77013,
+            "lng": 123.487128,
+            "name": "江东街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_18",
+            "lat": 41.760952,
+            "lng": 123.495683,
+            "name": "长青桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_19",
+            "lat": 41.744571,
+            "lng": 123.501639,
+            "name": "长青南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长青南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_20",
+            "lat": 41.733155,
+            "lng": 123.505349,
+            "name": "理工大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_21",
+            "lat": 41.72128,
+            "lng": 123.513008,
+            "name": "张沙布站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

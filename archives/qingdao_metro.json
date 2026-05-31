@@ -1,0 +1,2854 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:54.667Z",
+  "data": {
+    "cityKey": "qingdao",
+    "lineCounter": 8,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "QD1",
+        "name": "青岛地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFC431",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 53,
+        "freqOff": 27,
+        "freqLow": 18,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD1_1",
+            "lat": 36.335167,
+            "lng": 120.412465,
+            "name": "东郭庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_2",
+            "lat": 36.32738,
+            "lng": 120.400532,
+            "name": "沟岔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_3",
+            "lat": 36.315806,
+            "lng": 120.390897,
+            "name": "农业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_4",
+            "lat": 36.306027,
+            "lng": 120.390724,
+            "name": "正阳中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_5",
+            "lat": 36.296519,
+            "lng": 120.390192,
+            "name": "小寨子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_6",
+            "lat": 36.285975,
+            "lng": 120.386135,
+            "name": "凤岗路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_7",
+            "lat": 36.26868,
+            "lng": 120.389017,
+            "name": "流亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_8",
+            "lat": 36.239792,
+            "lng": 120.392444,
+            "name": "仙家寨（汽车北站）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_9",
+            "lat": 36.227431,
+            "lng": 120.395173,
+            "name": "瑞金路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_10",
+            "lat": 36.214527,
+            "lng": 120.396874,
+            "name": "遵义路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_11",
+            "lat": 36.201324,
+            "lng": 120.399482,
+            "name": "南岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_12",
+            "lat": 36.19101,
+            "lng": 120.40174,
+            "name": "兴国路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_13",
+            "lat": 36.182482,
+            "lng": 120.395875,
+            "name": "永年路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_14",
+            "lat": 36.180076,
+            "lng": 120.381881,
+            "name": "沧安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_15",
+            "lat": 36.169798,
+            "lng": 120.377374,
+            "name": "青岛北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青岛北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_16",
+            "lat": 36.159411,
+            "lng": 120.375903,
+            "name": "安顺路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_17",
+            "lat": 36.148739,
+            "lng": 120.38233,
+            "name": "胜利桥（纺织谷）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_18",
+            "lat": 36.141337,
+            "lng": 120.374978,
+            "name": "中心医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_19",
+            "lat": 36.127982,
+            "lng": 120.370839,
+            "name": "水清沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_20",
+            "lat": 36.116525,
+            "lng": 120.361269,
+            "name": "北岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_21",
+            "lat": 36.105607,
+            "lng": 120.360955,
+            "name": "小村庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_22",
+            "lat": 36.094872,
+            "lng": 120.361368,
+            "name": "海泊桥（海慈医疗）站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海泊桥（海慈医疗）",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_23",
+            "lat": 36.082202,
+            "lng": 120.354109,
+            "name": "台东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "台东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_24",
+            "lat": 36.075478,
+            "lng": 120.342499,
+            "name": "广饶路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_25",
+            "lat": 36.072901,
+            "lng": 120.328695,
+            "name": "观象山（市立医院）站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "观象山（市立医院）",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_26",
+            "lat": 36.072179,
+            "lng": 120.321691,
+            "name": "中山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_27",
+            "lat": 36.064201,
+            "lng": 120.314544,
+            "name": "青岛站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青岛站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_28",
+            "lat": 36.061162,
+            "lng": 120.306325,
+            "name": "西镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_29",
+            "lat": 36.057209,
+            "lng": 120.299953,
+            "name": "团岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_30",
+            "lat": 35.999541,
+            "lng": 120.293298,
+            "name": "凤凰岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_31",
+            "lat": 35.986277,
+            "lng": 120.287832,
+            "name": "山里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_32",
+            "lat": 35.977625,
+            "lng": 120.263917,
+            "name": "南北屯站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_33",
+            "lat": 35.973067,
+            "lng": 120.244122,
+            "name": "新港山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_34",
+            "lat": 35.97155,
+            "lng": 120.233596,
+            "name": "安子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_35",
+            "lat": 35.964961,
+            "lng": 120.228078,
+            "name": "天目山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_36",
+            "lat": 35.961572,
+            "lng": 120.219128,
+            "name": "薛家岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_37",
+            "lat": 35.958302,
+            "lng": 120.200794,
+            "name": "丁家河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_38",
+            "lat": 35.954009,
+            "lng": 120.187259,
+            "name": "井冈山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "井冈山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_39",
+            "lat": 35.949995,
+            "lng": 120.179626,
+            "name": "太行山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_40",
+            "lat": 35.945455,
+            "lng": 120.171995,
+            "name": "石油大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD1_41",
+            "lat": 35.942383,
+            "lng": 120.16196,
+            "name": "王家港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王家港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD2",
+        "name": "青岛地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#DB4242",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD2_1",
+            "lat": 36.067406,
+            "lng": 120.303667,
+            "name": "四川路（轮渡）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_2",
+            "lat": 36.07785,
+            "lng": 120.318873,
+            "name": "小港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_3",
+            "lat": 36.084748,
+            "lng": 120.32282,
+            "name": "国际邮轮港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_4",
+            "lat": 36.08389,
+            "lng": 120.334354,
+            "name": "泰山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "泰山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_5",
+            "lat": 36.082224,
+            "lng": 120.346437,
+            "name": "利津路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_6",
+            "lat": 36.082202,
+            "lng": 120.354109,
+            "name": "台东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "台东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_7",
+            "lat": 36.075813,
+            "lng": 120.363082,
+            "name": "海信桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_8",
+            "lat": 36.069443,
+            "lng": 120.368614,
+            "name": "芝泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_9",
+            "lat": 36.064809,
+            "lng": 120.380447,
+            "name": "五四广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五四广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_10",
+            "lat": 36.065739,
+            "lng": 120.390651,
+            "name": "浮山所站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_11",
+            "lat": 36.065017,
+            "lng": 120.402018,
+            "name": "燕儿岛路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_12",
+            "lat": 36.066132,
+            "lng": 120.410708,
+            "name": "高雄路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_13",
+            "lat": 36.066076,
+            "lng": 120.423186,
+            "name": "麦岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_14",
+            "lat": 36.071728,
+            "lng": 120.434628,
+            "name": "海游路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_15",
+            "lat": 36.076462,
+            "lng": 120.443394,
+            "name": "海川路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_16",
+            "lat": 36.085679,
+            "lng": 120.450829,
+            "name": "海安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_17",
+            "lat": 36.093108,
+            "lng": 120.464567,
+            "name": "石老人浴场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_18",
+            "lat": 36.100541,
+            "lng": 120.465009,
+            "name": "苗岭路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苗岭路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_19",
+            "lat": 36.111322,
+            "lng": 120.455348,
+            "name": "同安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_20",
+            "lat": 36.117495,
+            "lng": 120.450256,
+            "name": "辽阳东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "辽阳东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_21",
+            "lat": 36.128417,
+            "lng": 120.442297,
+            "name": "东韩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_22",
+            "lat": 36.149333,
+            "lng": 120.439516,
+            "name": "华楼山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_23",
+            "lat": 36.153864,
+            "lng": 120.43344,
+            "name": "枣山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_24",
+            "lat": 36.15855,
+            "lng": 120.425587,
+            "name": "李村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "李村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD2_25",
+            "lat": 36.167801,
+            "lng": 120.425951,
+            "name": "李村公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD3",
+        "name": "青岛地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#2A7CDD",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 23,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD3_1",
+            "lat": 36.064201,
+            "lng": 120.314544,
+            "name": "青岛站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青岛站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_2",
+            "lat": 36.060336,
+            "lng": 120.329869,
+            "name": "人民会堂站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民会堂",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_3",
+            "lat": 36.059681,
+            "lng": 120.34327,
+            "name": "汇泉广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_4",
+            "lat": 36.058428,
+            "lng": 120.351729,
+            "name": "中山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_5",
+            "lat": 36.053852,
+            "lng": 120.359929,
+            "name": "太平角公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_6",
+            "lat": 36.060748,
+            "lng": 120.373761,
+            "name": "延安三路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_7",
+            "lat": 36.064809,
+            "lng": 120.380447,
+            "name": "五四广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五四广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_8",
+            "lat": 36.07364,
+            "lng": 120.388256,
+            "name": "江西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_9",
+            "lat": 36.082743,
+            "lng": 120.38539,
+            "name": "宁夏路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_10",
+            "lat": 36.088921,
+            "lng": 120.385348,
+            "name": "敦化路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_11",
+            "lat": 36.095879,
+            "lng": 120.385375,
+            "name": "错埠岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "错埠岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_12",
+            "lat": 36.106808,
+            "lng": 120.387341,
+            "name": "清江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_13",
+            "lat": 36.114387,
+            "lng": 120.397228,
+            "name": "双山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_14",
+            "lat": 36.120563,
+            "lng": 120.40277,
+            "name": "长沙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_15",
+            "lat": 36.131818,
+            "lng": 120.415654,
+            "name": "地铁大厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_16",
+            "lat": 36.137119,
+            "lng": 120.423184,
+            "name": "海尔路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_17",
+            "lat": 36.148357,
+            "lng": 120.427649,
+            "name": "万年泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_18",
+            "lat": 36.15855,
+            "lng": 120.425587,
+            "name": "李村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "李村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_19",
+            "lat": 36.164598,
+            "lng": 120.41478,
+            "name": "君峰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_20",
+            "lat": 36.169202,
+            "lng": 120.405903,
+            "name": "振华路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_21",
+            "lat": 36.172216,
+            "lng": 120.393092,
+            "name": "永平路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD3_22",
+            "lat": 36.169798,
+            "lng": 120.377374,
+            "name": "青岛北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青岛北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD4",
+        "name": "青岛地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#007836",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD4_1",
+            "lat": 36.060336,
+            "lng": 120.329869,
+            "name": "人民会堂站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民会堂",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_2",
+            "lat": 36.065301,
+            "lng": 120.327507,
+            "name": "信号山（青大附院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_3",
+            "lat": 36.072901,
+            "lng": 120.328695,
+            "name": "观象山（市立医院）站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "观象山（市立医院）",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_4",
+            "lat": 36.08389,
+            "lng": 120.334354,
+            "name": "泰山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "泰山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_5",
+            "lat": 36.086162,
+            "lng": 120.342905,
+            "name": "昌乐路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_6",
+            "lat": 36.096555,
+            "lng": 120.351277,
+            "name": "海泊河公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_7",
+            "lat": 36.094872,
+            "lng": 120.361368,
+            "name": "海泊桥（海慈医疗）站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海泊桥（海慈医疗）",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_8",
+            "lat": 36.095387,
+            "lng": 120.373105,
+            "name": "西吴家村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_9",
+            "lat": 36.095879,
+            "lng": 120.385375,
+            "name": "错埠岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "错埠岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_10",
+            "lat": 36.096329,
+            "lng": 120.395592,
+            "name": "福辽立交桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_11",
+            "lat": 36.099233,
+            "lng": 120.403416,
+            "name": "洪山坡（妇儿医院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_12",
+            "lat": 36.104928,
+            "lng": 120.415466,
+            "name": "劲松三路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_13",
+            "lat": 36.106197,
+            "lng": 120.424976,
+            "name": "埠西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_14",
+            "lat": 36.111165,
+            "lng": 120.435508,
+            "name": "大埠东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_15",
+            "lat": 36.117495,
+            "lng": 120.450256,
+            "name": "辽阳东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "辽阳东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_16",
+            "lat": 36.125738,
+            "lng": 120.461539,
+            "name": "菫家下庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_17",
+            "lat": 36.135284,
+            "lng": 120.466567,
+            "name": "科苑经七路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_18",
+            "lat": 36.14054,
+            "lng": 120.485457,
+            "name": "张村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "张村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_19",
+            "lat": 36.136673,
+            "lng": 120.501787,
+            "name": "彭家庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_20",
+            "lat": 36.131044,
+            "lng": 120.521561,
+            "name": "南宅科站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_21",
+            "lat": 36.122682,
+            "lng": 120.532583,
+            "name": "小崂山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_22",
+            "lat": 36.118551,
+            "lng": 120.544198,
+            "name": "沙子口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_23",
+            "lat": 36.124361,
+            "lng": 120.556313,
+            "name": "段家埠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_24",
+            "lat": 36.133262,
+            "lng": 120.574383,
+            "name": "登瀛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD4_25",
+            "lat": 36.131386,
+            "lng": 120.585949,
+            "name": "大河东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD6",
+        "name": "青岛地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#6CA3D9",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 22,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD6_1",
+            "lat": 35.891974,
+            "lng": 120.082199,
+            "name": "灵山湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_2",
+            "lat": 35.899799,
+            "lng": 120.087135,
+            "name": "辛屯站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "辛屯",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_3",
+            "lat": 35.908883,
+            "lng": 120.0808,
+            "name": "华山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_4",
+            "lat": 35.9167,
+            "lng": 120.083695,
+            "name": "星海滩路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_5",
+            "lat": 35.924913,
+            "lng": 120.102372,
+            "name": "赵家庙（影视产业园）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_6",
+            "lat": 35.928444,
+            "lng": 120.114332,
+            "name": "毛家山（黄海学院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_7",
+            "lat": 35.934621,
+            "lng": 120.124973,
+            "name": "西门外站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_8",
+            "lat": 35.937638,
+            "lng": 120.136707,
+            "name": "北门外站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_9",
+            "lat": 35.942383,
+            "lng": 120.16196,
+            "name": "王家港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王家港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_10",
+            "lat": 35.95376,
+            "lng": 120.166114,
+            "name": "九顶山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_11",
+            "lat": 35.968048,
+            "lng": 120.163301,
+            "name": "钱塘江路（青职学院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_12",
+            "lat": 35.980501,
+            "lng": 120.159898,
+            "name": "扒山（滨海学院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_13",
+            "lat": 35.98821,
+            "lng": 120.158057,
+            "name": "青大附院西海岸院区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_14",
+            "lat": 36.00614,
+            "lng": 120.16513,
+            "name": "港头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_15",
+            "lat": 36.022029,
+            "lng": 120.1618,
+            "name": "薛家泊子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_16",
+            "lat": 36.036077,
+            "lng": 120.162479,
+            "name": "马家楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_17",
+            "lat": 36.047963,
+            "lng": 120.1526,
+            "name": "抓马山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_18",
+            "lat": 36.057652,
+            "lng": 120.144526,
+            "name": "青岛九中（幸福小镇）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_19",
+            "lat": 36.06165,
+            "lng": 120.124692,
+            "name": "河洛埠（中德生态园）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_20",
+            "lat": 36.06308,
+            "lng": 120.113297,
+            "name": "山王河（福莱社区）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD6_21",
+            "lat": 36.066899,
+            "lng": 120.096591,
+            "name": "横云山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD8",
+        "name": "青岛地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F96EC7",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD8_1",
+            "lat": 36.39512,
+            "lng": 120.055646,
+            "name": "胶州北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_2",
+            "lat": 36.359968,
+            "lng": 120.09493,
+            "name": "胶东机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_3",
+            "lat": 36.313669,
+            "lng": 120.117609,
+            "name": "胶东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_4",
+            "lat": 36.258839,
+            "lng": 120.161607,
+            "name": "大涧站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_5",
+            "lat": 36.247079,
+            "lng": 120.191268,
+            "name": "红岛火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_6",
+            "lat": 36.23072,
+            "lng": 120.199721,
+            "name": "健康中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_7",
+            "lat": 36.233618,
+            "lng": 120.215058,
+            "name": "健身中心（红岛会展）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_8",
+            "lat": 36.208285,
+            "lng": 120.244073,
+            "name": "观涛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_9",
+            "lat": 36.200805,
+            "lng": 120.272955,
+            "name": "红岛科技馆（方特）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_10",
+            "lat": 36.193053,
+            "lng": 120.288786,
+            "name": "大洋站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD8_11",
+            "lat": 36.169798,
+            "lng": 120.377374,
+            "name": "青岛北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青岛北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD_OCEANTEC_VALLEY_LINE",
+        "name": "青岛地铁号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#1F387F",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 45,
+        "freqOff": 22,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_1",
+            "lat": 36.100541,
+            "lng": 120.465009,
+            "name": "苗岭路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苗岭路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_2",
+            "lat": 36.102989,
+            "lng": 120.474362,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_3",
+            "lat": 36.110502,
+            "lng": 120.480663,
+            "name": "青岛二中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_4",
+            "lat": 36.124178,
+            "lng": 120.485277,
+            "name": "青岛科大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_5",
+            "lat": 36.14054,
+            "lng": 120.485457,
+            "name": "张村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "张村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_6",
+            "lat": 36.148089,
+            "lng": 120.487133,
+            "name": "枯桃站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_7",
+            "lat": 36.165073,
+            "lng": 120.494734,
+            "name": "海洋大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_8",
+            "lat": 36.185498,
+            "lng": 120.511353,
+            "name": "世博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_9",
+            "lat": 36.213765,
+            "lng": 120.534667,
+            "name": "北宅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_10",
+            "lat": 36.238544,
+            "lng": 120.558823,
+            "name": "北九水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_11",
+            "lat": 36.28436,
+            "lng": 120.606362,
+            "name": "庙石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_12",
+            "lat": 36.30631,
+            "lng": 120.628094,
+            "name": "浦里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_13",
+            "lat": 36.348985,
+            "lng": 120.660849,
+            "name": "鳌山卫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_14",
+            "lat": 36.368982,
+            "lng": 120.678578,
+            "name": "山东大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_15",
+            "lat": 36.385226,
+            "lng": 120.679265,
+            "name": "蓝色硅谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_16",
+            "lat": 36.4052,
+            "lng": 120.679749,
+            "name": "水泊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_17",
+            "lat": 36.421087,
+            "lng": 120.704468,
+            "name": "博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_18",
+            "lat": 36.444221,
+            "lng": 120.702883,
+            "name": "温泉东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_19",
+            "lat": 36.464103,
+            "lng": 120.710801,
+            "name": "皋虞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_20",
+            "lat": 36.468012,
+            "lng": 120.732494,
+            "name": "臧村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_OCEANTEC_VALLEY_LINE_21",
+            "lat": 36.479124,
+            "lng": 120.760336,
+            "name": "钱谷山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "QD_THE_WEST_COAST_LINE",
+        "name": "青岛地铁号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3DC4AD",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 55,
+        "freqOff": 27,
+        "freqLow": 18,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_1",
+            "lat": 35.975153,
+            "lng": 120.178771,
+            "name": "嘉陵江西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_2",
+            "lat": 35.966394,
+            "lng": 120.186379,
+            "name": "香江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_3",
+            "lat": 35.954009,
+            "lng": 120.187259,
+            "name": "井冈山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "井冈山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_4",
+            "lat": 35.930952,
+            "lng": 120.16489,
+            "name": "积米崖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_5",
+            "lat": 35.925757,
+            "lng": 120.138468,
+            "name": "灵山卫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_6",
+            "lat": 35.919606,
+            "lng": 120.119091,
+            "name": "学院路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_7",
+            "lat": 35.908344,
+            "lng": 120.101929,
+            "name": "朝阳山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_8",
+            "lat": 35.899799,
+            "lng": 120.087135,
+            "name": "辛屯站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "辛屯",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_9",
+            "lat": 35.894179,
+            "lng": 120.06676,
+            "name": "两河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_10",
+            "lat": 35.892217,
+            "lng": 120.034852,
+            "name": "隐珠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_11",
+            "lat": 35.890092,
+            "lng": 120.022664,
+            "name": "凤凰山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_12",
+            "lat": 35.871437,
+            "lng": 120.016549,
+            "name": "双珠路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_13",
+            "lat": 35.849699,
+            "lng": 120.002398,
+            "name": "世纪大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_14",
+            "lat": 35.827607,
+            "lng": 120.002977,
+            "name": "盛海路（世博城）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_15",
+            "lat": 35.815793,
+            "lng": 119.989191,
+            "name": "大珠山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_16",
+            "lat": 35.793927,
+            "lng": 119.926277,
+            "name": "张家楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_17",
+            "lat": 35.750838,
+            "lng": 119.893747,
+            "name": "古镇口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_18",
+            "lat": 35.690126,
+            "lng": 119.902105,
+            "name": "龙湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_19",
+            "lat": 35.67081,
+            "lng": 119.875111,
+            "name": "琅琊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_20",
+            "lat": 35.67662,
+            "lng": 119.837408,
+            "name": "贡口湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_21",
+            "lat": 35.685117,
+            "lng": 119.797357,
+            "name": "董家口港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_22",
+            "lat": 35.687126,
+            "lng": 119.767166,
+            "name": "泊里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "qingdao_QD_THE_WEST_COAST_LINE_23",
+            "lat": 35.675578,
+            "lng": 119.715834,
+            "name": "董家口火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

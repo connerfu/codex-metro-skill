@@ -1,0 +1,7221 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:05:33.539Z",
+  "data": {
+    "cityKey": "chengdu",
+    "lineCounter": 19,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "CD1",
+        "name": "成都地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#263D96",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD1_1",
+            "lat": 30.717644,
+            "lng": 104.086859,
+            "name": "韦家碾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "韦家碾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_2",
+            "lat": 30.704622,
+            "lng": 104.08347,
+            "name": "升仙湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_3",
+            "lat": 30.695514,
+            "lng": 104.074054,
+            "name": "火车北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_4",
+            "lat": 30.68587,
+            "lng": 104.073253,
+            "name": "人民北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_5",
+            "lat": 30.672543,
+            "lng": 104.068029,
+            "name": "文殊院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_6",
+            "lat": 30.667032,
+            "lng": 104.065596,
+            "name": "骡马市站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "骡马市",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_7",
+            "lat": 30.657142,
+            "lng": 104.065887,
+            "name": "天府广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_8",
+            "lat": 30.650043,
+            "lng": 104.06605,
+            "name": "锦江宾馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_9",
+            "lat": 30.643644,
+            "lng": 104.066263,
+            "name": "华西坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华西坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_10",
+            "lat": 30.633538,
+            "lng": 104.066602,
+            "name": "省体育馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省体育馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_11",
+            "lat": 30.624966,
+            "lng": 104.066881,
+            "name": "倪家桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "倪家桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_12",
+            "lat": 30.615309,
+            "lng": 104.067112,
+            "name": "桐梓林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_13",
+            "lat": 30.60529,
+            "lng": 104.067396,
+            "name": "火车南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_14",
+            "lat": 30.594375,
+            "lng": 104.063845,
+            "name": "高新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_15",
+            "lat": 30.582575,
+            "lng": 104.06414,
+            "name": "金融城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_16",
+            "lat": 30.575573,
+            "lng": 104.064312,
+            "name": "孵化园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孵化园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_17",
+            "lat": 30.567717,
+            "lng": 104.066517,
+            "name": "锦城广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_18",
+            "lat": 30.554872,
+            "lng": 104.06892,
+            "name": "世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_19",
+            "lat": 30.546224,
+            "lng": 104.069199,
+            "name": "天府三街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_20",
+            "lat": 30.537131,
+            "lng": 104.069489,
+            "name": "天府五街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_21",
+            "lat": 30.525746,
+            "lng": 104.06981,
+            "name": "华府大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_22",
+            "lat": 30.516134,
+            "lng": 104.070132,
+            "name": "四河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_23",
+            "lat": 30.510745,
+            "lng": 104.075701,
+            "name": "广都站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_24",
+            "lat": 30.502038,
+            "lng": 104.081344,
+            "name": "五根松站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_25",
+            "lat": 30.503153,
+            "lng": 104.070513,
+            "name": "华阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_26",
+            "lat": 30.49242,
+            "lng": 104.07083,
+            "name": "海昌路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海昌路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_27",
+            "lat": 30.47869,
+            "lng": 104.069322,
+            "name": "广福站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_28",
+            "lat": 30.46426,
+            "lng": 104.073002,
+            "name": "红石公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_29",
+            "lat": 30.454517,
+            "lng": 104.073287,
+            "name": "麓湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_30",
+            "lat": 30.442375,
+            "lng": 104.073483,
+            "name": "武汉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_31",
+            "lat": 30.432975,
+            "lng": 104.077734,
+            "name": "天府公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_32",
+            "lat": 30.424763,
+            "lng": 104.075826,
+            "name": "西博城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西博城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_33",
+            "lat": 30.418559,
+            "lng": 104.077263,
+            "name": "广州路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_34",
+            "lat": 30.405196,
+            "lng": 104.076403,
+            "name": "兴隆湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD1_35",
+            "lat": 30.391246,
+            "lng": 104.072321,
+            "name": "科学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD2",
+        "name": "成都地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF8622",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD2_1",
+            "lat": 30.758636,
+            "lng": 103.970968,
+            "name": "犀浦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "犀浦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_2",
+            "lat": 30.745884,
+            "lng": 103.97615,
+            "name": "天河路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天河路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_3",
+            "lat": 30.733071,
+            "lng": 103.97932,
+            "name": "百草路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_4",
+            "lat": 30.721644,
+            "lng": 103.99617,
+            "name": "金周路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_5",
+            "lat": 30.720772,
+            "lng": 104.006652,
+            "name": "金科北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_6",
+            "lat": 30.713181,
+            "lng": 104.013518,
+            "name": "迎宾大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_7",
+            "lat": 30.705996,
+            "lng": 104.01369,
+            "name": "茶店子客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_8",
+            "lat": 30.693906,
+            "lng": 104.012649,
+            "name": "羊犀立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "羊犀立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_9",
+            "lat": 30.688423,
+            "lng": 104.020419,
+            "name": "一品天下站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "一品天下",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_10",
+            "lat": 30.682867,
+            "lng": 104.029043,
+            "name": "蜀汉路东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_11",
+            "lat": 30.673856,
+            "lng": 104.033265,
+            "name": "白果林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_12",
+            "lat": 30.666114,
+            "lng": 104.040608,
+            "name": "中医大路省医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医大路省医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_13",
+            "lat": 30.66209,
+            "lng": 104.048505,
+            "name": "通惠门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_14",
+            "lat": 30.659322,
+            "lng": 104.056771,
+            "name": "人民公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_15",
+            "lat": 30.657142,
+            "lng": 104.065887,
+            "name": "天府广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_16",
+            "lat": 30.653756,
+            "lng": 104.079318,
+            "name": "春熙路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "春熙路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_17",
+            "lat": 30.648195,
+            "lng": 104.087295,
+            "name": "东门大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_18",
+            "lat": 30.645725,
+            "lng": 104.093395,
+            "name": "牛王庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牛王庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_19",
+            "lat": 30.637908,
+            "lng": 104.107664,
+            "name": "牛市口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_20",
+            "lat": 30.63385,
+            "lng": 104.112138,
+            "name": "东大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_21",
+            "lat": 30.62947,
+            "lng": 104.122915,
+            "name": "塔子山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_22",
+            "lat": 30.629327,
+            "lng": 104.139931,
+            "name": "成都东客站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成都东客站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_23",
+            "lat": 30.624822,
+            "lng": 104.147419,
+            "name": "成渝立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_24",
+            "lat": 30.612071,
+            "lng": 104.152076,
+            "name": "惠王陵站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惠王陵",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_25",
+            "lat": 30.605021,
+            "lng": 104.157504,
+            "name": "洪河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD2_26",
+            "lat": 30.597118,
+            "lng": 104.170682,
+            "name": "成都行政学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD3",
+        "name": "成都地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EC4E8C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 44,
+        "freqOff": 22,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD3_1",
+            "lat": 30.816922,
+            "lng": 104.194695,
+            "name": "成都医学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_2",
+            "lat": 30.818756,
+            "lng": 104.186594,
+            "name": "石油大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_3",
+            "lat": 30.820963,
+            "lng": 104.175302,
+            "name": "钟楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_4",
+            "lat": 30.813158,
+            "lng": 104.164718,
+            "name": "马超西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_5",
+            "lat": 30.804404,
+            "lng": 104.158758,
+            "name": "团结新区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_6",
+            "lat": 30.797461,
+            "lng": 104.153303,
+            "name": "锦水河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_7",
+            "lat": 30.78471,
+            "lng": 104.138905,
+            "name": "三河场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_8",
+            "lat": 30.770413,
+            "lng": 104.12544,
+            "name": "金华寺东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_9",
+            "lat": 30.76336,
+            "lng": 104.121288,
+            "name": "植物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_10",
+            "lat": 30.744759,
+            "lng": 104.114153,
+            "name": "军区总医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_11",
+            "lat": 30.725453,
+            "lng": 104.10799,
+            "name": "熊猫大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_12",
+            "lat": 30.713656,
+            "lng": 104.103145,
+            "name": "动物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_13",
+            "lat": 30.702928,
+            "lng": 104.096821,
+            "name": "昭觉寺南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_14",
+            "lat": 30.69567,
+            "lng": 104.093304,
+            "name": "驷马桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "驷马桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_15",
+            "lat": 30.689402,
+            "lng": 104.09453,
+            "name": "李家沱站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_16",
+            "lat": 30.678379,
+            "lng": 104.09166,
+            "name": "前锋路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前锋路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_17",
+            "lat": 30.671197,
+            "lng": 104.090523,
+            "name": "红星桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红星桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_18",
+            "lat": 30.660802,
+            "lng": 104.083892,
+            "name": "市二医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市二医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_19",
+            "lat": 30.653756,
+            "lng": 104.079318,
+            "name": "春熙路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "春熙路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_20",
+            "lat": 30.644363,
+            "lng": 104.075148,
+            "name": "新南门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新南门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_21",
+            "lat": 30.637426,
+            "lng": 104.075926,
+            "name": "磨子桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_22",
+            "lat": 30.633538,
+            "lng": 104.066602,
+            "name": "省体育馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省体育馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_23",
+            "lat": 30.634482,
+            "lng": 104.052167,
+            "name": "衣冠庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_24",
+            "lat": 30.640048,
+            "lng": 104.042549,
+            "name": "高升桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "高升桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_25",
+            "lat": 30.634699,
+            "lng": 104.029873,
+            "name": "红牌楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红牌楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_26",
+            "lat": 30.625176,
+            "lng": 104.021375,
+            "name": "太平园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太平园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_27",
+            "lat": 30.622928,
+            "lng": 104.006457,
+            "name": "川藏立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_28",
+            "lat": 30.626967,
+            "lng": 103.993421,
+            "name": "武侯立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_29",
+            "lat": 30.623085,
+            "lng": 103.985031,
+            "name": "武青南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武青南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_30",
+            "lat": 30.615957,
+            "lng": 103.969201,
+            "name": "双凤桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_31",
+            "lat": 30.603934,
+            "lng": 103.944129,
+            "name": "龙桥路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙桥路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_32",
+            "lat": 30.591306,
+            "lng": 103.936885,
+            "name": "航都大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_33",
+            "lat": 30.580643,
+            "lng": 103.934917,
+            "name": "迎春桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_34",
+            "lat": 30.571226,
+            "lng": 103.925309,
+            "name": "东升站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_35",
+            "lat": 30.56427,
+            "lng": 103.920186,
+            "name": "双流广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_36",
+            "lat": 30.553567,
+            "lng": 103.914564,
+            "name": "三里坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD3_37",
+            "lat": 30.543292,
+            "lng": 103.917252,
+            "name": "双流西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双流西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD4",
+        "name": "成都地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#12AB4A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD4_1",
+            "lat": 30.675357,
+            "lng": 103.818885,
+            "name": "万盛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_2",
+            "lat": 30.680898,
+            "lng": 103.831095,
+            "name": "杨柳河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_3",
+            "lat": 30.686117,
+            "lng": 103.843037,
+            "name": "凤溪河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "凤溪河",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_4",
+            "lat": 30.689566,
+            "lng": 103.851774,
+            "name": "南熏大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_5",
+            "lat": 30.684311,
+            "lng": 103.860545,
+            "name": "光华公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_6",
+            "lat": 30.678415,
+            "lng": 103.87305,
+            "name": "涌泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_7",
+            "lat": 30.676944,
+            "lng": 103.889497,
+            "name": "凤凰大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_8",
+            "lat": 30.677423,
+            "lng": 103.913787,
+            "name": "马厂坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_9",
+            "lat": 30.674083,
+            "lng": 103.922472,
+            "name": "非遗博览园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_10",
+            "lat": 30.669473,
+            "lng": 103.945078,
+            "name": "蔡桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_11",
+            "lat": 30.673488,
+            "lng": 103.964106,
+            "name": "中坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_12",
+            "lat": 30.6831,
+            "lng": 103.975355,
+            "name": "成都西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成都西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_13",
+            "lat": 30.676607,
+            "lng": 103.998583,
+            "name": "清江西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_14",
+            "lat": 30.672219,
+            "lng": 104.009638,
+            "name": "文化宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文化宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_15",
+            "lat": 30.670475,
+            "lng": 104.020116,
+            "name": "西南财大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_16",
+            "lat": 30.66909,
+            "lng": 104.028162,
+            "name": "草堂北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_17",
+            "lat": 30.666114,
+            "lng": 104.040608,
+            "name": "中医大路省医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医大路省医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_18",
+            "lat": 30.665404,
+            "lng": 104.050655,
+            "name": "宽窄巷子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_19",
+            "lat": 30.667032,
+            "lng": 104.065596,
+            "name": "骡马市站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "骡马市",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_20",
+            "lat": 30.664776,
+            "lng": 104.076571,
+            "name": "太升南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_21",
+            "lat": 30.660802,
+            "lng": 104.083892,
+            "name": "市二医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市二医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_22",
+            "lat": 30.653868,
+            "lng": 104.098446,
+            "name": "玉双路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "玉双路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_23",
+            "lat": 30.646613,
+            "lng": 104.114062,
+            "name": "双桥路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双桥路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_24",
+            "lat": 30.644236,
+            "lng": 104.119191,
+            "name": "万年场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_25",
+            "lat": 30.64893,
+            "lng": 104.139479,
+            "name": "槐树店站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "槐树店",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_26",
+            "lat": 30.646867,
+            "lng": 104.164466,
+            "name": "来龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_27",
+            "lat": 30.645833,
+            "lng": 104.172422,
+            "name": "十陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_28",
+            "lat": 30.646687,
+            "lng": 104.181176,
+            "name": "成都大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_29",
+            "lat": 30.648178,
+            "lng": 104.196336,
+            "name": "明蜀王陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD4_30",
+            "lat": 30.647291,
+            "lng": 104.220283,
+            "name": "西河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD5",
+        "name": "成都地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C64AC6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 45,
+        "freqOff": 23,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD5_1",
+            "lat": 30.825124,
+            "lng": 104.09831,
+            "name": "华桂路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_2",
+            "lat": 30.815505,
+            "lng": 104.094217,
+            "name": "柏水场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_3",
+            "lat": 30.808359,
+            "lng": 104.090955,
+            "name": "廖家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_4",
+            "lat": 30.791098,
+            "lng": 104.088954,
+            "name": "北部商贸城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_5",
+            "lat": 30.776945,
+            "lng": 104.088262,
+            "name": "幸福桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_6",
+            "lat": 30.77159,
+            "lng": 104.082898,
+            "name": "九道堰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_7",
+            "lat": 30.771585,
+            "lng": 104.075253,
+            "name": "杜家碾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_8",
+            "lat": 30.771631,
+            "lng": 104.065104,
+            "name": "大丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_9",
+            "lat": 30.760287,
+            "lng": 104.05975,
+            "name": "石犀公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_10",
+            "lat": 30.752344,
+            "lng": 104.059718,
+            "name": "皇花园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_11",
+            "lat": 30.742018,
+            "lng": 104.059076,
+            "name": "陆家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_12",
+            "lat": 30.730379,
+            "lng": 104.058382,
+            "name": "泉水路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_13",
+            "lat": 30.721553,
+            "lng": 104.058457,
+            "name": "洞子口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "洞子口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_14",
+            "lat": 30.714529,
+            "lng": 104.05982,
+            "name": "福宁路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_15",
+            "lat": 30.707381,
+            "lng": 104.064535,
+            "name": "五块石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_16",
+            "lat": 30.70061,
+            "lng": 104.066499,
+            "name": "赛云台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_17",
+            "lat": 30.694615,
+            "lng": 104.066146,
+            "name": "北站西二路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北站西二路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_18",
+            "lat": 30.685627,
+            "lng": 104.058146,
+            "name": "西北桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西北桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_19",
+            "lat": 30.683482,
+            "lng": 104.047841,
+            "name": "花牌坊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_20",
+            "lat": 30.677318,
+            "lng": 104.042096,
+            "name": "抚琴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_21",
+            "lat": 30.666114,
+            "lng": 104.040608,
+            "name": "中医大路省医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医大路省医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_22",
+            "lat": 30.66001,
+            "lng": 104.04076,
+            "name": "青羊宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青羊宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_23",
+            "lat": 30.651833,
+            "lng": 104.040964,
+            "name": "省骨科医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省骨科医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_24",
+            "lat": 30.640048,
+            "lng": 104.042549,
+            "name": "高升桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "高升桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_25",
+            "lat": 30.628054,
+            "lng": 104.037826,
+            "name": "科园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_26",
+            "lat": 30.621815,
+            "lng": 104.037705,
+            "name": "九兴大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九兴大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_27",
+            "lat": 30.608887,
+            "lng": 104.048142,
+            "name": "神仙树站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "神仙树",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_28",
+            "lat": 30.595182,
+            "lng": 104.050835,
+            "name": "石羊立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_29",
+            "lat": 30.589304,
+            "lng": 104.050545,
+            "name": "市一医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市一医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_30",
+            "lat": 30.581851,
+            "lng": 104.050196,
+            "name": "交子大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_31",
+            "lat": 30.575228,
+            "lng": 104.05047,
+            "name": "锦城大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "锦城大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_32",
+            "lat": 30.563759,
+            "lng": 104.046135,
+            "name": "锦城湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_33",
+            "lat": 30.549827,
+            "lng": 104.046221,
+            "name": "大源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_34",
+            "lat": 30.540343,
+            "lng": 104.046516,
+            "name": "民乐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_35",
+            "lat": 30.525566,
+            "lng": 104.044333,
+            "name": "骑龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_36",
+            "lat": 30.512303,
+            "lng": 104.039687,
+            "name": "警官学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_37",
+            "lat": 30.499616,
+            "lng": 104.035718,
+            "name": "二江寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_38",
+            "lat": 30.488485,
+            "lng": 104.0331,
+            "name": "南湖立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_39",
+            "lat": 30.471209,
+            "lng": 104.026781,
+            "name": "怡心湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "怡心湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_40",
+            "lat": 30.457644,
+            "lng": 104.019522,
+            "name": "龙马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD5_41",
+            "lat": 30.444597,
+            "lng": 104.011873,
+            "name": "回龙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "回龙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD6",
+        "name": "成都地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C18753",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 53,
+        "freqOff": 27,
+        "freqLow": 18,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD6_1",
+            "lat": 30.807204,
+            "lng": 103.878047,
+            "name": "望丛祠站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望丛祠",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_2",
+            "lat": 30.800414,
+            "lng": 103.887272,
+            "name": "和平街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_3",
+            "lat": 30.796057,
+            "lng": 103.894573,
+            "name": "郫筒站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_4",
+            "lat": 30.790998,
+            "lng": 103.903526,
+            "name": "蜀新大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_5",
+            "lat": 30.784592,
+            "lng": 103.914416,
+            "name": "檬梓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_6",
+            "lat": 30.777333,
+            "lng": 103.923421,
+            "name": "尚锦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_7",
+            "lat": 30.769426,
+            "lng": 103.937107,
+            "name": "红高路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_8",
+            "lat": 30.754128,
+            "lng": 103.954522,
+            "name": "天宇路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_9",
+            "lat": 30.758636,
+            "lng": 103.970968,
+            "name": "犀浦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "犀浦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_10",
+            "lat": 30.758698,
+            "lng": 103.983313,
+            "name": "兴业北街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_11",
+            "lat": 30.747925,
+            "lng": 103.993317,
+            "name": "梓潼宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_12",
+            "lat": 30.73702,
+            "lng": 104.004671,
+            "name": "侯家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_13",
+            "lat": 30.730775,
+            "lng": 104.021485,
+            "name": "兴盛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_14",
+            "lat": 30.725552,
+            "lng": 104.02593,
+            "name": "青杠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_15",
+            "lat": 30.718419,
+            "lng": 104.031471,
+            "name": "西华大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_16",
+            "lat": 30.711406,
+            "lng": 104.036906,
+            "name": "金府站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金府",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_17",
+            "lat": 30.702307,
+            "lng": 104.044106,
+            "name": "星河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_18",
+            "lat": 30.694407,
+            "lng": 104.049797,
+            "name": "西南交大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西南交大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_19",
+            "lat": 30.68919,
+            "lng": 104.051073,
+            "name": "沙湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_20",
+            "lat": 30.685627,
+            "lng": 104.058146,
+            "name": "西北桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西北桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_21",
+            "lat": 30.68587,
+            "lng": 104.073253,
+            "name": "人民北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_22",
+            "lat": 30.682354,
+            "lng": 104.083326,
+            "name": "梁家巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_23",
+            "lat": 30.678379,
+            "lng": 104.09166,
+            "name": "前锋路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前锋路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_24",
+            "lat": 30.672238,
+            "lng": 104.09836,
+            "name": "建设北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建设北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_25",
+            "lat": 30.662827,
+            "lng": 104.102148,
+            "name": "新鸿路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_26",
+            "lat": 30.653868,
+            "lng": 104.098446,
+            "name": "玉双路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "玉双路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_27",
+            "lat": 30.645725,
+            "lng": 104.093395,
+            "name": "牛王庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牛王庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_28",
+            "lat": 30.63556,
+            "lng": 104.092936,
+            "name": "顺江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_29",
+            "lat": 30.62838,
+            "lng": 104.094441,
+            "name": "三官堂站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三官堂",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_30",
+            "lat": 30.619699,
+            "lng": 104.098484,
+            "name": "东光站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东光",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_31",
+            "lat": 30.607786,
+            "lng": 104.098969,
+            "name": "琉璃场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "琉璃场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_32",
+            "lat": 30.600351,
+            "lng": 104.098167,
+            "name": "琉三路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_33",
+            "lat": 30.590301,
+            "lng": 104.089171,
+            "name": "金石路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金石路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_34",
+            "lat": 30.579111,
+            "lng": 104.084296,
+            "name": "金融城东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金融城东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_35",
+            "lat": 30.558556,
+            "lng": 104.096066,
+            "name": "中和站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_36",
+            "lat": 30.550135,
+            "lng": 104.098386,
+            "name": "张家寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_37",
+            "lat": 30.537792,
+            "lng": 104.098368,
+            "name": "陆肖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_38",
+            "lat": 30.530918,
+            "lng": 104.098375,
+            "name": "观东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_39",
+            "lat": 30.521931,
+            "lng": 104.098438,
+            "name": "新通大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_40",
+            "lat": 30.515666,
+            "lng": 104.100489,
+            "name": "新川路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_41",
+            "lat": 30.509024,
+            "lng": 104.101209,
+            "name": "龙灯山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_42",
+            "lat": 30.501636,
+            "lng": 104.098453,
+            "name": "蒲草塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_43",
+            "lat": 30.49487,
+            "lng": 104.099458,
+            "name": "万安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_44",
+            "lat": 30.483025,
+            "lng": 104.103423,
+            "name": "麓山大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_45",
+            "lat": 30.467349,
+            "lng": 104.101508,
+            "name": "沈阳路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_46",
+            "lat": 30.45889,
+            "lng": 104.101968,
+            "name": "青岛路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_47",
+            "lat": 30.448465,
+            "lng": 104.094333,
+            "name": "昌公堰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_48",
+            "lat": 30.438868,
+            "lng": 104.089313,
+            "name": "杭州路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_49",
+            "lat": 30.430009,
+            "lng": 104.086249,
+            "name": "天府商务区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府商务区",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_50",
+            "lat": 30.424763,
+            "lng": 104.075826,
+            "name": "西博城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西博城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_51",
+            "lat": 30.42449,
+            "lng": 104.061828,
+            "name": "秦皇寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_52",
+            "lat": 30.42582,
+            "lng": 104.04656,
+            "name": "松林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_53",
+            "lat": 30.431577,
+            "lng": 104.037714,
+            "name": "芦角站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_54",
+            "lat": 30.436421,
+            "lng": 104.03254,
+            "name": "钓鱼嘴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_55",
+            "lat": 30.444597,
+            "lng": 104.011873,
+            "name": "回龙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "回龙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD6_56",
+            "lat": 30.443274,
+            "lng": 103.996595,
+            "name": "兰家沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD7",
+        "name": "成都地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#66CFE6",
+        "isRing": true,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD7_1",
+            "lat": 30.695514,
+            "lng": 104.074054,
+            "name": "火车北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_2",
+            "lat": 30.69567,
+            "lng": 104.093304,
+            "name": "驷马桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "驷马桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_3",
+            "lat": 30.694469,
+            "lng": 104.107217,
+            "name": "府青路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_4",
+            "lat": 30.687138,
+            "lng": 104.118058,
+            "name": "八里庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_5",
+            "lat": 30.680737,
+            "lng": 104.126558,
+            "name": "二仙桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "二仙桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_6",
+            "lat": 30.672375,
+            "lng": 104.136862,
+            "name": "理工大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "理工大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_7",
+            "lat": 30.665426,
+            "lng": 104.136426,
+            "name": "崔家店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_8",
+            "lat": 30.657561,
+            "lng": 104.136938,
+            "name": "双店路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_9",
+            "lat": 30.64893,
+            "lng": 104.139479,
+            "name": "槐树店站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "槐树店",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_10",
+            "lat": 30.638316,
+            "lng": 104.139642,
+            "name": "迎晖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_11",
+            "lat": 30.629327,
+            "lng": 104.139931,
+            "name": "成都东客站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成都东客站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_12",
+            "lat": 30.621477,
+            "lng": 104.132926,
+            "name": "大观站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_13",
+            "lat": 30.615944,
+            "lng": 104.124308,
+            "name": "狮子山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_14",
+            "lat": 30.60937,
+            "lng": 104.116047,
+            "name": "四川师大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "四川师大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_15",
+            "lat": 30.607786,
+            "lng": 104.098969,
+            "name": "琉璃场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "琉璃场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_16",
+            "lat": 30.604116,
+            "lng": 104.077444,
+            "name": "三瓦窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_17",
+            "lat": 30.60529,
+            "lng": 104.067396,
+            "name": "火车南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_18",
+            "lat": 30.608887,
+            "lng": 104.048142,
+            "name": "神仙树站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "神仙树",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_19",
+            "lat": 30.616521,
+            "lng": 104.034289,
+            "name": "高朋大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "高朋大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_20",
+            "lat": 30.625176,
+            "lng": 104.021375,
+            "name": "太平园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太平园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_21",
+            "lat": 30.637012,
+            "lng": 104.012927,
+            "name": "武侯大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_22",
+            "lat": 30.651347,
+            "lng": 104.008479,
+            "name": "龙爪堰站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙爪堰",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_23",
+            "lat": 30.660977,
+            "lng": 104.007911,
+            "name": "东坡路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东坡路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_24",
+            "lat": 30.672219,
+            "lng": 104.009638,
+            "name": "文化宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文化宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_25",
+            "lat": 30.677439,
+            "lng": 104.012525,
+            "name": "金沙博物馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_26",
+            "lat": 30.688423,
+            "lng": 104.020419,
+            "name": "一品天下站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "一品天下",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_27",
+            "lat": 30.696231,
+            "lng": 104.030822,
+            "name": "茶店子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_28",
+            "lat": 30.696627,
+            "lng": 104.040827,
+            "name": "花照壁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_29",
+            "lat": 30.694407,
+            "lng": 104.049797,
+            "name": "西南交大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西南交大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_30",
+            "lat": 30.694633,
+            "lng": 104.057109,
+            "name": "九里堤站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD7_31",
+            "lat": 30.694615,
+            "lng": 104.066146,
+            "name": "北站西二路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北站西二路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD8",
+        "name": "成都地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#B8D128",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 34,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD8_1",
+            "lat": 30.716844,
+            "lng": 104.189147,
+            "name": "桂龙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_2",
+            "lat": 30.716838,
+            "lng": 104.179224,
+            "name": "桂林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_3",
+            "lat": 30.71178,
+            "lng": 104.170439,
+            "name": "同乐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_4",
+            "lat": 30.701863,
+            "lng": 104.164971,
+            "name": "龙潭寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_5",
+            "lat": 30.694255,
+            "lng": 104.157632,
+            "name": "龙潭立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_6",
+            "lat": 30.687495,
+            "lng": 104.151396,
+            "name": "圣灯公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_7",
+            "lat": 30.679521,
+            "lng": 104.144187,
+            "name": "十里店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_8",
+            "lat": 30.672375,
+            "lng": 104.136862,
+            "name": "理工大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "理工大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_9",
+            "lat": 30.668562,
+            "lng": 104.129048,
+            "name": "东郊记忆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_10",
+            "lat": 30.66418,
+            "lng": 104.119284,
+            "name": "杉板桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_11",
+            "lat": 30.654805,
+            "lng": 104.114933,
+            "name": "万年路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_12",
+            "lat": 30.646613,
+            "lng": 104.114062,
+            "name": "双桥路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双桥路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_13",
+            "lat": 30.63385,
+            "lng": 104.112138,
+            "name": "东大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_14",
+            "lat": 30.623032,
+            "lng": 104.104851,
+            "name": "净居寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "净居寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_15",
+            "lat": 30.619699,
+            "lng": 104.098484,
+            "name": "东光站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东光",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_16",
+            "lat": 30.61945,
+            "lng": 104.087646,
+            "name": "东湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_17",
+            "lat": 30.625181,
+            "lng": 104.075626,
+            "name": "川大望江校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_18",
+            "lat": 30.624966,
+            "lng": 104.066881,
+            "name": "倪家桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "倪家桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_19",
+            "lat": 30.626043,
+            "lng": 104.052346,
+            "name": "芳草街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_20",
+            "lat": 30.628167,
+            "lng": 104.046901,
+            "name": "永丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_21",
+            "lat": 30.621815,
+            "lng": 104.037705,
+            "name": "九兴大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九兴大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_22",
+            "lat": 30.616521,
+            "lng": 104.034289,
+            "name": "高朋大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "高朋大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_23",
+            "lat": 30.605932,
+            "lng": 104.034339,
+            "name": "殷家林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_24",
+            "lat": 30.598391,
+            "lng": 104.033991,
+            "name": "庆安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_25",
+            "lat": 30.58547,
+            "lng": 104.031125,
+            "name": "石羊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_26",
+            "lat": 30.581312,
+            "lng": 104.026473,
+            "name": "三元站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三元",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_27",
+            "lat": 30.577154,
+            "lng": 104.010955,
+            "name": "顺风站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_28",
+            "lat": 30.566482,
+            "lng": 104.008013,
+            "name": "珠江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_29",
+            "lat": 30.555235,
+            "lng": 104.007094,
+            "name": "川大江安校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_30",
+            "lat": 30.550589,
+            "lng": 103.990561,
+            "name": "文星站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_31",
+            "lat": 30.546125,
+            "lng": 103.979319,
+            "name": "莲花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD8_32",
+            "lat": 30.535385,
+            "lng": 103.974142,
+            "name": "龙港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD9",
+        "name": "成都地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFB243",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 19,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD9_1",
+            "lat": 30.579111,
+            "lng": 104.084296,
+            "name": "金融城东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金融城东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_2",
+            "lat": 30.575704,
+            "lng": 104.072479,
+            "name": "心岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_3",
+            "lat": 30.575573,
+            "lng": 104.064312,
+            "name": "孵化园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孵化园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_4",
+            "lat": 30.575228,
+            "lng": 104.05047,
+            "name": "锦城大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "锦城大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_5",
+            "lat": 30.581312,
+            "lng": 104.026473,
+            "name": "三元站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三元",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_6",
+            "lat": 30.59133,
+            "lng": 104.012149,
+            "name": "太平寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_7",
+            "lat": 30.598641,
+            "lng": 104.001256,
+            "name": "华兴站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华兴",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_8",
+            "lat": 30.607682,
+            "lng": 103.989904,
+            "name": "簇桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_9",
+            "lat": 30.623085,
+            "lng": 103.985031,
+            "name": "武青南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武青南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_10",
+            "lat": 30.644901,
+            "lng": 103.978228,
+            "name": "机投桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机投桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_11",
+            "lat": 30.662234,
+            "lng": 103.977029,
+            "name": "培风站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "培风",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_12",
+            "lat": 30.6831,
+            "lng": 103.975355,
+            "name": "成都西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成都西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD9_13",
+            "lat": 30.697948,
+            "lng": 103.971487,
+            "name": "黄田坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD10",
+        "name": "成都地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3366CC",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 34,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD10_1",
+            "lat": 30.644731,
+            "lng": 104.050407,
+            "name": "武侯祠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_2",
+            "lat": 30.640048,
+            "lng": 104.042549,
+            "name": "高升桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "高升桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_3",
+            "lat": 30.634699,
+            "lng": 104.029873,
+            "name": "红牌楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红牌楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_4",
+            "lat": 30.625176,
+            "lng": 104.021375,
+            "name": "太平园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太平园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_5",
+            "lat": 30.611204,
+            "lng": 104.008251,
+            "name": "簇锦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_6",
+            "lat": 30.598641,
+            "lng": 104.001256,
+            "name": "华兴站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华兴",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_7",
+            "lat": 30.591585,
+            "lng": 103.970051,
+            "name": "金花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_8",
+            "lat": 30.578576,
+            "lng": 103.959258,
+            "name": "双流机场1航站楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_9",
+            "lat": 30.56987,
+            "lng": 103.955584,
+            "name": "双流机场2航站楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_10",
+            "lat": 30.543292,
+            "lng": 103.917252,
+            "name": "双流西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双流西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_11",
+            "lat": 30.535726,
+            "lng": 103.90467,
+            "name": "应天寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_12",
+            "lat": 30.518985,
+            "lng": 103.891334,
+            "name": "黄水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_13",
+            "lat": 30.485355,
+            "lng": 103.880906,
+            "name": "花源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_14",
+            "lat": 30.462959,
+            "lng": 103.87324,
+            "name": "新津站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_15",
+            "lat": 30.441683,
+            "lng": 103.857254,
+            "name": "花桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_16",
+            "lat": 30.423669,
+            "lng": 103.813338,
+            "name": "五津站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_17",
+            "lat": 30.416328,
+            "lng": 103.803086,
+            "name": "儒林路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_18",
+            "lat": 30.415232,
+            "lng": 103.79137,
+            "name": "刘家碾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD10_19",
+            "lat": 30.408338,
+            "lng": 103.781511,
+            "name": "新平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD13",
+        "name": "成都地铁13号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CEB500",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 22,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD13_1",
+            "lat": 30.564396,
+            "lng": 104.193191,
+            "name": "龙安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_2",
+            "lat": 30.571225,
+            "lng": 104.178616,
+            "name": "龙华寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_3",
+            "lat": 30.584195,
+            "lng": 104.152266,
+            "name": "三圣花乡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_4",
+            "lat": 30.592662,
+            "lng": 104.138498,
+            "name": "幸福梅林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_5",
+            "lat": 30.599102,
+            "lng": 104.129153,
+            "name": "娇子立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "娇子立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_6",
+            "lat": 30.60937,
+            "lng": 104.116047,
+            "name": "四川师大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "四川师大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_7",
+            "lat": 30.623032,
+            "lng": 104.104851,
+            "name": "净居寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "净居寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_8",
+            "lat": 30.62838,
+            "lng": 104.094441,
+            "name": "三官堂站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三官堂",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_9",
+            "lat": 30.639416,
+            "lng": 104.088169,
+            "name": "九眼桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_10",
+            "lat": 30.644363,
+            "lng": 104.075148,
+            "name": "新南门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新南门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_11",
+            "lat": 30.643644,
+            "lng": 104.066263,
+            "name": "华西坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华西坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_12",
+            "lat": 30.64914,
+            "lng": 104.057365,
+            "name": "文翁石室站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_13",
+            "lat": 30.65286,
+            "lng": 104.052371,
+            "name": "小南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_14",
+            "lat": 30.66001,
+            "lng": 104.04076,
+            "name": "青羊宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青羊宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_15",
+            "lat": 30.662498,
+            "lng": 104.029025,
+            "name": "杜甫草堂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_16",
+            "lat": 30.662296,
+            "lng": 104.021677,
+            "name": "光华村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_17",
+            "lat": 30.660977,
+            "lng": 104.007911,
+            "name": "东坡路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东坡路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_18",
+            "lat": 30.661351,
+            "lng": 103.992716,
+            "name": "万寿桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_19",
+            "lat": 30.662234,
+            "lng": 103.977029,
+            "name": "培风站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "培风",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_20",
+            "lat": 30.663015,
+            "lng": 103.9632,
+            "name": "万家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD13_21",
+            "lat": 30.661975,
+            "lng": 103.948312,
+            "name": "瓦窑滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD17",
+        "name": "成都地铁17号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#9AD8AD",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 8,
+        "maxSpeedKmh": 100,
+        "freqPeak": 23,
+        "freqOff": 11,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD17_1",
+            "lat": 30.634536,
+            "lng": 103.921448,
+            "name": "九江北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九江北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_2",
+            "lat": 30.641003,
+            "lng": 103.963302,
+            "name": "白佛桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_3",
+            "lat": 30.644901,
+            "lng": 103.978228,
+            "name": "机投桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机投桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_4",
+            "lat": 30.649548,
+            "lng": 103.996636,
+            "name": "阳公桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_5",
+            "lat": 30.651347,
+            "lng": 104.008479,
+            "name": "龙爪堰站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙爪堰",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_6",
+            "lat": 30.651697,
+            "lng": 104.022015,
+            "name": "清水河大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_7",
+            "lat": 30.650875,
+            "lng": 104.031801,
+            "name": "浣花里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_8",
+            "lat": 30.651833,
+            "lng": 104.040964,
+            "name": "省骨科医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省骨科医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_9",
+            "lat": 30.65286,
+            "lng": 104.052371,
+            "name": "小南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_10",
+            "lat": 30.659322,
+            "lng": 104.056771,
+            "name": "人民公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_11",
+            "lat": 30.673098,
+            "lng": 104.05813,
+            "name": "西大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_12",
+            "lat": 30.678845,
+            "lng": 104.080605,
+            "name": "城隍庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_13",
+            "lat": 30.671197,
+            "lng": 104.090523,
+            "name": "红星桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红星桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_14",
+            "lat": 30.672238,
+            "lng": 104.09836,
+            "name": "建设北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建设北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_15",
+            "lat": 30.675282,
+            "lng": 104.108638,
+            "name": "踏水桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_16",
+            "lat": 30.680737,
+            "lng": 104.126558,
+            "name": "二仙桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "二仙桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_17",
+            "lat": 30.688068,
+            "lng": 104.13435,
+            "name": "机车厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_18",
+            "lat": 30.691146,
+            "lng": 104.150893,
+            "name": "人民塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_19",
+            "lat": 30.68869,
+            "lng": 104.166955,
+            "name": "航天路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_20",
+            "lat": 30.689254,
+            "lng": 104.179491,
+            "name": "威灵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD17_21",
+            "lat": 30.690155,
+            "lng": 104.194883,
+            "name": "高洪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD18",
+        "name": "成都地铁18号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#4C938E",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 160,
+        "freqPeak": 27,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD18_1",
+            "lat": 30.60529,
+            "lng": 104.067396,
+            "name": "火车南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_2",
+            "lat": 30.575573,
+            "lng": 104.064312,
+            "name": "孵化园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孵化园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_3",
+            "lat": 30.56842,
+            "lng": 104.069416,
+            "name": "锦城广场东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_4",
+            "lat": 30.554872,
+            "lng": 104.06892,
+            "name": "世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_5",
+            "lat": 30.49242,
+            "lng": 104.07083,
+            "name": "海昌路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海昌路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_6",
+            "lat": 30.424763,
+            "lng": 104.075826,
+            "name": "西博城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西博城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_7",
+            "lat": 30.40945,
+            "lng": 104.102657,
+            "name": "兴隆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_8",
+            "lat": 30.390296,
+            "lng": 104.15104,
+            "name": "天府站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_9",
+            "lat": 30.311343,
+            "lng": 104.317221,
+            "name": "三岔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三岔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_10",
+            "lat": 30.278138,
+            "lng": 104.387508,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_11",
+            "lat": 30.310975,
+            "lng": 104.444123,
+            "name": "天府机场1号2号航站楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府机场1号2号航站楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD18_12",
+            "lat": 30.334405,
+            "lng": 104.455029,
+            "name": "天府机场北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府机场北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD19",
+        "name": "成都地铁19号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#9FA1D2",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 51,
+        "freqOff": 25,
+        "freqLow": 17,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD19_1",
+            "lat": 30.756154,
+            "lng": 103.794107,
+            "name": "金星站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_2",
+            "lat": 30.721757,
+            "lng": 103.813913,
+            "name": "黄石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_3",
+            "lat": 30.698743,
+            "lng": 103.829409,
+            "name": "市五医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_4",
+            "lat": 30.686117,
+            "lng": 103.843037,
+            "name": "凤溪河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "凤溪河",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_5",
+            "lat": 30.672595,
+            "lng": 103.855115,
+            "name": "温泉大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_6",
+            "lat": 30.658438,
+            "lng": 103.868397,
+            "name": "明光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_7",
+            "lat": 30.634536,
+            "lng": 103.921448,
+            "name": "九江北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九江北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_8",
+            "lat": 30.603934,
+            "lng": 103.944129,
+            "name": "龙桥路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙桥路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_9",
+            "lat": 30.5699,
+            "lng": 103.955568,
+            "name": "双流机场2航站楼东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双流机场2航站楼东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_10",
+            "lat": 30.535385,
+            "lng": 103.974142,
+            "name": "龙港站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "龙港",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_11",
+            "lat": 30.497696,
+            "lng": 104.009289,
+            "name": "温家山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_12",
+            "lat": 30.484679,
+            "lng": 104.011295,
+            "name": "牧华路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_13",
+            "lat": 30.471209,
+            "lng": 104.026781,
+            "name": "怡心湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "怡心湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_14",
+            "lat": 30.451942,
+            "lng": 104.042016,
+            "name": "正兴湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_15",
+            "lat": 30.432699,
+            "lng": 104.063647,
+            "name": "红莲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_16",
+            "lat": 30.430009,
+            "lng": 104.086249,
+            "name": "天府商务区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府商务区",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_17",
+            "lat": 30.417611,
+            "lng": 104.109254,
+            "name": "蓝家店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_18",
+            "lat": 30.390296,
+            "lng": 104.15104,
+            "name": "天府站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_19",
+            "lat": 30.311343,
+            "lng": 104.317221,
+            "name": "三岔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三岔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_20",
+            "lat": 30.278138,
+            "lng": 104.387508,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_21",
+            "lat": 30.310975,
+            "lng": 104.444123,
+            "name": "天府机场1号2号航站楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府机场1号2号航站楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD19_22",
+            "lat": 30.334405,
+            "lng": 104.455029,
+            "name": "天府机场北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天府机场北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD27",
+        "name": "成都地铁27号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00A1E3",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 23,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD27_1",
+            "lat": 30.825165,
+            "lng": 104.111893,
+            "name": "石佛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_2",
+            "lat": 30.817705,
+            "lng": 104.114931,
+            "name": "慈义站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_3",
+            "lat": 30.810282,
+            "lng": 104.110261,
+            "name": "兴城大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_4",
+            "lat": 30.799627,
+            "lng": 104.105636,
+            "name": "旃檀寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_5",
+            "lat": 30.77677,
+            "lng": 104.10177,
+            "name": "石门坎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_6",
+            "lat": 30.770277,
+            "lng": 104.101937,
+            "name": "三圣寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_7",
+            "lat": 30.760419,
+            "lng": 104.10268,
+            "name": "范家巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_8",
+            "lat": 30.752582,
+            "lng": 104.09928,
+            "name": "鲤鱼湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_9",
+            "lat": 30.732549,
+            "lng": 104.088713,
+            "name": "赖家店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_10",
+            "lat": 30.717644,
+            "lng": 104.086859,
+            "name": "韦家碾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "韦家碾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_11",
+            "lat": 30.713193,
+            "lng": 104.076176,
+            "name": "双水碾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_12",
+            "lat": 30.717363,
+            "lng": 104.068385,
+            "name": "王贾桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_13",
+            "lat": 30.721553,
+            "lng": 104.058457,
+            "name": "洞子口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "洞子口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_14",
+            "lat": 30.722765,
+            "lng": 104.05069,
+            "name": "沙河源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_15",
+            "lat": 30.717026,
+            "lng": 104.044223,
+            "name": "新桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_16",
+            "lat": 30.711406,
+            "lng": 104.036906,
+            "name": "金府站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金府",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_17",
+            "lat": 30.708214,
+            "lng": 104.030241,
+            "name": "花照壁北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_18",
+            "lat": 30.704401,
+            "lng": 104.022997,
+            "name": "金牛公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_19",
+            "lat": 30.693906,
+            "lng": 104.012649,
+            "name": "羊犀立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "羊犀立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_20",
+            "lat": 30.687403,
+            "lng": 104.007679,
+            "name": "黄忠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_21",
+            "lat": 30.686262,
+            "lng": 104.001433,
+            "name": "金沙滨河公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD27_22",
+            "lat": 30.689324,
+            "lng": 103.993498,
+            "name": "蜀鑫路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD30",
+        "name": "成都地铁30号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF99BE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 13,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD30_1",
+            "lat": 30.591956,
+            "lng": 104.198004,
+            "name": "龙泉驿火车站南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_2",
+            "lat": 30.612539,
+            "lng": 104.167469,
+            "name": "玉石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_3",
+            "lat": 30.612071,
+            "lng": 104.152076,
+            "name": "惠王陵站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惠王陵",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_4",
+            "lat": 30.612854,
+            "lng": 104.142925,
+            "name": "航天立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_5",
+            "lat": 30.606444,
+            "lng": 104.138049,
+            "name": "海桐街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_6",
+            "lat": 30.599102,
+            "lng": 104.129153,
+            "name": "娇子立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "娇子立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_7",
+            "lat": 30.596759,
+            "lng": 104.115217,
+            "name": "锦逸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_8",
+            "lat": 30.594574,
+            "lng": 104.102948,
+            "name": "棬子树站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_9",
+            "lat": 30.590301,
+            "lng": 104.089171,
+            "name": "金石路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金石路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_10",
+            "lat": 30.588753,
+            "lng": 104.075524,
+            "name": "府城桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_11",
+            "lat": 30.588571,
+            "lng": 104.069636,
+            "name": "金融城北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_12",
+            "lat": 30.588604,
+            "lng": 104.060322,
+            "name": "益州大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_13",
+            "lat": 30.589304,
+            "lng": 104.050545,
+            "name": "市一医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市一医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_14",
+            "lat": 30.587962,
+            "lng": 104.039618,
+            "name": "新园大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_15",
+            "lat": 30.583981,
+            "lng": 104.033092,
+            "name": "石羊东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_16",
+            "lat": 30.573154,
+            "lng": 104.017584,
+            "name": "大同站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_17",
+            "lat": 30.566482,
+            "lng": 104.008013,
+            "name": "珠江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_18",
+            "lat": 30.564328,
+            "lng": 104.000593,
+            "name": "谢家渡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_19",
+            "lat": 30.561503,
+            "lng": 103.986285,
+            "name": "光明站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_20",
+            "lat": 30.56164,
+            "lng": 103.977775,
+            "name": "星月站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_21",
+            "lat": 30.558768,
+            "lng": 103.96482,
+            "name": "寺圣站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD30_22",
+            "lat": 30.5699,
+            "lng": 103.955568,
+            "name": "双流机场2航站楼东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双流机场2航站楼东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD_LINE_S3",
+        "name": "资阳线(S3)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A89B9F",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD_LINE_S3_1",
+            "lat": 30.278138,
+            "lng": 104.387508,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_LINE_S3_2",
+            "lat": 30.172825,
+            "lng": 104.584914,
+            "name": "资阳临空站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_LINE_S3_3",
+            "lat": 30.126439,
+            "lng": 104.621791,
+            "name": "幸福大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_LINE_S3_4",
+            "lat": 30.109047,
+            "lng": 104.650477,
+            "name": "苌弘广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_LINE_S3_5",
+            "lat": 30.114185,
+            "lng": 104.674075,
+            "name": "宝台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_LINE_S3_6",
+            "lat": 30.126731,
+            "lng": 104.681428,
+            "name": "资阳北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD_TRAMWAY_RONG_2_LINE",
+        "name": "蓉2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#ADD371",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 24,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_1",
+            "lat": 30.6831,
+            "lng": 103.975355,
+            "name": "成都西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成都西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_2",
+            "lat": 30.69466,
+            "lng": 103.977038,
+            "name": "联工站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_3",
+            "lat": 30.714101,
+            "lng": 103.968568,
+            "name": "土龙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_4",
+            "lat": 30.72427,
+            "lng": 103.956621,
+            "name": "新业路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新业路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_5",
+            "lat": 30.733658,
+            "lng": 103.945452,
+            "name": "锦城学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_6",
+            "lat": 30.742157,
+            "lng": 103.928315,
+            "name": "电子科大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_7",
+            "lat": 30.750594,
+            "lng": 103.922156,
+            "name": "合信路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_8",
+            "lat": 30.753573,
+            "lng": 103.924785,
+            "name": "合作路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_9",
+            "lat": 30.757629,
+            "lng": 103.920858,
+            "name": "天欣路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_10",
+            "lat": 30.76451,
+            "lng": 103.914946,
+            "name": "安埠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_11",
+            "lat": 30.758074,
+            "lng": 103.903926,
+            "name": "天映路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_12",
+            "lat": 30.766085,
+            "lng": 103.896405,
+            "name": "天源路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_13",
+            "lat": 30.775273,
+            "lng": 103.860367,
+            "name": "德富大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_14",
+            "lat": 30.774861,
+            "lng": 103.85515,
+            "name": "红旗大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_15",
+            "lat": 30.777276,
+            "lng": 103.852392,
+            "name": "红展东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_16",
+            "lat": 30.784166,
+            "lng": 103.858518,
+            "name": "大禹东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_17",
+            "lat": 30.789968,
+            "lng": 103.863255,
+            "name": "花石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_18",
+            "lat": 30.797968,
+            "lng": 103.869961,
+            "name": "晨光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_19",
+            "lat": 30.802912,
+            "lng": 103.877251,
+            "name": "何公路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_20",
+            "lat": 30.807204,
+            "lng": 103.878047,
+            "name": "望丛祠站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望丛祠",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_21",
+            "lat": 30.816206,
+            "lng": 103.879504,
+            "name": "梨园路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_22",
+            "lat": 30.822997,
+            "lng": 103.88047,
+            "name": "郫县西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CD_TRAMWAY_RONG_2_LINE_BRANCH",
+        "name": "蓉2号线(支线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#ADD371",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 12,
+        "freqOff": 6,
+        "freqLow": 4,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_1",
+            "lat": 30.72427,
+            "lng": 103.956621,
+            "name": "新业路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新业路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_2",
+            "lat": 30.732958,
+            "lng": 103.963451,
+            "name": "百叶路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_3",
+            "lat": 30.740036,
+            "lng": 103.971407,
+            "name": "晨风站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_4",
+            "lat": 30.745884,
+            "lng": 103.97615,
+            "name": "天河路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天河路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_5",
+            "lat": 30.754913,
+            "lng": 103.985707,
+            "name": "龙吟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_6",
+            "lat": 30.762289,
+            "lng": 103.980472,
+            "name": "西南交大犀浦站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_7",
+            "lat": 30.767387,
+            "lng": 103.976475,
+            "name": "犀方路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_8",
+            "lat": 30.766189,
+            "lng": 103.968267,
+            "name": "国宁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_9",
+            "lat": 30.769995,
+            "lng": 103.966111,
+            "name": "大田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_10",
+            "lat": 30.779672,
+            "lng": 103.963814,
+            "name": "西华大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_11",
+            "lat": 30.787089,
+            "lng": 103.964315,
+            "name": "双林村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_12",
+            "lat": 30.789439,
+            "lng": 103.957878,
+            "name": "金土站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_13",
+            "lat": 30.795173,
+            "lng": 103.96026,
+            "name": "技师学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "chengdu_CD_TRAMWAY_RONG_2_LINE_BRANCH_14",
+            "lat": 30.799565,
+            "lng": 103.956622,
+            "name": "仁和站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

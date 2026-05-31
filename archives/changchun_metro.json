@@ -1,0 +1,1994 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:31.386Z",
+  "data": {
+    "cityKey": "changchun",
+    "lineCounter": 6,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "CC1",
+        "name": "长春地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E54B50",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 17,
+        "freqOff": 8,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC1_1",
+            "lat": 43.947879,
+            "lng": 125.324211,
+            "name": "北环城路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北环城路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_2",
+            "lat": 43.937125,
+            "lng": 125.324156,
+            "name": "庆丰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_3",
+            "lat": 43.925311,
+            "lng": 125.324206,
+            "name": "一匡街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_4",
+            "lat": 43.914105,
+            "lng": 125.323416,
+            "name": "长春站北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春站北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_5",
+            "lat": 43.90919,
+            "lng": 125.323229,
+            "name": "长春站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_6",
+            "lat": 43.899976,
+            "lng": 125.324324,
+            "name": "胜利公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_7",
+            "lat": 43.888641,
+            "lng": 125.324656,
+            "name": "人民广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_8",
+            "lat": 43.878256,
+            "lng": 125.32486,
+            "name": "解放大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "解放大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_9",
+            "lat": 43.864064,
+            "lng": 125.325175,
+            "name": "东北师大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_10",
+            "lat": 43.851144,
+            "lng": 125.32545,
+            "name": "工农广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_11",
+            "lat": 43.841093,
+            "lng": 125.325686,
+            "name": "繁荣路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_12",
+            "lat": 43.832634,
+            "lng": 125.325815,
+            "name": "卫星广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "卫星广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_13",
+            "lat": 43.818779,
+            "lng": 125.325933,
+            "name": "市政府站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_14",
+            "lat": 43.80012,
+            "lng": 125.327017,
+            "name": "华庆路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华庆路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC1_15",
+            "lat": 43.790486,
+            "lng": 125.327446,
+            "name": "红嘴子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CC2",
+        "name": "长春地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#2B7CC1",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC2_1",
+            "lat": 43.833716,
+            "lng": 125.172018,
+            "name": "汽车公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_2",
+            "lat": 43.847189,
+            "lng": 125.167685,
+            "name": "捷达大路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_3",
+            "lat": 43.855738,
+            "lng": 125.16959,
+            "name": "西湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_4",
+            "lat": 43.867419,
+            "lng": 125.185533,
+            "name": "双丰站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双丰",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_5",
+            "lat": 43.876548,
+            "lng": 125.200872,
+            "name": "长春西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_6",
+            "lat": 43.883845,
+            "lng": 125.224071,
+            "name": "兴隆堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_7",
+            "lat": 43.884093,
+            "lng": 125.240336,
+            "name": "西环城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_8",
+            "lat": 43.884177,
+            "lng": 125.254528,
+            "name": "和平大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_9",
+            "lat": 43.88434,
+            "lng": 125.265742,
+            "name": "万福街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_10",
+            "lat": 43.882619,
+            "lng": 125.276259,
+            "name": "景阳广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_11",
+            "lat": 43.878398,
+            "lng": 125.287045,
+            "name": "解放桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "解放桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_12",
+            "lat": 43.877875,
+            "lng": 125.297337,
+            "name": "建设广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_13",
+            "lat": 43.877922,
+            "lng": 125.307615,
+            "name": "文化广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_14",
+            "lat": 43.878256,
+            "lng": 125.32486,
+            "name": "解放大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "解放大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_15",
+            "lat": 43.878347,
+            "lng": 125.33375,
+            "name": "平阳街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_16",
+            "lat": 43.88076,
+            "lng": 125.345381,
+            "name": "南关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_17",
+            "lat": 43.882155,
+            "lng": 125.364316,
+            "name": "吉林大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吉林大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_18",
+            "lat": 43.882329,
+            "lng": 125.376708,
+            "name": "东盛大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_19",
+            "lat": 43.882477,
+            "lng": 125.394427,
+            "name": "东环城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_20",
+            "lat": 43.882391,
+            "lng": 125.409909,
+            "name": "长青站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_21",
+            "lat": 43.881858,
+            "lng": 125.425745,
+            "name": "东方广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_22",
+            "lat": 43.885253,
+            "lng": 125.444515,
+            "name": "哈尔滨大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_23",
+            "lat": 43.891675,
+            "lng": 125.463137,
+            "name": "窦家沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_24",
+            "lat": 43.891636,
+            "lng": 125.48802,
+            "name": "英俊大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_25",
+            "lat": 43.891635,
+            "lng": 125.513464,
+            "name": "英凯大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_26",
+            "lat": 43.891594,
+            "lng": 125.532618,
+            "name": "林溪大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC2_27",
+            "lat": 43.891541,
+            "lng": 125.553169,
+            "name": "雾开河大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CC3",
+        "name": "长春地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#459B57",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC3_1",
+            "lat": 43.90666,
+            "lng": 125.352468,
+            "name": "伪满皇宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "伪满皇宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_2",
+            "lat": 43.908979,
+            "lng": 125.338886,
+            "name": "东广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_3",
+            "lat": 43.90919,
+            "lng": 125.323229,
+            "name": "长春站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_4",
+            "lat": 43.904857,
+            "lng": 125.30801,
+            "name": "芙蓉桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_5",
+            "lat": 43.894927,
+            "lng": 125.300327,
+            "name": "西安桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_6",
+            "lat": 43.890131,
+            "lng": 125.296915,
+            "name": "南昌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_7",
+            "lat": 43.884734,
+            "lng": 125.292923,
+            "name": "朝阳桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_8",
+            "lat": 43.878398,
+            "lng": 125.287045,
+            "name": "解放桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "解放桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_9",
+            "lat": 43.869514,
+            "lng": 125.28227,
+            "name": "湖西桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_10",
+            "lat": 43.862607,
+            "lng": 125.2741,
+            "name": "宽平桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_11",
+            "lat": 43.857942,
+            "lng": 125.268338,
+            "name": "抚松路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_12",
+            "lat": 43.851181,
+            "lng": 125.261837,
+            "name": "孟家屯站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_13",
+            "lat": 43.844418,
+            "lng": 125.266579,
+            "name": "湖光路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_14",
+            "lat": 43.833174,
+            "lng": 125.278413,
+            "name": "电台街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_15",
+            "lat": 43.832222,
+            "lng": 125.286921,
+            "name": "前进西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_16",
+            "lat": 43.832245,
+            "lng": 125.293379,
+            "name": "前进大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_17",
+            "lat": 43.832431,
+            "lng": 125.30281,
+            "name": "卫明街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_18",
+            "lat": 43.832632,
+            "lng": 125.31547,
+            "name": "卫光街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_19",
+            "lat": 43.832634,
+            "lng": 125.325815,
+            "name": "卫星广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "卫星广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_20",
+            "lat": 43.832617,
+            "lng": 125.339395,
+            "name": "亚泰立交桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_21",
+            "lat": 43.832957,
+            "lng": 125.350103,
+            "name": "伊通河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_22",
+            "lat": 43.833019,
+            "lng": 125.365284,
+            "name": "职业学院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "职业学院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_23",
+            "lat": 43.833313,
+            "lng": 125.379596,
+            "name": "吉林广电站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_24",
+            "lat": 43.833414,
+            "lng": 125.390872,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_25",
+            "lat": 43.836575,
+            "lng": 125.402722,
+            "name": "世纪广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_26",
+            "lat": 43.834468,
+            "lng": 125.42108,
+            "name": "金鑫街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_27",
+            "lat": 43.82978,
+            "lng": 125.429239,
+            "name": "博硕路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_28",
+            "lat": 43.821744,
+            "lng": 125.439255,
+            "name": "金河街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_29",
+            "lat": 43.814403,
+            "lng": 125.444897,
+            "name": "农博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_30",
+            "lat": 43.803664,
+            "lng": 125.450889,
+            "name": "净月潭公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_31",
+            "lat": 43.792803,
+            "lng": 125.440348,
+            "name": "紫杉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_32",
+            "lat": 43.785159,
+            "lng": 125.440257,
+            "name": "宝相街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_33",
+            "lat": 43.776619,
+            "lng": 125.449516,
+            "name": "滑雪场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC3_34",
+            "lat": 43.771814,
+            "lng": 125.450369,
+            "name": "长影世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长影世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CC4",
+        "name": "长春地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#7C5ED7",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC4_1",
+            "lat": 43.914105,
+            "lng": 125.323416,
+            "name": "长春站北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春站北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_2",
+            "lat": 43.912381,
+            "lng": 125.337019,
+            "name": "北亚泰大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_3",
+            "lat": 43.90666,
+            "lng": 125.352468,
+            "name": "伪满皇宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "伪满皇宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_4",
+            "lat": 43.900091,
+            "lng": 125.357232,
+            "name": "东大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_5",
+            "lat": 43.892214,
+            "lng": 125.366145,
+            "name": "东新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_6",
+            "lat": 43.882155,
+            "lng": 125.364316,
+            "name": "吉林大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吉林大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_7",
+            "lat": 43.872072,
+            "lng": 125.364449,
+            "name": "公平路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_8",
+            "lat": 43.863854,
+            "lng": 125.364626,
+            "name": "海口路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_9",
+            "lat": 43.857062,
+            "lng": 125.364776,
+            "name": "浦东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_10",
+            "lat": 43.850733,
+            "lng": 125.364937,
+            "name": "威海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_11",
+            "lat": 43.842013,
+            "lng": 125.365023,
+            "name": "北海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_12",
+            "lat": 43.833019,
+            "lng": 125.365284,
+            "name": "职业学院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "职业学院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_13",
+            "lat": 43.82528,
+            "lng": 125.36542,
+            "name": "世荣路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_14",
+            "lat": 43.817493,
+            "lng": 125.365581,
+            "name": "南环城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_15",
+            "lat": 43.807196,
+            "lng": 125.365763,
+            "name": "宜盛街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_16",
+            "lat": 43.795728,
+            "lng": 125.366343,
+            "name": "天工路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_17",
+            "lat": 43.787488,
+            "lng": 125.366128,
+            "name": "福祉大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福祉大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_18",
+            "lat": 43.77765,
+            "lng": 125.365967,
+            "name": "天青路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_19",
+            "lat": 43.771437,
+            "lng": 125.366139,
+            "name": "天普路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_20",
+            "lat": 43.762853,
+            "lng": 125.366182,
+            "name": "前十里堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC4_21",
+            "lat": 43.755398,
+            "lng": 125.366439,
+            "name": "天新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CC6",
+        "name": "长春地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F68AB4",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 22,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC6_1",
+            "lat": 43.867419,
+            "lng": 125.185533,
+            "name": "双丰站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双丰",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_2",
+            "lat": 43.876548,
+            "lng": 125.200872,
+            "name": "长春西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_3",
+            "lat": 43.871598,
+            "lng": 125.214777,
+            "name": "腾跃街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_4",
+            "lat": 43.85588,
+            "lng": 125.225677,
+            "name": "支农大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_5",
+            "lat": 43.849628,
+            "lng": 125.230398,
+            "name": "飞跃广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_6",
+            "lat": 43.838981,
+            "lng": 125.24014,
+            "name": "欧亚卖场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_7",
+            "lat": 43.832511,
+            "lng": 125.250268,
+            "name": "光谷大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_8",
+            "lat": 43.824555,
+            "lng": 125.26267,
+            "name": "硅谷广场(吉大中心校区)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_9",
+            "lat": 43.813465,
+            "lng": 125.276349,
+            "name": "百花园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_10",
+            "lat": 43.80501,
+            "lng": 125.276413,
+            "name": "市法院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_11",
+            "lat": 43.800163,
+            "lng": 125.295703,
+            "name": "兰桡湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_12",
+            "lat": 43.800163,
+            "lng": 125.305402,
+            "name": "轨道集团站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_13",
+            "lat": 43.800163,
+            "lng": 125.312097,
+            "name": "新明街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_14",
+            "lat": 43.80012,
+            "lng": 125.327017,
+            "name": "华庆路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华庆路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_15",
+            "lat": 43.800911,
+            "lng": 125.357342,
+            "name": "南溪湿地公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_16",
+            "lat": 43.787488,
+            "lng": 125.366128,
+            "name": "福祉大路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福祉大路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_17",
+            "lat": 43.777771,
+            "lng": 125.378498,
+            "name": "吴家店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_18",
+            "lat": 43.772763,
+            "lng": 125.395203,
+            "name": "亚泰足球基地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_19",
+            "lat": 43.771244,
+            "lng": 125.408893,
+            "name": "樱花街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_20",
+            "lat": 43.769819,
+            "lng": 125.421553,
+            "name": "聚业大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_21",
+            "lat": 43.769664,
+            "lng": 125.43108,
+            "name": "省博物院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC6_22",
+            "lat": 43.771814,
+            "lng": 125.450369,
+            "name": "长影世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长影世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "CC8",
+        "name": "长春地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#48BECB",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 12,
+        "freqOff": 6,
+        "freqLow": 4,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "changchun_CC8_1",
+            "lat": 43.947879,
+            "lng": 125.324211,
+            "name": "北环城路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北环城路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_2",
+            "lat": 43.955442,
+            "lng": 125.330406,
+            "name": "一二三中学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_3",
+            "lat": 43.965157,
+            "lng": 125.329955,
+            "name": "小南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_4",
+            "lat": 43.971041,
+            "lng": 125.331307,
+            "name": "小城子街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_5",
+            "lat": 43.976384,
+            "lng": 125.356047,
+            "name": "北湖大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_6",
+            "lat": 43.976431,
+            "lng": 125.367785,
+            "name": "北湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_7",
+            "lat": 43.976323,
+            "lng": 125.377355,
+            "name": "和安街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_8",
+            "lat": 43.985726,
+            "lng": 125.384565,
+            "name": "光机路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_9",
+            "lat": 43.994788,
+            "lng": 125.384565,
+            "name": "大学城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_10",
+            "lat": 43.997921,
+            "lng": 125.397783,
+            "name": "地理所站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_11",
+            "lat": 44.000298,
+            "lng": 125.409649,
+            "name": "奥林匹克公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "changchun_CC8_12",
+            "lat": 44.008911,
+            "lng": 125.417781,
+            "name": "广通路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

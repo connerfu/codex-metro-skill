@@ -1,0 +1,1620 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:13.036Z",
+  "data": {
+    "cityKey": "nanning",
+    "lineCounter": 5,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "NN1",
+        "name": "南宁地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#36A855",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 29,
+        "freqOff": 14,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanning_NN1_1",
+            "lat": 22.826525,
+            "lng": 108.177599,
+            "name": "石埠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_2",
+            "lat": 22.83313,
+            "lng": 108.192242,
+            "name": "南职院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_3",
+            "lat": 22.833056,
+            "lng": 108.202281,
+            "name": "鹏飞路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_4",
+            "lat": 22.832924,
+            "lng": 108.219153,
+            "name": "西乡塘客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_5",
+            "lat": 22.837229,
+            "lng": 108.233019,
+            "name": "民族大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_6",
+            "lat": 22.840172,
+            "lng": 108.253119,
+            "name": "清川站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_7",
+            "lat": 22.837801,
+            "lng": 108.267769,
+            "name": "动物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_8",
+            "lat": 22.834078,
+            "lng": 108.283011,
+            "name": "鲁班路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_9",
+            "lat": 22.83122,
+            "lng": 108.292266,
+            "name": "广西大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广西大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_10",
+            "lat": 22.83107,
+            "lng": 108.307154,
+            "name": "白苍岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_11",
+            "lat": 22.824877,
+            "lng": 108.316335,
+            "name": "火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_12",
+            "lat": 22.817091,
+            "lng": 108.320838,
+            "name": "朝阳广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_13",
+            "lat": 22.813043,
+            "lng": 108.327323,
+            "name": "新民路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_14",
+            "lat": 22.813043,
+            "lng": 108.336344,
+            "name": "民族广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_15",
+            "lat": 22.813015,
+            "lng": 108.347471,
+            "name": "麻村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_16",
+            "lat": 22.813668,
+            "lng": 108.363066,
+            "name": "南湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_17",
+            "lat": 22.812747,
+            "lng": 108.372502,
+            "name": "金湖广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金湖广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_18",
+            "lat": 22.81286,
+            "lng": 108.383724,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_19",
+            "lat": 22.813032,
+            "lng": 108.392018,
+            "name": "万象城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_20",
+            "lat": 22.813114,
+            "lng": 108.399045,
+            "name": "东盟商务区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_21",
+            "lat": 22.813123,
+            "lng": 108.410342,
+            "name": "凤岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_22",
+            "lat": 22.81292,
+            "lng": 108.418643,
+            "name": "埌东客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_23",
+            "lat": 22.818107,
+            "lng": 108.427946,
+            "name": "百花岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_24",
+            "lat": 22.831903,
+            "lng": 108.424779,
+            "name": "佛子岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN1_25",
+            "lat": 22.839673,
+            "lng": 108.41409,
+            "name": "火车东站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NN2",
+        "name": "南宁地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FB3039",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 13,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanning_NN2_1",
+            "lat": 22.889269,
+            "lng": 108.298458,
+            "name": "西津站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_2",
+            "lat": 22.879651,
+            "lng": 108.29784,
+            "name": "安吉客运站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安吉客运站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_3",
+            "lat": 22.868884,
+            "lng": 108.299553,
+            "name": "苏卢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_4",
+            "lat": 22.857977,
+            "lng": 108.302242,
+            "name": "三十三中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_5",
+            "lat": 22.848541,
+            "lng": 108.306687,
+            "name": "秀厢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_6",
+            "lat": 22.839234,
+            "lng": 108.312746,
+            "name": "明秀路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "明秀路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_7",
+            "lat": 22.824877,
+            "lng": 108.316335,
+            "name": "火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_8",
+            "lat": 22.817091,
+            "lng": 108.320838,
+            "name": "朝阳广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_9",
+            "lat": 22.804174,
+            "lng": 108.313644,
+            "name": "南宁剧场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_10",
+            "lat": 22.796489,
+            "lng": 108.311251,
+            "name": "福建园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_11",
+            "lat": 22.788895,
+            "lng": 108.311406,
+            "name": "亭洪路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_12",
+            "lat": 22.781519,
+            "lng": 108.311484,
+            "name": "石柱岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_13",
+            "lat": 22.766623,
+            "lng": 108.31212,
+            "name": "江南客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_14",
+            "lat": 22.761119,
+            "lng": 108.316587,
+            "name": "大沙田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大沙田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_15",
+            "lat": 22.751822,
+            "lng": 108.318317,
+            "name": "建设路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_16",
+            "lat": 22.741177,
+            "lng": 108.324375,
+            "name": "石子塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_17",
+            "lat": 22.731297,
+            "lng": 108.332243,
+            "name": "金象站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_18",
+            "lat": 22.722535,
+            "lng": 108.336654,
+            "name": "玉洞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_19",
+            "lat": 22.719415,
+            "lng": 108.35239,
+            "name": "东风路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_20",
+            "lat": 22.721533,
+            "lng": 108.36024,
+            "name": "玉岭路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_21",
+            "lat": 22.724967,
+            "lng": 108.37355,
+            "name": "那福路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_22",
+            "lat": 22.726409,
+            "lng": 108.383746,
+            "name": "平良立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平良立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN2_23",
+            "lat": 22.726265,
+            "lng": 108.396347,
+            "name": "坛泽站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NN3",
+        "name": "南宁地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#9867C9",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanning_NN3_1",
+            "lat": 22.878326,
+            "lng": 108.269298,
+            "name": "科园大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_2",
+            "lat": 22.878842,
+            "lng": 108.283922,
+            "name": "创业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_3",
+            "lat": 22.879651,
+            "lng": 108.29784,
+            "name": "安吉客运站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安吉客运站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_4",
+            "lat": 22.876015,
+            "lng": 108.316805,
+            "name": "北湖北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_5",
+            "lat": 22.878218,
+            "lng": 108.331247,
+            "name": "秀峰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_6",
+            "lat": 22.875563,
+            "lng": 108.34021,
+            "name": "邕武路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_7",
+            "lat": 22.872555,
+            "lng": 108.350969,
+            "name": "大鸡村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_8",
+            "lat": 22.864509,
+            "lng": 108.356505,
+            "name": "兴桂路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_9",
+            "lat": 22.856308,
+            "lng": 108.356134,
+            "name": "小鸡村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小鸡村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_10",
+            "lat": 22.845334,
+            "lng": 108.35482,
+            "name": "东沟岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_11",
+            "lat": 22.836776,
+            "lng": 108.35677,
+            "name": "长堽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_12",
+            "lat": 22.830095,
+            "lng": 108.359937,
+            "name": "东葛路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_13",
+            "lat": 22.824914,
+            "lng": 108.369483,
+            "name": "滨湖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_14",
+            "lat": 22.812747,
+            "lng": 108.372502,
+            "name": "金湖广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金湖广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_15",
+            "lat": 22.807094,
+            "lng": 108.367228,
+            "name": "埌西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_16",
+            "lat": 22.799242,
+            "lng": 108.364399,
+            "name": "青竹立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_17",
+            "lat": 22.792552,
+            "lng": 108.368614,
+            "name": "青秀山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_18",
+            "lat": 22.775108,
+            "lng": 108.376109,
+            "name": "市博物馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_19",
+            "lat": 22.767893,
+            "lng": 108.37626,
+            "name": "总部基地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "总部基地",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_20",
+            "lat": 22.757163,
+            "lng": 108.377808,
+            "name": "广西规划馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_21",
+            "lat": 22.75025,
+            "lng": 108.383393,
+            "name": "庆歌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_22",
+            "lat": 22.738988,
+            "lng": 108.38432,
+            "name": "五象湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN3_23",
+            "lat": 22.726409,
+            "lng": 108.383746,
+            "name": "平良立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平良立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NN4",
+        "name": "南宁地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C4CB3C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 22,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanning_NN4_1",
+            "lat": 22.765522,
+            "lng": 108.242057,
+            "name": "洪运路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_2",
+            "lat": 22.760774,
+            "lng": 108.258884,
+            "name": "那历村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_3",
+            "lat": 22.760745,
+            "lng": 108.27105,
+            "name": "那洪立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "那洪立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_4",
+            "lat": 22.760835,
+            "lng": 108.281456,
+            "name": "金阳路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_5",
+            "lat": 22.758543,
+            "lng": 108.299883,
+            "name": "通源路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_6",
+            "lat": 22.761119,
+            "lng": 108.316587,
+            "name": "大沙田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大沙田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_7",
+            "lat": 22.760761,
+            "lng": 108.323019,
+            "name": "金象大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_8",
+            "lat": 22.76127,
+            "lng": 108.338009,
+            "name": "五象岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_9",
+            "lat": 22.768349,
+            "lng": 108.363447,
+            "name": "玉象路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_10",
+            "lat": 22.767893,
+            "lng": 108.37626,
+            "name": "总部基地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "总部基地",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_11",
+            "lat": 22.766401,
+            "lng": 108.386196,
+            "name": "飞龙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_12",
+            "lat": 22.765326,
+            "lng": 108.392511,
+            "name": "体育中心西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_13",
+            "lat": 22.760766,
+            "lng": 108.399212,
+            "name": "体育中心东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_14",
+            "lat": 22.753988,
+            "lng": 108.40648,
+            "name": "良庆大桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_15",
+            "lat": 22.75298,
+            "lng": 108.417972,
+            "name": "良庆圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_16",
+            "lat": 22.754442,
+            "lng": 108.428415,
+            "name": "楞塘村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_17",
+            "lat": 22.759331,
+            "lng": 108.453281,
+            "name": "清平坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN4_18",
+            "lat": 22.763365,
+            "lng": 108.465571,
+            "name": "龙岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NN5",
+        "name": "南宁地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3767C8",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 19,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanning_NN5_1",
+            "lat": 22.754059,
+            "lng": 108.27162,
+            "name": "国凯大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_2",
+            "lat": 22.760745,
+            "lng": 108.27105,
+            "name": "那洪立交站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "那洪立交",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_3",
+            "lat": 22.768715,
+            "lng": 108.271389,
+            "name": "金凯路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_4",
+            "lat": 22.780724,
+            "lng": 108.271647,
+            "name": "江南公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_5",
+            "lat": 22.789391,
+            "lng": 108.272043,
+            "name": "周家坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_6",
+            "lat": 22.80095,
+            "lng": 108.275765,
+            "name": "五一立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_7",
+            "lat": 22.818549,
+            "lng": 108.286393,
+            "name": "新秀公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_8",
+            "lat": 22.83122,
+            "lng": 108.292266,
+            "name": "广西大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广西大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_9",
+            "lat": 22.837259,
+            "lng": 108.305774,
+            "name": "秀灵路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_10",
+            "lat": 22.839234,
+            "lng": 108.312746,
+            "name": "明秀路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "明秀路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_11",
+            "lat": 22.844227,
+            "lng": 108.32195,
+            "name": "北湖南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_12",
+            "lat": 22.848065,
+            "lng": 108.331093,
+            "name": "虎邱站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_13",
+            "lat": 22.853298,
+            "lng": 108.340895,
+            "name": "狮山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_14",
+            "lat": 22.856308,
+            "lng": 108.356134,
+            "name": "小鸡村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小鸡村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_15",
+            "lat": 22.856743,
+            "lng": 108.363967,
+            "name": "邕宾立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_16",
+            "lat": 22.862716,
+            "lng": 108.373982,
+            "name": "降桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanning_NN5_17",
+            "lat": 22.864623,
+            "lng": 108.385092,
+            "name": "金桥客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

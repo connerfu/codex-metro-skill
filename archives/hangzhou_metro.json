@@ -1,0 +1,5530 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:05:55.450Z",
+  "data": {
+    "cityKey": "hangzhou",
+    "lineCounter": 18,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "HZ1",
+        "name": "杭州地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF3333",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 45,
+        "freqOff": 23,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ1_1",
+            "lat": 30.167577,
+            "lng": 120.234376,
+            "name": "湘湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_2",
+            "lat": 30.182966,
+            "lng": 120.232589,
+            "name": "滨康路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滨康路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_3",
+            "lat": 30.187305,
+            "lng": 120.220429,
+            "name": "西兴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_4",
+            "lat": 30.199551,
+            "lng": 120.217551,
+            "name": "滨和路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_5",
+            "lat": 30.209104,
+            "lng": 120.216591,
+            "name": "江陵路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江陵路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_6",
+            "lat": 30.230794,
+            "lng": 120.19785,
+            "name": "近江站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "近江",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_7",
+            "lat": 30.236821,
+            "lng": 120.191099,
+            "name": "婺江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_8",
+            "lat": 30.244719,
+            "lng": 120.180767,
+            "name": "城站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "城站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_9",
+            "lat": 30.245944,
+            "lng": 120.167746,
+            "name": "定安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_10",
+            "lat": 30.254638,
+            "lng": 120.164049,
+            "name": "龙翔桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_11",
+            "lat": 30.2639,
+            "lng": 120.163625,
+            "name": "凤起路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "凤起路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_12",
+            "lat": 30.27237,
+            "lng": 120.16432,
+            "name": "武林广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武林广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_13",
+            "lat": 30.28103,
+            "lng": 120.165526,
+            "name": "西湖文化广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西湖文化广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_14",
+            "lat": 30.285429,
+            "lng": 120.17673,
+            "name": "打铁关站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "打铁关",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_15",
+            "lat": 30.284463,
+            "lng": 120.192351,
+            "name": "闸弄口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_16",
+            "lat": 30.291465,
+            "lng": 120.213227,
+            "name": "火车东站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_17",
+            "lat": 30.294065,
+            "lng": 120.223661,
+            "name": "彭埠站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "彭埠",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_18",
+            "lat": 30.300001,
+            "lng": 120.241061,
+            "name": "七堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_19",
+            "lat": 30.305809,
+            "lng": 120.252776,
+            "name": "九和路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_20",
+            "lat": 30.307737,
+            "lng": 120.266431,
+            "name": "九堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_21",
+            "lat": 30.311142,
+            "lng": 120.278834,
+            "name": "客运中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "客运中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_22",
+            "lat": 30.309914,
+            "lng": 120.312531,
+            "name": "下沙西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_23",
+            "lat": 30.309244,
+            "lng": 120.32572,
+            "name": "金沙湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_24",
+            "lat": 30.309418,
+            "lng": 120.335409,
+            "name": "高沙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_25",
+            "lat": 30.31006,
+            "lng": 120.350051,
+            "name": "文泽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_26",
+            "lat": 30.310986,
+            "lng": 120.375051,
+            "name": "文海南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文海南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_27",
+            "lat": 30.302894,
+            "lng": 120.381786,
+            "name": "云水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_28",
+            "lat": 30.286768,
+            "lng": 120.381723,
+            "name": "下沙江滨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_29",
+            "lat": 30.271186,
+            "lng": 120.411963,
+            "name": "杭州大会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_30",
+            "lat": 30.270676,
+            "lng": 120.426085,
+            "name": "港城大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_31",
+            "lat": 30.27011,
+            "lng": 120.436287,
+            "name": "南阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_32",
+            "lat": 30.260145,
+            "lng": 120.442495,
+            "name": "向阳路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ1_33",
+            "lat": 30.235566,
+            "lng": 120.43311,
+            "name": "萧山国际机场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "萧山国际机场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ2",
+        "name": "杭州地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF9333",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ2_1",
+            "lat": 30.122234,
+            "lng": 120.268221,
+            "name": "朝阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_2",
+            "lat": 30.13452,
+            "lng": 120.267846,
+            "name": "曹家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_3",
+            "lat": 30.148185,
+            "lng": 120.267642,
+            "name": "潘水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_4",
+            "lat": 30.159176,
+            "lng": 120.267497,
+            "name": "人民路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_5",
+            "lat": 30.170617,
+            "lng": 120.267202,
+            "name": "杭发厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_6",
+            "lat": 30.181087,
+            "lng": 120.266803,
+            "name": "人民广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_7",
+            "lat": 30.194044,
+            "lng": 120.266531,
+            "name": "建设一路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_8",
+            "lat": 30.204467,
+            "lng": 120.268237,
+            "name": "建设三路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建设三路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_9",
+            "lat": 30.217697,
+            "lng": 120.269214,
+            "name": "振宁路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_10",
+            "lat": 30.230945,
+            "lng": 120.263313,
+            "name": "飞虹路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_11",
+            "lat": 30.237055,
+            "lng": 120.252369,
+            "name": "盈丰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_12",
+            "lat": 30.240764,
+            "lng": 120.24372,
+            "name": "钱江世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钱江世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_13",
+            "lat": 30.255608,
+            "lng": 120.214062,
+            "name": "钱江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钱江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_14",
+            "lat": 30.257602,
+            "lng": 120.204746,
+            "name": "庆春广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_15",
+            "lat": 30.257615,
+            "lng": 120.193077,
+            "name": "庆菱路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_16",
+            "lat": 30.26456,
+            "lng": 120.180733,
+            "name": "建国北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建国北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_17",
+            "lat": 30.264602,
+            "lng": 120.172418,
+            "name": "中河北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_18",
+            "lat": 30.2639,
+            "lng": 120.163625,
+            "name": "凤起路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "凤起路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_19",
+            "lat": 30.270633,
+            "lng": 120.155096,
+            "name": "武林门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武林门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_20",
+            "lat": 30.280151,
+            "lng": 120.150211,
+            "name": "沈塘桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈塘桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_21",
+            "lat": 30.283329,
+            "lng": 120.140118,
+            "name": "下宁桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_22",
+            "lat": 30.282744,
+            "lng": 120.129578,
+            "name": "学院路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "学院路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_23",
+            "lat": 30.282192,
+            "lng": 120.117917,
+            "name": "古翠路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_24",
+            "lat": 30.281902,
+            "lng": 120.109616,
+            "name": "丰潭路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_25",
+            "lat": 30.289267,
+            "lng": 120.098168,
+            "name": "文新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_26",
+            "lat": 30.300041,
+            "lng": 120.0979,
+            "name": "三坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_27",
+            "lat": 30.309591,
+            "lng": 120.096366,
+            "name": "虾龙圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_28",
+            "lat": 30.320029,
+            "lng": 120.093007,
+            "name": "三墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_29",
+            "lat": 30.331665,
+            "lng": 120.087595,
+            "name": "墩祥街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_30",
+            "lat": 30.339119,
+            "lng": 120.083925,
+            "name": "金家渡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金家渡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_31",
+            "lat": 30.351161,
+            "lng": 120.07288,
+            "name": "白洋站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_32",
+            "lat": 30.359049,
+            "lng": 120.056529,
+            "name": "杜甫村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ2_33",
+            "lat": 30.358993,
+            "lng": 120.041638,
+            "name": "良渚站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ3",
+        "name": "杭州地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFCC00",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 42,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ3_1",
+            "lat": 30.38924,
+            "lng": 120.263583,
+            "name": "星桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_2",
+            "lat": 30.380954,
+            "lng": 120.246438,
+            "name": "黄鹤山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_3",
+            "lat": 30.370395,
+            "lng": 120.237758,
+            "name": "华鹤街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_4",
+            "lat": 30.355788,
+            "lng": 120.234606,
+            "name": "丁桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_5",
+            "lat": 30.351469,
+            "lng": 120.22131,
+            "name": "桃花湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_6",
+            "lat": 30.344383,
+            "lng": 120.211869,
+            "name": "同协路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_7",
+            "lat": 30.34005,
+            "lng": 120.204381,
+            "name": "华丰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_8",
+            "lat": 30.334897,
+            "lng": 120.188319,
+            "name": "汽轮广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_9",
+            "lat": 30.321171,
+            "lng": 120.179576,
+            "name": "新天地街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新天地街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_10",
+            "lat": 30.316476,
+            "lng": 120.159799,
+            "name": "善贤站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "善贤",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_11",
+            "lat": 30.307816,
+            "lng": 120.149143,
+            "name": "大关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_12",
+            "lat": 30.299978,
+            "lng": 120.148795,
+            "name": "香积寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_13",
+            "lat": 30.290313,
+            "lng": 120.158795,
+            "name": "潮王路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_14",
+            "lat": 30.28103,
+            "lng": 120.165526,
+            "name": "西湖文化广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西湖文化广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_15",
+            "lat": 30.27237,
+            "lng": 120.16432,
+            "name": "武林广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武林广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_16",
+            "lat": 30.270633,
+            "lng": 120.155096,
+            "name": "武林门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "武林门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_17",
+            "lat": 30.265391,
+            "lng": 120.140447,
+            "name": "黄龙洞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_18",
+            "lat": 30.268157,
+            "lng": 120.128916,
+            "name": "黄龙体育中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄龙体育中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_19",
+            "lat": 30.270845,
+            "lng": 120.122456,
+            "name": "古荡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_20",
+            "lat": 30.269787,
+            "lng": 120.111228,
+            "name": "古荡新村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_21",
+            "lat": 30.265368,
+            "lng": 120.101974,
+            "name": "古墩路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_22",
+            "lat": 30.26217,
+            "lng": 120.089525,
+            "name": "东岳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_23",
+            "lat": 30.260756,
+            "lng": 120.07672,
+            "name": "花坞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_24",
+            "lat": 30.253856,
+            "lng": 120.061777,
+            "name": "西溪湿地南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_25",
+            "lat": 30.241049,
+            "lng": 120.052101,
+            "name": "留下站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "留下",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_26",
+            "lat": 30.24829,
+            "lng": 120.050367,
+            "name": "洪园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_27",
+            "lat": 30.244062,
+            "lng": 120.032496,
+            "name": "联胜路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_28",
+            "lat": 30.242876,
+            "lng": 120.019494,
+            "name": "高教路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_29",
+            "lat": 30.246865,
+            "lng": 120.008117,
+            "name": "全丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_30",
+            "lat": 30.26014,
+            "lng": 119.992062,
+            "name": "绿汀路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "绿汀路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_31",
+            "lat": 30.274986,
+            "lng": 119.980645,
+            "name": "文一西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_32",
+            "lat": 30.287953,
+            "lng": 119.983167,
+            "name": "龙舟北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_33",
+            "lat": 30.297877,
+            "lng": 119.986524,
+            "name": "火车西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3_34",
+            "lat": 30.311357,
+            "lng": 119.980175,
+            "name": "吴山前村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ4",
+        "name": "杭州地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#66CB33",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ4_1",
+            "lat": 30.327625,
+            "lng": 120.068508,
+            "name": "池华街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_2",
+            "lat": 30.339119,
+            "lng": 120.083925,
+            "name": "金家渡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金家渡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_3",
+            "lat": 30.350198,
+            "lng": 120.100048,
+            "name": "好运街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_4",
+            "lat": 30.353534,
+            "lng": 120.114462,
+            "name": "杭行路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "杭行路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_5",
+            "lat": 30.353879,
+            "lng": 120.128244,
+            "name": "储运路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_6",
+            "lat": 30.357181,
+            "lng": 120.145291,
+            "name": "平安桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_7",
+            "lat": 30.357111,
+            "lng": 120.161386,
+            "name": "独城生态公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_8",
+            "lat": 30.351087,
+            "lng": 120.1693,
+            "name": "吴家角港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_9",
+            "lat": 30.341495,
+            "lng": 120.178547,
+            "name": "桃源街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_10",
+            "lat": 30.330409,
+            "lng": 120.172196,
+            "name": "皋亭坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_11",
+            "lat": 30.321171,
+            "lng": 120.179576,
+            "name": "新天地街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新天地街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_12",
+            "lat": 30.32398,
+            "lng": 120.200065,
+            "name": "华中南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_13",
+            "lat": 30.32301,
+            "lng": 120.219649,
+            "name": "笕桥老街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_14",
+            "lat": 30.315459,
+            "lng": 120.223619,
+            "name": "黎明站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_15",
+            "lat": 30.303567,
+            "lng": 120.227421,
+            "name": "明石路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_16",
+            "lat": 30.294065,
+            "lng": 120.223661,
+            "name": "彭埠站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "彭埠",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_17",
+            "lat": 30.291465,
+            "lng": 120.213227,
+            "name": "火车东站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_18",
+            "lat": 30.287244,
+            "lng": 120.208076,
+            "name": "新风站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_19",
+            "lat": 30.276004,
+            "lng": 120.20738,
+            "name": "新塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_20",
+            "lat": 30.264903,
+            "lng": 120.20771,
+            "name": "景芳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_21",
+            "lat": 30.255608,
+            "lng": 120.214062,
+            "name": "钱江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钱江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_22",
+            "lat": 30.249724,
+            "lng": 120.215564,
+            "name": "江锦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_23",
+            "lat": 30.243546,
+            "lng": 120.210092,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_24",
+            "lat": 30.239643,
+            "lng": 120.20695,
+            "name": "城星路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_25",
+            "lat": 30.230794,
+            "lng": 120.19785,
+            "name": "近江站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "近江",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_26",
+            "lat": 30.223285,
+            "lng": 120.189454,
+            "name": "甬江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_27",
+            "lat": 30.217294,
+            "lng": 120.177385,
+            "name": "南星桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南星桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_28",
+            "lat": 30.210294,
+            "lng": 120.163406,
+            "name": "复兴路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_29",
+            "lat": 30.204082,
+            "lng": 120.151937,
+            "name": "水澄桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_30",
+            "lat": 30.186658,
+            "lng": 120.152022,
+            "name": "联庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_31",
+            "lat": 30.175816,
+            "lng": 120.146422,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_32",
+            "lat": 30.167821,
+            "lng": 120.148846,
+            "name": "杨家墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ4_33",
+            "lat": 30.158656,
+            "lng": 120.153937,
+            "name": "浦沿站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ5",
+        "name": "杭州地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#22B5DD",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 50,
+        "freqOff": 25,
+        "freqLow": 17,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ5_1",
+            "lat": 30.260025,
+            "lng": 119.946983,
+            "name": "南湖东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_2",
+            "lat": 30.26504,
+            "lng": 119.966527,
+            "name": "金星站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_3",
+            "lat": 30.26014,
+            "lng": 119.992062,
+            "name": "绿汀路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "绿汀路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_4",
+            "lat": 30.270354,
+            "lng": 119.998816,
+            "name": "葛巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_5",
+            "lat": 30.278107,
+            "lng": 119.99803,
+            "name": "创景路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "创景路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_6",
+            "lat": 30.285677,
+            "lng": 120.007356,
+            "name": "良睦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_7",
+            "lat": 30.288592,
+            "lng": 120.01721,
+            "name": "杭师大仓前站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_8",
+            "lat": 30.291573,
+            "lng": 120.027055,
+            "name": "永福站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_9",
+            "lat": 30.296282,
+            "lng": 120.044885,
+            "name": "五常站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_10",
+            "lat": 30.294839,
+            "lng": 120.06735,
+            "name": "蒋村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_11",
+            "lat": 30.294163,
+            "lng": 120.076706,
+            "name": "浙大紫金港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_12",
+            "lat": 30.300041,
+            "lng": 120.0979,
+            "name": "三坝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三坝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_13",
+            "lat": 30.302803,
+            "lng": 120.112746,
+            "name": "萍水街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_14",
+            "lat": 30.309639,
+            "lng": 120.120405,
+            "name": "和睦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和睦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_15",
+            "lat": 30.319277,
+            "lng": 120.131341,
+            "name": "大运河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_16",
+            "lat": 30.317063,
+            "lng": 120.147972,
+            "name": "拱宸桥东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_17",
+            "lat": 30.316476,
+            "lng": 120.159799,
+            "name": "善贤站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "善贤",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_18",
+            "lat": 30.31603,
+            "lng": 120.169932,
+            "name": "西文街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_19",
+            "lat": 30.308323,
+            "lng": 120.175847,
+            "name": "东新园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_20",
+            "lat": 30.295541,
+            "lng": 120.178913,
+            "name": "杭氧站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_21",
+            "lat": 30.285429,
+            "lng": 120.17673,
+            "name": "打铁关站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "打铁关",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_22",
+            "lat": 30.271801,
+            "lng": 120.179869,
+            "name": "宝善桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_23",
+            "lat": 30.26456,
+            "lng": 120.180733,
+            "name": "建国北路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建国北路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_24",
+            "lat": 30.252905,
+            "lng": 120.180419,
+            "name": "万安桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_25",
+            "lat": 30.244719,
+            "lng": 120.180767,
+            "name": "城站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "城站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_26",
+            "lat": 30.238556,
+            "lng": 120.178202,
+            "name": "江城路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江城路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_27",
+            "lat": 30.226061,
+            "lng": 120.173156,
+            "name": "候潮门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_28",
+            "lat": 30.217294,
+            "lng": 120.177385,
+            "name": "南星桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南星桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_29",
+            "lat": 30.197251,
+            "lng": 120.193935,
+            "name": "长河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长河",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_30",
+            "lat": 30.182428,
+            "lng": 120.198802,
+            "name": "聚才路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_31",
+            "lat": 30.181577,
+            "lng": 120.211044,
+            "name": "江晖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_32",
+            "lat": 30.182966,
+            "lng": 120.232589,
+            "name": "滨康路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滨康路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_33",
+            "lat": 30.182339,
+            "lng": 120.244166,
+            "name": "博奥路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_34",
+            "lat": 30.181693,
+            "lng": 120.253419,
+            "name": "金鸡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_35",
+            "lat": 30.181087,
+            "lng": 120.266803,
+            "name": "人民广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_36",
+            "lat": 30.180795,
+            "lng": 120.27591,
+            "name": "育才北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_37",
+            "lat": 30.180486,
+            "lng": 120.285181,
+            "name": "通惠中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_38",
+            "lat": 30.172667,
+            "lng": 120.29733,
+            "name": "火车南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_39",
+            "lat": 30.173138,
+            "lng": 120.308767,
+            "name": "双桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ5_40",
+            "lat": 30.175997,
+            "lng": 120.330315,
+            "name": "姑娘桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "姑娘桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ6",
+        "name": "杭州地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0072CE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 39,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ6_1",
+            "lat": 30.301239,
+            "lng": 120.206542,
+            "name": "枸桔弄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_2",
+            "lat": 30.293834,
+            "lng": 120.216321,
+            "name": "火车东站(东广场)站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车东站(东广场)",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_3",
+            "lat": 30.284013,
+            "lng": 120.220569,
+            "name": "元宝塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_4",
+            "lat": 30.276396,
+            "lng": 120.222841,
+            "name": "昙花庵路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_5",
+            "lat": 30.266819,
+            "lng": 120.22795,
+            "name": "三堡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三堡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_6",
+            "lat": 30.257689,
+            "lng": 120.247401,
+            "name": "亚运村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_7",
+            "lat": 30.25008,
+            "lng": 120.250262,
+            "name": "丰北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_8",
+            "lat": 30.240764,
+            "lng": 120.24372,
+            "name": "钱江世纪城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钱江世纪城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_9",
+            "lat": 30.232451,
+            "lng": 120.236503,
+            "name": "博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_10",
+            "lat": 30.22407,
+            "lng": 120.232969,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_11",
+            "lat": 30.213218,
+            "lng": 120.223855,
+            "name": "星民站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_12",
+            "lat": 30.209104,
+            "lng": 120.216591,
+            "name": "江陵路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江陵路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_13",
+            "lat": 30.202765,
+            "lng": 120.204801,
+            "name": "江汉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_14",
+            "lat": 30.197251,
+            "lng": 120.193935,
+            "name": "长河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长河",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_15",
+            "lat": 30.190471,
+            "lng": 120.178746,
+            "name": "建业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_16",
+            "lat": 30.18669,
+            "lng": 120.170027,
+            "name": "诚业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_17",
+            "lat": 30.182362,
+            "lng": 120.159058,
+            "name": "伟业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_18",
+            "lat": 30.175816,
+            "lng": 120.146422,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_19",
+            "lat": 30.168708,
+            "lng": 120.137627,
+            "name": "西浦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_20",
+            "lat": 30.157962,
+            "lng": 120.107709,
+            "name": "之江文化中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_21",
+            "lat": 30.155259,
+            "lng": 120.098965,
+            "name": "枫桦西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_22",
+            "lat": 30.151171,
+            "lng": 120.081327,
+            "name": "美院象山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_23",
+            "lat": 30.143229,
+            "lng": 120.073171,
+            "name": "霞鸣街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "霞鸣街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_24",
+            "lat": 30.147798,
+            "lng": 120.056646,
+            "name": "音乐学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_25",
+            "lat": 30.147278,
+            "lng": 120.038735,
+            "name": "中村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_26",
+            "lat": 30.146815,
+            "lng": 120.001638,
+            "name": "野生动物园东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_27",
+            "lat": 30.139631,
+            "lng": 119.988609,
+            "name": "银湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_28",
+            "lat": 30.131005,
+            "lng": 119.971283,
+            "name": "虎啸杏站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_29",
+            "lat": 30.12242,
+            "lng": 119.960745,
+            "name": "受降站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_30",
+            "lat": 30.111223,
+            "lng": 119.93663,
+            "name": "富阳客运中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_31",
+            "lat": 30.09475,
+            "lng": 119.931425,
+            "name": "高桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_32",
+            "lat": 30.082162,
+            "lng": 119.932157,
+            "name": "阳陂湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_33",
+            "lat": 30.065493,
+            "lng": 119.933387,
+            "name": "公望街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6_34",
+            "lat": 30.047424,
+            "lng": 119.934266,
+            "name": "桂花西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ7",
+        "name": "杭州地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#983CAF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ7_1",
+            "lat": 30.239817,
+            "lng": 120.163241,
+            "name": "吴山广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_2",
+            "lat": 30.238556,
+            "lng": 120.178202,
+            "name": "江城路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "江城路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_3",
+            "lat": 30.24332,
+            "lng": 120.187054,
+            "name": "莫邪塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_4",
+            "lat": 30.247071,
+            "lng": 120.201607,
+            "name": "观音塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "观音塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_5",
+            "lat": 30.243546,
+            "lng": 120.210092,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_6",
+            "lat": 30.22407,
+            "lng": 120.232969,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_7",
+            "lat": 30.212131,
+            "lng": 120.238589,
+            "name": "兴议站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_8",
+            "lat": 30.204717,
+            "lng": 120.248727,
+            "name": "明星路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_9",
+            "lat": 30.204467,
+            "lng": 120.268237,
+            "name": "建设三路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建设三路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_10",
+            "lat": 30.204808,
+            "lng": 120.295184,
+            "name": "新兴路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_11",
+            "lat": 30.202984,
+            "lng": 120.306505,
+            "name": "新汉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_12",
+            "lat": 30.199366,
+            "lng": 120.330918,
+            "name": "新街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_13",
+            "lat": 30.198103,
+            "lng": 120.343648,
+            "name": "合欢路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_14",
+            "lat": 30.197712,
+            "lng": 120.36303,
+            "name": "盈中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_15",
+            "lat": 30.197783,
+            "lng": 120.395095,
+            "name": "坎山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_16",
+            "lat": 30.219228,
+            "lng": 120.408412,
+            "name": "新港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_17",
+            "lat": 30.235566,
+            "lng": 120.43311,
+            "name": "萧山国际机场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "萧山国际机场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_18",
+            "lat": 30.23648,
+            "lng": 120.473016,
+            "name": "永盛路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永盛路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_19",
+            "lat": 30.258395,
+            "lng": 120.484195,
+            "name": "新镇路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_20",
+            "lat": 30.273878,
+            "lng": 120.487215,
+            "name": "义蓬站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_21",
+            "lat": 30.284489,
+            "lng": 120.490312,
+            "name": "塘新线站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_22",
+            "lat": 30.297644,
+            "lng": 120.492288,
+            "name": "青六中路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青六中路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_23",
+            "lat": 30.311965,
+            "lng": 120.494398,
+            "name": "启成路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ7_24",
+            "lat": 30.323617,
+            "lng": 120.494726,
+            "name": "江东二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ8",
+        "name": "杭州地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CF0072",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 14,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ8_1",
+            "lat": 30.310986,
+            "lng": 120.375051,
+            "name": "文海南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文海南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_2",
+            "lat": 30.310982,
+            "lng": 120.393,
+            "name": "工商大学云滨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_3",
+            "lat": 30.303129,
+            "lng": 120.432442,
+            "name": "桥头堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_4",
+            "lat": 30.298736,
+            "lng": 120.457942,
+            "name": "河庄路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_5",
+            "lat": 30.298255,
+            "lng": 120.477723,
+            "name": "青西三路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_6",
+            "lat": 30.297644,
+            "lng": 120.492288,
+            "name": "青六中路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青六中路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_7",
+            "lat": 30.293843,
+            "lng": 120.507664,
+            "name": "仓北村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_8",
+            "lat": 30.294151,
+            "lng": 120.521325,
+            "name": "冯娄村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ8_9",
+            "lat": 30.294647,
+            "lng": 120.541879,
+            "name": "新湾路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ9",
+        "name": "杭州地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CE4300",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ9_1",
+            "lat": 30.247071,
+            "lng": 120.201607,
+            "name": "观音塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "观音塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_2",
+            "lat": 30.249122,
+            "lng": 120.208871,
+            "name": "新业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_3",
+            "lat": 30.255608,
+            "lng": 120.214062,
+            "name": "钱江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钱江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_4",
+            "lat": 30.261389,
+            "lng": 120.221419,
+            "name": "江河汇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_5",
+            "lat": 30.266819,
+            "lng": 120.22795,
+            "name": "三堡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三堡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_6",
+            "lat": 30.273006,
+            "lng": 120.234982,
+            "name": "御道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "御道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_7",
+            "lat": 30.28065,
+            "lng": 120.242116,
+            "name": "五堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_8",
+            "lat": 30.286303,
+            "lng": 120.251121,
+            "name": "六堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_9",
+            "lat": 30.292957,
+            "lng": 120.263185,
+            "name": "红普南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_10",
+            "lat": 30.305717,
+            "lng": 120.271191,
+            "name": "九睦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_11",
+            "lat": 30.311142,
+            "lng": 120.278834,
+            "name": "客运中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "客运中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_12",
+            "lat": 30.327331,
+            "lng": 120.290689,
+            "name": "乔司南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_13",
+            "lat": 30.34686,
+            "lng": 120.285254,
+            "name": "乔司站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_14",
+            "lat": 30.36483,
+            "lng": 120.295002,
+            "name": "翁梅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_15",
+            "lat": 30.382075,
+            "lng": 120.297845,
+            "name": "临平南高铁站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "临平南高铁站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_16",
+            "lat": 30.394915,
+            "lng": 120.302364,
+            "name": "南苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_17",
+            "lat": 30.406784,
+            "lng": 120.304057,
+            "name": "临平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_18",
+            "lat": 30.420765,
+            "lng": 120.295189,
+            "name": "邱山大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_19",
+            "lat": 30.434064,
+            "lng": 120.284567,
+            "name": "荷禹路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_20",
+            "lat": 30.444744,
+            "lng": 120.278912,
+            "name": "五洲路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ9_21",
+            "lat": 30.455954,
+            "lng": 120.273179,
+            "name": "龙安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ10",
+        "name": "杭州地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#DBA909",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 13,
+        "freqOff": 6,
+        "freqLow": 4,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ10_1",
+            "lat": 30.37891,
+            "lng": 120.113554,
+            "name": "逸盛路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_2",
+            "lat": 30.364384,
+            "lng": 120.114245,
+            "name": "金德路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_3",
+            "lat": 30.353534,
+            "lng": 120.114462,
+            "name": "杭行路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "杭行路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_4",
+            "lat": 30.336761,
+            "lng": 120.116448,
+            "name": "祥园路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_5",
+            "lat": 30.324954,
+            "lng": 120.115368,
+            "name": "渡驾桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_6",
+            "lat": 30.315717,
+            "lng": 120.112956,
+            "name": "花园岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_7",
+            "lat": 30.309639,
+            "lng": 120.120405,
+            "name": "和睦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和睦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_8",
+            "lat": 30.303356,
+            "lng": 120.12985,
+            "name": "北大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_9",
+            "lat": 30.29024,
+            "lng": 120.128894,
+            "name": "翠柏路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_10",
+            "lat": 30.282744,
+            "lng": 120.129578,
+            "name": "学院路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "学院路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_11",
+            "lat": 30.276863,
+            "lng": 120.129961,
+            "name": "文三路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文三路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ10_12",
+            "lat": 30.268157,
+            "lng": 120.128916,
+            "name": "黄龙体育中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄龙体育中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ16",
+        "name": "杭州地铁16号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFBC73",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 19,
+        "freqOff": 10,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ16_1",
+            "lat": 30.26014,
+            "lng": 119.992062,
+            "name": "绿汀路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "绿汀路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_2",
+            "lat": 30.260139,
+            "lng": 119.968837,
+            "name": "凤新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_3",
+            "lat": 30.248767,
+            "lng": 119.955533,
+            "name": "禹航路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_4",
+            "lat": 30.24304,
+            "lng": 119.92943,
+            "name": "中泰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_5",
+            "lat": 30.246784,
+            "lng": 119.899582,
+            "name": "南湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_6",
+            "lat": 30.249796,
+            "lng": 119.878307,
+            "name": "南峰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_7",
+            "lat": 30.257034,
+            "lng": 119.825113,
+            "name": "青山湖科技城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_8",
+            "lat": 30.260998,
+            "lng": 119.776595,
+            "name": "八百里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_9",
+            "lat": 30.255796,
+            "lng": 119.755666,
+            "name": "青山湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_10",
+            "lat": 30.24455,
+            "lng": 119.738328,
+            "name": "农林大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_11",
+            "lat": 30.227828,
+            "lng": 119.706373,
+            "name": "临安广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ16_12",
+            "lat": 30.202055,
+            "lng": 119.695944,
+            "name": "九州街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ19",
+        "name": "杭州地铁19号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#44D0DF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ19_1",
+            "lat": 30.297877,
+            "lng": 119.986524,
+            "name": "火车西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_2",
+            "lat": 30.278107,
+            "lng": 119.99803,
+            "name": "创景路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "创景路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_3",
+            "lat": 30.279992,
+            "lng": 120.020377,
+            "name": "海创园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_4",
+            "lat": 30.286537,
+            "lng": 120.04338,
+            "name": "荆长路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_5",
+            "lat": 30.281845,
+            "lng": 120.069926,
+            "name": "西溪湿地北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_6",
+            "lat": 30.275806,
+            "lng": 120.099104,
+            "name": "五联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_7",
+            "lat": 30.276863,
+            "lng": 120.129961,
+            "name": "文三路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文三路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_8",
+            "lat": 30.280151,
+            "lng": 120.150211,
+            "name": "沈塘桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈塘桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_9",
+            "lat": 30.28103,
+            "lng": 120.165526,
+            "name": "西湖文化广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西湖文化广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_10",
+            "lat": 30.29839,
+            "lng": 120.199174,
+            "name": "驿城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_11",
+            "lat": 30.293834,
+            "lng": 120.216321,
+            "name": "火车东站(东广场)站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火车东站(东广场)",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_12",
+            "lat": 30.273006,
+            "lng": 120.234982,
+            "name": "御道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "御道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_13",
+            "lat": 30.259969,
+            "lng": 120.25855,
+            "name": "平澜路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_14",
+            "lat": 30.240123,
+            "lng": 120.301521,
+            "name": "耕文路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_15",
+            "lat": 30.228363,
+            "lng": 120.335742,
+            "name": "知行路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_16",
+            "lat": 30.235566,
+            "lng": 120.43311,
+            "name": "萧山国际机场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "萧山国际机场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ19_17",
+            "lat": 30.23648,
+            "lng": 120.473016,
+            "name": "永盛路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永盛路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ_HANGZHOU_HAINING_INTERCITY_RAIL",
+        "name": "杭海城际",
+        "_lineNameCustomizedByUser": true,
+        "color": "#008EEF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 36,
+        "freqOff": 18,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_1",
+            "lat": 30.382075,
+            "lng": 120.297845,
+            "name": "临平南高铁站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "临平南高铁站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_2",
+            "lat": 30.410557,
+            "lng": 120.355546,
+            "name": "许村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_3",
+            "lat": 30.439608,
+            "lng": 120.390875,
+            "name": "海宁高铁西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_4",
+            "lat": 30.435184,
+            "lng": 120.438521,
+            "name": "长安（东方学院）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_5",
+            "lat": 30.443465,
+            "lng": 120.460071,
+            "name": "长安东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_6",
+            "lat": 30.449463,
+            "lng": 120.505421,
+            "name": "周王庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_7",
+            "lat": 30.462973,
+            "lng": 120.540337,
+            "name": "盐官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_8",
+            "lat": 30.483535,
+            "lng": 120.587711,
+            "name": "桐九公路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_9",
+            "lat": 30.487788,
+            "lng": 120.617391,
+            "name": "斜桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_10",
+            "lat": 30.506066,
+            "lng": 120.664183,
+            "name": "皮革城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_11",
+            "lat": 30.511177,
+            "lng": 120.691841,
+            "name": "海昌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_HANGZHOU_HAINING_INTERCITY_RAIL_12",
+            "lat": 30.512564,
+            "lng": 120.716785,
+            "name": "浙大国际校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ_SHAOXING_LINE_1",
+        "name": "绍兴地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CB253B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_1",
+            "lat": 30.175997,
+            "lng": 120.330315,
+            "name": "姑娘桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "姑娘桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_2",
+            "lat": 30.163307,
+            "lng": 120.359925,
+            "name": "衙前站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_3",
+            "lat": 30.144402,
+            "lng": 120.365396,
+            "name": "杨汛桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_4",
+            "lat": 30.123966,
+            "lng": 120.394088,
+            "name": "前梅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_5",
+            "lat": 30.122088,
+            "lng": 120.411293,
+            "name": "钱清站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_6",
+            "lat": 30.117464,
+            "lng": 120.426394,
+            "name": "西沙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_7",
+            "lat": 30.11029,
+            "lng": 120.440843,
+            "name": "临杭大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_8",
+            "lat": 30.098634,
+            "lng": 120.457081,
+            "name": "鉴水路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_9",
+            "lat": 30.087075,
+            "lng": 120.480303,
+            "name": "越州大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_10",
+            "lat": 30.08189,
+            "lng": 120.489374,
+            "name": "中国轻纺城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_11",
+            "lat": 30.079343,
+            "lng": 120.49596,
+            "name": "明珠广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_12",
+            "lat": 30.074334,
+            "lng": 120.508978,
+            "name": "瓜渚湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_13",
+            "lat": 30.068677,
+            "lng": 120.521336,
+            "name": "镜水路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_14",
+            "lat": 30.058075,
+            "lng": 120.539694,
+            "name": "黄酒小镇站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄酒小镇",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_15",
+            "lat": 30.056272,
+            "lng": 120.570016,
+            "name": "奥体中心(绍兴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_16",
+            "lat": 30.050005,
+            "lng": 120.57679,
+            "name": "梅山广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "梅山广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_17",
+            "lat": 30.037045,
+            "lng": 120.581685,
+            "name": "凤林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_18",
+            "lat": 30.023392,
+            "lng": 120.582562,
+            "name": "大滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_19",
+            "lat": 30.013129,
+            "lng": 120.58123,
+            "name": "火车站(绍兴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_20",
+            "lat": 30.004047,
+            "lng": 120.581289,
+            "name": "城市广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_21",
+            "lat": 29.991537,
+            "lng": 120.580547,
+            "name": "鲁迅故里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_22",
+            "lat": 29.976014,
+            "lng": 120.580438,
+            "name": "城南大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_23",
+            "lat": 29.963774,
+            "lng": 120.577957,
+            "name": "凤凰山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_24",
+            "lat": 29.951896,
+            "lng": 120.577035,
+            "name": "劳家葑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_25",
+            "lat": 29.939323,
+            "lng": 120.575802,
+            "name": "南池站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_26",
+            "lat": 29.928848,
+            "lng": 120.575392,
+            "name": "栖湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_27",
+            "lat": 29.918241,
+            "lng": 120.570948,
+            "name": "芳泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ_SHAOXING_LINE_2",
+        "name": "绍兴地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#1D4EA0",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 10,
+        "freqOff": 5,
+        "freqLow": 3,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_1",
+            "lat": 30.044264,
+            "lng": 120.558794,
+            "name": "人民医院总院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_2",
+            "lat": 30.050005,
+            "lng": 120.57679,
+            "name": "梅山广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "梅山广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_3",
+            "lat": 30.049597,
+            "lng": 120.589919,
+            "name": "后墅路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_4",
+            "lat": 30.049413,
+            "lng": 120.601088,
+            "name": "袍谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_5",
+            "lat": 30.04933,
+            "lng": 120.612076,
+            "name": "袍中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_6",
+            "lat": 30.049304,
+            "lng": 120.627334,
+            "name": "洋泾湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_7",
+            "lat": 30.049159,
+            "lng": 120.638356,
+            "name": "恂南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_8",
+            "lat": 30.047955,
+            "lng": 120.64933,
+            "name": "豆姜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_2_9",
+            "lat": 30.04445,
+            "lng": 120.662428,
+            "name": "檀渎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ3Z",
+        "name": "杭州地铁3号线(支线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFCC00",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 5,
+        "freqOff": 3,
+        "freqLow": 2,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ3Z_1",
+            "lat": 30.241049,
+            "lng": 120.052101,
+            "name": "留下站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "留下",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3Z_2",
+            "lat": 30.222936,
+            "lng": 120.037253,
+            "name": "屏峰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3Z_3",
+            "lat": 30.211867,
+            "lng": 120.021029,
+            "name": "小和山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ3Z_4",
+            "lat": 30.20672,
+            "lng": 120.01097,
+            "name": "石马站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ6Z",
+        "name": "杭州地铁6号线(支线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0072CE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 3,
+        "freqOff": 1,
+        "freqLow": 1,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ6Z_1",
+            "lat": 30.143229,
+            "lng": 120.073171,
+            "name": "霞鸣街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "霞鸣街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6Z_2",
+            "lat": 30.129543,
+            "lng": 120.087019,
+            "name": "科海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ6Z_3",
+            "lat": 30.11597,
+            "lng": 120.083779,
+            "name": "双浦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          []
+        ]
+      },
+      {
+        "id": "HZ_SHAOXING_LINE_1_BRANCH",
+        "name": "绍兴地铁1号线(支线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CB253B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 6,
+        "freqOff": 3,
+        "freqLow": 2,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_1",
+            "lat": 30.058075,
+            "lng": 120.539694,
+            "name": "黄酒小镇站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄酒小镇",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_2",
+            "lat": 30.06725,
+            "lng": 120.538011,
+            "name": "绍兴一中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_3",
+            "lat": 30.07854,
+            "lng": 120.53804,
+            "name": "湖西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_4",
+            "lat": 30.088117,
+            "lng": 120.538197,
+            "name": "大庆寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_5",
+            "lat": 30.098845,
+            "lng": 120.537514,
+            "name": "绍兴北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "hangzhou_HZ_SHAOXING_LINE_1_BRANCH_6",
+            "lat": 30.100953,
+            "lng": 120.517195,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

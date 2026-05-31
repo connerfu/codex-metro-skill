@@ -1,0 +1,1138 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:05.163Z",
+  "data": {
+    "cityKey": "xiamen",
+    "lineCounter": 3,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "XM1",
+        "name": "厦门地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF9933",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 27,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xiamen_XM1_1",
+            "lat": 24.643122,
+            "lng": 118.070252,
+            "name": "岩内站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_2",
+            "lat": 24.636199,
+            "lng": 118.074088,
+            "name": "厦门北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_3",
+            "lat": 24.625988,
+            "lng": 118.06617,
+            "name": "天水路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_4",
+            "lat": 24.620223,
+            "lng": 118.055538,
+            "name": "集美大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_5",
+            "lat": 24.613367,
+            "lng": 118.047888,
+            "name": "集美软件园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_6",
+            "lat": 24.6037,
+            "lng": 118.054047,
+            "name": "诚毅广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_7",
+            "lat": 24.593642,
+            "lng": 118.058574,
+            "name": "官任站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_8",
+            "lat": 24.581174,
+            "lng": 118.057362,
+            "name": "杏锦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_9",
+            "lat": 24.577028,
+            "lng": 118.061449,
+            "name": "杏林村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_10",
+            "lat": 24.569905,
+            "lng": 118.067157,
+            "name": "园博苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_11",
+            "lat": 24.563914,
+            "lng": 118.092306,
+            "name": "集美学村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_12",
+            "lat": 24.537526,
+            "lng": 118.116842,
+            "name": "高崎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_13",
+            "lat": 24.524896,
+            "lng": 118.116145,
+            "name": "殿前站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_14",
+            "lat": 24.511845,
+            "lng": 118.118752,
+            "name": "火炬园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火炬园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_15",
+            "lat": 24.50629,
+            "lng": 118.122604,
+            "name": "塘边站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_16",
+            "lat": 24.498919,
+            "lng": 118.126509,
+            "name": "乌石浦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_17",
+            "lat": 24.489674,
+            "lng": 118.128121,
+            "name": "吕厝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吕厝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_18",
+            "lat": 24.483483,
+            "lng": 118.122851,
+            "name": "莲花路口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_19",
+            "lat": 24.476111,
+            "lng": 118.1182,
+            "name": "莲坂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_20",
+            "lat": 24.474275,
+            "lng": 118.111591,
+            "name": "湖滨东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "湖滨东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_21",
+            "lat": 24.467718,
+            "lng": 118.103442,
+            "name": "文灶站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_22",
+            "lat": 24.460775,
+            "lng": 118.099816,
+            "name": "将军祠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_23",
+            "lat": 24.455687,
+            "lng": 118.089859,
+            "name": "中山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM1_24",
+            "lat": 24.450496,
+            "lng": 118.082837,
+            "name": "镇海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XM2",
+        "name": "厦门地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#4DBB3D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 36,
+        "freqOff": 18,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xiamen_XM2_1",
+            "lat": 24.578752,
+            "lng": 117.936716,
+            "name": "天竺山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_2",
+            "lat": 24.56636,
+            "lng": 117.947536,
+            "name": "东孚站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_3",
+            "lat": 24.549635,
+            "lng": 117.961778,
+            "name": "东瑶站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_4",
+            "lat": 24.537189,
+            "lng": 117.995298,
+            "name": "新阳大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_5",
+            "lat": 24.530791,
+            "lng": 118.005924,
+            "name": "新垵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_6",
+            "lat": 24.52614,
+            "lng": 118.014486,
+            "name": "翁角路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_7",
+            "lat": 24.493872,
+            "lng": 118.030102,
+            "name": "马青路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_8",
+            "lat": 24.48755,
+            "lng": 118.033095,
+            "name": "海沧行政中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_9",
+            "lat": 24.48092,
+            "lng": 118.03935,
+            "name": "海沧商务中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_10",
+            "lat": 24.48466,
+            "lng": 118.050277,
+            "name": "海沧湾公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_11",
+            "lat": 24.484958,
+            "lng": 118.077126,
+            "name": "邮轮中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_12",
+            "lat": 24.478147,
+            "lng": 118.084014,
+            "name": "建业路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_13",
+            "lat": 24.480505,
+            "lng": 118.094727,
+            "name": "湖滨中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_14",
+            "lat": 24.483625,
+            "lng": 118.10581,
+            "name": "体育中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "体育中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_15",
+            "lat": 24.485496,
+            "lng": 118.113049,
+            "name": "育秀东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_16",
+            "lat": 24.489674,
+            "lng": 118.128121,
+            "name": "吕厝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吕厝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_17",
+            "lat": 24.492316,
+            "lng": 118.137903,
+            "name": "江头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_18",
+            "lat": 24.489758,
+            "lng": 118.145831,
+            "name": "后埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_19",
+            "lat": 24.48714,
+            "lng": 118.153508,
+            "name": "蔡塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_20",
+            "lat": 24.485641,
+            "lng": 118.163646,
+            "name": "古地石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_21",
+            "lat": 24.484294,
+            "lng": 118.173876,
+            "name": "岭兜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_22",
+            "lat": 24.480535,
+            "lng": 118.185158,
+            "name": "软件园二期站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_23",
+            "lat": 24.485217,
+            "lng": 118.192663,
+            "name": "何厝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_24",
+            "lat": 24.493555,
+            "lng": 118.192781,
+            "name": "观音山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_25",
+            "lat": 24.499105,
+            "lng": 118.192872,
+            "name": "东宅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_26",
+            "lat": 24.50547,
+            "lng": 118.193982,
+            "name": "两岸金融中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_27",
+            "lat": 24.511635,
+            "lng": 118.189562,
+            "name": "五通站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_28",
+            "lat": 24.516487,
+            "lng": 118.18357,
+            "name": "湿地公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_29",
+            "lat": 24.523944,
+            "lng": 118.173029,
+            "name": "钟宅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM2_30",
+            "lat": 24.532509,
+            "lng": 118.167026,
+            "name": "五缘湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五缘湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XM3",
+        "name": "厦门地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#30BFD6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 24,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xiamen_XM3_1",
+            "lat": 24.469173,
+            "lng": 118.114746,
+            "name": "厦门火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_2",
+            "lat": 24.474275,
+            "lng": 118.111591,
+            "name": "湖滨东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "湖滨东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_3",
+            "lat": 24.483625,
+            "lng": 118.10581,
+            "name": "体育中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "体育中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_4",
+            "lat": 24.489191,
+            "lng": 118.103288,
+            "name": "人才中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_5",
+            "lat": 24.50674,
+            "lng": 118.105509,
+            "name": "湖里公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_6",
+            "lat": 24.511504,
+            "lng": 118.109275,
+            "name": "华荣路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_7",
+            "lat": 24.511845,
+            "lng": 118.118752,
+            "name": "火炬园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "火炬园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_8",
+            "lat": 24.514115,
+            "lng": 118.125958,
+            "name": "小东山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_9",
+            "lat": 24.517805,
+            "lng": 118.138372,
+            "name": "安兜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_10",
+            "lat": 24.519211,
+            "lng": 118.146724,
+            "name": "坂尚站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_11",
+            "lat": 24.522944,
+            "lng": 118.156133,
+            "name": "湖里创新园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_12",
+            "lat": 24.532509,
+            "lng": 118.167026,
+            "name": "五缘湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五缘湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_13",
+            "lat": 24.55637,
+            "lng": 118.208402,
+            "name": "国际博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_14",
+            "lat": 24.56484,
+            "lng": 118.219421,
+            "name": "东界站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_15",
+            "lat": 24.5715,
+            "lng": 118.226604,
+            "name": "洪坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_16",
+            "lat": 24.576071,
+            "lng": 118.231958,
+            "name": "林前站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_17",
+            "lat": 24.578496,
+            "lng": 118.244151,
+            "name": "鼓锣站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_18",
+            "lat": 24.578779,
+            "lng": 118.253522,
+            "name": "翔安市民公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_19",
+            "lat": 24.58027,
+            "lng": 118.263219,
+            "name": "浦边站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_20",
+            "lat": 24.58017,
+            "lng": 118.271546,
+            "name": "后村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xiamen_XM3_21",
+            "lat": 24.573067,
+            "lng": 118.279399,
+            "name": "蔡厝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

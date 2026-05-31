@@ -1,0 +1,4164 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:13.729Z",
+  "data": {
+    "cityKey": "tianjin",
+    "lineCounter": 13,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "TJ1",
+        "name": "天津地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#D51D33",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 36,
+        "freqOff": 18,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ1_1",
+            "lat": 39.0028,
+            "lng": 117.431299,
+            "name": "双桥河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_2",
+            "lat": 39.012405,
+            "lng": 117.408397,
+            "name": "东沽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_3",
+            "lat": 39.021938,
+            "lng": 117.390744,
+            "name": "国瑞路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_4",
+            "lat": 39.028736,
+            "lng": 117.384203,
+            "name": "国家会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_5",
+            "lat": 39.043102,
+            "lng": 117.360794,
+            "name": "高庄子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_6",
+            "lat": 39.047609,
+            "lng": 117.34489,
+            "name": "洪泥河东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_7",
+            "lat": 39.054451,
+            "lng": 117.31717,
+            "name": "李楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_8",
+            "lat": 39.057188,
+            "lng": 117.292172,
+            "name": "双林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_9",
+            "lat": 39.063938,
+            "lng": 117.276917,
+            "name": "财经大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "财经大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_10",
+            "lat": 39.066159,
+            "lng": 117.261893,
+            "name": "华山里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_11",
+            "lat": 39.077204,
+            "lng": 117.260179,
+            "name": "复兴门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_12",
+            "lat": 39.083496,
+            "lng": 117.248488,
+            "name": "陈塘庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_13",
+            "lat": 39.089217,
+            "lng": 117.232279,
+            "name": "土城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_14",
+            "lat": 39.095996,
+            "lng": 117.223874,
+            "name": "南楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_15",
+            "lat": 39.105252,
+            "lng": 117.222874,
+            "name": "下瓦房站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "下瓦房",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_16",
+            "lat": 39.114857,
+            "lng": 117.215509,
+            "name": "小白楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_17",
+            "lat": 39.118608,
+            "lng": 117.197644,
+            "name": "营口道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "营口道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_18",
+            "lat": 39.120358,
+            "lng": 117.187335,
+            "name": "鞍山道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_19",
+            "lat": 39.122347,
+            "lng": 117.177535,
+            "name": "海光寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海光寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_20",
+            "lat": 39.130316,
+            "lng": 117.174735,
+            "name": "二纬路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_21",
+            "lat": 39.137359,
+            "lng": 117.172005,
+            "name": "西南角站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西南角",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_22",
+            "lat": 39.146567,
+            "lng": 117.171662,
+            "name": "西北角站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_23",
+            "lat": 39.156982,
+            "lng": 117.166783,
+            "name": "西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_24",
+            "lat": 39.170885,
+            "lng": 117.161909,
+            "name": "洪湖里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_25",
+            "lat": 39.178341,
+            "lng": 117.153674,
+            "name": "勤俭道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_26",
+            "lat": 39.185429,
+            "lng": 117.139464,
+            "name": "本溪路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_27",
+            "lat": 39.191972,
+            "lng": 117.128158,
+            "name": "佳园里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_28",
+            "lat": 39.200199,
+            "lng": 117.121857,
+            "name": "瑞景新苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ1_29",
+            "lat": 39.207949,
+            "lng": 117.115904,
+            "name": "刘园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ2",
+        "name": "天津地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E7D737",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 24,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ2_1",
+            "lat": 39.132114,
+            "lng": 117.362631,
+            "name": "滨海国际机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_2",
+            "lat": 39.15766,
+            "lng": 117.334837,
+            "name": "空港经济区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_3",
+            "lat": 39.154094,
+            "lng": 117.309788,
+            "name": "国山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_4",
+            "lat": 39.150497,
+            "lng": 117.295917,
+            "name": "登州路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_5",
+            "lat": 39.147219,
+            "lng": 117.279893,
+            "name": "屿东城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "屿东城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_6",
+            "lat": 39.144001,
+            "lng": 117.257616,
+            "name": "翠阜新村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_7",
+            "lat": 39.142521,
+            "lng": 117.244242,
+            "name": "靖江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "靖江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_8",
+            "lat": 39.141417,
+            "lng": 117.233604,
+            "name": "顺驰桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_9",
+            "lat": 39.136532,
+            "lng": 117.221254,
+            "name": "远洋国际中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_10",
+            "lat": 39.137997,
+            "lng": 117.210707,
+            "name": "天津站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天津站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_11",
+            "lat": 39.139008,
+            "lng": 117.200884,
+            "name": "建国道意风区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_12",
+            "lat": 39.136874,
+            "lng": 117.190433,
+            "name": "东南角站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东南角",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_13",
+            "lat": 39.137125,
+            "lng": 117.181227,
+            "name": "鼓楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_14",
+            "lat": 39.137359,
+            "lng": 117.172005,
+            "name": "西南角站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西南角",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_15",
+            "lat": 39.137651,
+            "lng": 117.161741,
+            "name": "广开四马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_16",
+            "lat": 39.137806,
+            "lng": 117.149442,
+            "name": "长虹公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长虹公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_17",
+            "lat": 39.13777,
+            "lng": 117.13529,
+            "name": "咸阳路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_18",
+            "lat": 39.142667,
+            "lng": 117.119664,
+            "name": "芥园西道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_19",
+            "lat": 39.14623,
+            "lng": 117.109285,
+            "name": "卞兴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ2_20",
+            "lat": 39.145698,
+            "lng": 117.090955,
+            "name": "曹庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ3",
+        "name": "天津地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#24A1DF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ3_1",
+            "lat": 39.057039,
+            "lng": 117.062098,
+            "name": "南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_2",
+            "lat": 39.068317,
+            "lng": 117.069579,
+            "name": "杨伍庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_3",
+            "lat": 39.071875,
+            "lng": 117.078529,
+            "name": "学府工业区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_4",
+            "lat": 39.071883,
+            "lng": 117.098612,
+            "name": "高新区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_5",
+            "lat": 39.072437,
+            "lng": 117.112149,
+            "name": "大学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_6",
+            "lat": 39.087164,
+            "lng": 117.128758,
+            "name": "华苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_7",
+            "lat": 39.092136,
+            "lng": 117.139071,
+            "name": "王顶堤站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_8",
+            "lat": 39.092752,
+            "lng": 117.149479,
+            "name": "红旗南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红旗南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_9",
+            "lat": 39.092727,
+            "lng": 117.163598,
+            "name": "周邓纪念馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_10",
+            "lat": 39.095773,
+            "lng": 117.177755,
+            "name": "天塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_11",
+            "lat": 39.099778,
+            "lng": 117.186141,
+            "name": "吴家窑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吴家窑",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_12",
+            "lat": 39.112218,
+            "lng": 117.188129,
+            "name": "西康路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_13",
+            "lat": 39.118608,
+            "lng": 117.197644,
+            "name": "营口道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "营口道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_14",
+            "lat": 39.126894,
+            "lng": 117.204647,
+            "name": "和平路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和平路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_15",
+            "lat": 39.1319,
+            "lng": 117.207555,
+            "name": "津湾广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_16",
+            "lat": 39.137997,
+            "lng": 117.210707,
+            "name": "天津站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天津站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_17",
+            "lat": 39.151062,
+            "lng": 117.207761,
+            "name": "金狮桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_18",
+            "lat": 39.161829,
+            "lng": 117.205533,
+            "name": "中山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_19",
+            "lat": 39.166658,
+            "lng": 117.207824,
+            "name": "北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_20",
+            "lat": 39.179864,
+            "lng": 117.207297,
+            "name": "铁东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_21",
+            "lat": 39.191453,
+            "lng": 117.215352,
+            "name": "张兴庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "张兴庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_22",
+            "lat": 39.197557,
+            "lng": 117.218598,
+            "name": "宜兴埠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_23",
+            "lat": 39.205894,
+            "lng": 117.215194,
+            "name": "天士力站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_24",
+            "lat": 39.227557,
+            "lng": 117.227679,
+            "name": "华北集团站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_25",
+            "lat": 39.238165,
+            "lng": 117.236017,
+            "name": "丰产河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ3_26",
+            "lat": 39.239181,
+            "lng": 117.25764,
+            "name": "小淀站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ4",
+        "name": "天津地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#228438",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ4_1",
+            "lat": 39.305299,
+            "lng": 117.097704,
+            "name": "小街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_2",
+            "lat": 39.283921,
+            "lng": 117.104789,
+            "name": "郎园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_3",
+            "lat": 39.270874,
+            "lng": 117.107905,
+            "name": "柴楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_4",
+            "lat": 39.262837,
+            "lng": 117.110688,
+            "name": "双街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_5",
+            "lat": 39.252685,
+            "lng": 117.116137,
+            "name": "西赵庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_6",
+            "lat": 39.232694,
+            "lng": 117.124187,
+            "name": "延吉道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_7",
+            "lat": 39.222434,
+            "lng": 117.130224,
+            "name": "北仓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_8",
+            "lat": 39.214636,
+            "lng": 117.138442,
+            "name": "果园南道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_9",
+            "lat": 39.207897,
+            "lng": 117.143955,
+            "name": "南仓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_10",
+            "lat": 39.198768,
+            "lng": 117.15152,
+            "name": "天穆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_11",
+            "lat": 39.188029,
+            "lng": 117.164246,
+            "name": "柳滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_12",
+            "lat": 39.183867,
+            "lng": 117.17154,
+            "name": "白庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_13",
+            "lat": 39.177717,
+            "lng": 117.179641,
+            "name": "北洋桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_14",
+            "lat": 39.172233,
+            "lng": 117.170568,
+            "name": "西沽公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_15",
+            "lat": 39.166515,
+            "lng": 117.166101,
+            "name": "同城商务区西于庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_16",
+            "lat": 39.156982,
+            "lng": 117.166783,
+            "name": "西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_17",
+            "lat": 39.136874,
+            "lng": 117.190433,
+            "name": "东南角站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东南角",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_18",
+            "lat": 39.132153,
+            "lng": 117.191893,
+            "name": "金街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_19",
+            "lat": 39.126894,
+            "lng": 117.204647,
+            "name": "和平路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和平路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_20",
+            "lat": 39.115279,
+            "lng": 117.218588,
+            "name": "徐州道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_21",
+            "lat": 39.11554,
+            "lng": 117.227287,
+            "name": "六纬路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_22",
+            "lat": 39.130049,
+            "lng": 117.245948,
+            "name": "成林道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成林道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_23",
+            "lat": 39.12228,
+            "lng": 117.256626,
+            "name": "泰昌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_24",
+            "lat": 39.119477,
+            "lng": 117.267382,
+            "name": "万东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_25",
+            "lat": 39.117367,
+            "lng": 117.289158,
+            "name": "沙柳南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沙柳南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_26",
+            "lat": 39.116534,
+            "lng": 117.30543,
+            "name": "登州南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_27",
+            "lat": 39.114016,
+            "lng": 117.318812,
+            "name": "跃进北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_28",
+            "lat": 39.111101,
+            "lng": 117.333945,
+            "name": "航双路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_29",
+            "lat": 39.10864,
+            "lng": 117.349261,
+            "name": "民航大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ4_30",
+            "lat": 39.101573,
+            "lng": 117.370477,
+            "name": "新兴村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ5",
+        "name": "天津地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FC7221",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ5_1",
+            "lat": 39.268031,
+            "lng": 117.149754,
+            "name": "北辰科技园北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_2",
+            "lat": 39.252431,
+            "lng": 117.163655,
+            "name": "丹河北道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_3",
+            "lat": 39.24064,
+            "lng": 117.173657,
+            "name": "北辰道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_4",
+            "lat": 39.23103,
+            "lng": 117.181967,
+            "name": "职业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_5",
+            "lat": 39.218578,
+            "lng": 117.192482,
+            "name": "淮河道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_6",
+            "lat": 39.209749,
+            "lng": 117.200005,
+            "name": "辽河北道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_7",
+            "lat": 39.203038,
+            "lng": 117.205421,
+            "name": "宜兴埠北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_8",
+            "lat": 39.191453,
+            "lng": 117.215352,
+            "name": "张兴庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "张兴庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_9",
+            "lat": 39.187113,
+            "lng": 117.219134,
+            "name": "志成路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_10",
+            "lat": 39.182993,
+            "lng": 117.227337,
+            "name": "思源路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_11",
+            "lat": 39.179626,
+            "lng": 117.234645,
+            "name": "建昌道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_12",
+            "lat": 39.171711,
+            "lng": 117.24237,
+            "name": "金钟河大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金钟河大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_13",
+            "lat": 39.164795,
+            "lng": 117.245782,
+            "name": "月牙河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_14",
+            "lat": 39.154122,
+            "lng": 117.244192,
+            "name": "幸福公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_15",
+            "lat": 39.142521,
+            "lng": 117.244242,
+            "name": "靖江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "靖江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_16",
+            "lat": 39.130049,
+            "lng": 117.245948,
+            "name": "成林道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "成林道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_17",
+            "lat": 39.116532,
+            "lng": 117.241392,
+            "name": "津塘路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_18",
+            "lat": 39.111015,
+            "lng": 117.233915,
+            "name": "直沽站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "直沽",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_19",
+            "lat": 39.105252,
+            "lng": 117.222874,
+            "name": "下瓦房站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "下瓦房",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_20",
+            "lat": 39.09518,
+            "lng": 117.216056,
+            "name": "西南楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_21",
+            "lat": 39.088534,
+            "lng": 117.20879,
+            "name": "文化中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文化中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_22",
+            "lat": 39.085327,
+            "lng": 117.198548,
+            "name": "天津宾馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天津宾馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_23",
+            "lat": 39.078996,
+            "lng": 117.184474,
+            "name": "肿瘤医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "肿瘤医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_24",
+            "lat": 39.074731,
+            "lng": 117.172451,
+            "name": "体育中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_25",
+            "lat": 39.068058,
+            "lng": 117.172008,
+            "name": "凌宾路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_26",
+            "lat": 39.056725,
+            "lng": 117.184695,
+            "name": "昌凌路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "昌凌路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_27",
+            "lat": 39.046783,
+            "lng": 117.184753,
+            "name": "中医一附院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_28",
+            "lat": 39.036435,
+            "lng": 117.170656,
+            "name": "李七庄南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ5_29",
+            "lat": 39.031338,
+            "lng": 117.156698,
+            "name": "京华东道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "京华东道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ6",
+        "name": "天津地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CB3EA4",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 34,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ6_1",
+            "lat": 39.045495,
+            "lng": 117.269862,
+            "name": "渌水道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "渌水道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_2",
+            "lat": 39.044816,
+            "lng": 117.254771,
+            "name": "梅林路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_3",
+            "lat": 39.04359,
+            "lng": 117.245878,
+            "name": "洞庭路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_4",
+            "lat": 39.040753,
+            "lng": 117.234011,
+            "name": "解放南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_5",
+            "lat": 39.044311,
+            "lng": 117.217725,
+            "name": "梅江会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_6",
+            "lat": 39.052327,
+            "lng": 117.21756,
+            "name": "梅江公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_7",
+            "lat": 39.06014,
+            "lng": 117.217317,
+            "name": "左江道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_8",
+            "lat": 39.068807,
+            "lng": 117.225607,
+            "name": "梅江道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_9",
+            "lat": 39.081364,
+            "lng": 117.224038,
+            "name": "医大二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "医大二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_10",
+            "lat": 39.087234,
+            "lng": 117.223997,
+            "name": "尖山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_11",
+            "lat": 39.091287,
+            "lng": 117.217338,
+            "name": "乐园道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_12",
+            "lat": 39.088534,
+            "lng": 117.20879,
+            "name": "文化中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文化中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_13",
+            "lat": 39.085327,
+            "lng": 117.198548,
+            "name": "天津宾馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天津宾馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_14",
+            "lat": 39.078996,
+            "lng": 117.184474,
+            "name": "肿瘤医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "肿瘤医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_15",
+            "lat": 39.079511,
+            "lng": 117.173133,
+            "name": "水上公园东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_16",
+            "lat": 39.079962,
+            "lng": 117.158636,
+            "name": "南翠屏站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_17",
+            "lat": 39.086152,
+            "lng": 117.149464,
+            "name": "迎风道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_18",
+            "lat": 39.092752,
+            "lng": 117.149479,
+            "name": "红旗南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红旗南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_19",
+            "lat": 39.103271,
+            "lng": 117.149461,
+            "name": "一中心医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_20",
+            "lat": 39.109225,
+            "lng": 117.149438,
+            "name": "天拖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_21",
+            "lat": 39.11653,
+            "lng": 117.149362,
+            "name": "鞍山西道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_22",
+            "lat": 39.126407,
+            "lng": 117.149457,
+            "name": "宜宾道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_23",
+            "lat": 39.137806,
+            "lng": 117.149442,
+            "name": "长虹公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长虹公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_24",
+            "lat": 39.146505,
+            "lng": 117.1497,
+            "name": "人民医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_25",
+            "lat": 39.155771,
+            "lng": 117.158409,
+            "name": "复兴路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_26",
+            "lat": 39.156982,
+            "lng": 117.166783,
+            "name": "西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_27",
+            "lat": 39.160264,
+            "lng": 117.172769,
+            "name": "北竹林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_28",
+            "lat": 39.168377,
+            "lng": 117.18374,
+            "name": "天泰路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_29",
+            "lat": 39.171288,
+            "lng": 117.191872,
+            "name": "外院附中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_30",
+            "lat": 39.1688,
+            "lng": 117.202942,
+            "name": "新开河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_31",
+            "lat": 39.166658,
+            "lng": 117.207824,
+            "name": "北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_32",
+            "lat": 39.166276,
+            "lng": 117.223157,
+            "name": "北宁公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_33",
+            "lat": 39.168669,
+            "lng": 117.233545,
+            "name": "民权门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_34",
+            "lat": 39.171711,
+            "lng": 117.24237,
+            "name": "金钟河大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金钟河大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_35",
+            "lat": 39.190923,
+            "lng": 117.254157,
+            "name": "徐庄子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_36",
+            "lat": 39.199689,
+            "lng": 117.265336,
+            "name": "金钟街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_37",
+            "lat": 39.203032,
+            "lng": 117.278556,
+            "name": "大毕庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_38",
+            "lat": 39.206352,
+            "lng": 117.291016,
+            "name": "南何庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6_39",
+            "lat": 39.206527,
+            "lng": 117.318352,
+            "name": "南孙庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ6P2",
+        "name": "天津地铁6号线二期",
+        "_lineNameCustomizedByUser": true,
+        "color": "#744198",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 10,
+        "freqOff": 5,
+        "freqLow": 3,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ6P2_1",
+            "lat": 39.045495,
+            "lng": 117.269862,
+            "name": "渌水道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "渌水道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_2",
+            "lat": 39.030278,
+            "lng": 117.277581,
+            "name": "双港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_3",
+            "lat": 39.019466,
+            "lng": 117.284392,
+            "name": "景荷道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_4",
+            "lat": 39.011385,
+            "lng": 117.289637,
+            "name": "景荔道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_5",
+            "lat": 38.992664,
+            "lng": 117.308569,
+            "name": "天津大学北洋园校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_6",
+            "lat": 38.988954,
+            "lng": 117.322185,
+            "name": "海河教育园区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_7",
+            "lat": 38.982841,
+            "lng": 117.341326,
+            "name": "南开大学津南校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_8",
+            "lat": 38.981306,
+            "lng": 117.360345,
+            "name": "和慧南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ6P2_9",
+            "lat": 38.980613,
+            "lng": 117.373832,
+            "name": "咸水沽西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ7",
+        "name": "天津地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C98F41",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 15,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ7_1",
+            "lat": 38.982125,
+            "lng": 117.231985,
+            "name": "赛达路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_2",
+            "lat": 38.99095,
+            "lng": 117.229487,
+            "name": "芦北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_3",
+            "lat": 39.006898,
+            "lng": 117.221999,
+            "name": "宏源道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_4",
+            "lat": 39.018886,
+            "lng": 117.216215,
+            "name": "兴华道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_5",
+            "lat": 39.028823,
+            "lng": 117.218019,
+            "name": "张道口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_6",
+            "lat": 39.036741,
+            "lng": 117.205807,
+            "name": "梅江会展中心南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_7",
+            "lat": 39.050686,
+            "lng": 117.195231,
+            "name": "王兰庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_8",
+            "lat": 39.061418,
+            "lng": 117.192819,
+            "name": "丽江道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丽江道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_9",
+            "lat": 39.078996,
+            "lng": 117.184474,
+            "name": "肿瘤医院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "肿瘤医院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_10",
+            "lat": 39.095773,
+            "lng": 117.177755,
+            "name": "天塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_11",
+            "lat": 39.102745,
+            "lng": 117.179619,
+            "name": "南开大学八里台站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南开大学八里台",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_12",
+            "lat": 39.112839,
+            "lng": 117.179629,
+            "name": "天津大学六里台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_13",
+            "lat": 39.122347,
+            "lng": 117.177535,
+            "name": "海光寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海光寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_14",
+            "lat": 39.128987,
+            "lng": 117.180603,
+            "name": "福安大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ7_15",
+            "lat": 39.137125,
+            "lng": 117.181227,
+            "name": "鼓楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ9",
+        "name": "天津地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0047AF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 43,
+        "freqOff": 22,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ9_1",
+            "lat": 39.137997,
+            "lng": 117.210707,
+            "name": "天津站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天津站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_2",
+            "lat": 39.127224,
+            "lng": 117.218472,
+            "name": "大王庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_3",
+            "lat": 39.121373,
+            "lng": 117.223948,
+            "name": "十一经路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_4",
+            "lat": 39.111015,
+            "lng": 117.233915,
+            "name": "直沽站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "直沽",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_5",
+            "lat": 39.10342,
+            "lng": 117.242569,
+            "name": "东兴路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_6",
+            "lat": 39.100883,
+            "lng": 117.264326,
+            "name": "中山门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_7",
+            "lat": 39.096057,
+            "lng": 117.282942,
+            "name": "一号桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_8",
+            "lat": 39.095182,
+            "lng": 117.29315,
+            "name": "二号桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_9",
+            "lat": 39.092101,
+            "lng": 117.307795,
+            "name": "张贵庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_10",
+            "lat": 39.085874,
+            "lng": 117.336,
+            "name": "新立站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_11",
+            "lat": 39.079404,
+            "lng": 117.357422,
+            "name": "东丽开发区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_12",
+            "lat": 39.064393,
+            "lng": 117.403344,
+            "name": "小东庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_13",
+            "lat": 39.04805,
+            "lng": 117.456099,
+            "name": "军粮城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_14",
+            "lat": 39.039771,
+            "lng": 117.503887,
+            "name": "钢管公司站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_15",
+            "lat": 39.040523,
+            "lng": 117.60737,
+            "name": "胡家园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_16",
+            "lat": 39.029555,
+            "lng": 117.661047,
+            "name": "塘沽站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_17",
+            "lat": 39.025524,
+            "lng": 117.679371,
+            "name": "泰达站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_18",
+            "lat": 39.018178,
+            "lng": 117.703061,
+            "name": "市民广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_19",
+            "lat": 39.019895,
+            "lng": 117.723405,
+            "name": "太湖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_20",
+            "lat": 39.02999,
+            "lng": 117.731698,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ9_21",
+            "lat": 39.040569,
+            "lng": 117.737284,
+            "name": "东海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ10",
+        "name": "天津地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#BEDA00",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ10_1",
+            "lat": 39.046499,
+            "lng": 117.162562,
+            "name": "于台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_2",
+            "lat": 39.054725,
+            "lng": 117.174947,
+            "name": "瑶环路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_3",
+            "lat": 39.056725,
+            "lng": 117.184695,
+            "name": "昌凌路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "昌凌路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_4",
+            "lat": 39.061418,
+            "lng": 117.192819,
+            "name": "丽江道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丽江道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_5",
+            "lat": 39.063798,
+            "lng": 117.205861,
+            "name": "江湾二支路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_6",
+            "lat": 39.063803,
+            "lng": 117.217517,
+            "name": "友谊南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_7",
+            "lat": 39.063638,
+            "lng": 117.230478,
+            "name": "南珠桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_8",
+            "lat": 39.062959,
+            "lng": 117.243056,
+            "name": "春海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_9",
+            "lat": 39.062545,
+            "lng": 117.252718,
+            "name": "玛钢厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_10",
+            "lat": 39.06292,
+            "lng": 117.259747,
+            "name": "微山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_11",
+            "lat": 39.063938,
+            "lng": 117.276917,
+            "name": "财经大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "财经大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_12",
+            "lat": 39.07217,
+            "lng": 117.284778,
+            "name": "柳林路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_13",
+            "lat": 39.085288,
+            "lng": 117.285859,
+            "name": "环宇道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "环宇道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_14",
+            "lat": 39.094455,
+            "lng": 117.287059,
+            "name": "龙涵道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_15",
+            "lat": 39.102815,
+            "lng": 117.287683,
+            "name": "金贸产业园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_16",
+            "lat": 39.110143,
+            "lng": 117.289424,
+            "name": "方山道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_17",
+            "lat": 39.117367,
+            "lng": 117.289158,
+            "name": "沙柳南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沙柳南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_18",
+            "lat": 39.124753,
+            "lng": 117.287626,
+            "name": "万山道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_19",
+            "lat": 39.131684,
+            "lng": 117.28652,
+            "name": "香山道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_20",
+            "lat": 39.138697,
+            "lng": 117.283591,
+            "name": "崂山道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ10_21",
+            "lat": 39.147219,
+            "lng": 117.279893,
+            "name": "屿东城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "屿东城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ11",
+        "name": "天津地铁11号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#135291",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 18,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ11_1",
+            "lat": 39.09981,
+            "lng": 117.164607,
+            "name": "水上公园西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_2",
+            "lat": 39.102745,
+            "lng": 117.179619,
+            "name": "南开大学八里台站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南开大学八里台",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_3",
+            "lat": 39.099778,
+            "lng": 117.186141,
+            "name": "吴家窑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吴家窑",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_4",
+            "lat": 39.099747,
+            "lng": 117.198389,
+            "name": "佟楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_5",
+            "lat": 39.094203,
+            "lng": 117.203107,
+            "name": "迎宾馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_6",
+            "lat": 39.088534,
+            "lng": 117.20879,
+            "name": "文化中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "文化中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_7",
+            "lat": 39.081364,
+            "lng": 117.224038,
+            "name": "医大二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "医大二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_8",
+            "lat": 39.082619,
+            "lng": 117.23352,
+            "name": "澧水道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_9",
+            "lat": 39.077766,
+            "lng": 117.245603,
+            "name": "内江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_10",
+            "lat": 39.070799,
+            "lng": 117.249552,
+            "name": "陈塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_11",
+            "lat": 39.068279,
+            "lng": 117.259946,
+            "name": "东江道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_12",
+            "lat": 39.074215,
+            "lng": 117.272228,
+            "name": "学苑北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_13",
+            "lat": 39.082798,
+            "lng": 117.276516,
+            "name": "海河东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_14",
+            "lat": 39.085288,
+            "lng": 117.285859,
+            "name": "环宇道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "环宇道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_15",
+            "lat": 39.082976,
+            "lng": 117.299945,
+            "name": "雪莲南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_16",
+            "lat": 39.08093,
+            "lng": 117.310734,
+            "name": "招远路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_17",
+            "lat": 39.079027,
+            "lng": 117.328675,
+            "name": "东丽文体中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_18",
+            "lat": 39.076254,
+            "lng": 117.338761,
+            "name": "驯海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_19",
+            "lat": 39.073211,
+            "lng": 117.349853,
+            "name": "东丽一经路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_20",
+            "lat": 39.070241,
+            "lng": 117.358346,
+            "name": "东丽三经路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ11_21",
+            "lat": 39.065194,
+            "lng": 117.374491,
+            "name": "东丽六经路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ_JINJING_LINE",
+        "name": "津静线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F7B5C2",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 10,
+        "freqOff": 5,
+        "freqLow": 3,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ_JINJING_LINE_1",
+            "lat": 39.031338,
+            "lng": 117.156698,
+            "name": "京华东道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "京华东道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_JINJING_LINE_2",
+            "lat": 39.021329,
+            "lng": 117.124678,
+            "name": "精武站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_JINJING_LINE_3",
+            "lat": 38.974129,
+            "lng": 117.086722,
+            "name": "团泊健康城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_JINJING_LINE_4",
+            "lat": 38.949307,
+            "lng": 117.079723,
+            "name": "团泊医学园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "TJ_LINE_Z4",
+        "name": "天津地铁Z4线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#AC89B7",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 18,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "tianjin_TJ_LINE_Z4_1",
+            "lat": 39.227292,
+            "lng": 117.817839,
+            "name": "寨上站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_2",
+            "lat": 39.22134,
+            "lng": 117.830121,
+            "name": "汉沽医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_3",
+            "lat": 39.208927,
+            "lng": 117.850375,
+            "name": "中心渔港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_4",
+            "lat": 39.182938,
+            "lng": 117.8184,
+            "name": "玉砂道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_5",
+            "lat": 39.166615,
+            "lng": 117.802011,
+            "name": "航母公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_6",
+            "lat": 39.150542,
+            "lng": 117.792063,
+            "name": "软件园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_7",
+            "lat": 39.13522,
+            "lng": 117.778867,
+            "name": "绿创园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_8",
+            "lat": 39.118956,
+            "lng": 117.762922,
+            "name": "和顺路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_9",
+            "lat": 39.108333,
+            "lng": 117.752487,
+            "name": "中新生态城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "tianjin_TJ_LINE_Z4_10",
+            "lat": 39.093464,
+            "lng": 117.724427,
+            "name": "北塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

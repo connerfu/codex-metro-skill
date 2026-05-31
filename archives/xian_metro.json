@@ -1,0 +1,4609 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:41.788Z",
+  "data": {
+    "cityKey": "xian",
+    "lineCounter": 14,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "XA1",
+        "name": "西安地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#187DEA",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA1_1",
+            "lat": 34.333614,
+            "lng": 108.662751,
+            "name": "咸阳西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_2",
+            "lat": 34.325186,
+            "lng": 108.665542,
+            "name": "宝泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_3",
+            "lat": 34.313132,
+            "lng": 108.6739,
+            "name": "中华西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_4",
+            "lat": 34.305905,
+            "lng": 108.693441,
+            "name": "安谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_5",
+            "lat": 34.313513,
+            "lng": 108.707071,
+            "name": "陈杨寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_6",
+            "lat": 34.316618,
+            "lng": 108.727076,
+            "name": "白马河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_7",
+            "lat": 34.318316,
+            "lng": 108.738358,
+            "name": "陕西中医药大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_8",
+            "lat": 34.320223,
+            "lng": 108.75287,
+            "name": "沣河森林公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_9",
+            "lat": 34.317346,
+            "lng": 108.763279,
+            "name": "北槐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_10",
+            "lat": 34.313191,
+            "lng": 108.777613,
+            "name": "上林路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上林路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_11",
+            "lat": 34.307253,
+            "lng": 108.796759,
+            "name": "沣东自贸园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_12",
+            "lat": 34.300166,
+            "lng": 108.813537,
+            "name": "后卫寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_13",
+            "lat": 34.289959,
+            "lng": 108.832217,
+            "name": "三桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_14",
+            "lat": 34.284376,
+            "lng": 108.852425,
+            "name": "皂河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_15",
+            "lat": 34.27919,
+            "lng": 108.862596,
+            "name": "枣园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_16",
+            "lat": 34.273046,
+            "lng": 108.873979,
+            "name": "汉城路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_17",
+            "lat": 34.269373,
+            "lng": 108.891513,
+            "name": "开远门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "开远门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_18",
+            "lat": 34.269544,
+            "lng": 108.90976,
+            "name": "劳动路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_19",
+            "lat": 34.269615,
+            "lng": 108.920897,
+            "name": "玉祥门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_20",
+            "lat": 34.269722,
+            "lng": 108.933825,
+            "name": "洒金桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_21",
+            "lat": 34.269931,
+            "lng": 108.947161,
+            "name": "北大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_22",
+            "lat": 34.270012,
+            "lng": 108.962968,
+            "name": "五路口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五路口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_23",
+            "lat": 34.269977,
+            "lng": 108.974072,
+            "name": "朝阳门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_24",
+            "lat": 34.26948,
+            "lng": 108.984469,
+            "name": "康复路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_25",
+            "lat": 34.269498,
+            "lng": 108.995375,
+            "name": "通化门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通化门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_26",
+            "lat": 34.269592,
+            "lng": 109.014321,
+            "name": "万寿路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "万寿路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_27",
+            "lat": 34.272099,
+            "lng": 109.030399,
+            "name": "长乐坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_28",
+            "lat": 34.273997,
+            "lng": 109.044432,
+            "name": "浐河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_29",
+            "lat": 34.275495,
+            "lng": 109.056127,
+            "name": "半坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA1_30",
+            "lat": 34.279463,
+            "lng": 109.069748,
+            "name": "纺织城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "纺织城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA2",
+        "name": "西安地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E83838",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 31,
+        "freqOff": 16,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA2_1",
+            "lat": 34.398906,
+            "lng": 108.959529,
+            "name": "草滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_2",
+            "lat": 34.393444,
+            "lng": 108.945225,
+            "name": "红会医院北区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_3",
+            "lat": 34.378988,
+            "lng": 108.937343,
+            "name": "西安北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西安北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_4",
+            "lat": 34.362029,
+            "lng": 108.945184,
+            "name": "北苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_5",
+            "lat": 34.352437,
+            "lng": 108.947705,
+            "name": "凤城十路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_6",
+            "lat": 34.340974,
+            "lng": 108.947319,
+            "name": "行政中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "行政中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_7",
+            "lat": 34.329787,
+            "lng": 108.947284,
+            "name": "凤城五路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_8",
+            "lat": 34.317856,
+            "lng": 108.947332,
+            "name": "青少年中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青少年中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_9",
+            "lat": 34.305082,
+            "lng": 108.947257,
+            "name": "大明宫西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_10",
+            "lat": 34.292182,
+            "lng": 108.947225,
+            "name": "龙首原站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_11",
+            "lat": 34.281156,
+            "lng": 108.947186,
+            "name": "安远门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_12",
+            "lat": 34.269931,
+            "lng": 108.947161,
+            "name": "北大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_13",
+            "lat": 34.259538,
+            "lng": 108.947064,
+            "name": "钟楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钟楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_14",
+            "lat": 34.248184,
+            "lng": 108.946944,
+            "name": "永宁门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_15",
+            "lat": 34.241199,
+            "lng": 108.946919,
+            "name": "南稍门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南稍门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_16",
+            "lat": 34.232379,
+            "lng": 108.946794,
+            "name": "体育场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_17",
+            "lat": 34.222843,
+            "lng": 108.946767,
+            "name": "小寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_18",
+            "lat": 34.212592,
+            "lng": 108.94666,
+            "name": "八里村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_19",
+            "lat": 34.198093,
+            "lng": 108.947443,
+            "name": "电视塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "电视塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_20",
+            "lat": 34.183024,
+            "lng": 108.945898,
+            "name": "三爻站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_21",
+            "lat": 34.169217,
+            "lng": 108.945206,
+            "name": "凤栖原站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_22",
+            "lat": 34.158,
+            "lng": 108.944648,
+            "name": "航天城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "航天城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_23",
+            "lat": 34.142116,
+            "lng": 108.945507,
+            "name": "韦曲南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_24",
+            "lat": 34.127239,
+            "lng": 108.939888,
+            "name": "何家营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA2_25",
+            "lat": 34.111915,
+            "lng": 108.938529,
+            "name": "常宁宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA3",
+        "name": "西安地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#DD6CB3",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 34,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA3_1",
+            "lat": 34.23798,
+            "lng": 108.848233,
+            "name": "鱼化寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_2",
+            "lat": 34.237395,
+            "lng": 108.873199,
+            "name": "丈八北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_3",
+            "lat": 34.237194,
+            "lng": 108.888305,
+            "name": "延平门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "延平门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_4",
+            "lat": 34.231215,
+            "lng": 108.904305,
+            "name": "科技路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科技路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_5",
+            "lat": 34.225642,
+            "lng": 108.916619,
+            "name": "太白南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_6",
+            "lat": 34.222652,
+            "lng": 108.93328,
+            "name": "吉祥村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_7",
+            "lat": 34.222843,
+            "lng": 108.946767,
+            "name": "小寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "小寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_8",
+            "lat": 34.222812,
+            "lng": 108.963997,
+            "name": "大雁塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大雁塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_9",
+            "lat": 34.223823,
+            "lng": 108.977215,
+            "name": "北池头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_10",
+            "lat": 34.230821,
+            "lng": 108.99393,
+            "name": "青龙寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青龙寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_11",
+            "lat": 34.24414,
+            "lng": 108.996731,
+            "name": "延兴门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_12",
+            "lat": 34.251133,
+            "lng": 108.996742,
+            "name": "咸宁路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "咸宁路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_13",
+            "lat": 34.260657,
+            "lng": 108.996141,
+            "name": "长乐公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_14",
+            "lat": 34.269498,
+            "lng": 108.995375,
+            "name": "通化门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通化门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_15",
+            "lat": 34.277787,
+            "lng": 108.995604,
+            "name": "胡家庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_16",
+            "lat": 34.290893,
+            "lng": 108.995615,
+            "name": "石家街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_17",
+            "lat": 34.304941,
+            "lng": 108.995572,
+            "name": "辛家庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_18",
+            "lat": 34.310845,
+            "lng": 109.014457,
+            "name": "广泰门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广泰门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_19",
+            "lat": 34.311196,
+            "lng": 109.033181,
+            "name": "桃花潭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_20",
+            "lat": 34.316971,
+            "lng": 109.046229,
+            "name": "浐灞中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_21",
+            "lat": 34.330158,
+            "lng": 109.052268,
+            "name": "香湖湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_22",
+            "lat": 34.345272,
+            "lng": 109.047429,
+            "name": "务庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_23",
+            "lat": 34.361127,
+            "lng": 109.039339,
+            "name": "国际港务区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_24",
+            "lat": 34.37131,
+            "lng": 109.04097,
+            "name": "双寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_25",
+            "lat": 34.383088,
+            "lng": 109.042805,
+            "name": "新筑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA3_26",
+            "lat": 34.39559,
+            "lng": 109.044081,
+            "name": "保税区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA4",
+        "name": "西安地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#67C9C0",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 32,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA4_1",
+            "lat": 34.378988,
+            "lng": 108.937343,
+            "name": "西安北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西安北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_2",
+            "lat": 34.367166,
+            "lng": 108.929705,
+            "name": "元鼎路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_3",
+            "lat": 34.359009,
+            "lng": 108.929747,
+            "name": "凤城十二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_4",
+            "lat": 34.348859,
+            "lng": 108.92975,
+            "name": "凤城九路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_5",
+            "lat": 34.340983,
+            "lng": 108.936705,
+            "name": "文景路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_6",
+            "lat": 34.340974,
+            "lng": 108.947319,
+            "name": "行政中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "行政中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_7",
+            "lat": 34.341014,
+            "lng": 108.960555,
+            "name": "市中医医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_8",
+            "lat": 34.335508,
+            "lng": 108.971638,
+            "name": "常青路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_9",
+            "lat": 34.326476,
+            "lng": 108.971665,
+            "name": "百花村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_10",
+            "lat": 34.317157,
+            "lng": 108.971604,
+            "name": "余家寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "余家寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_11",
+            "lat": 34.308235,
+            "lng": 108.971536,
+            "name": "大明宫北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_12",
+            "lat": 34.296785,
+            "lng": 108.971493,
+            "name": "大明宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_13",
+            "lat": 34.287637,
+            "lng": 108.971499,
+            "name": "含元殿站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_14",
+            "lat": 34.278729,
+            "lng": 108.966218,
+            "name": "西安站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_15",
+            "lat": 34.270012,
+            "lng": 108.962968,
+            "name": "五路口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五路口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_16",
+            "lat": 34.259456,
+            "lng": 108.963066,
+            "name": "大差市站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大差市",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_17",
+            "lat": 34.249791,
+            "lng": 108.963334,
+            "name": "和平门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_18",
+            "lat": 34.241276,
+            "lng": 108.963581,
+            "name": "建筑科技大学路李家村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建筑科技大学路李家村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_19",
+            "lat": 34.233045,
+            "lng": 108.963742,
+            "name": "西安科技大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_20",
+            "lat": 34.222812,
+            "lng": 108.963997,
+            "name": "大雁塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大雁塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_21",
+            "lat": 34.209811,
+            "lng": 108.971225,
+            "name": "大唐芙蓉园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_22",
+            "lat": 34.1975,
+            "lng": 108.975012,
+            "name": "曲江池西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "曲江池西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_23",
+            "lat": 34.180593,
+            "lng": 108.975281,
+            "name": "金滹沱站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_24",
+            "lat": 34.170719,
+            "lng": 108.974476,
+            "name": "航天大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_25",
+            "lat": 34.162365,
+            "lng": 108.974428,
+            "name": "飞天路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_26",
+            "lat": 34.154226,
+            "lng": 108.974502,
+            "name": "东长安街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东长安街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_27",
+            "lat": 34.142477,
+            "lng": 108.983628,
+            "name": "神舟大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_28",
+            "lat": 34.142483,
+            "lng": 108.997105,
+            "name": "航天东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA4_29",
+            "lat": 34.142535,
+            "lng": 109.013094,
+            "name": "航天新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA5",
+        "name": "西安地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A0C93D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA5_1",
+            "lat": 34.2497,
+            "lng": 108.657282,
+            "name": "创新港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_2",
+            "lat": 34.25801,
+            "lng": 108.666661,
+            "name": "创新港东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_3",
+            "lat": 34.268556,
+            "lng": 108.680429,
+            "name": "翱翔小镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_4",
+            "lat": 34.268664,
+            "lng": 108.690701,
+            "name": "钓台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_5",
+            "lat": 34.26869,
+            "lng": 108.701397,
+            "name": "沣西文化公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_6",
+            "lat": 34.26088,
+            "lng": 108.710873,
+            "name": "东马坊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_7",
+            "lat": 34.240894,
+            "lng": 108.717612,
+            "name": "高桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_8",
+            "lat": 34.240562,
+            "lng": 108.72735,
+            "name": "文教园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_9",
+            "lat": 34.244927,
+            "lng": 108.749393,
+            "name": "欢乐谷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "欢乐谷",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_10",
+            "lat": 34.244871,
+            "lng": 108.759128,
+            "name": "镐京站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_11",
+            "lat": 34.244873,
+            "lng": 108.77038,
+            "name": "复兴大道南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_12",
+            "lat": 34.24484,
+            "lng": 108.790561,
+            "name": "斗门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_13",
+            "lat": 34.245229,
+            "lng": 108.805528,
+            "name": "王寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_14",
+            "lat": 34.252449,
+            "lng": 108.825165,
+            "name": "阿房宫南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "阿房宫南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_15",
+            "lat": 34.252415,
+            "lng": 108.834221,
+            "name": "石桥立交站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_16",
+            "lat": 34.252403,
+            "lng": 108.852505,
+            "name": "西窑头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_17",
+            "lat": 34.252367,
+            "lng": 108.872073,
+            "name": "汉城南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_18",
+            "lat": 34.252309,
+            "lng": 108.889576,
+            "name": "金光门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金光门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_19",
+            "lat": 34.246185,
+            "lng": 108.89992,
+            "name": "丰庆公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_20",
+            "lat": 34.240924,
+            "lng": 108.910059,
+            "name": "西北工业大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西北工业大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_21",
+            "lat": 34.241154,
+            "lng": 108.923384,
+            "name": "边家村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_22",
+            "lat": 34.241154,
+            "lng": 108.933233,
+            "name": "省人民医院路黄雁村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_23",
+            "lat": 34.241199,
+            "lng": 108.946919,
+            "name": "南稍门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南稍门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_24",
+            "lat": 34.241184,
+            "lng": 108.955496,
+            "name": "文艺路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_25",
+            "lat": 34.241276,
+            "lng": 108.963581,
+            "name": "建筑科技大学路李家村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建筑科技大学路李家村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_26",
+            "lat": 34.241292,
+            "lng": 108.973867,
+            "name": "太乙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_27",
+            "lat": 34.238299,
+            "lng": 108.989259,
+            "name": "雁翔路北口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_28",
+            "lat": 34.230821,
+            "lng": 108.99393,
+            "name": "青龙寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青龙寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_29",
+            "lat": 34.21873,
+            "lng": 109.00179,
+            "name": "理工大曲江校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_30",
+            "lat": 34.215181,
+            "lng": 109.013871,
+            "name": "黄渠头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_31",
+            "lat": 34.219586,
+            "lng": 109.027974,
+            "name": "马腾空站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马腾空",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_32",
+            "lat": 34.220378,
+            "lng": 109.038458,
+            "name": "月登阁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA5_33",
+            "lat": 34.222438,
+            "lng": 109.050998,
+            "name": "雁鸣湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA6",
+        "name": "西安地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#6C5ECC",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA6_1",
+            "lat": 34.121428,
+            "lng": 108.815384,
+            "name": "西安南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_2",
+            "lat": 34.13225,
+            "lng": 108.830463,
+            "name": "西电科大南校区路未来之瞳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_3",
+            "lat": 34.145421,
+            "lng": 108.838779,
+            "name": "西安国际医学中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_4",
+            "lat": 34.150915,
+            "lng": 108.845169,
+            "name": "仁村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_5",
+            "lat": 34.159847,
+            "lng": 108.847275,
+            "name": "郭杜西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "郭杜西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_6",
+            "lat": 34.170489,
+            "lng": 108.846516,
+            "name": "西部大道（西太路口）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_7",
+            "lat": 34.180913,
+            "lng": 108.846532,
+            "name": "造字台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_8",
+            "lat": 34.193855,
+            "lng": 108.856635,
+            "name": "丈八六路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_9",
+            "lat": 34.193834,
+            "lng": 108.8705,
+            "name": "丈八四路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_10",
+            "lat": 34.193835,
+            "lng": 108.884741,
+            "name": "丈八一路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_11",
+            "lat": 34.202994,
+            "lng": 108.889729,
+            "name": "省体育馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省体育馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_12",
+            "lat": 34.212171,
+            "lng": 108.892039,
+            "name": "木塔寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_13",
+            "lat": 34.223362,
+            "lng": 108.89925,
+            "name": "甘家寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_14",
+            "lat": 34.231215,
+            "lng": 108.904305,
+            "name": "科技路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科技路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_15",
+            "lat": 34.240924,
+            "lng": 108.910059,
+            "name": "西北工业大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西北工业大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_16",
+            "lat": 34.251561,
+            "lng": 108.910058,
+            "name": "大唐西市站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_17",
+            "lat": 34.259304,
+            "lng": 108.922218,
+            "name": "安定门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_18",
+            "lat": 34.259393,
+            "lng": 108.930238,
+            "name": "桥梓口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_19",
+            "lat": 34.259384,
+            "lng": 108.939473,
+            "name": "广济街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_20",
+            "lat": 34.259538,
+            "lng": 108.947064,
+            "name": "钟楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "钟楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_21",
+            "lat": 34.259456,
+            "lng": 108.963066,
+            "name": "大差市站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大差市",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_22",
+            "lat": 34.259249,
+            "lng": 108.975507,
+            "name": "长乐门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_23",
+            "lat": 34.251128,
+            "lng": 108.987284,
+            "name": "交通大学路兴庆宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_24",
+            "lat": 34.251133,
+            "lng": 108.996742,
+            "name": "咸宁路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "咸宁路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_25",
+            "lat": 34.251147,
+            "lng": 109.00707,
+            "name": "公园南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_26",
+            "lat": 34.251185,
+            "lng": 109.014376,
+            "name": "万寿南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "万寿南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_27",
+            "lat": 34.251104,
+            "lng": 109.026405,
+            "name": "卫星测控中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_28",
+            "lat": 34.251569,
+            "lng": 109.038094,
+            "name": "田家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_29",
+            "lat": 34.251416,
+            "lng": 109.056722,
+            "name": "穆将王站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_30",
+            "lat": 34.257807,
+            "lng": 109.064167,
+            "name": "纺六路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_31",
+            "lat": 34.269802,
+            "lng": 109.063038,
+            "name": "纺二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA6_32",
+            "lat": 34.279463,
+            "lng": 109.069748,
+            "name": "纺织城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "纺织城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA8",
+        "name": "西安地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F4B019",
+        "isRing": true,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 44,
+        "freqOff": 22,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA8_1",
+            "lat": 34.31722,
+            "lng": 109.002763,
+            "name": "北辰东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_2",
+            "lat": 34.317183,
+            "lng": 108.984197,
+            "name": "井上村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "井上村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_3",
+            "lat": 34.317157,
+            "lng": 108.971604,
+            "name": "余家寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "余家寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_4",
+            "lat": 34.317864,
+            "lng": 108.960325,
+            "name": "市第三医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_5",
+            "lat": 34.317856,
+            "lng": 108.947332,
+            "name": "青少年中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青少年中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_6",
+            "lat": 34.317857,
+            "lng": 108.929744,
+            "name": "霸城门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_7",
+            "lat": 34.302288,
+            "lng": 108.923142,
+            "name": "大风阁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_8",
+            "lat": 34.290305,
+            "lng": 108.922221,
+            "name": "红庙坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_9",
+            "lat": 34.284848,
+            "lng": 108.913223,
+            "name": "景曜门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_10",
+            "lat": 34.286438,
+            "lng": 108.902458,
+            "name": "光化门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_11",
+            "lat": 34.281767,
+            "lng": 108.891369,
+            "name": "白家口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_12",
+            "lat": 34.269373,
+            "lng": 108.891513,
+            "name": "开远门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "开远门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_13",
+            "lat": 34.259335,
+            "lng": 108.88967,
+            "name": "土门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_14",
+            "lat": 34.252309,
+            "lng": 108.889576,
+            "name": "金光门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金光门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_15",
+            "lat": 34.237194,
+            "lng": 108.888305,
+            "name": "延平门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "延平门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_16",
+            "lat": 34.22566,
+            "lng": 108.889736,
+            "name": "科技二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_17",
+            "lat": 34.212245,
+            "lng": 108.88977,
+            "name": "木塔寺西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_18",
+            "lat": 34.202994,
+            "lng": 108.889729,
+            "name": "省体育馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "省体育馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_19",
+            "lat": 34.198368,
+            "lng": 108.905286,
+            "name": "山门口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_20",
+            "lat": 34.198338,
+            "lng": 108.919383,
+            "name": "安化门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_21",
+            "lat": 34.198439,
+            "lng": 108.928328,
+            "name": "东仪路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_22",
+            "lat": 34.198093,
+            "lng": 108.947443,
+            "name": "电视塔站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "电视塔",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_23",
+            "lat": 34.196904,
+            "lng": 108.963797,
+            "name": "大唐不夜城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_24",
+            "lat": 34.1975,
+            "lng": 108.975012,
+            "name": "曲江池西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "曲江池西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_25",
+            "lat": 34.200073,
+            "lng": 108.989224,
+            "name": "寒窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_26",
+            "lat": 34.200088,
+            "lng": 108.999122,
+            "name": "新开门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_27",
+            "lat": 34.208016,
+            "lng": 109.013546,
+            "name": "缪家寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_28",
+            "lat": 34.21041,
+            "lng": 109.025455,
+            "name": "植物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_29",
+            "lat": 34.219586,
+            "lng": 109.027974,
+            "name": "马腾空站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马腾空",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_30",
+            "lat": 34.228931,
+            "lng": 109.019995,
+            "name": "东等驾坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_31",
+            "lat": 34.241257,
+            "lng": 109.014343,
+            "name": "西等驾坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_32",
+            "lat": 34.251185,
+            "lng": 109.014376,
+            "name": "万寿南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "万寿南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_33",
+            "lat": 34.259109,
+            "lng": 109.014271,
+            "name": "韩森寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_34",
+            "lat": 34.269592,
+            "lng": 109.014321,
+            "name": "万寿路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "万寿路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_35",
+            "lat": 34.282428,
+            "lng": 109.014419,
+            "name": "幸福林带北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_36",
+            "lat": 34.30252,
+            "lng": 109.015355,
+            "name": "米家崖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA8_37",
+            "lat": 34.310845,
+            "lng": 109.014457,
+            "name": "广泰门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广泰门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA9",
+        "name": "西安地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF8B2C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 21,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA9_1",
+            "lat": 34.279463,
+            "lng": 109.069748,
+            "name": "纺织城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "纺织城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_2",
+            "lat": 34.275324,
+            "lng": 109.097082,
+            "name": "香王站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_3",
+            "lat": 34.280719,
+            "lng": 109.115029,
+            "name": "灞柳二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_4",
+            "lat": 34.296741,
+            "lng": 109.117695,
+            "name": "田王站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_5",
+            "lat": 34.316777,
+            "lng": 109.117709,
+            "name": "洪庆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_6",
+            "lat": 34.333911,
+            "lng": 109.132264,
+            "name": "紫霞三路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_7",
+            "lat": 34.344346,
+            "lng": 109.149516,
+            "name": "凤凰池站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_8",
+            "lat": 34.354728,
+            "lng": 109.166682,
+            "name": "鹦鹉寺公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_9",
+            "lat": 34.365312,
+            "lng": 109.178291,
+            "name": "芷阳广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_10",
+            "lat": 34.37028,
+            "lng": 109.188956,
+            "name": "西工程大路西科大（临潼校区）站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_11",
+            "lat": 34.370532,
+            "lng": 109.200789,
+            "name": "西花园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_12",
+            "lat": 34.366507,
+            "lng": 109.212543,
+            "name": "华清池站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_13",
+            "lat": 34.377497,
+            "lng": 109.221652,
+            "name": "东三岔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_14",
+            "lat": 34.386898,
+            "lng": 109.22811,
+            "name": "银桥大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA9_15",
+            "lat": 34.396026,
+            "lng": 109.236243,
+            "name": "秦陵西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA10",
+        "name": "西安地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#099361",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA10_1",
+            "lat": 34.317183,
+            "lng": 108.984197,
+            "name": "井上村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "井上村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_2",
+            "lat": 34.329445,
+            "lng": 108.984289,
+            "name": "帽珥冢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_3",
+            "lat": 34.340149,
+            "lng": 108.984316,
+            "name": "团结村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_4",
+            "lat": 34.353897,
+            "lng": 108.981641,
+            "name": "红旗厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_5",
+            "lat": 34.373648,
+            "lng": 108.981655,
+            "name": "西安工大路武德路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西安工大路武德路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_6",
+            "lat": 34.391999,
+            "lng": 108.982321,
+            "name": "景家堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_7",
+            "lat": 34.407479,
+            "lng": 108.99305,
+            "name": "未央湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_8",
+            "lat": 34.410953,
+            "lng": 109.026966,
+            "name": "西堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_9",
+            "lat": 34.427168,
+            "lng": 109.039448,
+            "name": "水流站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_10",
+            "lat": 34.450258,
+            "lng": 109.03821,
+            "name": "泾渭半岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_11",
+            "lat": 34.467885,
+            "lng": 109.036073,
+            "name": "杨官寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_12",
+            "lat": 34.489036,
+            "lng": 109.034395,
+            "name": "军庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_13",
+            "lat": 34.504626,
+            "lng": 109.03906,
+            "name": "崇皇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_14",
+            "lat": 34.506305,
+            "lng": 109.061829,
+            "name": "榆楚站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_15",
+            "lat": 34.50773,
+            "lng": 109.081998,
+            "name": "鹿苑大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_16",
+            "lat": 34.509588,
+            "lng": 109.103705,
+            "name": "杏王站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA10_17",
+            "lat": 34.522137,
+            "lng": 109.110164,
+            "name": "昭慧广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA14",
+        "name": "西安地铁14号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#2EB9FF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 120,
+        "freqPeak": 23,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA14_1",
+            "lat": 34.439002,
+            "lng": 108.76124,
+            "name": "机场西(T1、T2、T3)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_2",
+            "lat": 34.456429,
+            "lng": 108.787612,
+            "name": "机场(T5)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_3",
+            "lat": 34.429065,
+            "lng": 108.798695,
+            "name": "空港新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_4",
+            "lat": 34.419197,
+            "lng": 108.799875,
+            "name": "艺术中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_5",
+            "lat": 34.389977,
+            "lng": 108.79686,
+            "name": "摆旗寨站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_6",
+            "lat": 34.389924,
+            "lng": 108.829197,
+            "name": "长陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_7",
+            "lat": 34.397918,
+            "lng": 108.848037,
+            "name": "秦汉新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_8",
+            "lat": 34.40562,
+            "lng": 108.871501,
+            "name": "秦宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_9",
+            "lat": 34.39242,
+            "lng": 108.923139,
+            "name": "渭河南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_10",
+            "lat": 34.378988,
+            "lng": 108.937343,
+            "name": "西安北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西安北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_11",
+            "lat": 34.381318,
+            "lng": 108.950584,
+            "name": "文景山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_12",
+            "lat": 34.373648,
+            "lng": 108.981655,
+            "name": "西安工大路武德路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西安工大路武德路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_13",
+            "lat": 34.371653,
+            "lng": 108.995755,
+            "name": "北辰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_14",
+            "lat": 34.373534,
+            "lng": 109.020568,
+            "name": "奥体中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_15",
+            "lat": 34.37131,
+            "lng": 109.04097,
+            "name": "双寨站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双寨",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_16",
+            "lat": 34.369647,
+            "lng": 109.053779,
+            "name": "新寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_17",
+            "lat": 34.367815,
+            "lng": 109.066879,
+            "name": "港务大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA14_18",
+            "lat": 34.366596,
+            "lng": 109.077841,
+            "name": "贺韶站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA15",
+        "name": "西安地铁15号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF628C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 17,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA15_1",
+            "lat": 34.159822,
+            "lng": 108.792757,
+            "name": "细柳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_2",
+            "lat": 34.159778,
+            "lng": 108.804481,
+            "name": "府君庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_3",
+            "lat": 34.159777,
+            "lng": 108.817953,
+            "name": "祝村西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_4",
+            "lat": 34.159736,
+            "lng": 108.835029,
+            "name": "祝村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_5",
+            "lat": 34.159847,
+            "lng": 108.847275,
+            "name": "郭杜西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "郭杜西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_6",
+            "lat": 34.160149,
+            "lng": 108.863158,
+            "name": "郭杜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_7",
+            "lat": 34.159675,
+            "lng": 108.878405,
+            "name": "樱花广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_8",
+            "lat": 34.15774,
+            "lng": 108.903024,
+            "name": "邮电大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_9",
+            "lat": 34.156947,
+            "lng": 108.928831,
+            "name": "长安广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_10",
+            "lat": 34.158,
+            "lng": 108.944648,
+            "name": "航天城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "航天城",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_11",
+            "lat": 34.154698,
+            "lng": 108.962009,
+            "name": "皇子坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_12",
+            "lat": 34.154226,
+            "lng": 108.974502,
+            "name": "东长安街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东长安街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA15_13",
+            "lat": 34.155335,
+            "lng": 108.996337,
+            "name": "东兆余站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA16",
+        "name": "西安地铁16号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF8164",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 9,
+        "freqOff": 4,
+        "freqLow": 3,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA16_1",
+            "lat": 34.337375,
+            "lng": 108.786485,
+            "name": "秦创原中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_2",
+            "lat": 34.328521,
+            "lng": 108.782968,
+            "name": "西咸大厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_3",
+            "lat": 34.313191,
+            "lng": 108.777613,
+            "name": "上林路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上林路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_4",
+            "lat": 34.296988,
+            "lng": 108.770177,
+            "name": "复兴大道北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_5",
+            "lat": 34.279588,
+            "lng": 108.77062,
+            "name": "西安国际足球中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_6",
+            "lat": 34.26882,
+            "lng": 108.770491,
+            "name": "细柳营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_7",
+            "lat": 34.259564,
+            "lng": 108.770261,
+            "name": "沣东城市广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_8",
+            "lat": 34.244927,
+            "lng": 108.749393,
+            "name": "欢乐谷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "欢乐谷",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA16_9",
+            "lat": 34.227459,
+            "lng": 108.747579,
+            "name": "诗经里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "XA_LINE_XI_HU",
+        "name": "西安地铁号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#6C2F77",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 19,
+        "freqOff": 9,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA_LINE_XI_HU_1",
+            "lat": 34.252449,
+            "lng": 108.825165,
+            "name": "阿房宫南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "阿房宫南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_LINE_XI_HU_2",
+            "lat": 34.111916,
+            "lng": 108.619064,
+            "name": "户县站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          []
+        ]
+      },
+      {
+        "id": "XA_XI_AN_SKYSHUTTLE",
+        "name": "西安地铁号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#469CD1",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 17,
+        "freqOff": 8,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_1",
+            "lat": 34.237954,
+            "lng": 108.846402,
+            "name": "鱼化寨(云巴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_2",
+            "lat": 34.236238,
+            "lng": 108.837958,
+            "name": "西晁站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_3",
+            "lat": 34.223757,
+            "lng": 108.83621,
+            "name": "天谷四路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_4",
+            "lat": 34.21257,
+            "lng": 108.836767,
+            "name": "省图高新馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_5",
+            "lat": 34.204566,
+            "lng": 108.836789,
+            "name": "软件新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_6",
+            "lat": 34.195631,
+            "lng": 108.836639,
+            "name": "锦业路西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_7",
+            "lat": 34.193874,
+            "lng": 108.841531,
+            "name": "丈八七路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_8",
+            "lat": 34.198382,
+            "lng": 108.848998,
+            "name": "东滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_9",
+            "lat": 34.198417,
+            "lng": 108.863504,
+            "name": "丈八五路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_10",
+            "lat": 34.1933,
+            "lng": 108.869183,
+            "name": "丈八四路(云巴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_11",
+            "lat": 34.181999,
+            "lng": 108.869169,
+            "name": "付村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_12",
+            "lat": 34.171738,
+            "lng": 108.869211,
+            "name": "紫薇田园都市站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_13",
+            "lat": 34.16659,
+            "lng": 108.867194,
+            "name": "时代广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_14",
+            "lat": 34.16659,
+            "lng": 108.856444,
+            "name": "发展大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_15",
+            "lat": 34.166625,
+            "lng": 108.846831,
+            "name": "西太路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_16",
+            "lat": 34.166661,
+            "lng": 108.835437,
+            "name": "毕原二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_17",
+            "lat": 34.16018,
+            "lng": 108.83254,
+            "name": "祝村(云巴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "xian_XA_XI_AN_SKYSHUTTLE_18",
+            "lat": 34.155573,
+            "lng": 108.830373,
+            "name": "恒业大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

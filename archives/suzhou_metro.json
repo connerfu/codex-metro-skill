@@ -1,0 +1,4082 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:01.335Z",
+  "data": {
+    "cityKey": "suzhou",
+    "lineCounter": 9,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "SZ21",
+        "name": "苏州地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#68BF3E",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ21_1",
+            "lat": 31.274974,
+            "lng": 120.518124,
+            "name": "木渎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_2",
+            "lat": 31.276496,
+            "lng": 120.529571,
+            "name": "金枫路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_3",
+            "lat": 31.27805,
+            "lng": 120.541829,
+            "name": "汾湖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_4",
+            "lat": 31.283408,
+            "lng": 120.549471,
+            "name": "玉山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_5",
+            "lat": 31.294608,
+            "lng": 120.548759,
+            "name": "狮子山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "狮子山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_6",
+            "lat": 31.299962,
+            "lng": 120.556688,
+            "name": "塔园路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_7",
+            "lat": 31.30078,
+            "lng": 120.56612,
+            "name": "滨河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_8",
+            "lat": 31.30154,
+            "lng": 120.577159,
+            "name": "西环路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_9",
+            "lat": 31.303004,
+            "lng": 120.591197,
+            "name": "桐泾北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_10",
+            "lat": 31.303939,
+            "lng": 120.601146,
+            "name": "广济南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广济南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_11",
+            "lat": 31.305135,
+            "lng": 120.614053,
+            "name": "养育巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_12",
+            "lat": 31.306405,
+            "lng": 120.622316,
+            "name": "乐桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "乐桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_13",
+            "lat": 31.307972,
+            "lng": 120.630607,
+            "name": "临顿路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "临顿路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_14",
+            "lat": 31.309804,
+            "lng": 120.638843,
+            "name": "相门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_15",
+            "lat": 31.312254,
+            "lng": 120.649875,
+            "name": "东环路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_16",
+            "lat": 31.3139,
+            "lng": 120.660774,
+            "name": "中央公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_17",
+            "lat": 31.3155,
+            "lng": 120.670813,
+            "name": "星海广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_18",
+            "lat": 31.316812,
+            "lng": 120.67889,
+            "name": "东方之门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东方之门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_19",
+            "lat": 31.323218,
+            "lng": 120.704346,
+            "name": "文化博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_20",
+            "lat": 31.322419,
+            "lng": 120.713012,
+            "name": "时代广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "时代广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_21",
+            "lat": 31.323185,
+            "lng": 120.720427,
+            "name": "星湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_22",
+            "lat": 31.3245,
+            "lng": 120.73313,
+            "name": "南施街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_23",
+            "lat": 31.32562,
+            "lng": 120.744013,
+            "name": "星塘街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "星塘街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ21_24",
+            "lat": 31.326506,
+            "lng": 120.756225,
+            "name": "钟南街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ22",
+        "name": "苏州地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E5363C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ22_1",
+            "lat": 31.437446,
+            "lng": 120.655019,
+            "name": "骑河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_2",
+            "lat": 31.43005,
+            "lng": 120.651219,
+            "name": "富翔路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_3",
+            "lat": 31.421767,
+            "lng": 120.645012,
+            "name": "高铁苏州北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_4",
+            "lat": 31.4165,
+            "lng": 120.633175,
+            "name": "大湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_5",
+            "lat": 31.403515,
+            "lng": 120.624913,
+            "name": "富元路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_6",
+            "lat": 31.388127,
+            "lng": 120.623703,
+            "name": "蠡口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_7",
+            "lat": 31.375623,
+            "lng": 120.625666,
+            "name": "徐图港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_8",
+            "lat": 31.366753,
+            "lng": 120.626926,
+            "name": "阳澄湖中路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "阳澄湖中路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_9",
+            "lat": 31.35329,
+            "lng": 120.623447,
+            "name": "陆慕站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_10",
+            "lat": 31.344234,
+            "lng": 120.613005,
+            "name": "平泷路东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_11",
+            "lat": 31.337564,
+            "lng": 120.614329,
+            "name": "平河路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平河路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_12",
+            "lat": 31.330898,
+            "lng": 120.610547,
+            "name": "苏州火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_13",
+            "lat": 31.319719,
+            "lng": 120.601926,
+            "name": "山塘街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_14",
+            "lat": 31.311221,
+            "lng": 120.600134,
+            "name": "石路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_15",
+            "lat": 31.303939,
+            "lng": 120.601146,
+            "name": "广济南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "广济南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_16",
+            "lat": 31.297913,
+            "lng": 120.59814,
+            "name": "三香广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_17",
+            "lat": 31.291598,
+            "lng": 120.597198,
+            "name": "劳动路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "劳动路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_18",
+            "lat": 31.285235,
+            "lng": 120.5986,
+            "name": "胥江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_19",
+            "lat": 31.278904,
+            "lng": 120.599819,
+            "name": "桐泾公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_20",
+            "lat": 31.271473,
+            "lng": 120.608622,
+            "name": "友联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_21",
+            "lat": 31.266659,
+            "lng": 120.614549,
+            "name": "盘蠡路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "盘蠡路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_22",
+            "lat": 31.256145,
+            "lng": 120.614865,
+            "name": "新家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_23",
+            "lat": 31.252782,
+            "lng": 120.629553,
+            "name": "石湖东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石湖东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_24",
+            "lat": 31.249793,
+            "lng": 120.648844,
+            "name": "宝带桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_25",
+            "lat": 31.249774,
+            "lng": 120.664069,
+            "name": "尹中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_26",
+            "lat": 31.248924,
+            "lng": 120.67379,
+            "name": "郭巷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "郭巷",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_27",
+            "lat": 31.248356,
+            "lng": 120.684482,
+            "name": "郭苑路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_28",
+            "lat": 31.248098,
+            "lng": 120.697373,
+            "name": "尹山湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_29",
+            "lat": 31.24806,
+            "lng": 120.704463,
+            "name": "独墅湖南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_30",
+            "lat": 31.253314,
+            "lng": 120.72281,
+            "name": "独墅湖邻里中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_31",
+            "lat": 31.260113,
+            "lng": 120.726956,
+            "name": "月亮湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_32",
+            "lat": 31.264099,
+            "lng": 120.740714,
+            "name": "松涛街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "松涛街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_33",
+            "lat": 31.269519,
+            "lng": 120.756963,
+            "name": "金谷路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_34",
+            "lat": 31.270383,
+            "lng": 120.770279,
+            "name": "金尚路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金尚路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ22_35",
+            "lat": 31.272372,
+            "lng": 120.78123,
+            "name": "桑田岛站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "桑田岛",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ23",
+        "name": "苏州地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF9933",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 41,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ23_1",
+            "lat": 31.372567,
+            "lng": 120.525108,
+            "name": "苏州新区火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州新区火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_2",
+            "lat": 31.36098,
+            "lng": 120.529024,
+            "name": "惠昌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_3",
+            "lat": 31.355245,
+            "lng": 120.52439,
+            "name": "文昌路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_4",
+            "lat": 31.341715,
+            "lng": 120.52972,
+            "name": "长亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_5",
+            "lat": 31.327138,
+            "lng": 120.531526,
+            "name": "铜墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_6",
+            "lat": 31.317642,
+            "lng": 120.539454,
+            "name": "马运路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_7",
+            "lat": 31.313192,
+            "lng": 120.546171,
+            "name": "西津桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西津桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_8",
+            "lat": 31.305803,
+            "lng": 120.546631,
+            "name": "何山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_9",
+            "lat": 31.294608,
+            "lng": 120.548759,
+            "name": "狮子山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "狮子山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_10",
+            "lat": 31.293385,
+            "lng": 120.559258,
+            "name": "狮山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_11",
+            "lat": 31.290816,
+            "lng": 120.5692,
+            "name": "沙金桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_12",
+            "lat": 31.283163,
+            "lng": 120.572527,
+            "name": "索山桥西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "索山桥西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_13",
+            "lat": 31.277052,
+            "lng": 120.575283,
+            "name": "横山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_14",
+            "lat": 31.266386,
+            "lng": 120.577188,
+            "name": "横塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_15",
+            "lat": 31.258769,
+            "lng": 120.586795,
+            "name": "石湖北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_16",
+            "lat": 31.262708,
+            "lng": 120.596499,
+            "name": "新郭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_17",
+            "lat": 31.266659,
+            "lng": 120.614549,
+            "name": "盘蠡路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "盘蠡路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_18",
+            "lat": 31.267176,
+            "lng": 120.628463,
+            "name": "宝带路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宝带路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_19",
+            "lat": 31.267659,
+            "lng": 120.640351,
+            "name": "迎春路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_20",
+            "lat": 31.269905,
+            "lng": 120.656549,
+            "name": "北港路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_21",
+            "lat": 31.269542,
+            "lng": 120.668463,
+            "name": "通园路南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通园路南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_22",
+            "lat": 31.28008,
+            "lng": 120.674028,
+            "name": "墅浦路北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_23",
+            "lat": 31.288552,
+            "lng": 120.676357,
+            "name": "东振路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_24",
+            "lat": 31.296493,
+            "lng": 120.678329,
+            "name": "金厍桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金厍桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_25",
+            "lat": 31.306488,
+            "lng": 120.679681,
+            "name": "李公堤西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "李公堤西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_26",
+            "lat": 31.316812,
+            "lng": 120.67889,
+            "name": "东方之门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东方之门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_27",
+            "lat": 31.323759,
+            "lng": 120.677802,
+            "name": "烟雨桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_28",
+            "lat": 31.333301,
+            "lng": 120.673418,
+            "name": "倪浜路阳澄数谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_29",
+            "lat": 31.340452,
+            "lng": 120.683606,
+            "name": "唐庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "唐庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_30",
+            "lat": 31.342498,
+            "lng": 120.693724,
+            "name": "跨塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_31",
+            "lat": 31.341942,
+            "lng": 120.709803,
+            "name": "苏州园区火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州园区火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_32",
+            "lat": 31.350549,
+            "lng": 120.726025,
+            "name": "方湾街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_33",
+            "lat": 31.353402,
+            "lng": 120.739214,
+            "name": "丰和路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_34",
+            "lat": 31.358248,
+            "lng": 120.753602,
+            "name": "双马街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_35",
+            "lat": 31.361747,
+            "lng": 120.767318,
+            "name": "葑亭大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "葑亭大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_36",
+            "lat": 31.363137,
+            "lng": 120.777967,
+            "name": "戈巷街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ23_37",
+            "lat": 31.364512,
+            "lng": 120.788969,
+            "name": "唯亭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "唯亭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ24",
+        "name": "苏州地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#248FDF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ24_1",
+            "lat": 31.403072,
+            "lng": 120.606557,
+            "name": "龙道浜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_2",
+            "lat": 31.397384,
+            "lng": 120.597667,
+            "name": "张庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_3",
+            "lat": 31.390003,
+            "lng": 120.59832,
+            "name": "姚祥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_4",
+            "lat": 31.374518,
+            "lng": 120.600165,
+            "name": "活力岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_5",
+            "lat": 31.361963,
+            "lng": 120.602781,
+            "name": "孙武纪念园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孙武纪念园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_6",
+            "lat": 31.343844,
+            "lng": 120.602702,
+            "name": "平泷路西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_7",
+            "lat": 31.336431,
+            "lng": 120.60519,
+            "name": "苏锦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏锦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_8",
+            "lat": 31.330898,
+            "lng": 120.610547,
+            "name": "苏州火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_9",
+            "lat": 31.320378,
+            "lng": 120.61971,
+            "name": "北寺塔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_10",
+            "lat": 31.31135,
+            "lng": 120.62131,
+            "name": "察院场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_11",
+            "lat": 31.306405,
+            "lng": 120.622316,
+            "name": "乐桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "乐桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_12",
+            "lat": 31.298058,
+            "lng": 120.623635,
+            "name": "三元坊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_13",
+            "lat": 31.292029,
+            "lng": 120.624439,
+            "name": "南门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_14",
+            "lat": 31.284544,
+            "lng": 120.625639,
+            "name": "人民桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_15",
+            "lat": 31.27638,
+            "lng": 120.627178,
+            "name": "团结桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_16",
+            "lat": 31.267176,
+            "lng": 120.628463,
+            "name": "宝带路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宝带路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_17",
+            "lat": 31.252782,
+            "lng": 120.629553,
+            "name": "石湖东路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石湖东路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_18",
+            "lat": 31.236657,
+            "lng": 120.628762,
+            "name": "红庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_19",
+            "lat": 31.220085,
+            "lng": 120.632622,
+            "name": "清树湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_20",
+            "lat": 31.203487,
+            "lng": 120.632941,
+            "name": "花港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_21",
+            "lat": 31.177947,
+            "lng": 120.639826,
+            "name": "江陵西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_22",
+            "lat": 31.16954,
+            "lng": 120.632322,
+            "name": "江兴西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_23",
+            "lat": 31.162166,
+            "lng": 120.618894,
+            "name": "流虹路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_24",
+            "lat": 31.15478,
+            "lng": 120.615949,
+            "name": "笠泽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_25",
+            "lat": 31.145429,
+            "lng": 120.614752,
+            "name": "顾家荡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_26",
+            "lat": 31.136536,
+            "lng": 120.61557,
+            "name": "苏州湾东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_27",
+            "lat": 31.131411,
+            "lng": 120.623952,
+            "name": "松陵大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_28",
+            "lat": 31.133272,
+            "lng": 120.643477,
+            "name": "吴江人民广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_29",
+            "lat": 31.137074,
+            "lng": 120.662959,
+            "name": "吴江汽车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_30",
+            "lat": 31.137463,
+            "lng": 120.679464,
+            "name": "庞金路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ24_31",
+            "lat": 31.137395,
+            "lng": 120.699923,
+            "name": "同里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ25",
+        "name": "苏州地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EF50AF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ25_1",
+            "lat": 31.22561,
+            "lng": 120.452884,
+            "name": "太湖香山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_2",
+            "lat": 31.223802,
+            "lng": 120.465577,
+            "name": "花墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_3",
+            "lat": 31.229292,
+            "lng": 120.47273,
+            "name": "津桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_4",
+            "lat": 31.236213,
+            "lng": 120.481832,
+            "name": "胥口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_5",
+            "lat": 31.2438,
+            "lng": 120.492444,
+            "name": "茅蓬路东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_6",
+            "lat": 31.249798,
+            "lng": 120.498151,
+            "name": "许家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_7",
+            "lat": 31.253349,
+            "lng": 120.50343,
+            "name": "灵岩山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_8",
+            "lat": 31.261461,
+            "lng": 120.518957,
+            "name": "渎川桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_9",
+            "lat": 31.262368,
+            "lng": 120.53544,
+            "name": "大治桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_10",
+            "lat": 31.263094,
+            "lng": 120.546813,
+            "name": "西跨塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_11",
+            "lat": 31.273135,
+            "lng": 120.553131,
+            "name": "石城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_12",
+            "lat": 31.281101,
+            "lng": 120.559933,
+            "name": "落星桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_13",
+            "lat": 31.283163,
+            "lng": 120.572527,
+            "name": "索山桥西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "索山桥西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_14",
+            "lat": 31.286103,
+            "lng": 120.589345,
+            "name": "双桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_15",
+            "lat": 31.291598,
+            "lng": 120.597198,
+            "name": "劳动路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "劳动路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_16",
+            "lat": 31.290126,
+            "lng": 120.611407,
+            "name": "新市桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_17",
+            "lat": 31.292029,
+            "lng": 120.624439,
+            "name": "南门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_18",
+            "lat": 31.293351,
+            "lng": 120.635253,
+            "name": "南园北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_19",
+            "lat": 31.2943,
+            "lng": 120.647133,
+            "name": "竹辉桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_20",
+            "lat": 31.296571,
+            "lng": 120.657028,
+            "name": "荷花荡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_21",
+            "lat": 31.296757,
+            "lng": 120.66442,
+            "name": "黄天荡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄天荡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_22",
+            "lat": 31.296493,
+            "lng": 120.678329,
+            "name": "金厍桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金厍桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_23",
+            "lat": 31.296685,
+            "lng": 120.686181,
+            "name": "星波街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_24",
+            "lat": 31.296104,
+            "lng": 120.695665,
+            "name": "李公堤南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_25",
+            "lat": 31.297984,
+            "lng": 120.708663,
+            "name": "金湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_26",
+            "lat": 31.299108,
+            "lng": 120.723575,
+            "name": "华莲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_27",
+            "lat": 31.299311,
+            "lng": 120.734215,
+            "name": "斜塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "斜塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_28",
+            "lat": 31.308618,
+            "lng": 120.744257,
+            "name": "苏州奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_29",
+            "lat": 31.31738,
+            "lng": 120.744108,
+            "name": "方洲公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_30",
+            "lat": 31.32562,
+            "lng": 120.744013,
+            "name": "星塘街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "星塘街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_31",
+            "lat": 31.335536,
+            "lng": 120.748015,
+            "name": "龙墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_32",
+            "lat": 31.337821,
+            "lng": 120.763417,
+            "name": "东沙湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_33",
+            "lat": 31.361747,
+            "lng": 120.767318,
+            "name": "葑亭大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "葑亭大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ25_34",
+            "lat": 31.37025,
+            "lng": 120.782666,
+            "name": "阳澄湖南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ26",
+        "name": "苏州地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#46BCE2",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ26_1",
+            "lat": 31.372567,
+            "lng": 120.525108,
+            "name": "苏州新区火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州新区火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_2",
+            "lat": 31.365993,
+            "lng": 120.535215,
+            "name": "保丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_3",
+            "lat": 31.356616,
+            "lng": 120.544188,
+            "name": "富强站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_4",
+            "lat": 31.347689,
+            "lng": 120.554225,
+            "name": "长泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_5",
+            "lat": 31.339874,
+            "lng": 120.56084,
+            "name": "白洋湾公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白洋湾公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_6",
+            "lat": 31.333251,
+            "lng": 120.567777,
+            "name": "金鸡墩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_7",
+            "lat": 31.330073,
+            "lng": 120.579225,
+            "name": "虎丘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_8",
+            "lat": 31.332366,
+            "lng": 120.587783,
+            "name": "青山桥浜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_9",
+            "lat": 31.335841,
+            "lng": 120.596423,
+            "name": "江星桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_10",
+            "lat": 31.336431,
+            "lng": 120.60519,
+            "name": "苏锦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏锦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_11",
+            "lat": 31.337564,
+            "lng": 120.614329,
+            "name": "平河路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平河路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_12",
+            "lat": 31.335449,
+            "lng": 120.630727,
+            "name": "梅巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_13",
+            "lat": 31.323319,
+            "lng": 120.626708,
+            "name": "拙政园苏博站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_14",
+            "lat": 31.314017,
+            "lng": 120.629059,
+            "name": "悬桥巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_15",
+            "lat": 31.307972,
+            "lng": 120.630607,
+            "name": "临顿路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "临顿路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_16",
+            "lat": 31.302441,
+            "lng": 120.635375,
+            "name": "望星桥苏大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_17",
+            "lat": 31.305783,
+            "lng": 120.652053,
+            "name": "徐家浜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_18",
+            "lat": 31.306063,
+            "lng": 120.662862,
+            "name": "惹云桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惹云桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_19",
+            "lat": 31.306102,
+            "lng": 120.671995,
+            "name": "秋塘浜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_20",
+            "lat": 31.306488,
+            "lng": 120.679681,
+            "name": "李公堤西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "李公堤西",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_21",
+            "lat": 31.308591,
+            "lng": 120.725608,
+            "name": "琼姬墩站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "琼姬墩",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_22",
+            "lat": 31.308539,
+            "lng": 120.7338,
+            "name": "南施公园南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_23",
+            "lat": 31.308618,
+            "lng": 120.744257,
+            "name": "苏州奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_24",
+            "lat": 31.309127,
+            "lng": 120.756739,
+            "name": "儿童医院总院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_25",
+            "lat": 31.302596,
+            "lng": 120.760839,
+            "name": "涵青桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_26",
+            "lat": 31.293824,
+            "lng": 120.759321,
+            "name": "金家堰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_27",
+            "lat": 31.28596,
+            "lng": 120.759249,
+            "name": "北斜步站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_28",
+            "lat": 31.274487,
+            "lng": 120.761093,
+            "name": "南斜步站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_29",
+            "lat": 31.270383,
+            "lng": 120.770279,
+            "name": "金尚路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金尚路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ26_30",
+            "lat": 31.272372,
+            "lng": 120.78123,
+            "name": "桑田岛站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "桑田岛",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ27",
+        "name": "苏州地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A77BC7",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 27,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ27_1",
+            "lat": 31.411,
+            "lng": 120.652775,
+            "name": "常楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_2",
+            "lat": 31.40103,
+            "lng": 120.646245,
+            "name": "登云站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_3",
+            "lat": 31.389736,
+            "lng": 120.644346,
+            "name": "蠡塘河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_4",
+            "lat": 31.382416,
+            "lng": 120.644809,
+            "name": "春申湖东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_5",
+            "lat": 31.376043,
+            "lng": 120.645858,
+            "name": "华元路东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_6",
+            "lat": 31.367321,
+            "lng": 120.647474,
+            "name": "白荡北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白荡北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_7",
+            "lat": 31.34072,
+            "lng": 120.656461,
+            "name": "板泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_8",
+            "lat": 31.333705,
+            "lng": 120.657294,
+            "name": "洋泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_9",
+            "lat": 31.32045,
+            "lng": 120.660441,
+            "name": "积翠桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_10",
+            "lat": 31.3139,
+            "lng": 120.660774,
+            "name": "中央公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中央公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_11",
+            "lat": 31.306063,
+            "lng": 120.662862,
+            "name": "惹云桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惹云桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_12",
+            "lat": 31.296757,
+            "lng": 120.66442,
+            "name": "黄天荡站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄天荡",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_13",
+            "lat": 31.289321,
+            "lng": 120.665354,
+            "name": "蒌葑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_14",
+            "lat": 31.27903,
+            "lng": 120.666898,
+            "name": "群力站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_15",
+            "lat": 31.269542,
+            "lng": 120.668463,
+            "name": "通园路南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通园路南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_16",
+            "lat": 31.256814,
+            "lng": 120.674328,
+            "name": "林家潭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_17",
+            "lat": 31.248924,
+            "lng": 120.67379,
+            "name": "郭巷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "郭巷",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_18",
+            "lat": 31.24131,
+            "lng": 120.666704,
+            "name": "尹山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_19",
+            "lat": 31.2414,
+            "lng": 120.64576,
+            "name": "金家桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_20",
+            "lat": 31.243207,
+            "lng": 120.63719,
+            "name": "枫津路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_21",
+            "lat": 31.236657,
+            "lng": 120.628762,
+            "name": "红庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_22",
+            "lat": 31.230145,
+            "lng": 120.621465,
+            "name": "蠡墅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_23",
+            "lat": 31.22393,
+            "lng": 120.602997,
+            "name": "石湖莫舍站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_24",
+            "lat": 31.215657,
+            "lng": 120.596116,
+            "name": "越溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_25",
+            "lat": 31.203606,
+            "lng": 120.596332,
+            "name": "文溪路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_26",
+            "lat": 31.190956,
+            "lng": 120.600469,
+            "name": "天鹅荡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_27",
+            "lat": 31.183757,
+            "lng": 120.595071,
+            "name": "苏州湾北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ27_28",
+            "lat": 31.182366,
+            "lng": 120.577443,
+            "name": "木里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ28",
+        "name": "苏州地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A09121",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 32,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ28_1",
+            "lat": 31.313192,
+            "lng": 120.546171,
+            "name": "西津桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西津桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_2",
+            "lat": 31.325582,
+            "lng": 120.545784,
+            "name": "新元站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_3",
+            "lat": 31.335256,
+            "lng": 120.554887,
+            "name": "时家桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_4",
+            "lat": 31.339874,
+            "lng": 120.56084,
+            "name": "白洋湾公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白洋湾公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_5",
+            "lat": 31.348072,
+            "lng": 120.566013,
+            "name": "虎北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_6",
+            "lat": 31.361636,
+            "lng": 120.590038,
+            "name": "虎丘湿地公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_7",
+            "lat": 31.361963,
+            "lng": 120.602781,
+            "name": "孙武纪念园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孙武纪念园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_8",
+            "lat": 31.36227,
+            "lng": 120.609476,
+            "name": "御窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_9",
+            "lat": 31.36299,
+            "lng": 120.620955,
+            "name": "陆慕古巷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_10",
+            "lat": 31.366753,
+            "lng": 120.626926,
+            "name": "阳澄湖中路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "阳澄湖中路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_11",
+            "lat": 31.364962,
+            "lng": 120.638298,
+            "name": "夏圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_12",
+            "lat": 31.367321,
+            "lng": 120.647474,
+            "name": "白荡北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白荡北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_13",
+            "lat": 31.37298,
+            "lng": 120.660535,
+            "name": "五潨泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_14",
+            "lat": 31.372843,
+            "lng": 120.671003,
+            "name": "古香圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_15",
+            "lat": 31.34906,
+            "lng": 120.673812,
+            "name": "南泽庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_16",
+            "lat": 31.340452,
+            "lng": 120.683606,
+            "name": "唐庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "唐庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_17",
+            "lat": 31.345687,
+            "lng": 120.70183,
+            "name": "古楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_18",
+            "lat": 31.341942,
+            "lng": 120.709803,
+            "name": "苏州园区火车站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州园区火车站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_19",
+            "lat": 31.330761,
+            "lng": 120.712531,
+            "name": "华池浜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_20",
+            "lat": 31.322419,
+            "lng": 120.713012,
+            "name": "时代广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "时代广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_21",
+            "lat": 31.316897,
+            "lng": 120.714061,
+            "name": "苏州当代美术馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_22",
+            "lat": 31.308591,
+            "lng": 120.725608,
+            "name": "琼姬墩站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "琼姬墩",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_23",
+            "lat": 31.299311,
+            "lng": 120.734215,
+            "name": "斜塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "斜塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_24",
+            "lat": 31.286048,
+            "lng": 120.734272,
+            "name": "莲池桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_25",
+            "lat": 31.275388,
+            "lng": 120.73591,
+            "name": "仁爱路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_26",
+            "lat": 31.264099,
+            "lng": 120.740714,
+            "name": "松涛街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "松涛街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_27",
+            "lat": 31.256161,
+            "lng": 120.744198,
+            "name": "裕新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ28_28",
+            "lat": 31.247993,
+            "lng": 120.746888,
+            "name": "车坊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ211",
+        "name": "苏州地铁11号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FCCEB4",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 31,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "suzhou_SZ211_1",
+            "lat": 31.364512,
+            "lng": 120.788969,
+            "name": "唯亭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "唯亭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_2",
+            "lat": 31.37616,
+            "lng": 120.799954,
+            "name": "草鞋山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_3",
+            "lat": 31.380504,
+            "lng": 120.843616,
+            "name": "阳澄湖东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_4",
+            "lat": 31.382334,
+            "lng": 120.860799,
+            "name": "正仪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_5",
+            "lat": 31.382405,
+            "lng": 120.88168,
+            "name": "莲湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_6",
+            "lat": 31.381234,
+            "lng": 120.894722,
+            "name": "祖冲之公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_7",
+            "lat": 31.381335,
+            "lng": 120.904722,
+            "name": "昆山文化艺术中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_8",
+            "lat": 31.381272,
+            "lng": 120.91859,
+            "name": "共青站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_9",
+            "lat": 31.38049,
+            "lng": 120.928415,
+            "name": "江浦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_10",
+            "lat": 31.381127,
+            "lng": 120.942878,
+            "name": "白马泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_11",
+            "lat": 31.382401,
+            "lng": 120.957335,
+            "name": "玉山广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_12",
+            "lat": 31.383017,
+            "lng": 120.971641,
+            "name": "绣衣站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_13",
+            "lat": 31.383303,
+            "lng": 120.982596,
+            "name": "昆山城市广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_14",
+            "lat": 31.383625,
+            "lng": 120.995603,
+            "name": "金浦大桥东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_15",
+            "lat": 31.383945,
+            "lng": 121.007179,
+            "name": "顺帆北路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_16",
+            "lat": 31.384044,
+            "lng": 121.017252,
+            "name": "鱼池泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_17",
+            "lat": 31.384061,
+            "lng": 121.02821,
+            "name": "白河潭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_18",
+            "lat": 31.384165,
+            "lng": 121.039606,
+            "name": "兵希站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_19",
+            "lat": 31.378769,
+            "lng": 121.047728,
+            "name": "夏驾河公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_20",
+            "lat": 31.364709,
+            "lng": 121.049597,
+            "name": "盛庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_21",
+            "lat": 31.351316,
+            "lng": 121.049565,
+            "name": "章基路南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_22",
+            "lat": 31.334867,
+            "lng": 121.048799,
+            "name": "夏桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_23",
+            "lat": 31.320052,
+            "lng": 121.040104,
+            "name": "神童泾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_24",
+            "lat": 31.308712,
+            "lng": 121.046107,
+            "name": "菉葭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_25",
+            "lat": 31.297477,
+            "lng": 121.063813,
+            "name": "花桥博览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_26",
+            "lat": 31.295554,
+            "lng": 121.079473,
+            "name": "集善站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_27",
+            "lat": 31.2987,
+            "lng": 121.091724,
+            "name": "花溪公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "suzhou_SZ211_28",
+            "lat": 31.299435,
+            "lng": 121.104603,
+            "name": "花桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

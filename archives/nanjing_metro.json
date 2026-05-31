@@ -1,0 +1,4478 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:06:04.861Z",
+  "data": {
+    "cityKey": "nanjing",
+    "lineCounter": 15,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "NJ1",
+        "name": "南京地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00A7CE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 40,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ1_1",
+            "lat": 32.145566,
+            "lng": 118.842253,
+            "name": "八卦洲大桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_2",
+            "lat": 32.143421,
+            "lng": 118.829594,
+            "name": "笆斗山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_3",
+            "lat": 32.136109,
+            "lng": 118.821912,
+            "name": "燕子矶站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_4",
+            "lat": 32.126636,
+            "lng": 118.821342,
+            "name": "吉祥庵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_5",
+            "lat": 32.117227,
+            "lng": 118.81851,
+            "name": "晓庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "晓庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_6",
+            "lat": 32.10271,
+            "lng": 118.809681,
+            "name": "迈皋桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_7",
+            "lat": 32.095768,
+            "lng": 118.802048,
+            "name": "红山动物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_8",
+            "lat": 32.088665,
+            "lng": 118.797981,
+            "name": "南京站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_9",
+            "lat": 32.079868,
+            "lng": 118.783711,
+            "name": "新模范马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_10",
+            "lat": 32.070378,
+            "lng": 118.784221,
+            "name": "玄武门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_11",
+            "lat": 32.05861,
+            "lng": 118.783705,
+            "name": "鼓楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_12",
+            "lat": 32.050976,
+            "lng": 118.784208,
+            "name": "珠江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_13",
+            "lat": 32.041806,
+            "lng": 118.784137,
+            "name": "新街口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新街口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_14",
+            "lat": 32.030966,
+            "lng": 118.783837,
+            "name": "张府园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_15",
+            "lat": 32.023926,
+            "lng": 118.781992,
+            "name": "三山街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三山街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_16",
+            "lat": 32.006747,
+            "lng": 118.774449,
+            "name": "中华门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_17",
+            "lat": 31.991706,
+            "lng": 118.761642,
+            "name": "安德门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安德门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_18",
+            "lat": 31.979271,
+            "lng": 118.763129,
+            "name": "天隆寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_19",
+            "lat": 31.976806,
+            "lng": 118.774598,
+            "name": "软件大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_20",
+            "lat": 31.977796,
+            "lng": 118.785648,
+            "name": "花神庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_21",
+            "lat": 31.970901,
+            "lng": 118.796639,
+            "name": "南京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_22",
+            "lat": 31.963831,
+            "lng": 118.817199,
+            "name": "双龙大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_23",
+            "lat": 31.952093,
+            "lng": 118.820141,
+            "name": "河定桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_24",
+            "lat": 31.943547,
+            "lng": 118.821392,
+            "name": "胜太路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_25",
+            "lat": 31.93194,
+            "lng": 118.820843,
+            "name": "百家湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_26",
+            "lat": 31.929737,
+            "lng": 118.832732,
+            "name": "小龙湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_27",
+            "lat": 31.932295,
+            "lng": 118.845693,
+            "name": "竹山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "竹山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_28",
+            "lat": 31.937637,
+            "lng": 118.863561,
+            "name": "天印大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_29",
+            "lat": 31.939901,
+            "lng": 118.877154,
+            "name": "龙眠大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_30",
+            "lat": 31.933474,
+            "lng": 118.890237,
+            "name": "南医大路江苏经贸学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_31",
+            "lat": 31.912858,
+            "lng": 118.904803,
+            "name": "南京交院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ1_32",
+            "lat": 31.897683,
+            "lng": 118.914127,
+            "name": "中国药科大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ2",
+        "name": "南京地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#B50B4D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 37,
+        "freqOff": 19,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ2_1",
+            "lat": 31.966728,
+            "lng": 118.669852,
+            "name": "鱼嘴站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_2",
+            "lat": 31.965966,
+            "lng": 118.678564,
+            "name": "天保街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_3",
+            "lat": 31.96235,
+            "lng": 118.691719,
+            "name": "青莲街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_4",
+            "lat": 31.960725,
+            "lng": 118.701491,
+            "name": "螺塘路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "螺塘路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_5",
+            "lat": 31.964967,
+            "lng": 118.720214,
+            "name": "油坊桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "油坊桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_6",
+            "lat": 31.983679,
+            "lng": 118.722611,
+            "name": "雨润大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_7",
+            "lat": 31.99547,
+            "lng": 118.721444,
+            "name": "元通站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "元通",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_8",
+            "lat": 32.005077,
+            "lng": 118.729087,
+            "name": "奥体东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_9",
+            "lat": 32.015196,
+            "lng": 118.736463,
+            "name": "兴隆大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_10",
+            "lat": 32.028576,
+            "lng": 118.739576,
+            "name": "集庆门大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_11",
+            "lat": 32.034916,
+            "lng": 118.74732,
+            "name": "云锦路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_12",
+            "lat": 32.037306,
+            "lng": 118.758962,
+            "name": "莫愁湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莫愁湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_13",
+            "lat": 32.042725,
+            "lng": 118.767077,
+            "name": "汉中门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_14",
+            "lat": 32.042286,
+            "lng": 118.776199,
+            "name": "上海路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上海路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_15",
+            "lat": 32.041806,
+            "lng": 118.784137,
+            "name": "新街口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新街口",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_16",
+            "lat": 32.041034,
+            "lng": 118.794711,
+            "name": "大行宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大行宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_17",
+            "lat": 32.040109,
+            "lng": 118.80576,
+            "name": "西安门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_18",
+            "lat": 32.039216,
+            "lng": 118.819745,
+            "name": "明故宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_19",
+            "lat": 32.040235,
+            "lng": 118.835306,
+            "name": "苜蓿园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_20",
+            "lat": 32.037576,
+            "lng": 118.848374,
+            "name": "下马坊站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_21",
+            "lat": 32.035417,
+            "lng": 118.858059,
+            "name": "孝陵卫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_22",
+            "lat": 32.039153,
+            "lng": 118.86939,
+            "name": "钟灵街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_23",
+            "lat": 32.04965,
+            "lng": 118.89472,
+            "name": "马群站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马群",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_24",
+            "lat": 32.071683,
+            "lng": 118.90593,
+            "name": "金马路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金马路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_25",
+            "lat": 32.084911,
+            "lng": 118.904916,
+            "name": "仙鹤门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_26",
+            "lat": 32.091278,
+            "lng": 118.916776,
+            "name": "学则路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_27",
+            "lat": 32.09866,
+            "lng": 118.930412,
+            "name": "仙林中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_28",
+            "lat": 32.103798,
+            "lng": 118.939974,
+            "name": "羊山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_29",
+            "lat": 32.108761,
+            "lng": 118.959511,
+            "name": "南大仙林校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ2_30",
+            "lat": 32.116148,
+            "lng": 118.976654,
+            "name": "经天路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ3",
+        "name": "南京地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00A342",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 42,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ3_1",
+            "lat": 32.163565,
+            "lng": 118.671333,
+            "name": "林场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_2",
+            "lat": 32.157272,
+            "lng": 118.696577,
+            "name": "星火路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_3",
+            "lat": 32.156262,
+            "lng": 118.707885,
+            "name": "东大成贤学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_4",
+            "lat": 32.153442,
+            "lng": 118.718932,
+            "name": "泰冯路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "泰冯路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_5",
+            "lat": 32.150855,
+            "lng": 118.734076,
+            "name": "天润城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_6",
+            "lat": 32.139967,
+            "lng": 118.746237,
+            "name": "柳洲东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_7",
+            "lat": 32.115468,
+            "lng": 118.76992,
+            "name": "上元门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_8",
+            "lat": 32.110377,
+            "lng": 118.77779,
+            "name": "五塘广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五塘广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_9",
+            "lat": 32.094997,
+            "lng": 118.785738,
+            "name": "小市站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_10",
+            "lat": 32.088665,
+            "lng": 118.797981,
+            "name": "南京站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_11",
+            "lat": 32.076463,
+            "lng": 118.810432,
+            "name": "南京林业大学路新庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_12",
+            "lat": 32.057659,
+            "lng": 118.798169,
+            "name": "鸡鸣寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鸡鸣寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_13",
+            "lat": 32.048661,
+            "lng": 118.79611,
+            "name": "浮桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_14",
+            "lat": 32.041034,
+            "lng": 118.794711,
+            "name": "大行宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大行宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_15",
+            "lat": 32.033404,
+            "lng": 118.792314,
+            "name": "常府街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_16",
+            "lat": 32.024116,
+            "lng": 118.790912,
+            "name": "夫子庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "夫子庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_17",
+            "lat": 32.013749,
+            "lng": 118.79463,
+            "name": "武定门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_18",
+            "lat": 32.003782,
+            "lng": 118.792451,
+            "name": "雨花门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_19",
+            "lat": 31.995042,
+            "lng": 118.795513,
+            "name": "卡子门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "卡子门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_20",
+            "lat": 31.986113,
+            "lng": 118.799622,
+            "name": "大明路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_21",
+            "lat": 31.977049,
+            "lng": 118.800513,
+            "name": "明发广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_22",
+            "lat": 31.970901,
+            "lng": 118.796639,
+            "name": "南京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_23",
+            "lat": 31.959019,
+            "lng": 118.804065,
+            "name": "宏运大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_24",
+            "lat": 31.943774,
+            "lng": 118.807431,
+            "name": "胜太西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_25",
+            "lat": 31.927695,
+            "lng": 118.808592,
+            "name": "天元西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_26",
+            "lat": 31.915938,
+            "lng": 118.821262,
+            "name": "九龙湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_27",
+            "lat": 31.907715,
+            "lng": 118.829893,
+            "name": "诚信大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "诚信大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_28",
+            "lat": 31.896036,
+            "lng": 118.830452,
+            "name": "东大九龙湖校区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_29",
+            "lat": 31.868974,
+            "lng": 118.831018,
+            "name": "秣周东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_30",
+            "lat": 31.850027,
+            "lng": 118.836096,
+            "name": "上秦淮西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ3_31",
+            "lat": 31.840691,
+            "lng": 118.835437,
+            "name": "秣陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ4",
+        "name": "南京地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#7C55C6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ4_1",
+            "lat": 32.057928,
+            "lng": 118.738051,
+            "name": "龙江站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_2",
+            "lat": 32.060415,
+            "lng": 118.755698,
+            "name": "草场门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "草场门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_3",
+            "lat": 32.059132,
+            "lng": 118.774554,
+            "name": "云南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "云南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_4",
+            "lat": 32.05861,
+            "lng": 118.783705,
+            "name": "鼓楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_5",
+            "lat": 32.057659,
+            "lng": 118.798169,
+            "name": "鸡鸣寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鸡鸣寺",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_6",
+            "lat": 32.057308,
+            "lng": 118.806003,
+            "name": "九华山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_7",
+            "lat": 32.06558,
+            "lng": 118.815833,
+            "name": "岗子村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_8",
+            "lat": 32.077537,
+            "lng": 118.831153,
+            "name": "蒋王庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_9",
+            "lat": 32.085241,
+            "lng": 118.837858,
+            "name": "王家湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_10",
+            "lat": 32.09386,
+            "lng": 118.864203,
+            "name": "聚宝山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_11",
+            "lat": 32.084856,
+            "lng": 118.889679,
+            "name": "徐庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_12",
+            "lat": 32.071683,
+            "lng": 118.90593,
+            "name": "金马路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金马路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_13",
+            "lat": 32.078016,
+            "lng": 118.931626,
+            "name": "汇通路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_14",
+            "lat": 32.077716,
+            "lng": 118.943669,
+            "name": "灵山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_15",
+            "lat": 32.077175,
+            "lng": 118.964227,
+            "name": "东流站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_16",
+            "lat": 32.084473,
+            "lng": 118.987232,
+            "name": "孟北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_17",
+            "lat": 32.098964,
+            "lng": 118.996479,
+            "name": "西岗桦墅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ4_18",
+            "lat": 32.125508,
+            "lng": 118.992668,
+            "name": "仙林湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ5",
+        "name": "南京地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FCD941",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ5_1",
+            "lat": 31.88632,
+            "lng": 118.79539,
+            "name": "吉印大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吉印大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_2",
+            "lat": 31.892998,
+            "lng": 118.80988,
+            "name": "九龙湖南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_3",
+            "lat": 31.907715,
+            "lng": 118.829893,
+            "name": "诚信大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "诚信大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_4",
+            "lat": 31.910439,
+            "lng": 118.844314,
+            "name": "前庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_5",
+            "lat": 31.92295,
+            "lng": 118.850081,
+            "name": "科宁路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_6",
+            "lat": 31.932295,
+            "lng": 118.845693,
+            "name": "竹山路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "竹山路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_7",
+            "lat": 31.942433,
+            "lng": 118.845547,
+            "name": "新亭路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_8",
+            "lat": 31.953462,
+            "lng": 118.843824,
+            "name": "东山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_9",
+            "lat": 31.958317,
+            "lng": 118.841698,
+            "name": "文靖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_10",
+            "lat": 31.971433,
+            "lng": 118.839312,
+            "name": "东山香樟园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_11",
+            "lat": 31.987838,
+            "lng": 118.82621,
+            "name": "神机营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_12",
+            "lat": 31.998408,
+            "lng": 118.824881,
+            "name": "大校场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大校场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_13",
+            "lat": 32.008762,
+            "lng": 118.825349,
+            "name": "七桥瓮站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_14",
+            "lat": 32.017172,
+            "lng": 118.824782,
+            "name": "石门坎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_15",
+            "lat": 32.02339,
+            "lng": 118.815926,
+            "name": "光华门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_16",
+            "lat": 32.0254,
+            "lng": 118.805674,
+            "name": "通济门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_17",
+            "lat": 32.024116,
+            "lng": 118.790912,
+            "name": "夫子庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "夫子庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_18",
+            "lat": 32.023926,
+            "lng": 118.781992,
+            "name": "三山街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三山街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_19",
+            "lat": 32.032498,
+            "lng": 118.77295,
+            "name": "朝天宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_20",
+            "lat": 32.042286,
+            "lng": 118.776199,
+            "name": "上海路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上海路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_21",
+            "lat": 32.050429,
+            "lng": 118.776237,
+            "name": "五台山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_22",
+            "lat": 32.059132,
+            "lng": 118.774554,
+            "name": "云南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "云南路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_23",
+            "lat": 32.068651,
+            "lng": 118.772812,
+            "name": "青春广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_24",
+            "lat": 32.075024,
+            "lng": 118.765559,
+            "name": "虹桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_25",
+            "lat": 32.080119,
+            "lng": 118.759622,
+            "name": "福建路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福建路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_26",
+            "lat": 32.085791,
+            "lng": 118.752813,
+            "name": "盐仓桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_27",
+            "lat": 32.086986,
+            "lng": 118.74236,
+            "name": "下关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_28",
+            "lat": 32.091994,
+            "lng": 118.738046,
+            "name": "静海寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_29",
+            "lat": 32.096101,
+            "lng": 118.741446,
+            "name": "南京西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ5_30",
+            "lat": 32.104229,
+            "lng": 118.74732,
+            "name": "方家营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ7",
+        "name": "南京地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#4A762C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 27,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ7_1",
+            "lat": 32.126693,
+            "lng": 118.895288,
+            "name": "仙新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_2",
+            "lat": 32.122648,
+            "lng": 118.887869,
+            "name": "尧化门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_3",
+            "lat": 32.115245,
+            "lng": 118.875708,
+            "name": "尧化新村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_4",
+            "lat": 32.107657,
+            "lng": 118.859906,
+            "name": "丁家庄南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_5",
+            "lat": 32.111541,
+            "lng": 118.849892,
+            "name": "丁家庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_6",
+            "lat": 32.119533,
+            "lng": 118.834605,
+            "name": "万寿站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_7",
+            "lat": 32.117227,
+            "lng": 118.81851,
+            "name": "晓庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "晓庄",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_8",
+            "lat": 32.114302,
+            "lng": 118.79866,
+            "name": "幕府山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_9",
+            "lat": 32.110377,
+            "lng": 118.77779,
+            "name": "五塘广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五塘广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_10",
+            "lat": 32.105532,
+            "lng": 118.771271,
+            "name": "幕府西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_11",
+            "lat": 32.092199,
+            "lng": 118.771969,
+            "name": "钟阜路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_12",
+            "lat": 32.080119,
+            "lng": 118.759622,
+            "name": "福建路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福建路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_13",
+            "lat": 32.071234,
+            "lng": 118.757929,
+            "name": "古平岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_14",
+            "lat": 32.060415,
+            "lng": 118.755698,
+            "name": "草场门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "草场门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_15",
+            "lat": 32.048313,
+            "lng": 118.760153,
+            "name": "清凉山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_16",
+            "lat": 32.037306,
+            "lng": 118.758962,
+            "name": "莫愁湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莫愁湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_17",
+            "lat": 32.031758,
+            "lng": 118.757323,
+            "name": "大士茶亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_18",
+            "lat": 32.023791,
+            "lng": 118.754317,
+            "name": "南湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_19",
+            "lat": 32.016449,
+            "lng": 118.749155,
+            "name": "应天大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_20",
+            "lat": 32.003936,
+            "lng": 118.746445,
+            "name": "梦都大街东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_21",
+            "lat": 31.993707,
+            "lng": 118.738233,
+            "name": "新城科技园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_22",
+            "lat": 31.987913,
+            "lng": 118.733169,
+            "name": "中胜站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中胜",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_23",
+            "lat": 31.98216,
+            "lng": 118.72785,
+            "name": "嘉陵江东街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_24",
+            "lat": 31.974153,
+            "lng": 118.712274,
+            "name": "永初路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永初路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_25",
+            "lat": 31.966394,
+            "lng": 118.70316,
+            "name": "太清路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_26",
+            "lat": 31.960725,
+            "lng": 118.701491,
+            "name": "螺塘路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "螺塘路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ7_27",
+            "lat": 31.947158,
+            "lng": 118.690858,
+            "name": "西善桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西善桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ10",
+        "name": "南京地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C6A56A",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ10_1",
+            "lat": 32.000911,
+            "lng": 118.885825,
+            "name": "东麒路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_2",
+            "lat": 32.004924,
+            "lng": 118.871851,
+            "name": "石杨路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_3",
+            "lat": 32.006357,
+            "lng": 118.86433,
+            "name": "杨庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_4",
+            "lat": 32.00465,
+            "lng": 118.841362,
+            "name": "高桥门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_5",
+            "lat": 32.001218,
+            "lng": 118.832299,
+            "name": "承天大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_6",
+            "lat": 31.998408,
+            "lng": 118.824881,
+            "name": "大校场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大校场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_7",
+            "lat": 31.993526,
+            "lng": 118.812507,
+            "name": "机场跑道旧址站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_8",
+            "lat": 31.995042,
+            "lng": 118.795513,
+            "name": "卡子门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "卡子门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_9",
+            "lat": 31.992725,
+            "lng": 118.78088,
+            "name": "雨花台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_10",
+            "lat": 31.993521,
+            "lng": 118.774597,
+            "name": "共青团路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_11",
+            "lat": 31.991706,
+            "lng": 118.761642,
+            "name": "安德门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安德门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_12",
+            "lat": 31.982464,
+            "lng": 118.744678,
+            "name": "小行站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_13",
+            "lat": 31.987913,
+            "lng": 118.733169,
+            "name": "中胜站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中胜",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_14",
+            "lat": 31.99547,
+            "lng": 118.721444,
+            "name": "元通站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "元通",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_15",
+            "lat": 32.009064,
+            "lng": 118.718285,
+            "name": "奥体中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_16",
+            "lat": 32.015476,
+            "lng": 118.721779,
+            "name": "梦都大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_17",
+            "lat": 32.024158,
+            "lng": 118.716733,
+            "name": "绿博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_18",
+            "lat": 32.031634,
+            "lng": 118.703334,
+            "name": "江心洲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_19",
+            "lat": 32.057186,
+            "lng": 118.665525,
+            "name": "临江路青奥体育公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_20",
+            "lat": 32.061689,
+            "lng": 118.657081,
+            "name": "浦口万汇城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_21",
+            "lat": 32.066793,
+            "lng": 118.648243,
+            "name": "南京工业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_22",
+            "lat": 32.064713,
+            "lng": 118.635206,
+            "name": "龙华路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_23",
+            "lat": 32.057398,
+            "lng": 118.62664,
+            "name": "文德路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ10_24",
+            "lat": 32.044496,
+            "lng": 118.615125,
+            "name": "雨山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S1",
+        "name": "南京地铁S1号线(机场线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#0CBFB2",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S1_1",
+            "lat": 31.970901,
+            "lng": 118.796639,
+            "name": "南京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_2",
+            "lat": 31.942529,
+            "lng": 118.784513,
+            "name": "翠屏山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_3",
+            "lat": 31.914087,
+            "lng": 118.791362,
+            "name": "河海大学路佛城西路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_4",
+            "lat": 31.88632,
+            "lng": 118.79539,
+            "name": "吉印大道站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "吉印大道",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_5",
+            "lat": 31.845117,
+            "lng": 118.80581,
+            "name": "正方中路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_6",
+            "lat": 31.791286,
+            "lng": 118.821549,
+            "name": "翔宇路北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_7",
+            "lat": 31.754867,
+            "lng": 118.829197,
+            "name": "翔宇路南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "翔宇路南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_8",
+            "lat": 31.73028,
+            "lng": 118.873644,
+            "name": "禄口机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S1_9",
+            "lat": 31.737685,
+            "lng": 118.887658,
+            "name": "空港新城江宁站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "空港新城江宁",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S2",
+        "name": "南京地铁S2号线(宁马线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#9B353F",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 43,
+        "freqOff": 22,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S2_1",
+            "lat": 31.947158,
+            "lng": 118.690858,
+            "name": "西善桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西善桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_2",
+            "lat": 31.928152,
+            "lng": 118.666787,
+            "name": "雨花经济开发区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_3",
+            "lat": 31.907789,
+            "lng": 118.640623,
+            "name": "板桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_4",
+            "lat": 31.889599,
+            "lng": 118.622805,
+            "name": "板桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_5",
+            "lat": 31.877296,
+            "lng": 118.607205,
+            "name": "江宁镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_6",
+            "lat": 31.855551,
+            "lng": 118.590858,
+            "name": "江宁滨江开发区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_7",
+            "lat": 31.839937,
+            "lng": 118.578331,
+            "name": "牧龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_8",
+            "lat": 31.807139,
+            "lng": 118.555497,
+            "name": "铜井站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_9",
+            "lat": 31.751319,
+            "lng": 118.522855,
+            "name": "慈湖高新���站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_10",
+            "lat": 31.699971,
+            "lng": 118.523486,
+            "name": "湖北路路二中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_11",
+            "lat": 31.682063,
+            "lng": 118.523521,
+            "name": "湖南路路安工大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_12",
+            "lat": 31.671728,
+            "lng": 118.52358,
+            "name": "雨山东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_13",
+            "lat": 31.650254,
+            "lng": 118.523486,
+            "name": "阳湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_14",
+            "lat": 31.62596,
+            "lng": 118.523019,
+            "name": "马鞍山经开区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_15",
+            "lat": 31.558445,
+            "lng": 118.52448,
+            "name": "姑孰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S2_16",
+            "lat": 31.525301,
+            "lng": 118.515388,
+            "name": "太白站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S3",
+        "name": "南京地铁S3号线(宁和线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C479B9",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S3_1",
+            "lat": 31.970901,
+            "lng": 118.796639,
+            "name": "南京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南京南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_2",
+            "lat": 31.962303,
+            "lng": 118.778691,
+            "name": "景明佳园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_3",
+            "lat": 31.96442,
+            "lng": 118.763796,
+            "name": "铁心桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_4",
+            "lat": 31.962382,
+            "lng": 118.748258,
+            "name": "春江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_5",
+            "lat": 31.959246,
+            "lng": 118.734117,
+            "name": "贾西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_6",
+            "lat": 31.964967,
+            "lng": 118.720214,
+            "name": "油坊桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "油坊桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_7",
+            "lat": 31.974153,
+            "lng": 118.712274,
+            "name": "永初路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永初路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_8",
+            "lat": 31.977832,
+            "lng": 118.702693,
+            "name": "平良大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_9",
+            "lat": 31.975468,
+            "lng": 118.693034,
+            "name": "吴侯街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_10",
+            "lat": 31.968333,
+            "lng": 118.688345,
+            "name": "高庙路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_11",
+            "lat": 31.953167,
+            "lng": 118.677411,
+            "name": "天保站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_12",
+            "lat": 31.944343,
+            "lng": 118.66511,
+            "name": "刘村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_13",
+            "lat": 31.973147,
+            "lng": 118.588374,
+            "name": "马骡圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_14",
+            "lat": 31.958258,
+            "lng": 118.57486,
+            "name": "兰花塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_15",
+            "lat": 31.948292,
+            "lng": 118.567485,
+            "name": "双垅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_16",
+            "lat": 31.938033,
+            "lng": 118.558048,
+            "name": "石碛河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_17",
+            "lat": 31.929881,
+            "lng": 118.547446,
+            "name": "桥林新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_18",
+            "lat": 31.918829,
+            "lng": 118.531085,
+            "name": "林山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S3_19",
+            "lat": 31.909242,
+            "lng": 118.51725,
+            "name": "高家冲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S6",
+        "name": "南京地铁S6号线(宁句线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#CF93D6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S6_1",
+            "lat": 32.04965,
+            "lng": 118.89472,
+            "name": "马群站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马群",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_2",
+            "lat": 32.053406,
+            "lng": 118.915071,
+            "name": "百水桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_3",
+            "lat": 32.053065,
+            "lng": 118.928503,
+            "name": "麒麟门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_4",
+            "lat": 32.051799,
+            "lng": 118.952493,
+            "name": "东郊小镇站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_5",
+            "lat": 32.049303,
+            "lng": 119.009179,
+            "name": "古泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_6",
+            "lat": 32.061421,
+            "lng": 119.05278,
+            "name": "南京猿人洞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_7",
+            "lat": 32.048018,
+            "lng": 119.068001,
+            "name": "汤山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_8",
+            "lat": 32.033838,
+            "lng": 119.052066,
+            "name": "泉都大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_9",
+            "lat": 32.008165,
+            "lng": 119.116161,
+            "name": "黄梅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_10",
+            "lat": 31.991833,
+            "lng": 119.163863,
+            "name": "童世界站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_11",
+            "lat": 31.972485,
+            "lng": 119.180324,
+            "name": "华阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_12",
+            "lat": 31.943553,
+            "lng": 119.17884,
+            "name": "崇明站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S6_13",
+            "lat": 31.922046,
+            "lng": 119.169901,
+            "name": "句容站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S7",
+        "name": "南京地铁S7号线(宁溧线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F2A0B6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 22,
+        "freqOff": 11,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S7_1",
+            "lat": 31.737685,
+            "lng": 118.887658,
+            "name": "空港新城江宁站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "空港新城江宁",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_2",
+            "lat": 31.756736,
+            "lng": 118.937896,
+            "name": "柘塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_3",
+            "lat": 31.733817,
+            "lng": 118.989251,
+            "name": "空港新城溧水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_4",
+            "lat": 31.720848,
+            "lng": 119.014394,
+            "name": "群力站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_5",
+            "lat": 31.686299,
+            "lng": 119.043293,
+            "name": "卧龙湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_6",
+            "lat": 31.662701,
+            "lng": 119.044562,
+            "name": "溧水站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_7",
+            "lat": 31.646765,
+            "lng": 119.045276,
+            "name": "中山湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_8",
+            "lat": 31.624598,
+            "lng": 119.046113,
+            "name": "幸庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S7_9",
+            "lat": 31.611448,
+            "lng": 119.046525,
+            "name": "无想山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S8",
+        "name": "南京地铁S8号线(宁天线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F47B0F",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S8_1",
+            "lat": 32.128293,
+            "lng": 118.730024,
+            "name": "长江大桥北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_2",
+            "lat": 32.13472,
+            "lng": 118.726642,
+            "name": "毛纺厂路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_3",
+            "lat": 32.144295,
+            "lng": 118.716265,
+            "name": "泰山新村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_4",
+            "lat": 32.153442,
+            "lng": 118.718932,
+            "name": "泰冯路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "泰冯路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_5",
+            "lat": 32.177538,
+            "lng": 118.719486,
+            "name": "高新开发区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_6",
+            "lat": 32.202391,
+            "lng": 118.72686,
+            "name": "信息工程大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_7",
+            "lat": 32.214756,
+            "lng": 118.730589,
+            "name": "卸甲甸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_8",
+            "lat": 32.228852,
+            "lng": 118.740131,
+            "name": "大厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_9",
+            "lat": 32.244526,
+            "lng": 118.753714,
+            "name": "葛塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_10",
+            "lat": 32.273454,
+            "lng": 118.7766,
+            "name": "长芦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_11",
+            "lat": 32.28538,
+            "lng": 118.785555,
+            "name": "化工园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_12",
+            "lat": 32.305161,
+            "lng": 118.805294,
+            "name": "六合开发区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_13",
+            "lat": 32.319013,
+            "lng": 118.820148,
+            "name": "龙池站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_14",
+            "lat": 32.334608,
+            "lng": 118.836659,
+            "name": "雄州站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_15",
+            "lat": 32.34684,
+            "lng": 118.845113,
+            "name": "凤凰山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_16",
+            "lat": 32.359536,
+            "lng": 118.850113,
+            "name": "方州广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_17",
+            "lat": 32.399889,
+            "lng": 118.891854,
+            "name": "沈桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_18",
+            "lat": 32.427048,
+            "lng": 118.933239,
+            "name": "八百桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S8_19",
+            "lat": 32.465377,
+            "lng": 118.964585,
+            "name": "金牛湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_LINE_S9",
+        "name": "南京地铁S9号线(宁高线)",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FDC131",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_LINE_S9_1",
+            "lat": 31.754867,
+            "lng": 118.829197,
+            "name": "翔宇路南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "翔宇路南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S9_2",
+            "lat": 31.696084,
+            "lng": 118.881887,
+            "name": "铜山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S9_3",
+            "lat": 31.640389,
+            "lng": 118.907377,
+            "name": "石湫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S9_4",
+            "lat": 31.546323,
+            "lng": 118.902173,
+            "name": "明觉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S9_5",
+            "lat": 31.39579,
+            "lng": 118.887691,
+            "name": "团结圩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_LINE_S9_6",
+            "lat": 31.340959,
+            "lng": 118.877193,
+            "name": "高淳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "NJ_NANJING_CHUZHOU_LINE",
+        "name": "宁滁线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FB521C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_1",
+            "lat": 32.211293,
+            "lng": 118.595893,
+            "name": "汊河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_2",
+            "lat": 32.23731,
+            "lng": 118.58429,
+            "name": "汊河新城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_3",
+            "lat": 32.289506,
+            "lng": 118.508732,
+            "name": "十二里半站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_4",
+            "lat": 32.31172,
+            "lng": 118.411223,
+            "name": "林楼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_5",
+            "lat": 32.307408,
+            "lng": 118.391412,
+            "name": "大王郢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_6",
+            "lat": 32.281824,
+            "lng": 118.387398,
+            "name": "苏滁商务中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_7",
+            "lat": 32.253726,
+            "lng": 118.336088,
+            "name": "滁州政务中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_8",
+            "lat": 32.253684,
+            "lng": 118.308295,
+            "name": "琅琊山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_9",
+            "lat": 32.236429,
+            "lng": 118.303302,
+            "name": "花博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "nanjing_NJ_NANJING_CHUZHOU_LINE_10",
+            "lat": 32.199685,
+            "lng": 118.321664,
+            "name": "滁州高铁站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

@@ -1,0 +1,6510 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:05:20.520Z",
+  "data": {
+    "cityKey": "shenzhen",
+    "lineCounter": 18,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "SZ1",
+        "name": "深圳地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00B248",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 37,
+        "freqOff": 19,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ1_1",
+            "lat": 22.53186,
+            "lng": 114.118623,
+            "name": "罗湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_2",
+            "lat": 22.539672,
+            "lng": 114.118821,
+            "name": "国贸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_3",
+            "lat": 22.544307,
+            "lng": 114.11624,
+            "name": "老街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "老街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_4",
+            "lat": 22.541798,
+            "lng": 114.107811,
+            "name": "大剧院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大剧院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_5",
+            "lat": 22.540621,
+            "lng": 114.095178,
+            "name": "科学馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科学馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_6",
+            "lat": 22.540458,
+            "lng": 114.085132,
+            "name": "华强路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_7",
+            "lat": 22.534853,
+            "lng": 114.068045,
+            "name": "岗厦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_8",
+            "lat": 22.534763,
+            "lng": 114.0611,
+            "name": "会展中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "会展中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_9",
+            "lat": 22.534652,
+            "lng": 114.05458,
+            "name": "购物公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "购物公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_10",
+            "lat": 22.538884,
+            "lng": 114.038639,
+            "name": "香蜜湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_11",
+            "lat": 22.536245,
+            "lng": 114.025828,
+            "name": "车公庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_12",
+            "lat": 22.533359,
+            "lng": 114.013918,
+            "name": "竹子林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_13",
+            "lat": 22.532408,
+            "lng": 113.996651,
+            "name": "侨城东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_14",
+            "lat": 22.533492,
+            "lng": 113.985368,
+            "name": "华侨城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_15",
+            "lat": 22.536899,
+            "lng": 113.974216,
+            "name": "世界之窗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "世界之窗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_16",
+            "lat": 22.539605,
+            "lng": 113.967048,
+            "name": "白石洲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_17",
+            "lat": 22.540237,
+            "lng": 113.953842,
+            "name": "高新园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_18",
+            "lat": 22.539818,
+            "lng": 113.945037,
+            "name": "深大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "深大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_19",
+            "lat": 22.532361,
+            "lng": 113.924796,
+            "name": "桃园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "桃园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_20",
+            "lat": 22.532232,
+            "lng": 113.915075,
+            "name": "大新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_21",
+            "lat": 22.532,
+            "lng": 113.903073,
+            "name": "鲤鱼门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_22",
+            "lat": 22.537337,
+            "lng": 113.897932,
+            "name": "前海湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前海湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_23",
+            "lat": 22.54747,
+            "lng": 113.894627,
+            "name": "新安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_24",
+            "lat": 22.554571,
+            "lng": 113.887237,
+            "name": "宝安中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宝安中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_25",
+            "lat": 22.560743,
+            "lng": 113.880633,
+            "name": "宝体站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_26",
+            "lat": 22.568935,
+            "lng": 113.870672,
+            "name": "坪洲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_27",
+            "lat": 22.575149,
+            "lng": 113.863047,
+            "name": "西乡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_28",
+            "lat": 22.601358,
+            "lng": 113.846789,
+            "name": "固戍站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_29",
+            "lat": 22.628837,
+            "lng": 113.835449,
+            "name": "后瑞站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ1_30",
+            "lat": 22.646999,
+            "lng": 113.822635,
+            "name": "机场东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机场东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ2",
+        "name": "深圳地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#D35618",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 35,
+        "freqOff": 17,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ2_1",
+            "lat": 22.479231,
+            "lng": 113.897524,
+            "name": "赤湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "赤湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_2",
+            "lat": 22.476622,
+            "lng": 113.912323,
+            "name": "蛇口港站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_3",
+            "lat": 22.485108,
+            "lng": 113.915112,
+            "name": "海上世界站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海上世界",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_4",
+            "lat": 22.488384,
+            "lng": 113.919688,
+            "name": "水湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_5",
+            "lat": 22.486325,
+            "lng": 113.931152,
+            "name": "东角头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_6",
+            "lat": 22.493354,
+            "lng": 113.9386,
+            "name": "湾厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_7",
+            "lat": 22.500407,
+            "lng": 113.937715,
+            "name": "海月站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_8",
+            "lat": 22.50915,
+            "lng": 113.9376,
+            "name": "登良站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_9",
+            "lat": 22.517349,
+            "lng": 113.940251,
+            "name": "后海站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "后海",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_10",
+            "lat": 22.527013,
+            "lng": 113.945794,
+            "name": "科苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科苑",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_11",
+            "lat": 22.525142,
+            "lng": 113.968433,
+            "name": "红树湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_12",
+            "lat": 22.536899,
+            "lng": 113.974216,
+            "name": "世界之窗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "世界之窗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_13",
+            "lat": 22.543993,
+            "lng": 113.989144,
+            "name": "侨城北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_14",
+            "lat": 22.546455,
+            "lng": 113.998843,
+            "name": "深康站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_15",
+            "lat": 22.548779,
+            "lng": 114.006233,
+            "name": "安托山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安托山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_16",
+            "lat": 22.549781,
+            "lng": 114.014379,
+            "name": "侨香站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_17",
+            "lat": 22.552771,
+            "lng": 114.023847,
+            "name": "香蜜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_18",
+            "lat": 22.553863,
+            "lng": 114.032715,
+            "name": "香梅北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_19",
+            "lat": 22.553416,
+            "lng": 114.04333,
+            "name": "景田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "景田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_20",
+            "lat": 22.546673,
+            "lng": 114.050032,
+            "name": "莲花西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_21",
+            "lat": 22.540014,
+            "lng": 114.053699,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_22",
+            "lat": 22.540671,
+            "lng": 114.061762,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_23",
+            "lat": 22.540781,
+            "lng": 114.069208,
+            "name": "岗厦北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_24",
+            "lat": 22.544446,
+            "lng": 114.086657,
+            "name": "华强北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华强北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_25",
+            "lat": 22.544542,
+            "lng": 114.092557,
+            "name": "燕南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_26",
+            "lat": 22.541798,
+            "lng": 114.107811,
+            "name": "大剧院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大剧院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_27",
+            "lat": 22.544285,
+            "lng": 114.125435,
+            "name": "湖贝(2号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_28",
+            "lat": 22.546093,
+            "lng": 114.13633,
+            "name": "黄贝岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄贝岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_29",
+            "lat": 22.547733,
+            "lng": 114.14915,
+            "name": "新秀站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_30",
+            "lat": 22.553341,
+            "lng": 114.155342,
+            "name": "莲塘口岸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_31",
+            "lat": 22.563909,
+            "lng": 114.166231,
+            "name": "仙湖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ2_32",
+            "lat": 22.564116,
+            "lng": 114.174287,
+            "name": "莲塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莲塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ3",
+        "name": "深圳地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#36A0E8",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 47,
+        "freqOff": 23,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ3_1",
+            "lat": 22.786983,
+            "lng": 114.322055,
+            "name": "坪地六联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_2",
+            "lat": 22.780163,
+            "lng": 114.310905,
+            "name": "富坪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_3",
+            "lat": 22.775122,
+            "lng": 114.302866,
+            "name": "白石塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_4",
+            "lat": 22.771009,
+            "lng": 114.289354,
+            "name": "低碳城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_5",
+            "lat": 22.763426,
+            "lng": 114.282238,
+            "name": "坪西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_6",
+            "lat": 22.747986,
+            "lng": 114.283018,
+            "name": "新生站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_7",
+            "lat": 22.734828,
+            "lng": 114.281732,
+            "name": "梨园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_8",
+            "lat": 22.728802,
+            "lng": 114.277416,
+            "name": "双龙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双龙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_9",
+            "lat": 22.721965,
+            "lng": 114.265532,
+            "name": "南联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_10",
+            "lat": 22.716913,
+            "lng": 114.254592,
+            "name": "龙城广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_11",
+            "lat": 22.709483,
+            "lng": 114.244312,
+            "name": "吉祥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_12",
+            "lat": 22.697492,
+            "lng": 114.23442,
+            "name": "爱联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_13",
+            "lat": 22.68572,
+            "lng": 114.228162,
+            "name": "大运站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大运",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_14",
+            "lat": 22.673073,
+            "lng": 114.224311,
+            "name": "荷坳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_15",
+            "lat": 22.658992,
+            "lng": 114.218039,
+            "name": "永湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_16",
+            "lat": 22.648442,
+            "lng": 114.208996,
+            "name": "横岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_17",
+            "lat": 22.639185,
+            "lng": 114.192721,
+            "name": "塘坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_18",
+            "lat": 22.634322,
+            "lng": 114.180644,
+            "name": "六约站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_19",
+            "lat": 22.619747,
+            "lng": 114.148054,
+            "name": "丹竹头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_20",
+            "lat": 22.61419,
+            "lng": 114.138363,
+            "name": "大芬站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_21",
+            "lat": 22.606995,
+            "lng": 114.130295,
+            "name": "木棉湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_22",
+            "lat": 22.601695,
+            "lng": 114.121575,
+            "name": "布吉站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "布吉",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_23",
+            "lat": 22.584445,
+            "lng": 114.116497,
+            "name": "草埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_24",
+            "lat": 22.573983,
+            "lng": 114.124971,
+            "name": "水贝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_25",
+            "lat": 22.567325,
+            "lng": 114.13004,
+            "name": "田贝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "田贝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_26",
+            "lat": 22.556194,
+            "lng": 114.129873,
+            "name": "翠竹站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_27",
+            "lat": 22.549241,
+            "lng": 114.122669,
+            "name": "晒布站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_28",
+            "lat": 22.544307,
+            "lng": 114.11624,
+            "name": "老街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "老街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_29",
+            "lat": 22.549211,
+            "lng": 114.104586,
+            "name": "红岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_30",
+            "lat": 22.54913,
+            "lng": 114.096229,
+            "name": "通新岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通新岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_31",
+            "lat": 22.548981,
+            "lng": 114.086658,
+            "name": "华新站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华新",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_32",
+            "lat": 22.54864,
+            "lng": 114.067847,
+            "name": "莲花村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莲花村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_33",
+            "lat": 22.548627,
+            "lng": 114.060169,
+            "name": "少年宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "少年宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_34",
+            "lat": 22.540014,
+            "lng": 114.053699,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_35",
+            "lat": 22.534652,
+            "lng": 114.05458,
+            "name": "购物公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "购物公园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_36",
+            "lat": 22.523037,
+            "lng": 114.05362,
+            "name": "石厦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石厦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_37",
+            "lat": 22.516291,
+            "lng": 114.050978,
+            "name": "益田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ3_38",
+            "lat": 22.508176,
+            "lng": 114.056581,
+            "name": "福保站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ4",
+        "name": "深圳地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#D82B2B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ4_1",
+            "lat": 22.515713,
+            "lng": 114.069246,
+            "name": "福田口岸(4号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_2",
+            "lat": 22.523224,
+            "lng": 114.064798,
+            "name": "福民站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福民",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_3",
+            "lat": 22.534763,
+            "lng": 114.0611,
+            "name": "会展中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "会展中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_4",
+            "lat": 22.540671,
+            "lng": 114.061762,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_5",
+            "lat": 22.548627,
+            "lng": 114.060169,
+            "name": "少年宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "少年宫",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_6",
+            "lat": 22.560536,
+            "lng": 114.059392,
+            "name": "莲花北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_7",
+            "lat": 22.570461,
+            "lng": 114.059415,
+            "name": "上梅林站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上梅林",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_8",
+            "lat": 22.594144,
+            "lng": 114.048805,
+            "name": "民乐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_9",
+            "lat": 22.60151,
+            "lng": 114.042437,
+            "name": "白石龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_10",
+            "lat": 22.610442,
+            "lng": 114.030414,
+            "name": "深圳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "深圳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_11",
+            "lat": 22.621781,
+            "lng": 114.023532,
+            "name": "红山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_12",
+            "lat": 22.637057,
+            "lng": 114.012837,
+            "name": "上塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_13",
+            "lat": 22.644739,
+            "lng": 114.012009,
+            "name": "龙胜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_14",
+            "lat": 22.651626,
+            "lng": 114.022417,
+            "name": "龙华站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_15",
+            "lat": 22.664087,
+            "lng": 114.03654,
+            "name": "清湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_16",
+            "lat": 22.672085,
+            "lng": 114.040417,
+            "name": "清湖北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_17",
+            "lat": 22.686731,
+            "lng": 114.040304,
+            "name": "竹村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_18",
+            "lat": 22.697253,
+            "lng": 114.041081,
+            "name": "茜坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_19",
+            "lat": 22.710762,
+            "lng": 114.044793,
+            "name": "长湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_20",
+            "lat": 22.715173,
+            "lng": 114.054772,
+            "name": "观澜站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_21",
+            "lat": 22.721153,
+            "lng": 114.064766,
+            "name": "松元厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_22",
+            "lat": 22.721618,
+            "lng": 114.076266,
+            "name": "观澜湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ4_23",
+            "lat": 22.724614,
+            "lng": 114.089262,
+            "name": "牛湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ5",
+        "name": "深圳地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#A56CBC",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 45,
+        "freqOff": 22,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ5_1",
+            "lat": 22.479231,
+            "lng": 113.897524,
+            "name": "赤湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "赤湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_2",
+            "lat": 22.497825,
+            "lng": 113.893476,
+            "name": "荔湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_3",
+            "lat": 22.502907,
+            "lng": 113.889968,
+            "name": "铁路公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_4",
+            "lat": 22.507889,
+            "lng": 113.88593,
+            "name": "妈湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_5",
+            "lat": 22.516106,
+            "lng": 113.889548,
+            "name": "前湾公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_6",
+            "lat": 22.521809,
+            "lng": 113.895458,
+            "name": "前湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_7",
+            "lat": 22.532363,
+            "lng": 113.897941,
+            "name": "桂湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_8",
+            "lat": 22.537337,
+            "lng": 113.897932,
+            "name": "前海湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前海湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_9",
+            "lat": 22.544157,
+            "lng": 113.889326,
+            "name": "临海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_10",
+            "lat": 22.549635,
+            "lng": 113.885088,
+            "name": "宝华站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_11",
+            "lat": 22.554571,
+            "lng": 113.887237,
+            "name": "宝安中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宝安中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_12",
+            "lat": 22.559688,
+            "lng": 113.893226,
+            "name": "翻身站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_13",
+            "lat": 22.568962,
+            "lng": 113.904158,
+            "name": "灵芝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "灵芝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_14",
+            "lat": 22.574544,
+            "lng": 113.910574,
+            "name": "洪浪北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_15",
+            "lat": 22.581821,
+            "lng": 113.919012,
+            "name": "兴东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_16",
+            "lat": 22.580534,
+            "lng": 113.943541,
+            "name": "留仙洞站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "留仙洞",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_17",
+            "lat": 22.580682,
+            "lng": 113.954389,
+            "name": "西丽站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西丽",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_18",
+            "lat": 22.581942,
+            "lng": 113.965302,
+            "name": "大学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_19",
+            "lat": 22.590097,
+            "lng": 113.999662,
+            "name": "塘朗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_20",
+            "lat": 22.599395,
+            "lng": 114.010276,
+            "name": "长岭陂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_21",
+            "lat": 22.610442,
+            "lng": 114.030414,
+            "name": "深圳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "深圳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_22",
+            "lat": 22.617544,
+            "lng": 114.040847,
+            "name": "民治站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_23",
+            "lat": 22.626826,
+            "lng": 114.060681,
+            "name": "五和站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五和",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_24",
+            "lat": 22.627482,
+            "lng": 114.070849,
+            "name": "坂田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_25",
+            "lat": 22.626776,
+            "lng": 114.079971,
+            "name": "杨美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_26",
+            "lat": 22.622044,
+            "lng": 114.105337,
+            "name": "上水径站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_27",
+            "lat": 22.61483,
+            "lng": 114.110661,
+            "name": "下水径站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_28",
+            "lat": 22.608052,
+            "lng": 114.113827,
+            "name": "长龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_29",
+            "lat": 22.601695,
+            "lng": 114.121575,
+            "name": "布吉站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "布吉",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_30",
+            "lat": 22.595443,
+            "lng": 114.130376,
+            "name": "百鸽笼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_31",
+            "lat": 22.580987,
+            "lng": 114.138044,
+            "name": "布心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_32",
+            "lat": 22.573465,
+            "lng": 114.137117,
+            "name": "太安站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太安",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_33",
+            "lat": 22.555857,
+            "lng": 114.140112,
+            "name": "怡景站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_34",
+            "lat": 22.546093,
+            "lng": 114.13633,
+            "name": "黄贝岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄贝岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_35",
+            "lat": 22.5438,
+            "lng": 114.122199,
+            "name": "湖贝(5号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_36",
+            "lat": 22.542996,
+            "lng": 114.117398,
+            "name": "东门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ5_37",
+            "lat": 22.541798,
+            "lng": 114.107811,
+            "name": "大剧院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大剧院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ6",
+        "name": "深圳地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#5AC0C8",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 35,
+        "freqOff": 17,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ6_1",
+            "lat": 22.540621,
+            "lng": 114.095178,
+            "name": "科学馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科学馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_2",
+            "lat": 22.54913,
+            "lng": 114.096229,
+            "name": "通新岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "通新岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_3",
+            "lat": 22.554671,
+            "lng": 114.096102,
+            "name": "体育中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_4",
+            "lat": 22.561927,
+            "lng": 114.092998,
+            "name": "八卦岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "八卦岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_5",
+            "lat": 22.568316,
+            "lng": 114.089853,
+            "name": "银湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "银湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_6",
+            "lat": 22.574175,
+            "lng": 114.068885,
+            "name": "翰岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_7",
+            "lat": 22.593675,
+            "lng": 114.05374,
+            "name": "梅林关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_8",
+            "lat": 22.610442,
+            "lng": 114.030414,
+            "name": "深圳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "深圳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_9",
+            "lat": 22.621781,
+            "lng": 114.023532,
+            "name": "红山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_10",
+            "lat": 22.640391,
+            "lng": 114.016635,
+            "name": "上芬站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_11",
+            "lat": 22.656323,
+            "lng": 114.00514,
+            "name": "元芬站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_12",
+            "lat": 22.66789,
+            "lng": 113.991594,
+            "name": "阳台山东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_13",
+            "lat": 22.68325,
+            "lng": 113.949663,
+            "name": "官田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_14",
+            "lat": 22.689095,
+            "lng": 113.938537,
+            "name": "上屋站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上屋",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_15",
+            "lat": 22.726329,
+            "lng": 113.930925,
+            "name": "长圳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_16",
+            "lat": 22.747431,
+            "lng": 113.93283,
+            "name": "凤凰城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_17",
+            "lat": 22.761968,
+            "lng": 113.942712,
+            "name": "光明大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_18",
+            "lat": 22.77171,
+            "lng": 113.945244,
+            "name": "光明站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "光明",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_19",
+            "lat": 22.77747,
+            "lng": 113.934111,
+            "name": "科学公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_20",
+            "lat": 22.775908,
+            "lng": 113.923404,
+            "name": "楼村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_21",
+            "lat": 22.777681,
+            "lng": 113.90729,
+            "name": "红花山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_22",
+            "lat": 22.777428,
+            "lng": 113.891404,
+            "name": "公明广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_23",
+            "lat": 22.781608,
+            "lng": 113.880929,
+            "name": "合水口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_24",
+            "lat": 22.780928,
+            "lng": 113.867696,
+            "name": "薯田埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_25",
+            "lat": 22.777921,
+            "lng": 113.848308,
+            "name": "松岗公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_26",
+            "lat": 22.774646,
+            "lng": 113.837648,
+            "name": "溪头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6_27",
+            "lat": 22.77227,
+            "lng": 113.829628,
+            "name": "松岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "松岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ6Z",
+        "name": "深圳地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#007978",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 7,
+        "freqOff": 4,
+        "freqLow": 2,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ6Z_1",
+            "lat": 22.732787,
+            "lng": 113.95349,
+            "name": "光明城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_2",
+            "lat": 22.750191,
+            "lng": 113.950209,
+            "name": "虹桥公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_3",
+            "lat": 22.758122,
+            "lng": 113.951037,
+            "name": "碧眼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_4",
+            "lat": 22.77171,
+            "lng": 113.945244,
+            "name": "光明站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "光明",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_5",
+            "lat": 22.787813,
+            "lng": 113.949268,
+            "name": "圳美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_6",
+            "lat": 22.796433,
+            "lng": 113.953345,
+            "name": "中大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ6Z_7",
+            "lat": 22.806375,
+            "lng": 113.968593,
+            "name": "深理工站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ7",
+        "name": "深圳地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#046BAF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ7_1",
+            "lat": 22.5929,
+            "lng": 113.988378,
+            "name": "深大丽湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_2",
+            "lat": 22.594,
+            "lng": 113.978312,
+            "name": "北大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_3",
+            "lat": 22.593572,
+            "lng": 113.965648,
+            "name": "西丽湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_4",
+            "lat": 22.580682,
+            "lng": 113.954389,
+            "name": "西丽站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西丽",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_5",
+            "lat": 22.574131,
+            "lng": 113.954307,
+            "name": "茶光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_6",
+            "lat": 22.568271,
+            "lng": 113.960556,
+            "name": "珠光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_7",
+            "lat": 22.564003,
+            "lng": 113.974686,
+            "name": "龙井站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_8",
+            "lat": 22.559895,
+            "lng": 113.981962,
+            "name": "桃源村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_9",
+            "lat": 22.556533,
+            "lng": 113.993727,
+            "name": "深云站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_10",
+            "lat": 22.548779,
+            "lng": 114.006233,
+            "name": "安托山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安托山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_11",
+            "lat": 22.540409,
+            "lng": 114.018133,
+            "name": "农林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_12",
+            "lat": 22.536245,
+            "lng": 114.025828,
+            "name": "车公庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_13",
+            "lat": 22.524608,
+            "lng": 114.035503,
+            "name": "上沙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_14",
+            "lat": 22.520793,
+            "lng": 114.042578,
+            "name": "沙尾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_15",
+            "lat": 22.523037,
+            "lng": 114.05362,
+            "name": "石厦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "石厦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_16",
+            "lat": 22.523135,
+            "lng": 114.059819,
+            "name": "皇岗村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_17",
+            "lat": 22.523224,
+            "lng": 114.064798,
+            "name": "福民站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福民",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_18",
+            "lat": 22.521798,
+            "lng": 114.073971,
+            "name": "皇岗口岸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_19",
+            "lat": 22.531376,
+            "lng": 114.083595,
+            "name": "赤尾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_20",
+            "lat": 22.537212,
+            "lng": 114.086823,
+            "name": "华强南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华强南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_21",
+            "lat": 22.544446,
+            "lng": 114.086657,
+            "name": "华强北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华强北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_22",
+            "lat": 22.548981,
+            "lng": 114.086658,
+            "name": "华新站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华新",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_23",
+            "lat": 22.555789,
+            "lng": 114.08658,
+            "name": "黄木岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄木岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_24",
+            "lat": 22.561927,
+            "lng": 114.092998,
+            "name": "八卦岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "八卦岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_25",
+            "lat": 22.562055,
+            "lng": 114.104585,
+            "name": "红岭北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岭北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_26",
+            "lat": 22.56335,
+            "lng": 114.111096,
+            "name": "笋岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_27",
+            "lat": 22.566059,
+            "lng": 114.122463,
+            "name": "洪湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_28",
+            "lat": 22.567325,
+            "lng": 114.13004,
+            "name": "田贝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "田贝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ7_29",
+            "lat": 22.573465,
+            "lng": 114.137117,
+            "name": "太安站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太安",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ8",
+        "name": "深圳地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#D35618",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ8_1",
+            "lat": 22.564116,
+            "lng": 114.174287,
+            "name": "莲塘站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莲塘",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_2",
+            "lat": 22.557846,
+            "lng": 114.183209,
+            "name": "梧桐山南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_3",
+            "lat": 22.554353,
+            "lng": 114.223161,
+            "name": "沙头角站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_4",
+            "lat": 22.555533,
+            "lng": 114.237715,
+            "name": "海山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_5",
+            "lat": 22.562537,
+            "lng": 114.246901,
+            "name": "盐田港西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_6",
+            "lat": 22.583783,
+            "lng": 114.244505,
+            "name": "深外高中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_7",
+            "lat": 22.58896,
+            "lng": 114.25565,
+            "name": "盐田路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_8",
+            "lat": 22.590548,
+            "lng": 114.264225,
+            "name": "鸿安围站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_9",
+            "lat": 22.587364,
+            "lng": 114.275562,
+            "name": "盐田墟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_10",
+            "lat": 22.5941,
+            "lng": 114.307821,
+            "name": "大梅沙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_11",
+            "lat": 22.602224,
+            "lng": 114.326497,
+            "name": "小梅沙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ8_12",
+            "lat": 22.612065,
+            "lng": 114.360005,
+            "name": "溪涌站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ9",
+        "name": "深圳地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#AA8791",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ9_1",
+            "lat": 22.521809,
+            "lng": 113.895458,
+            "name": "前湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_2",
+            "lat": 22.518925,
+            "lng": 113.898804,
+            "name": "梦海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_3",
+            "lat": 22.514939,
+            "lng": 113.903753,
+            "name": "怡海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_4",
+            "lat": 22.5119,
+            "lng": 113.913124,
+            "name": "荔林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_5",
+            "lat": 22.509076,
+            "lng": 113.918399,
+            "name": "南油西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_6",
+            "lat": 22.510343,
+            "lng": 113.925795,
+            "name": "南油站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南油",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_7",
+            "lat": 22.518584,
+            "lng": 113.928336,
+            "name": "南山书城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_8",
+            "lat": 22.526018,
+            "lng": 113.935672,
+            "name": "深大南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_9",
+            "lat": 22.5327,
+            "lng": 113.945631,
+            "name": "粤海门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "粤海门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_10",
+            "lat": 22.532798,
+            "lng": 113.950071,
+            "name": "高新南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_11",
+            "lat": 22.523025,
+            "lng": 113.971437,
+            "name": "红树湾南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红树湾南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_12",
+            "lat": 22.52308,
+            "lng": 113.978622,
+            "name": "深湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_13",
+            "lat": 22.52159,
+            "lng": 113.993116,
+            "name": "深圳湾公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_14",
+            "lat": 22.528995,
+            "lng": 114.024157,
+            "name": "下沙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_15",
+            "lat": 22.536245,
+            "lng": 114.025828,
+            "name": "车公庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_16",
+            "lat": 22.545492,
+            "lng": 114.039626,
+            "name": "香梅站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_17",
+            "lat": 22.553416,
+            "lng": 114.04333,
+            "name": "景田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "景田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_18",
+            "lat": 22.561023,
+            "lng": 114.037939,
+            "name": "梅景站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_19",
+            "lat": 22.565667,
+            "lng": 114.041765,
+            "name": "下梅林站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_20",
+            "lat": 22.568443,
+            "lng": 114.052424,
+            "name": "梅村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_21",
+            "lat": 22.570461,
+            "lng": 114.059415,
+            "name": "上梅林站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上梅林",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_22",
+            "lat": 22.568453,
+            "lng": 114.067776,
+            "name": "孖岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孖岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_23",
+            "lat": 22.568316,
+            "lng": 114.089853,
+            "name": "银湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "银湖",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_24",
+            "lat": 22.567804,
+            "lng": 114.097634,
+            "name": "泥岗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_25",
+            "lat": 22.562055,
+            "lng": 114.104585,
+            "name": "红岭北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岭北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_26",
+            "lat": 22.556122,
+            "lng": 114.104493,
+            "name": "园岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_27",
+            "lat": 22.549211,
+            "lng": 114.104586,
+            "name": "红岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_28",
+            "lat": 22.539943,
+            "lng": 114.104749,
+            "name": "红岭南(9号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_29",
+            "lat": 22.535717,
+            "lng": 114.108622,
+            "name": "鹿丹村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_30",
+            "lat": 22.535511,
+            "lng": 114.118152,
+            "name": "人民南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_31",
+            "lat": 22.539788,
+            "lng": 114.125764,
+            "name": "向西村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ9_32",
+            "lat": 22.542455,
+            "lng": 114.131119,
+            "name": "文锦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ10",
+        "name": "深圳地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF85AB",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 27,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ10_1",
+            "lat": 22.698652,
+            "lng": 114.132976,
+            "name": "双拥街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_2",
+            "lat": 22.693669,
+            "lng": 114.125807,
+            "name": "平湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_3",
+            "lat": 22.686028,
+            "lng": 114.121062,
+            "name": "禾花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_4",
+            "lat": 22.675973,
+            "lng": 114.122245,
+            "name": "华南城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_5",
+            "lat": 22.670181,
+            "lng": 114.122473,
+            "name": "木古站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_6",
+            "lat": 22.654053,
+            "lng": 114.127065,
+            "name": "上李朗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_7",
+            "lat": 22.646252,
+            "lng": 114.118569,
+            "name": "凉帽山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_8",
+            "lat": 22.647827,
+            "lng": 114.105825,
+            "name": "甘坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_9",
+            "lat": 22.657122,
+            "lng": 114.0788,
+            "name": "雪象站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_10",
+            "lat": 22.657061,
+            "lng": 114.071883,
+            "name": "岗头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_11",
+            "lat": 22.650445,
+            "lng": 114.067168,
+            "name": "华为站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_12",
+            "lat": 22.641714,
+            "lng": 114.066365,
+            "name": "贝尔路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_13",
+            "lat": 22.634918,
+            "lng": 114.063367,
+            "name": "坂田北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_14",
+            "lat": 22.626826,
+            "lng": 114.060681,
+            "name": "五和站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "五和",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_15",
+            "lat": 22.616393,
+            "lng": 114.060891,
+            "name": "光雅园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_16",
+            "lat": 22.610898,
+            "lng": 114.060547,
+            "name": "南坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_17",
+            "lat": 22.603432,
+            "lng": 114.060304,
+            "name": "雅宝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_18",
+            "lat": 22.568453,
+            "lng": 114.067776,
+            "name": "孖岭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "孖岭",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_19",
+            "lat": 22.560435,
+            "lng": 114.06759,
+            "name": "冬瓜岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_20",
+            "lat": 22.54864,
+            "lng": 114.067847,
+            "name": "莲花村站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "莲花村",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_21",
+            "lat": 22.540781,
+            "lng": 114.069208,
+            "name": "岗厦北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_22",
+            "lat": 22.534853,
+            "lng": 114.068045,
+            "name": "岗厦站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_23",
+            "lat": 22.523224,
+            "lng": 114.064798,
+            "name": "福民站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福民",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ10_24",
+            "lat": 22.515175,
+            "lng": 114.06773,
+            "name": "福田口岸(10号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ11",
+        "name": "深圳地铁11号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#6E4070",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 38,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ11_1",
+            "lat": 22.784049,
+            "lng": 113.819955,
+            "name": "碧头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_2",
+            "lat": 22.77227,
+            "lng": 113.829628,
+            "name": "松岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "松岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_3",
+            "lat": 22.752629,
+            "lng": 113.826866,
+            "name": "后亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_4",
+            "lat": 22.730852,
+            "lng": 113.824431,
+            "name": "沙井站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_5",
+            "lat": 22.716999,
+            "lng": 113.817005,
+            "name": "马安山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_6",
+            "lat": 22.702078,
+            "lng": 113.817878,
+            "name": "塘尾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_7",
+            "lat": 22.688137,
+            "lng": 113.810997,
+            "name": "桥头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_8",
+            "lat": 22.673558,
+            "lng": 113.806075,
+            "name": "福永站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福永",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_9",
+            "lat": 22.651433,
+            "lng": 113.798294,
+            "name": "机场北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机场北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_10",
+            "lat": 22.624026,
+            "lng": 113.813665,
+            "name": "机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_11",
+            "lat": 22.575074,
+            "lng": 113.856091,
+            "name": "碧海湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_12",
+            "lat": 22.554579,
+            "lng": 113.880415,
+            "name": "宝安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_13",
+            "lat": 22.537337,
+            "lng": 113.897932,
+            "name": "前海湾站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前海湾",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_14",
+            "lat": 22.52404,
+            "lng": 113.923482,
+            "name": "南山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_15",
+            "lat": 22.517349,
+            "lng": 113.940251,
+            "name": "后海站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "后海",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_16",
+            "lat": 22.523025,
+            "lng": 113.971437,
+            "name": "红树湾南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "红树湾南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_17",
+            "lat": 22.536245,
+            "lng": 114.025828,
+            "name": "车公庙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_18",
+            "lat": 22.540014,
+            "lng": 114.053699,
+            "name": "福田站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福田",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_19",
+            "lat": 22.540781,
+            "lng": 114.069208,
+            "name": "岗厦北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_20",
+            "lat": 22.537388,
+            "lng": 114.081537,
+            "name": "福星站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_21",
+            "lat": 22.537212,
+            "lng": 114.086823,
+            "name": "华强南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "华强南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ11_22",
+            "lat": 22.53849,
+            "lng": 114.106262,
+            "name": "红岭南(11号线)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ12",
+        "name": "深圳地铁12号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#B9A7D3",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 43,
+        "freqOff": 22,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ12_1",
+            "lat": 22.4699,
+            "lng": 113.899701,
+            "name": "左炮台东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_2",
+            "lat": 22.472807,
+            "lng": 113.911114,
+            "name": "太子湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_3",
+            "lat": 22.485108,
+            "lng": 113.915112,
+            "name": "海上世界站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海上世界",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_4",
+            "lat": 22.494352,
+            "lng": 113.919041,
+            "name": "花果山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_5",
+            "lat": 22.500342,
+            "lng": 113.921741,
+            "name": "四海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_6",
+            "lat": 22.510343,
+            "lng": 113.925795,
+            "name": "南油站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南油",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_7",
+            "lat": 22.516718,
+            "lng": 113.924323,
+            "name": "南光站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_8",
+            "lat": 22.52404,
+            "lng": 113.923482,
+            "name": "南山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南山",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_9",
+            "lat": 22.532361,
+            "lng": 113.924796,
+            "name": "桃园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "桃园",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_10",
+            "lat": 22.537491,
+            "lng": 113.924168,
+            "name": "南头古城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_11",
+            "lat": 22.547021,
+            "lng": 113.923221,
+            "name": "中山公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_12",
+            "lat": 22.556238,
+            "lng": 113.918711,
+            "name": "同乐南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_13",
+            "lat": 22.562306,
+            "lng": 113.910883,
+            "name": "新安公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_14",
+            "lat": 22.568962,
+            "lng": 113.904158,
+            "name": "灵芝站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "灵芝",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_15",
+            "lat": 22.577842,
+            "lng": 113.895117,
+            "name": "上川站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_16",
+            "lat": 22.583825,
+            "lng": 113.889196,
+            "name": "流塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_17",
+            "lat": 22.589334,
+            "lng": 113.883676,
+            "name": "宝安客运站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_18",
+            "lat": 22.59452,
+            "lng": 113.878471,
+            "name": "宝田一路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_19",
+            "lat": 22.60319,
+            "lng": 113.86977,
+            "name": "平峦山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_20",
+            "lat": 22.611015,
+            "lng": 113.862349,
+            "name": "西乡桃源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_21",
+            "lat": 22.618875,
+            "lng": 113.858949,
+            "name": "钟屋南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_22",
+            "lat": 22.630203,
+            "lng": 113.845683,
+            "name": "黄田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_23",
+            "lat": 22.642861,
+            "lng": 113.834483,
+            "name": "兴围站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_24",
+            "lat": 22.646999,
+            "lng": 113.822635,
+            "name": "机场东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机场东",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_25",
+            "lat": 22.65684,
+            "lng": 113.821173,
+            "name": "福围站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_26",
+            "lat": 22.666661,
+            "lng": 113.818889,
+            "name": "怀德站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_27",
+            "lat": 22.673558,
+            "lng": 113.806075,
+            "name": "福永站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "福永",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_28",
+            "lat": 22.683097,
+            "lng": 113.797429,
+            "name": "桥头西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_29",
+            "lat": 22.688384,
+            "lng": 113.789475,
+            "name": "福海西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_30",
+            "lat": 22.69577,
+            "lng": 113.777991,
+            "name": "国展站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国展",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_31",
+            "lat": 22.703121,
+            "lng": 113.776896,
+            "name": "国展北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国展北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_32",
+            "lat": 22.7181,
+            "lng": 113.774564,
+            "name": "海上田园南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_33",
+            "lat": 22.731195,
+            "lng": 113.781238,
+            "name": "海上田园东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_34",
+            "lat": 22.740543,
+            "lng": 113.790146,
+            "name": "蚝乡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_35",
+            "lat": 22.739606,
+            "lng": 113.801586,
+            "name": "沙蚝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_36",
+            "lat": 22.744099,
+            "lng": 113.808554,
+            "name": "沙井古墟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_37",
+            "lat": 22.757325,
+            "lng": 113.81218,
+            "name": "步涌站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_38",
+            "lat": 22.767913,
+            "lng": 113.818113,
+            "name": "朗下站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ12_39",
+            "lat": 22.77227,
+            "lng": 113.829628,
+            "name": "松岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "松岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ13",
+        "name": "深圳地铁13号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF9929",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 17,
+        "freqOff": 8,
+        "freqLow": 6,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ13_1",
+            "lat": 22.502945,
+            "lng": 113.950582,
+            "name": "深圳湾口岸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_2",
+            "lat": 22.512079,
+            "lng": 113.943124,
+            "name": "人才公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_3",
+            "lat": 22.517349,
+            "lng": 113.940251,
+            "name": "后海站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "后海",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_4",
+            "lat": 22.527013,
+            "lng": 113.945794,
+            "name": "科苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "科苑",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_5",
+            "lat": 22.5327,
+            "lng": 113.945631,
+            "name": "粤海门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "粤海门",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_6",
+            "lat": 22.539818,
+            "lng": 113.945037,
+            "name": "深大站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "深大",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_7",
+            "lat": 22.547012,
+            "lng": 113.945318,
+            "name": "高新中站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_8",
+            "lat": 22.556931,
+            "lng": 113.945561,
+            "name": "高新北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_9",
+            "lat": 22.575172,
+            "lng": 113.944113,
+            "name": "石鼓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_10",
+            "lat": 22.580534,
+            "lng": 113.943541,
+            "name": "留仙洞站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "留仙洞",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_11",
+            "lat": 22.625259,
+            "lng": 113.938645,
+            "name": "百旺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_12",
+            "lat": 22.644855,
+            "lng": 113.926471,
+            "name": "应人石站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_13",
+            "lat": 22.667689,
+            "lng": 113.933248,
+            "name": "罗租站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_14",
+            "lat": 22.680009,
+            "lng": 113.938119,
+            "name": "石岩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ13_15",
+            "lat": 22.689095,
+            "lng": 113.938537,
+            "name": "上屋站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "上屋",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ14",
+        "name": "深圳地铁14号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F2C75C",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 120,
+        "freqPeak": 28,
+        "freqOff": 14,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ14_1",
+            "lat": 22.540781,
+            "lng": 114.069208,
+            "name": "岗厦北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "岗厦北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_2",
+            "lat": 22.555789,
+            "lng": 114.08658,
+            "name": "黄木岗站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "黄木岗",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_3",
+            "lat": 22.580873,
+            "lng": 114.113021,
+            "name": "罗湖北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_4",
+            "lat": 22.601695,
+            "lng": 114.121575,
+            "name": "布吉站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "布吉",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_5",
+            "lat": 22.628479,
+            "lng": 114.137983,
+            "name": "石芽岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_6",
+            "lat": 22.642537,
+            "lng": 114.175726,
+            "name": "六约北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_7",
+            "lat": 22.64894,
+            "lng": 114.194179,
+            "name": "四联站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_8",
+            "lat": 22.66871,
+            "lng": 114.213519,
+            "name": "坳背站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_9",
+            "lat": 22.68572,
+            "lng": 114.228162,
+            "name": "大运站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大运",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_10",
+            "lat": 22.692294,
+            "lng": 114.249543,
+            "name": "嶂背站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_11",
+            "lat": 22.688107,
+            "lng": 114.278074,
+            "name": "南约站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_12",
+            "lat": 22.688321,
+            "lng": 114.297817,
+            "name": "宝龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_13",
+            "lat": 22.680182,
+            "lng": 114.333837,
+            "name": "锦龙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_14",
+            "lat": 22.691401,
+            "lng": 114.343655,
+            "name": "坪山围站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "坪山围",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_15",
+            "lat": 22.700593,
+            "lng": 114.348758,
+            "name": "坪山广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_16",
+            "lat": 22.706897,
+            "lng": 114.351617,
+            "name": "坪山中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_17",
+            "lat": 22.74539,
+            "lng": 114.370947,
+            "name": "坑梓站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ14_18",
+            "lat": 22.756152,
+            "lng": 114.400585,
+            "name": "沙田站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ16",
+        "name": "深圳地铁16号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#4F45AA",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ16_1",
+            "lat": 22.616595,
+            "lng": 114.224332,
+            "name": "园山西坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_2",
+            "lat": 22.626884,
+            "lng": 114.219696,
+            "name": "安良站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_3",
+            "lat": 22.635621,
+            "lng": 114.222085,
+            "name": "福坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_4",
+            "lat": 22.638676,
+            "lng": 114.22844,
+            "name": "大康站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_5",
+            "lat": 22.644742,
+            "lng": 114.238044,
+            "name": "园山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_6",
+            "lat": 22.654486,
+            "lng": 114.236085,
+            "name": "大安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_7",
+            "lat": 22.65967,
+            "lng": 114.23276,
+            "name": "吉溪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_8",
+            "lat": 22.674246,
+            "lng": 114.230151,
+            "name": "金源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_9",
+            "lat": 22.68572,
+            "lng": 114.228162,
+            "name": "大运站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大运",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_10",
+            "lat": 22.69567,
+            "lng": 114.220411,
+            "name": "大运中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_11",
+            "lat": 22.704534,
+            "lng": 114.218351,
+            "name": "龙城公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_12",
+            "lat": 22.719074,
+            "lng": 114.218141,
+            "name": "黄阁坑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_13",
+            "lat": 22.728341,
+            "lng": 114.223722,
+            "name": "愉园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_14",
+            "lat": 22.72919,
+            "lng": 114.23586,
+            "name": "回龙埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_15",
+            "lat": 22.729363,
+            "lng": 114.243583,
+            "name": "尚景站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_16",
+            "lat": 22.731656,
+            "lng": 114.252783,
+            "name": "盛平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_17",
+            "lat": 22.731001,
+            "lng": 114.266333,
+            "name": "龙园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_18",
+            "lat": 22.728802,
+            "lng": 114.277416,
+            "name": "双龙站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双龙",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_19",
+            "lat": 22.725485,
+            "lng": 114.286249,
+            "name": "新塘围站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_20",
+            "lat": 22.721226,
+            "lng": 114.297522,
+            "name": "龙东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_21",
+            "lat": 22.709226,
+            "lng": 114.312533,
+            "name": "宝龙同乐站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_22",
+            "lat": 22.705886,
+            "lng": 114.327813,
+            "name": "坪山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_23",
+            "lat": 22.702746,
+            "lng": 114.335643,
+            "name": "新和站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_24",
+            "lat": 22.696012,
+            "lng": 114.337736,
+            "name": "六和站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_25",
+            "lat": 22.691401,
+            "lng": 114.343655,
+            "name": "坪山围站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "坪山围",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_26",
+            "lat": 22.685286,
+            "lng": 114.346756,
+            "name": "坪环站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_27",
+            "lat": 22.685982,
+            "lng": 114.355123,
+            "name": "东纵纪念馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_28",
+            "lat": 22.686483,
+            "lng": 114.364923,
+            "name": "沙壆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_29",
+            "lat": 22.68848,
+            "lng": 114.375333,
+            "name": "燕子湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_30",
+            "lat": 22.691856,
+            "lng": 114.383039,
+            "name": "石井站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_31",
+            "lat": 22.698387,
+            "lng": 114.400651,
+            "name": "技术大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ16_32",
+            "lat": 22.693745,
+            "lng": 114.414218,
+            "name": "田心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ20",
+        "name": "深圳地铁20号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#88DBDF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 120,
+        "freqPeak": 5,
+        "freqOff": 3,
+        "freqLow": 2,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ20_1",
+            "lat": 22.651433,
+            "lng": 113.798294,
+            "name": "机场北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "机场北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ20_2",
+            "lat": 22.684337,
+            "lng": 113.77841,
+            "name": "国展南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ20_3",
+            "lat": 22.69577,
+            "lng": 113.777991,
+            "name": "国展站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国展",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ20_4",
+            "lat": 22.703121,
+            "lng": 113.776896,
+            "name": "国展北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国展北",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ20_5",
+            "lat": 22.712137,
+            "lng": 113.769776,
+            "name": "会展城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "SZ_PINGSHAN",
+        "name": "坪山云巴1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#4999E8",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 2,
+        "maxSpeedKmh": 40,
+        "freqPeak": 14,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_1",
+            "lat": 22.705487,
+            "lng": 114.327462,
+            "name": "坪山高铁站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_2",
+            "lat": 22.708486,
+            "lng": 114.340473,
+            "name": "站前路东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_3",
+            "lat": 22.710165,
+            "lng": 114.345534,
+            "name": "文化聚落站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_4",
+            "lat": 22.710974,
+            "lng": 114.351573,
+            "name": "坪山中心(云巴)站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_5",
+            "lat": 22.71155,
+            "lng": 114.355835,
+            "name": "中芯国际站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_6",
+            "lat": 22.709273,
+            "lng": 114.361195,
+            "name": "综合保税区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_7",
+            "lat": 22.702853,
+            "lng": 114.36152,
+            "name": "燕子岭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_8",
+            "lat": 22.69837,
+            "lng": 114.352561,
+            "name": "未来城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_9",
+            "lat": 22.691938,
+            "lng": 114.358194,
+            "name": "自然博物馆西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_10",
+            "lat": 22.687292,
+            "lng": 114.359491,
+            "name": "龙背站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenzhen_SZ_PINGSHAN_11",
+            "lat": 22.682136,
+            "lng": 114.361081,
+            "name": "比亚迪北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}
