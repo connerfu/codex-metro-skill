@@ -76,13 +76,18 @@ const LINE_NAMES = {
     "BJYZT1":"亦庄T1线",
     "TJ_JINJING_LINE":"津静线",
     "TJ_LINE_Z4":"天津地铁Z4线",
-    "TJ6P2":"天津地铁6号线二期"
+    "TJ6P2":"天津地铁6号线二期",
+    "CQ_KONGGANG_LINE":"空港线",
+    "CQ_INTERNATIONAL_EXPO_LINE":"国博线",
+    "CQ_LOOP_LINE":"重庆环线",
+    "CQ_JIANGTIAO_LINE":"江跳线",
+    "CQ_BITONG_LINE":"璧铜线",
+    "CQ_CHONGQING_SKYSHUTTLE":"重庆云巴",
 };
 const RINGS = { beijing:[2,10], guangzhou:[11], shanghai:[4], wuhan:[12], chengdu:[7], chongqing:[0], xian:[8] };
 
 function getLid(slug, prefix) {
     if (SPECIAL_IDS[slug]) return SPECIAL_IDS[slug];
-    // Handle phase suffixes: line-6-phase-ii -> TJ6P2
     const phaseMatch = slug.match(/^(?:line-)?(\d+)-phase-(i+)$/i);
     if (phaseMatch) {
         const romans = {"i":1,"ii":2,"iii":3,"iv":4,"v":5};
@@ -263,6 +268,7 @@ async function main() {
     }
 }
 main().catch(e => console.error(e));
+
 
 
 
