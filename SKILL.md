@@ -1,10 +1,10 @@
 ﻿---
 name: replicate-metro-json
 description: One-command metro JSON generation. Say "复刻XX地铁" — fully automatic, zero confirmations.
-version: 3.1
+version: 3.2
 ---
 
-# Metro Replicator v3.1
+# Metro Replicator v3.2
 
 ## Usage
 ```
@@ -17,7 +17,7 @@ version: 3.1
 ## Architecture
 
 ```
-metro_scraper.js v2.2 — unified scraper
+metro_scraper.js v2.3 — unified scraper
   ├── metroman.cn → lines, colors, stations, coords
   ├── auto branch detection (haversine)
   ├── S-line handling (line-s1 → NJ_LINE_S1)
@@ -27,7 +27,7 @@ metro_scraper.js v2.2 — unified scraper
   ├── references/ → per-city
   └── archives/ → all 28 city JSONs
 
-metro_builder.js v7.11 — builder
+metro_builder.js v7.12 — builder
   └── Phase 0 pre-coords → 100%? skip OSM/POI → assemble
 ```
 
@@ -41,6 +41,22 @@ metro_builder.js v7.11 — builder
 | Mini | <1s | 哈尔滨 佛山 绍兴 珠海 咸阳 乌鲁木齐 中山 |
 
 **All 28 cities: ~3 minutes** (cached: ~10 seconds)
+
+
+## v3.2 What's New (AMap Polyline Anchors)
+
+### Track Geometry via AMap Direction API
+- **Auto post-build**: after builder, `amap_anchors.js` runs automatically (Step 6)
+- Calls AMap `/v3/direction/transit/integrated` for true track geometry
+- 100-500 track points per line, fills `segmentAnchors` (was empty `[]`)
+- Ring lines auto-skipped; already-anchored lines auto-skipped (idempotent)
+- Mismatch detection: skips when first/last station >2km from polyline endpoint
+- BATCH_DELAY=300ms between API calls (rate limit friendly)
+
+### Results (tested on Tianjin, Changchun)
+- Tianjin: 12/13 lines with anchors, 3294 track points
+- Changchun: 5/6 lines with anchors, 867 track points
+- Failed lines: TJ4, CC3 — first station coordinate mismatch with AMap route
 
 ## v3.1 What's New
 
