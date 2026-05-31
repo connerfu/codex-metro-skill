@@ -6,7 +6,7 @@ const AMAP_KEY = "c037d67ccb46f69c5f1b7a9b84c61e0e";
 const CONCURRENCY = 10;
 const TIMEOUT_MS = 8000;
 const RATE_LIMIT_MS = 30;
-const RDP_EPSILON = 80;  // meters: points within 80m of simplified line are removed
+const RDP_EPSILON = 40;  // meters: points within 80m of simplified line are removed
 
 https.globalAgent.maxSockets = 20;
 
