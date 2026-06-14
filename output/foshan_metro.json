@@ -1,0 +1,15 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-06-14T13:41:53.152Z",
+  "data": {
+    "cityKey": "foshan",
+    "lineCounter": 0,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

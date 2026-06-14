@@ -1,7 +1,7 @@
 {
   "CQ1": {
     "line": 1,
-    "name": "重庆地铁1号线",
+    "name": "重庆����1����",
     "color": "#EA3D3D",
     "speed": 80,
     "cars": 4,
@@ -38,7 +38,7 @@
   },
   "CQ2": {
     "line": 2,
-    "name": "重庆地铁2号线",
+    "name": "重庆����2����",
     "color": "#0E9E3A",
     "speed": 80,
     "cars": 6,
@@ -75,7 +75,7 @@
   },
   "CQ3": {
     "line": 3,
-    "name": "重庆地铁3号线",
+    "name": "重庆����3����",
     "color": "#3863CC",
     "speed": 80,
     "cars": 6,
@@ -126,7 +126,7 @@
   },
   "CQ4": {
     "line": 4,
-    "name": "重庆地铁4号线",
+    "name": "重庆����4����",
     "color": "#F47F00",
     "speed": 80,
     "cars": 6,
@@ -170,7 +170,7 @@
   },
   "CQ5": {
     "line": 5,
-    "name": "重庆地铁5号线",
+    "name": "重庆����5����",
     "color": "#00A6D8",
     "speed": 80,
     "cars": 6,
@@ -214,7 +214,7 @@
   },
   "CQ6": {
     "line": 6,
-    "name": "重庆地铁6号线",
+    "name": "重庆����6����",
     "color": "#F9709A",
     "speed": 100,
     "cars": 6,
@@ -255,7 +255,7 @@
   },
   "CQ9": {
     "line": 9,
-    "name": "重庆地铁9号线",
+    "name": "重庆����9����",
     "color": "#A34040",
     "speed": 80,
     "cars": 6,
@@ -296,7 +296,7 @@
   },
   "CQ10": {
     "line": 10,
-    "name": "重庆地铁10号线",
+    "name": "重庆����10����",
     "color": "#8547B2",
     "speed": 80,
     "cars": 6,
@@ -334,7 +334,7 @@
   },
   "CQ18": {
     "line": 18,
-    "name": "重庆地铁18号线",
+    "name": "重庆����18����",
     "color": "#29D2C9",
     "speed": 160,
     "cars": 6,
@@ -365,7 +365,7 @@
   },
   "CQ_KONGGANG_LINE": {
     "line": 0,
-    "name": "空港线",
+    "name": "�ո���",
     "color": "#3863CC",
     "speed": 80,
     "cars": 6,
@@ -384,7 +384,7 @@
   },
   "CQ_INTERNATIONAL_EXPO_LINE": {
     "line": 0,
-    "name": "国博线",
+    "name": "������",
     "color": "#F9709A",
     "speed": 80,
     "cars": 6,
@@ -409,7 +409,7 @@
   },
   "CQ_LOOP_LINE": {
     "line": 0,
-    "name": "重庆环线",
+    "name": "���컷��",
     "color": "#F4BF4A",
     "speed": 80,
     "cars": 6,
@@ -454,7 +454,7 @@
   },
   "CQ_JIANGTIAO_LINE": {
     "line": 0,
-    "name": "江跳线",
+    "name": "������",
     "color": "#157DCD",
     "speed": 80,
     "cars": 6,
@@ -473,7 +473,7 @@
   },
   "CQ_BITONG_LINE": {
     "line": 0,
-    "name": "璧铜线",
+    "name": "�ͭ��",
     "color": "#0C66BF",
     "speed": 80,
     "cars": 6,
@@ -493,7 +493,7 @@
   },
   "CQ_CHONGQING_SKYSHUTTLE": {
     "line": 0,
-    "name": "重庆云巴",
+    "name": "�����ư�",
     "color": "#8A9CAE",
     "speed": 80,
     "cars": 6,
@@ -520,7 +520,7 @@
   },
   "CQ6Z": {
     "line": 6,
-    "name": "重庆地铁6号线(支线)",
+    "name": "重庆����6����(֧��)",
     "color": "#F9709A",
     "speed": 100,
     "cars": 6,

@@ -1,7 +1,7 @@
 {
   "QD1": {
     "line": 1,
-    "name": "青岛地铁1号线",
+    "name": "青岛����1����",
     "color": "#FFC431",
     "speed": 80,
     "cars": 4,
@@ -54,7 +54,7 @@
   },
   "QD2": {
     "line": 2,
-    "name": "青岛地铁2号线",
+    "name": "青岛����2����",
     "color": "#DB4242",
     "speed": 80,
     "cars": 6,
@@ -91,7 +91,7 @@
   },
   "QD3": {
     "line": 3,
-    "name": "青岛地铁3号线",
+    "name": "青岛����3����",
     "color": "#2A7CDD",
     "speed": 80,
     "cars": 6,
@@ -125,7 +125,7 @@
   },
   "QD4": {
     "line": 4,
-    "name": "青岛地铁4号线",
+    "name": "青岛����4����",
     "color": "#007836",
     "speed": 80,
     "cars": 6,
@@ -162,7 +162,7 @@
   },
   "QD6": {
     "line": 6,
-    "name": "青岛地铁6号线",
+    "name": "青岛����6����",
     "color": "#6CA3D9",
     "speed": 100,
     "cars": 6,
@@ -195,7 +195,7 @@
   },
   "QD8": {
     "line": 8,
-    "name": "青岛地铁8号线",
+    "name": "青岛����8����",
     "color": "#F96EC7",
     "speed": 80,
     "cars": 6,
@@ -218,7 +218,7 @@
   },
   "QD_OCEANTEC_VALLEY_LINE": {
     "line": 0,
-    "name": "青岛地铁号线",
+    "name": "青岛��������",
     "color": "#1F387F",
     "speed": 80,
     "cars": 6,
@@ -251,7 +251,7 @@
   },
   "QD_THE_WEST_COAST_LINE": {
     "line": 0,
-    "name": "青岛地铁号线",
+    "name": "青岛��������",
     "color": "#3DC4AD",
     "speed": 80,
     "cars": 6,

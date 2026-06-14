@@ -1,0 +1,5442 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-06-14T13:35:23.750Z",
+  "data": {
+    "cityKey": "shenyang",
+    "lineCounter": 6,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "SY1",
+        "name": "沈阳����1����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EF4B4B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 19,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY1_1",
+            "lat": 41.765462,
+            "lng": 123.230509,
+            "name": "十三号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_2",
+            "lat": 41.765395,
+            "lng": 123.242537,
+            "name": "中央大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_3",
+            "lat": 41.765381,
+            "lng": 123.25934,
+            "name": "七号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_4",
+            "lat": 41.766026,
+            "lng": 123.277277,
+            "name": "四号街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_5",
+            "lat": 41.771936,
+            "lng": 123.294099,
+            "name": "张士站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_6",
+            "lat": 41.781052,
+            "lng": 123.305252,
+            "name": "开发大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_7",
+            "lat": 41.794186,
+            "lng": 123.305686,
+            "name": "于洪广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_8",
+            "lat": 41.801583,
+            "lng": 123.309668,
+            "name": "迎宾路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_9",
+            "lat": 41.805072,
+            "lng": 123.331973,
+            "name": "重工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_10",
+            "lat": 41.803726,
+            "lng": 123.343559,
+            "name": "启工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_11",
+            "lat": 41.800291,
+            "lng": 123.356113,
+            "name": "保工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_12",
+            "lat": 41.794093,
+            "lng": 123.370794,
+            "name": "铁西广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "铁西广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_13",
+            "lat": 41.796508,
+            "lng": 123.380508,
+            "name": "云峰北街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_14",
+            "lat": 41.793772,
+            "lng": 123.396798,
+            "name": "沈阳站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_15",
+            "lat": 41.790088,
+            "lng": 123.405456,
+            "name": "太原街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太原街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_16",
+            "lat": 41.789396,
+            "lng": 123.419906,
+            "name": "南市场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_17",
+            "lat": 41.792209,
+            "lng": 123.432747,
+            "name": "青年大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青年大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_18",
+            "lat": 41.796947,
+            "lng": 123.447255,
+            "name": "怀远门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_19",
+            "lat": 41.801344,
+            "lng": 123.461001,
+            "name": "中街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_20",
+            "lat": 41.802831,
+            "lng": 123.470596,
+            "name": "东中街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_21",
+            "lat": 41.808484,
+            "lng": 123.488589,
+            "name": "滂江街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滂江街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_22",
+            "lat": 41.80812,
+            "lng": 123.504308,
+            "name": "黎明广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_23",
+            "lat": 41.806635,
+            "lng": 123.52066,
+            "name": "新惠街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_24",
+            "lat": 41.813171,
+            "lng": 123.53113,
+            "name": "新宁街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_25",
+            "lat": 41.81882,
+            "lng": 123.546237,
+            "name": "东大营街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_26",
+            "lat": 41.821708,
+            "lng": 123.564477,
+            "name": "农业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_27",
+            "lat": 41.822574,
+            "lng": 123.579669,
+            "name": "前陵站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_28",
+            "lat": 41.829638,
+            "lng": 123.595618,
+            "name": "东陵公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_29",
+            "lat": 41.845586,
+            "lng": 123.615499,
+            "name": "水泉站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_30",
+            "lat": 41.854981,
+            "lng": 123.626221,
+            "name": "伯官北大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_31",
+            "lat": 41.853626,
+            "lng": 123.640048,
+            "name": "植物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY1_32",
+            "lat": 41.85526,
+            "lng": 123.658486,
+            "name": "双马站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lng": 123.231228,
+              "lat": 41.765462
+            },
+            {
+              "lng": 123.241385,
+              "lat": 41.765403
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.76529,
+              "lng": 123.268269
+            },
+            {
+              "lat": 41.765346,
+              "lng": 123.273023
+            },
+            {
+              "lat": 41.765828,
+              "lng": 123.276273
+            }
+          ],
+          [
+            {
+              "lat": 41.767426,
+              "lng": 123.284619
+            },
+            {
+              "lat": 41.7678014384359,
+              "lng": 123.28652780952928
+            },
+            {
+              "lat": 41.76834665366787,
+              "lng": 123.28835902155838
+            },
+            {
+              "lat": 41.769101,
+              "lng": 123.290044
+            }
+          ],
+          [
+            {
+              "lat": 41.776797,
+              "lng": 123.300848
+            },
+            {
+              "lat": 41.779452,
+              "lng": 123.304752
+            },
+            {
+              "lat": 41.780221663383436,
+              "lng": 123.30512830259308
+            }
+          ],
+          [
+            {
+              "lat": 41.781971,
+              "lng": 123.305359
+            },
+            {
+              "lat": 41.793493,
+              "lng": 123.305685
+            }
+          ],
+          [
+            {
+              "lat": 41.796741,
+              "lng": 123.305677
+            },
+            {
+              "lat": 41.797231,
+              "lng": 123.305576
+            },
+            {
+              "lat": 41.799826,
+              "lng": 123.304461
+            },
+            {
+              "lat": 41.80029975750416,
+              "lng": 123.30436975750415
+            },
+            {
+              "lat": 41.800687,
+              "lng": 123.304757
+            },
+            {
+              "lat": 41.801335,
+              "lng": 123.307438
+            },
+            {
+              "lat": 41.80152827699122,
+              "lng": 123.30853863031886
+            }
+          ],
+          [
+            {
+              "lat": 41.80214,
+              "lng": 123.319136
+            },
+            {
+              "lat": 41.804876,
+              "lng": 123.325335
+            }
+          ],
+          [
+            {
+              "lat": 41.805033,
+              "lng": 123.337793
+            },
+            {
+              "lat": 41.8049609561615,
+              "lng": 123.33844895482034
+            },
+            {
+              "lat": 41.804835,
+              "lng": 123.33909
+            }
+          ],
+          [
+            {
+              "lat": 41.801221,
+              "lng": 123.353539
+            },
+            {
+              "lat": 41.80080908153841,
+              "lng": 123.3548617013691
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.792005,
+              "lng": 123.375754
+            },
+            {
+              "lat": 41.79197188908424,
+              "lng": 123.37645828811027
+            },
+            {
+              "lat": 41.79222365472324,
+              "lng": 123.37707110052804
+            },
+            {
+              "lat": 41.79262247623799,
+              "lng": 123.37752806486533
+            },
+            {
+              "lat": 41.793067,
+              "lng": 123.377904
+            }
+          ],
+          [
+            {
+              "lat": 41.798164,
+              "lng": 123.381755
+            },
+            {
+              "lat": 41.798623184352266,
+              "lng": 123.38217906222536
+            },
+            {
+              "lat": 41.79891288286487,
+              "lng": 123.38281500998761
+            },
+            {
+              "lat": 41.79900824708403,
+              "lng": 123.38354572135883
+            },
+            {
+              "lat": 41.79894733749047,
+              "lng": 123.38428456230552
+            },
+            {
+              "lat": 41.79874,
+              "lng": 123.384976
+            }
+          ],
+          [
+            {
+              "lng": 123.396798,
+              "lat": 41.793772
+            },
+            {
+              "lng": 123.398147,
+              "lat": 41.793203
+            }
+          ],
+          [
+            {
+              "lat": 41.789655,
+              "lng": 123.406455
+            },
+            {
+              "lat": 41.787873,
+              "lng": 123.410684
+            },
+            {
+              "lat": 41.787707,
+              "lng": 123.411333
+            }
+          ],
+          [
+            {
+              "lat": 41.79198,
+              "lng": 123.431738
+            }
+          ],
+          [
+            {
+              "lat": 41.792863,
+              "lng": 123.435533
+            },
+            {
+              "lat": 41.793135557991235,
+              "lng": 123.43657920293458
+            },
+            {
+              "lat": 41.79346,
+              "lng": 123.437598
+            }
+          ],
+          [
+            {
+              "lat": 41.7971542887998,
+              "lng": 123.4479210549358
+            },
+            {
+              "lat": 41.79744853919058,
+              "lng": 123.44852115698725
+            },
+            {
+              "lat": 41.797780666232754,
+              "lng": 123.44908272619833
+            },
+            {
+              "lat": 41.79817195211344,
+              "lng": 123.44957172686418
+            },
+            {
+              "lat": 41.79863909499843,
+              "lng": 123.44991651988607
+            },
+            {
+              "lat": 41.79913916118523,
+              "lng": 123.45017258059261
+            },
+            {
+              "lat": 41.799642868287506,
+              "lng": 123.45041627437192
+            },
+            {
+              "lat": 41.80008082807362,
+              "lng": 123.45082549393341
+            },
+            {
+              "lat": 41.8004641267146,
+              "lng": 123.45132126966932
+            },
+            {
+              "lat": 41.80078365549322,
+              "lng": 123.45189635198301
+            },
+            {
+              "lat": 41.801035642508246,
+              "lng": 123.45252895494853
+            },
+            {
+              "lat": 41.80120523614064,
+              "lng": 123.45320957413388
+            },
+            {
+              "lat": 41.80130828784635,
+              "lng": 123.45391416834505
+            },
+            {
+              "lat": 41.801368,
+              "lng": 123.454628
+            },
+            {
+              "lat": 41.801406,
+              "lng": 123.457219
+            },
+            {
+              "lat": 41.801342037352185,
+              "lng": 123.45910900750543
+            }
+          ],
+          [
+            {
+              "lat": 41.801265924577336,
+              "lng": 123.46210910578137
+            },
+            {
+              "lat": 41.80136235241481,
+              "lng": 123.46320319086037
+            },
+            {
+              "lat": 41.80147825101295,
+              "lng": 123.46429327762283
+            },
+            {
+              "lat": 41.801667,
+              "lng": 123.465365
+            }
+          ],
+          [
+            {
+              "lat": 41.80307889103331,
+              "lng": 123.47200198237532
+            },
+            {
+              "lat": 41.803257,
+              "lng": 123.473429
+            },
+            {
+              "lat": 41.804998,
+              "lng": 123.4765
+            },
+            {
+              "lat": 41.806621,
+              "lng": 123.479476
+            },
+            {
+              "lat": 41.80695550929477,
+              "lng": 123.4802524909316
+            },
+            {
+              "lat": 41.807164,
+              "lng": 123.481104
+            }
+          ],
+          [
+            {
+              "lat": 41.808627,
+              "lng": 123.489407
+            },
+            {
+              "lat": 41.809048,
+              "lng": 123.493672
+            },
+            {
+              "lat": 41.80906968897768,
+              "lng": 123.49438777271224
+            },
+            {
+              "lat": 41.809008,
+              "lng": 123.4951
+            },
+            {
+              "lat": 41.808692,
+              "lng": 123.497964
+            },
+            {
+              "lat": 41.808201,
+              "lng": 123.503577
+            }
+          ],
+          [
+            {
+              "lat": 41.807915,
+              "lng": 123.506179
+            }
+          ],
+          [
+            {
+              "lat": 41.806543,
+              "lng": 123.521484
+            },
+            {
+              "lat": 41.806232,
+              "lng": 123.524712
+            },
+            {
+              "lat": 41.806246697242386,
+              "lng": 123.52558553925236
+            },
+            {
+              "lat": 41.80654547016163,
+              "lng": 123.5263522992547
+            },
+            {
+              "lat": 41.80701938245232,
+              "lng": 123.52695747986454
+            },
+            {
+              "lat": 41.80752031347394,
+              "lng": 123.52752112604426
+            },
+            {
+              "lat": 41.80809268464514,
+              "lng": 123.52794084259777
+            },
+            {
+              "lat": 41.808712,
+              "lng": 123.528222
+            },
+            {
+              "lat": 41.810776,
+              "lng": 123.528764
+            },
+            {
+              "lat": 41.811394005156465,
+              "lng": 123.52897267265439
+            },
+            {
+              "lat": 41.81200032148002,
+              "lng": 123.52922829738873
+            },
+            {
+              "lat": 41.81253837213315,
+              "lng": 123.52966904655977
+            },
+            {
+              "lat": 41.81289348246053,
+              "lng": 123.53036029328179
+            }
+          ],
+          [
+            {
+              "lat": 41.813518,
+              "lng": 123.532139
+            },
+            {
+              "lat": 41.818504,
+              "lng": 123.545359
+            }
+          ],
+          [
+            {
+              "lat": 41.820497,
+              "lng": 123.551243
+            },
+            {
+              "lat": 41.820762572012676,
+              "lng": 123.55203754406236
+            },
+            {
+              "lat": 41.820933,
+              "lng": 123.552876
+            },
+            {
+              "lat": 41.821463,
+              "lng": 123.558017
+            },
+            {
+              "lat": 41.821816,
+              "lng": 123.560457
+            },
+            {
+              "lat": 41.821910468325896,
+              "lng": 123.5612614172909
+            },
+            {
+              "lat": 41.821960739580355,
+              "lng": 123.56207260391054
+            },
+            {
+              "lat": 41.821952718780494,
+              "lng": 123.56288555933348
+            },
+            {
+              "lat": 41.821855909623885,
+              "lng": 123.56368742362544
+            }
+          ],
+          [
+            {
+              "lat": 41.821034,
+              "lng": 123.567751
+            },
+            {
+              "lat": 41.82091779381316,
+              "lng": 123.56852770251768
+            },
+            {
+              "lat": 41.8208598594809,
+              "lng": 123.56931603441949
+            },
+            {
+              "lat": 41.82085447217859,
+              "lng": 123.57010830207471
+            },
+            {
+              "lat": 41.820907,
+              "lng": 123.570898
+            },
+            {
+              "lat": 41.821395,
+              "lng": 123.575107
+            },
+            {
+              "lat": 41.82156189228064,
+              "lng": 123.57604790554579
+            },
+            {
+              "lat": 41.821773812302155,
+              "lng": 123.57697303363749
+            },
+            {
+              "lat": 41.82203461732822,
+              "lng": 123.57787475535666
+            },
+            {
+              "lat": 41.822322513111786,
+              "lng": 123.57876182122502
+            }
+          ],
+          [
+            {
+              "lat": 41.82279650510329,
+              "lng": 123.58055505690167
+            },
+            {
+              "lat": 41.82311690221272,
+              "lng": 123.58138224183436
+            },
+            {
+              "lat": 41.82349650611836,
+              "lng": 123.58216202417343
+            },
+            {
+              "lat": 41.823976556484034,
+              "lng": 123.5828357060193
+            },
+            {
+              "lat": 41.82449585991313,
+              "lng": 123.58345497324062
+            },
+            {
+              "lat": 41.82496812089824,
+              "lng": 123.58413776475525
+            },
+            {
+              "lat": 41.825388,
+              "lng": 123.584879
+            },
+            {
+              "lat": 41.828012,
+              "lng": 123.590143
+            },
+            {
+              "lat": 41.828213,
+              "lng": 123.590692
+            },
+            {
+              "lat": 41.82941,
+              "lng": 123.594739
+            }
+          ],
+          [
+            {
+              "lat": 41.829867190541556,
+              "lng": 123.59651357919257
+            },
+            {
+              "lat": 41.830216380572544,
+              "lng": 123.59733517330663
+            },
+            {
+              "lat": 41.83062011582523,
+              "lng": 123.59811102906603
+            },
+            {
+              "lat": 41.8311048109163,
+              "lng": 123.59879793107353
+            },
+            {
+              "lat": 41.83166615922387,
+              "lng": 123.59936904493034
+            },
+            {
+              "lat": 41.83228066619995,
+              "lng": 123.59983146084197
+            },
+            {
+              "lat": 41.8329220573694,
+              "lng": 123.60022429441725
+            },
+            {
+              "lat": 41.833569264286645,
+              "lng": 123.60060003398864
+            },
+            {
+              "lat": 41.83420216718603,
+              "lng": 123.60101687894742
+            },
+            {
+              "lat": 41.83480289163264,
+              "lng": 123.60151212892731
+            },
+            {
+              "lat": 41.83535608598983,
+              "lng": 123.60209905464775
+            },
+            {
+              "lat": 41.835848689520894,
+              "lng": 123.60277593917665
+            },
+            {
+              "lat": 41.836244208703604,
+              "lng": 123.60355856736072
+            },
+            {
+              "lat": 41.836608,
+              "lng": 123.604369
+            },
+            {
+              "lat": 41.840132,
+              "lng": 123.615129
+            },
+            {
+              "lat": 41.84045290778838,
+              "lng": 123.61593445407918
+            },
+            {
+              "lat": 41.840820218659026,
+              "lng": 123.61670364253978
+            },
+            {
+              "lat": 41.84127071242775,
+              "lng": 123.61737307731826
+            },
+            {
+              "lat": 41.84190458352454,
+              "lng": 123.61767220094826
+            },
+            {
+              "lat": 41.84257217661951,
+              "lng": 123.61758779476148
+            },
+            {
+              "lat": 41.843200100072444,
+              "lng": 123.61723500384622
+            },
+            {
+              "lat": 41.84381627532688,
+              "lng": 123.61684702663267
+            },
+            {
+              "lat": 41.844430268667956,
+              "lng": 123.61645251519221
+            },
+            {
+              "lat": 41.845031683559384,
+              "lng": 123.61602935939624
+            }
+          ],
+          [
+            {
+              "lat": 41.84615813393485,
+              "lng": 123.61496013213905
+            },
+            {
+              "lat": 41.846709566354804,
+              "lng": 123.61438361528364
+            },
+            {
+              "lat": 41.84726099877476,
+              "lng": 123.61380709842824
+            },
+            {
+              "lat": 41.84783049174533,
+              "lng": 123.61326388313962
+            },
+            {
+              "lat": 41.84843744115107,
+              "lng": 123.61279898551204
+            },
+            {
+              "lat": 41.84908564104618,
+              "lng": 123.61244932847194
+            },
+            {
+              "lat": 41.84974525730022,
+              "lng": 123.6121390438704
+            },
+            {
+              "lat": 41.85042085376652,
+              "lng": 123.61191151928845
+            },
+            {
+              "lat": 41.85111562969801,
+              "lng": 123.61188367778294
+            },
+            {
+              "lat": 41.8517731158406,
+              "lng": 123.61216346516069
+            },
+            {
+              "lat": 41.852265667433784,
+              "lng": 123.6127959712697
+            },
+            {
+              "lat": 41.8525,
+              "lng": 123.613677
+            },
+            {
+              "lat": 41.853412,
+              "lng": 123.62034
+            },
+            {
+              "lat": 41.85358786497467,
+              "lng": 123.62190209335995
+            },
+            {
+              "lat": 41.85398114967264,
+              "lng": 123.62338250649134
+            },
+            {
+              "lat": 41.85444428659273,
+              "lng": 123.62482435125857
+            }
+          ],
+          [
+            {
+              "lat": 41.856378,
+              "lng": 123.629957
+            },
+            {
+              "lat": 41.85657793427578,
+              "lng": 123.63064535414004
+            },
+            {
+              "lat": 41.85672926590372,
+              "lng": 123.63135486060824
+            },
+            {
+              "lat": 41.85676460930349,
+              "lng": 123.63208955347713
+            },
+            {
+              "lat": 41.856670589778524,
+              "lng": 123.63281601236552
+            },
+            {
+              "lat": 41.85649823830878,
+              "lng": 123.63351802932767
+            },
+            {
+              "lat": 41.856232,
+              "lng": 123.634165
+            },
+            {
+              "lat": 41.855079,
+              "lng": 123.636026
+            },
+            {
+              "lat": 41.85464102463361,
+              "lng": 123.63671440091969
+            },
+            {
+              "lat": 41.85427661580425,
+              "lng": 123.63747731700397
+            },
+            {
+              "lat": 41.85400728603173,
+              "lng": 123.63830718035096
+            },
+            {
+              "lat": 41.85381836967388,
+              "lng": 123.6391782723195
+            }
+          ],
+          [
+            {
+              "lat": 41.853234480381495,
+              "lng": 123.64127006085187
+            },
+            {
+              "lat": 41.85315229776563,
+              "lng": 123.64257223023083
+            },
+            {
+              "lat": 41.853180333570045,
+              "lng": 123.64387594943511
+            },
+            {
+              "lat": 41.853409,
+              "lng": 123.645146
+            },
+            {
+              "lat": 41.85446,
+              "lng": 123.648718
+            },
+            {
+              "lat": 41.855915,
+              "lng": 123.651458
+            },
+            {
+              "lat": 41.85627189710534,
+              "lng": 123.65227067480352
+            },
+            {
+              "lat": 41.85646524108409,
+              "lng": 123.65318274272833
+            },
+            {
+              "lat": 41.8565456342954,
+              "lng": 123.65412600943924
+            },
+            {
+              "lat": 41.856484377820514,
+              "lng": 123.65507026497436
+            },
+            {
+              "lat": 41.8562630982482,
+              "lng": 123.65597179195458
+            },
+            {
+              "lat": 41.85593694231862,
+              "lng": 123.6568156448288
+            },
+            {
+              "lat": 41.85559847115931,
+              "lng": 123.6576508224144
+            }
+          ]
+        ]
+      },
+      {
+        "id": "SY2",
+        "name": "沈阳����2����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FF8F43",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 40,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY2_1",
+            "lat": 41.956447,
+            "lng": 123.405529,
+            "name": "蒲田路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_2",
+            "lat": 41.946825,
+            "lng": 123.408584,
+            "name": "蒲河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_3",
+            "lat": 41.93661,
+            "lng": 123.398316,
+            "name": "人杰湖公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_4",
+            "lat": 41.929389,
+            "lng": 123.393711,
+            "name": "辽宁大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_5",
+            "lat": 41.917793,
+            "lng": 123.40308,
+            "name": "航天航空大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_6",
+            "lat": 41.907622,
+            "lng": 123.408633,
+            "name": "师范大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_7",
+            "lat": 41.886275,
+            "lng": 123.415392,
+            "name": "医学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_8",
+            "lat": 41.868337,
+            "lng": 123.417133,
+            "name": "三台子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_9",
+            "lat": 41.855421,
+            "lng": 123.418239,
+            "name": "陵西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_10",
+            "lat": 41.847476,
+            "lng": 123.418892,
+            "name": "新乐遗址站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_11",
+            "lat": 41.839395,
+            "lng": 123.42424,
+            "name": "北陵公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_12",
+            "lat": 41.832616,
+            "lng": 123.429306,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_13",
+            "lat": 41.822728,
+            "lng": 123.429258,
+            "name": "岐山路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_14",
+            "lat": 41.817355,
+            "lng": 123.435977,
+            "name": "沈阳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈阳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_15",
+            "lat": 41.811745,
+            "lng": 123.438257,
+            "name": "金融中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_16",
+            "lat": 41.804497,
+            "lng": 123.434229,
+            "name": "人民广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_17",
+            "lat": 41.792209,
+            "lng": 123.432747,
+            "name": "青年大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "青年大街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_18",
+            "lat": 41.784517,
+            "lng": 123.435952,
+            "name": "青年公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_19",
+            "lat": 41.773283,
+            "lng": 123.435077,
+            "name": "工业展览馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_20",
+            "lat": 41.760054,
+            "lng": 123.435645,
+            "name": "市图书馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_21",
+            "lat": 41.752749,
+            "lng": 123.441011,
+            "name": "五里河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_22",
+            "lat": 41.743061,
+            "lng": 123.453579,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_23",
+            "lat": 41.731345,
+            "lng": 123.456491,
+            "name": "营盘街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_24",
+            "lat": 41.719789,
+            "lng": 123.461955,
+            "name": "世纪大厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_25",
+            "lat": 41.709422,
+            "lng": 123.47168,
+            "name": "白塔河路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_26",
+            "lat": 41.707485,
+            "lng": 123.482502,
+            "name": "全运路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_27",
+            "lat": 41.693361,
+            "lng": 123.479464,
+            "name": "沈本大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_28",
+            "lat": 41.68815,
+            "lng": 123.464915,
+            "name": "沈中大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_29",
+            "lat": 41.678921,
+            "lng": 123.458162,
+            "name": "省博物馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_30",
+            "lat": 41.666533,
+            "lng": 123.458026,
+            "name": "中央公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_31",
+            "lat": 41.652443,
+            "lng": 123.457905,
+            "name": "创新一路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_32",
+            "lat": 41.640113,
+            "lng": 123.457828,
+            "name": "综合保税区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY2_33",
+            "lat": 41.633617,
+            "lng": 123.494471,
+            "name": "桃仙机场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lng": 123.405703,
+              "lat": 41.956003
+            },
+            {
+              "lng": 123.408449,
+              "lat": 41.947279
+            }
+          ],
+          [
+            {
+              "lat": 41.946334,
+              "lng": 123.408711
+            },
+            {
+              "lat": 41.943637,
+              "lng": 123.409332
+            },
+            {
+              "lat": 41.943039142335444,
+              "lng": 123.40938528316968
+            },
+            {
+              "lat": 41.94244016724583,
+              "lng": 123.4093667308439
+            },
+            {
+              "lat": 41.941844465507565,
+              "lng": 123.4092847840901
+            },
+            {
+              "lat": 41.941278137053466,
+              "lng": 123.40902628115113
+            },
+            {
+              "lat": 41.94082,
+              "lng": 123.408527
+            },
+            {
+              "lat": 41.936922,
+              "lng": 123.399052
+            }
+          ],
+          [
+            {
+              "lat": 41.93625816563174,
+              "lng": 123.39739114692077
+            },
+            {
+              "lat": 41.93590746125248,
+              "lng": 123.39646568573559
+            },
+            {
+              "lat": 41.935538181036186,
+              "lng": 123.39555277306012
+            },
+            {
+              "lat": 41.935116883195434,
+              "lng": 123.39468287874767
+            },
+            {
+              "lat": 41.934578626756824,
+              "lng": 123.39393954311288
+            },
+            {
+              "lat": 41.93395898237711,
+              "lng": 123.39332293630758
+            },
+            {
+              "lat": 41.93320934198347,
+              "lng": 123.3930759050255
+            },
+            {
+              "lat": 41.932440294331535,
+              "lng": 123.39307873256031
+            },
+            {
+              "lat": 41.93167173301467,
+              "lng": 123.39318910337921
+            },
+            {
+              "lat": 41.930905091617056,
+              "lng": 123.39332233735429
+            },
+            {
+              "lat": 41.930138898998536,
+              "lng": 123.39345876124594
+            }
+          ],
+          [
+            {
+              "lat": 41.928730482383514,
+              "lng": 123.39397684700603
+            },
+            {
+              "lat": 41.928104,
+              "lng": 123.39436
+            },
+            {
+              "lat": 41.925613,
+              "lng": 123.396041
+            },
+            {
+              "lat": 41.92490352037525,
+              "lng": 123.39645498583754
+            },
+            {
+              "lat": 41.924216786800066,
+              "lng": 123.39693232196193
+            },
+            {
+              "lat": 41.923562,
+              "lng": 123.397484
+            },
+            {
+              "lat": 41.921007,
+              "lng": 123.400112
+            },
+            {
+              "lat": 41.919332,
+              "lng": 123.401763
+            },
+            {
+              "lat": 41.918571251349036,
+              "lng": 123.40243999066692
+            }
+          ],
+          [
+            {
+              "lat": 41.917122,
+              "lng": 123.403633
+            },
+            {
+              "lat": 41.914815,
+              "lng": 123.405046
+            },
+            {
+              "lat": 41.914003281598866,
+              "lng": 123.40547349760746
+            },
+            {
+              "lat": 41.91318649483759,
+              "lng": 123.40588325940854
+            },
+            {
+              "lat": 41.912376,
+              "lng": 123.406315
+            },
+            {
+              "lat": 41.91034,
+              "lng": 123.407324
+            },
+            {
+              "lat": 41.90895691427628,
+              "lng": 123.40788994850645
+            }
+          ],
+          [
+            {
+              "lat": 41.900575,
+              "lng": 123.412503
+            },
+            {
+              "lat": 41.900016,
+              "lng": 123.412663
+            },
+            {
+              "lat": 41.895236,
+              "lng": 123.414271
+            },
+            {
+              "lat": 41.894372369740566,
+              "lng": 123.41457553083102
+            },
+            {
+              "lat": 41.89349018968692,
+              "lng": 123.4147425278782
+            },
+            {
+              "lat": 41.892601,
+              "lng": 123.414814
+            }
+          ],
+          [
+            {
+              "lat": 41.884059,
+              "lng": 123.415584
+            },
+            {
+              "lat": 41.881503,
+              "lng": 123.415742
+            },
+            {
+              "lat": 41.875259,
+              "lng": 123.416534
+            },
+            {
+              "lat": 41.869029,
+              "lng": 123.41709
+            }
+          ],
+          [
+            {
+              "lat": 41.856082,
+              "lng": 123.418193
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.841762,
+              "lng": 123.419384
+            },
+            {
+              "lat": 41.84109808447014,
+              "lng": 123.4194654767509
+            },
+            {
+              "lat": 41.84043984768399,
+              "lng": 123.41960659653178
+            },
+            {
+              "lat": 41.839828630956944,
+              "lng": 123.41995269123686
+            },
+            {
+              "lat": 41.83945935448231,
+              "lng": 123.42067945402711
+            },
+            {
+              "lat": 41.83935505507755,
+              "lng": 123.42155734420237
+            },
+            {
+              "lat": 41.83936069976168,
+              "lng": 123.42245180236398
+            },
+            {
+              "lat": 41.839393340980834,
+              "lng": 123.42334544640862
+            }
+          ],
+          [
+            {
+              "lat": 41.839386239949555,
+              "lng": 123.4251141689541
+            },
+            {
+              "lat": 41.8393097791059,
+              "lng": 123.4259829097777
+            },
+            {
+              "lat": 41.83918861843797,
+              "lng": 123.42684163698608
+            },
+            {
+              "lat": 41.83897294608037,
+              "lng": 123.42766327411674
+            },
+            {
+              "lat": 41.838583747304334,
+              "lng": 123.42834405983463
+            },
+            {
+              "lat": 41.838003,
+              "lng": 123.428706
+            },
+            {
+              "lat": 41.835816,
+              "lng": 123.428733
+            },
+            {
+              "lat": 41.83500830192835,
+              "lng": 123.42877694211138
+            },
+            {
+              "lat": 41.834207570163386,
+              "lng": 123.42892004575647
+            },
+            {
+              "lat": 41.83341162452866,
+              "lng": 123.42911182555557
+            }
+          ],
+          [
+            {
+              "lat": 41.831107699129014,
+              "lng": 123.4295446604443
+            },
+            {
+              "lat": 41.82959143545811,
+              "lng": 123.42965097296862
+            },
+            {
+              "lat": 41.828078,
+              "lng": 123.429815
+            },
+            {
+              "lat": 41.825951,
+              "lng": 123.429933
+            },
+            {
+              "lat": 41.824882910592045,
+              "lng": 123.42962398089666
+            },
+            {
+              "lat": 41.82382089609736,
+              "lng": 123.42928700666012
+            }
+          ],
+          [
+            {
+              "lat": 41.82190022568232,
+              "lng": 123.42918228395918
+            },
+            {
+              "lat": 41.821076161675755,
+              "lng": 123.42925506805558
+            },
+            {
+              "lat": 41.820266961634516,
+              "lng": 123.42938650152588
+            },
+            {
+              "lat": 41.81964403989307,
+              "lng": 123.43009587600932
+            },
+            {
+              "lat": 41.81920511807954,
+              "lng": 123.43102624281806
+            },
+            {
+              "lat": 41.81884306925426,
+              "lng": 123.4320222174859
+            },
+            {
+              "lat": 41.81844705458031,
+              "lng": 123.4329943326515
+            },
+            {
+              "lat": 41.81806355292694,
+              "lng": 123.43397572894895
+            },
+            {
+              "lat": 41.81769551501911,
+              "lng": 123.43496754980829
+            }
+          ],
+          [
+            {
+              "lat": 41.81715162212857,
+              "lng": 123.43663425125762
+            },
+            {
+              "lat": 41.81688132822522,
+              "lng": 123.43724495714802
+            },
+            {
+              "lat": 41.816553,
+              "lng": 123.437801
+            },
+            {
+              "lat": 41.814802,
+              "lng": 123.439249
+            },
+            {
+              "lat": 41.81437498396979,
+              "lng": 123.43950747337863
+            },
+            {
+              "lat": 41.81391826183742,
+              "lng": 123.43964345565333
+            },
+            {
+              "lat": 41.813455,
+              "lng": 123.439551
+            }
+          ],
+          [
+            {
+              "lat": 41.81106094535192,
+              "lng": 123.43771783914328
+            },
+            {
+              "lat": 41.8103446877346,
+              "lng": 123.43726070356523
+            },
+            {
+              "lat": 41.80964700098735,
+              "lng": 123.43675478923751
+            },
+            {
+              "lat": 41.80895931250942,
+              "lng": 123.43622423672907
+            },
+            {
+              "lat": 41.80828839439492,
+              "lng": 123.43565669511764
+            },
+            {
+              "lat": 41.80751594702418,
+              "lng": 123.43544531775345
+            },
+            {
+              "lat": 41.80672827720286,
+              "lng": 123.43531699536418
+            },
+            {
+              "lat": 41.80596231269644,
+              "lng": 123.43504717144249
+            },
+            {
+              "lat": 41.80522965634822,
+              "lng": 123.43463808572125
+            }
+          ],
+          [
+            {
+              "lat": 41.803273,
+              "lng": 123.433531
+            },
+            {
+              "lat": 41.80098,
+              "lng": 123.432004
+            },
+            {
+              "lat": 41.80023261928524,
+              "lng": 123.43162386638505
+            },
+            {
+              "lat": 41.7994468050083,
+              "lng": 123.43148469713027
+            },
+            {
+              "lat": 41.798658226204815,
+              "lng": 123.43154319908535
+            },
+            {
+              "lat": 41.797868,
+              "lng": 123.431626
+            },
+            {
+              "lat": 41.793829,
+              "lng": 123.432221
+            },
+            {
+              "lat": 41.793012431855324,
+              "lng": 123.4324462366673
+            }
+          ],
+          [
+            {
+              "lat": 41.79131659334432,
+              "lng": 123.4330872672254
+            },
+            {
+              "lat": 41.79041911510786,
+              "lng": 123.43340118888497
+            },
+            {
+              "lat": 41.789533,
+              "lng": 123.43377
+            }
+          ],
+          [
+            {
+              "lat": 41.783823228923,
+              "lng": 123.43624996295436
+            },
+            {
+              "lat": 41.7831,
+              "lng": 123.436367
+            },
+            {
+              "lat": 41.777885,
+              "lng": 123.435564
+            },
+            {
+              "lat": 41.7769887258733,
+              "lng": 123.43542230505965
+            },
+            {
+              "lat": 41.776091167960864,
+              "lng": 123.43529609409426
+            },
+            {
+              "lat": 41.775193,
+              "lng": 123.435177
+            }
+          ],
+          [
+            {
+              "lat": 41.772424,
+              "lng": 123.43505
+            },
+            {
+              "lat": 41.762714,
+              "lng": 123.435095
+            },
+            {
+              "lat": 41.76204286125844,
+              "lng": 123.43515746648063
+            },
+            {
+              "lat": 41.76138064139605,
+              "lng": 123.43532536963852
+            },
+            {
+              "lat": 41.76071774017753,
+              "lng": 123.4354882308914
+            }
+          ],
+          [
+            {
+              "lat": 41.75911504806648,
+              "lng": 123.43585240945619
+            },
+            {
+              "lat": 41.7581852043057,
+              "lng": 123.4361239022995
+            },
+            {
+              "lat": 41.757298,
+              "lng": 123.436571
+            },
+            {
+              "lat": 41.754732,
+              "lng": 123.438503
+            },
+            {
+              "lat": 41.75401054197653,
+              "lng": 123.43924712838272
+            },
+            {
+              "lat": 41.753353162826315,
+              "lng": 123.44009408440625
+            }
+          ],
+          [
+            {
+              "lat": 41.75236,
+              "lng": 123.441607
+            },
+            {
+              "lat": 41.74357,
+              "lng": 123.452975
+            }
+          ],
+          [
+            {
+              "lat": 41.74212735642525,
+              "lng": 123.45445871911541
+            },
+            {
+              "lat": 41.741087,
+              "lng": 123.455122
+            },
+            {
+              "lat": 41.738413,
+              "lng": 123.455939
+            },
+            {
+              "lat": 41.73694,
+              "lng": 123.456219
+            },
+            {
+              "lat": 41.734563,
+              "lng": 123.456433
+            },
+            {
+              "lat": 41.731993,
+              "lng": 123.456491
+            }
+          ],
+          [
+            {
+              "lat": 41.73021984787408,
+              "lng": 123.45656259339147
+            },
+            {
+              "lat": 41.72911059007372,
+              "lng": 123.45681377920516
+            },
+            {
+              "lat": 41.72802,
+              "lng": 123.4572
+            },
+            {
+              "lat": 41.725437,
+              "lng": 123.45855
+            },
+            {
+              "lat": 41.723446,
+              "lng": 123.4598
+            },
+            {
+              "lat": 41.720497,
+              "lng": 123.461518
+            }
+          ],
+          [
+            {
+              "lat": 41.719093,
+              "lng": 123.462384
+            },
+            {
+              "lat": 41.716987,
+              "lng": 123.463749
+            },
+            {
+              "lat": 41.714684,
+              "lng": 123.465428
+            },
+            {
+              "lat": 41.71261,
+              "lng": 123.467369
+            },
+            {
+              "lat": 41.711176,
+              "lng": 123.46898
+            },
+            {
+              "lat": 41.709826,
+              "lng": 123.470802
+            }
+          ],
+          [
+            {
+              "lat": 41.708965555752464,
+              "lng": 123.47279026558301
+            },
+            {
+              "lat": 41.70866851337991,
+              "lng": 123.4739997869562
+            },
+            {
+              "lat": 41.70840790014748,
+              "lng": 123.47522362884168
+            },
+            {
+              "lat": 41.708254,
+              "lng": 123.47648
+            },
+            {
+              "lat": 41.707969,
+              "lng": 123.480326
+            },
+            {
+              "lat": 41.7078829061287,
+              "lng": 123.48108017695509
+            },
+            {
+              "lat": 41.707721666924485,
+              "lng": 123.48181100080379
+            }
+          ],
+          [
+            {
+              "lat": 41.707152,
+              "lng": 123.483245
+            },
+            {
+              "lat": 41.705637,
+              "lng": 123.486071
+            },
+            {
+              "lat": 41.70517906607007,
+              "lng": 123.48723970080505
+            },
+            {
+              "lat": 41.7047500154046,
+              "lng": 123.48842865230986
+            },
+            {
+              "lat": 41.70426811402749,
+              "lng": 123.48958076359219
+            },
+            {
+              "lat": 41.70375476174057,
+              "lng": 123.49070630156395
+            },
+            {
+              "lat": 41.70318115253171,
+              "lng": 123.4917801346343
+            },
+            {
+              "lat": 41.702568053845056,
+              "lng": 123.49281433376377
+            },
+            {
+              "lat": 41.701865323670084,
+              "lng": 123.49371585344439
+            },
+            {
+              "lat": 41.700901367045105,
+              "lng": 123.49378440076683
+            },
+            {
+              "lat": 41.700008,
+              "lng": 123.493245
+            },
+            {
+              "lat": 41.695514,
+              "lng": 123.48575
+            },
+            {
+              "lat": 41.694877696054945,
+              "lng": 123.48424034814985
+            },
+            {
+              "lat": 41.6943639988333,
+              "lng": 123.4826452359881
+            },
+            {
+              "lat": 41.69398870298008,
+              "lng": 123.48098020199478
+            }
+          ],
+          [
+            {
+              "lat": 41.691765,
+              "lng": 123.476209
+            },
+            {
+              "lat": 41.688864,
+              "lng": 123.470519
+            },
+            {
+              "lat": 41.68850719983977,
+              "lng": 123.46947011733037
+            },
+            {
+              "lat": 41.68827345388835,
+              "lng": 123.46836400589676
+            },
+            {
+              "lat": 41.68816213576797,
+              "lng": 123.46722135360461
+            },
+            {
+              "lat": 41.688146292950854,
+              "lng": 123.46606851012598
+            }
+          ],
+          [
+            {
+              "lat": 41.68819,
+              "lng": 123.459252
+            },
+            {
+              "lat": 41.68795425063544,
+              "lng": 123.45859760594995
+            },
+            {
+              "lat": 41.687488,
+              "lng": 123.45821
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.657174,
+              "lng": 123.457996
+            },
+            {
+              "lat": 41.656501,
+              "lng": 123.457964
+            }
+          ],
+          [
+            {
+              "lat": 41.651078,
+              "lng": 123.457904
+            }
+          ],
+          [
+            {
+              "lat": 41.63929523771991,
+              "lng": 123.45783050174774
+            },
+            {
+              "lat": 41.638477925428134,
+              "lng": 123.45779713051921
+            },
+            {
+              "lat": 41.637660615614685,
+              "lng": 123.45776634498284
+            },
+            {
+              "lat": 41.636847668648485,
+              "lng": 123.45786186354466
+            },
+            {
+              "lat": 41.63604884823039,
+              "lng": 123.45807875671437
+            },
+            {
+              "lat": 41.63535,
+              "lng": 123.458629
+            },
+            {
+              "lat": 41.632266,
+              "lng": 123.462171
+            },
+            {
+              "lat": 41.63179131782892,
+              "lng": 123.46297891895095
+            },
+            {
+              "lat": 41.631461396691954,
+              "lng": 123.4639054250046
+            },
+            {
+              "lat": 41.631196519583604,
+              "lng": 123.46486861807574
+            },
+            {
+              "lat": 41.630971,
+              "lng": 123.46585
+            },
+            {
+              "lat": 41.627754,
+              "lng": 123.481858
+            },
+            {
+              "lat": 41.62764375684189,
+              "lng": 123.4827820038404
+            },
+            {
+              "lat": 41.62763552985434,
+              "lng": 123.48371679530078
+            },
+            {
+              "lat": 41.627696140137175,
+              "lng": 123.4846460176553
+            },
+            {
+              "lat": 41.627855469648246,
+              "lng": 123.48555476785472
+            },
+            {
+              "lat": 41.628213,
+              "lng": 123.486358
+            }
+          ]
+        ]
+      },
+      {
+        "id": "SY3",
+        "name": "沈阳����3����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#F973BA",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY3_1",
+            "lat": 41.667762,
+            "lng": 123.141468,
+            "name": "李达站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_2",
+            "lat": 41.681757,
+            "lng": 123.152064,
+            "name": "铁西汽车工厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_3",
+            "lat": 41.695553,
+            "lng": 123.172382,
+            "name": "马贝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_4",
+            "lat": 41.700018,
+            "lng": 123.190315,
+            "name": "中德大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_5",
+            "lat": 41.711265,
+            "lng": 123.218309,
+            "name": "细河悠谷站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_6",
+            "lat": 41.720381,
+            "lng": 123.237135,
+            "name": "翟家站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_7",
+            "lat": 41.730108,
+            "lng": 123.262485,
+            "name": "工业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_8",
+            "lat": 41.738343,
+            "lng": 123.274321,
+            "name": "宁官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_9",
+            "lat": 41.739907,
+            "lng": 123.283436,
+            "name": "余良站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_10",
+            "lat": 41.746429,
+            "lng": 123.307683,
+            "name": "甘官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_11",
+            "lat": 41.743475,
+            "lng": 123.323528,
+            "name": "千岛湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_12",
+            "lat": 41.748332,
+            "lng": 123.333152,
+            "name": "南阳湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_13",
+            "lat": 41.752459,
+            "lng": 123.347463,
+            "name": "大通湖街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大通湖街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY3_14",
+            "lat": 41.757914,
+            "lng": 123.362173,
+            "name": "南李官站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 41.66828146491488,
+              "lng": 123.14184983895467
+            },
+            {
+              "lat": 41.668791,
+              "lng": 123.142255
+            }
+          ],
+          [
+            {
+              "lat": 41.68746,
+              "lng": 123.156325
+            },
+            {
+              "lat": 41.6882912598646,
+              "lng": 123.15695476502795
+            },
+            {
+              "lat": 41.68908239038469,
+              "lng": 123.15767005408841
+            },
+            {
+              "lat": 41.689850768147075,
+              "lng": 123.15842641861872
+            },
+            {
+              "lat": 41.6905774810819,
+              "lng": 123.15925426479184
+            },
+            {
+              "lat": 41.69125575827331,
+              "lng": 123.16015251319159
+            },
+            {
+              "lat": 41.69187831506567,
+              "lng": 123.16112118884705
+            },
+            {
+              "lat": 41.69244679921703,
+              "lng": 123.16214794797315
+            },
+            {
+              "lat": 41.69295555268598,
+              "lng": 123.16322913641336
+            },
+            {
+              "lat": 41.693427886669575,
+              "lng": 123.1643400296094
+            },
+            {
+              "lat": 41.69381546203997,
+              "lng": 123.16550825185598
+            },
+            {
+              "lat": 41.694151,
+              "lng": 123.166705
+            }
+          ],
+          [
+            {
+              "lat": 41.695686,
+              "lng": 123.172986
+            }
+          ],
+          [
+            {
+              "lat": 41.70036199065734,
+              "lng": 123.19177774541006
+            },
+            {
+              "lat": 41.70080140226261,
+              "lng": 123.19319233043682
+            },
+            {
+              "lat": 41.70134754145769,
+              "lng": 123.19453952639925
+            },
+            {
+              "lat": 41.70196289361914,
+              "lng": 123.19583094818054
+            },
+            {
+              "lat": 41.702618,
+              "lng": 123.197088
+            },
+            {
+              "lat": 41.70526,
+              "lng": 123.201999
+            },
+            {
+              "lat": 41.705582401005735,
+              "lng": 123.20264493363075
+            },
+            {
+              "lat": 41.705868,
+              "lng": 123.203321
+            },
+            {
+              "lat": 41.706932,
+              "lng": 123.206105
+            },
+            {
+              "lat": 41.711012,
+              "lng": 123.217649
+            }
+          ],
+          [
+            {
+              "lat": 41.713228,
+              "lng": 123.223497
+            },
+            {
+              "lat": 41.715917,
+              "lng": 123.229379
+            },
+            {
+              "lat": 41.717655,
+              "lng": 123.232716
+            }
+          ],
+          [
+            {
+              "lat": 41.721484,
+              "lng": 123.238942
+            },
+            {
+              "lat": 41.727104,
+              "lng": 123.246164
+            },
+            {
+              "lat": 41.7275958931783,
+              "lng": 123.2468975398328
+            },
+            {
+              "lat": 41.727996373138446,
+              "lng": 123.24772263753843
+            },
+            {
+              "lat": 41.72829111897183,
+              "lng": 123.24862568770381
+            },
+            {
+              "lat": 41.72852749574518,
+              "lng": 123.24955807254784
+            },
+            {
+              "lat": 41.728649,
+              "lng": 123.250531
+            },
+            {
+              "lat": 41.728897,
+              "lng": 123.257601
+            },
+            {
+              "lat": 41.72905668680607,
+              "lng": 123.25861874897285
+            },
+            {
+              "lat": 41.72940877331363,
+              "lng": 123.2595413047585
+            },
+            {
+              "lat": 41.72973658187209,
+              "lng": 123.26047829725786
+            },
+            {
+              "lat": 41.72996315180886,
+              "lng": 123.26146770128834
+            }
+          ],
+          [
+            {
+              "lat": 41.730188232943135,
+              "lng": 123.26329641210204
+            },
+            {
+              "lat": 41.73031064311095,
+              "lng": 123.26409735449317
+            },
+            {
+              "lat": 41.730455866925574,
+              "lng": 123.26488846398732
+            },
+            {
+              "lat": 41.73070490780282,
+              "lng": 123.26563482734807
+            },
+            {
+              "lat": 41.73105395887005,
+              "lng": 123.26630253388268
+            },
+            {
+              "lat": 41.73150707423563,
+              "lng": 123.26684648082444
+            },
+            {
+              "lat": 41.732043017321246,
+              "lng": 123.26723033687963
+            },
+            {
+              "lat": 41.73262654465557,
+              "lng": 123.26746361175233
+            },
+            {
+              "lat": 41.73323084830365,
+              "lng": 123.26756141422666
+            },
+            {
+              "lat": 41.7338406986487,
+              "lng": 123.26753726743752
+            },
+            {
+              "lat": 41.73445059956082,
+              "lng": 123.26751801394073
+            },
+            {
+              "lat": 41.73506063001912,
+              "lng": 123.2675288783369
+            },
+            {
+              "lat": 41.73564484777797,
+              "lng": 123.26775090653592
+            },
+            {
+              "lat": 41.736202426452145,
+              "lng": 123.26807933038617
+            },
+            {
+              "lat": 41.736699541777796,
+              "lng": 123.26855086915388
+            },
+            {
+              "lat": 41.73713315393493,
+              "lng": 123.26912495236061
+            },
+            {
+              "lat": 41.737465945538524,
+              "lng": 123.26980741562208
+            },
+            {
+              "lat": 41.737688,
+              "lng": 123.270569
+            }
+          ],
+          [
+            {
+              "lat": 41.739753,
+              "lng": 123.282542
+            }
+          ],
+          [
+            {
+              "lat": 41.74007067059778,
+              "lng": 123.28466933608888
+            },
+            {
+              "lat": 41.740421141932885,
+              "lng": 123.28582241353492
+            },
+            {
+              "lat": 41.740785,
+              "lng": 123.286968
+            },
+            {
+              "lat": 41.74157,
+              "lng": 123.291422
+            },
+            {
+              "lat": 41.74193463010633,
+              "lng": 123.29319411721788
+            },
+            {
+              "lat": 41.74224956624773,
+              "lng": 123.29498307409708
+            },
+            {
+              "lat": 41.742677,
+              "lng": 123.296728
+            },
+            {
+              "lat": 41.74537,
+              "lng": 123.304903
+            },
+            {
+              "lat": 41.745925431106635,
+              "lng": 123.3062754050457
+            }
+          ],
+          [
+            {
+              "lat": 41.746716270455245,
+              "lng": 123.30848957418351
+            },
+            {
+              "lat": 41.746991832449964,
+              "lng": 123.30930341617639
+            },
+            {
+              "lat": 41.747281370789956,
+              "lng": 123.31010845187211
+            },
+            {
+              "lat": 41.74749786384377,
+              "lng": 123.31094265066041
+            },
+            {
+              "lat": 41.747273,
+              "lng": 123.311729
+            },
+            {
+              "lat": 41.744452,
+              "lng": 123.313992
+            },
+            {
+              "lat": 41.742659,
+              "lng": 123.315361
+            },
+            {
+              "lat": 41.74206341088113,
+              "lng": 123.31618860711845
+            },
+            {
+              "lat": 41.74173670237964,
+              "lng": 123.31725216337429
+            },
+            {
+              "lat": 41.74159940587936,
+              "lng": 123.31839441975183
+            },
+            {
+              "lat": 41.741716683386905,
+              "lng": 123.31953060884423
+            },
+            {
+              "lat": 41.742123882863055,
+              "lng": 123.32055445650109
+            },
+            {
+              "lat": 41.742543320765954,
+              "lng": 123.32156908286093
+            },
+            {
+              "lat": 41.742984634434066,
+              "lng": 123.32256722647077
+            }
+          ],
+          [
+            {
+              "lat": 41.743990793506775,
+              "lng": 123.32454659779971
+            },
+            {
+              "lat": 41.744543,
+              "lng": 123.325531
+            }
+          ],
+          [
+            {
+              "lat": 41.74890047151559,
+              "lng": 123.33425052697716
+            },
+            {
+              "lat": 41.749423740522595,
+              "lng": 123.33538812567585
+            },
+            {
+              "lat": 41.74994024186993,
+              "lng": 123.33653097195268
+            },
+            {
+              "lat": 41.75035791178198,
+              "lng": 123.33774201114403
+            },
+            {
+              "lat": 41.75061,
+              "lng": 123.339033
+            },
+            {
+              "lat": 41.75093,
+              "lng": 123.342724
+            },
+            {
+              "lat": 41.75107648341454,
+              "lng": 123.34356653055639
+            },
+            {
+              "lat": 41.75129985652005,
+              "lng": 123.34437805607767
+            },
+            {
+              "lat": 41.75154871325354,
+              "lng": 123.34517631758777
+            },
+            {
+              "lat": 41.75182719752079,
+              "lng": 123.3459565147417
+            },
+            {
+              "lat": 41.75216500637497,
+              "lng": 123.3466930260721
+            }
+          ],
+          [
+            {
+              "lat": 41.752873673926224,
+              "lng": 123.34861014256029
+            },
+            {
+              "lat": 41.75327,
+              "lng": 123.349769
+            },
+            {
+              "lat": 41.757054,
+              "lng": 123.359789
+            },
+            {
+              "lat": 41.75746532033442,
+              "lng": 123.36099310181068
+            }
+          ]
+        ]
+      },
+      {
+        "id": "SY4",
+        "name": "沈阳����4����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#8959C1",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 29,
+        "freqOff": 14,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY4_1",
+            "lat": 41.882695,
+            "lng": 123.480026,
+            "name": "正新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_2",
+            "lat": 41.871122,
+            "lng": 123.486687,
+            "name": "文官街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_3",
+            "lat": 41.864304,
+            "lng": 123.491101,
+            "name": "望花站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_4",
+            "lat": 41.849293,
+            "lng": 123.483236,
+            "name": "观泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_5",
+            "lat": 41.839075,
+            "lng": 123.477792,
+            "name": "北大营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_6",
+            "lat": 41.829207,
+            "lng": 123.47439,
+            "name": "合作街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "合作街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_7",
+            "lat": 41.822262,
+            "lng": 123.467487,
+            "name": "洮昌街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_8",
+            "lat": 41.819444,
+            "lng": 123.459519,
+            "name": "沈阳大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_9",
+            "lat": 41.816768,
+            "lng": 123.436824,
+            "name": "沈阳北站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "沈阳北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_10",
+            "lat": 41.81075,
+            "lng": 123.420296,
+            "name": "皇寺路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_11",
+            "lat": 41.803959,
+            "lng": 123.415932,
+            "name": "市府大路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_12",
+            "lat": 41.790537,
+            "lng": 123.405731,
+            "name": "太原街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太原街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_13",
+            "lat": 41.783224,
+            "lng": 123.400206,
+            "name": "南五马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_14",
+            "lat": 41.768422,
+            "lng": 123.39127,
+            "name": "砂阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_15",
+            "lat": 41.751665,
+            "lng": 123.399134,
+            "name": "南京桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_16",
+            "lat": 41.741284,
+            "lng": 123.403299,
+            "name": "长白岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_17",
+            "lat": 41.727874,
+            "lng": 123.409047,
+            "name": "长白南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长白南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_18",
+            "lat": 41.710403,
+            "lng": 123.406145,
+            "name": "金仓路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_19",
+            "lat": 41.698287,
+            "lng": 123.399188,
+            "name": "云杉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_20",
+            "lat": 41.690233,
+            "lng": 123.403126,
+            "name": "红椿路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_21",
+            "lat": 41.681526,
+            "lng": 123.415798,
+            "name": "城建学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_22",
+            "lat": 41.668356,
+            "lng": 123.409546,
+            "name": "沈阳南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY4_23",
+            "lat": 41.655496,
+            "lng": 123.413347,
+            "name": "创新路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 41.876142,
+              "lng": 123.479435
+            },
+            {
+              "lat": 41.87514586513818,
+              "lng": 123.4794291466434
+            },
+            {
+              "lat": 41.874175576321335,
+              "lng": 123.47968662707613
+            },
+            {
+              "lat": 41.87320528750449,
+              "lng": 123.47994410750886
+            },
+            {
+              "lat": 41.87232200219659,
+              "lng": 123.48048927274515
+            },
+            {
+              "lat": 41.871708,
+              "lng": 123.481506
+            },
+            {
+              "lat": 41.871284,
+              "lng": 123.485504
+            }
+          ],
+          [
+            {
+              "lat": 41.870976138702346,
+              "lng": 123.48772316724177
+            },
+            {
+              "lat": 41.87080271176801,
+              "lng": 123.48875158363168
+            },
+            {
+              "lat": 41.87060842787735,
+              "lng": 123.48977333813652
+            },
+            {
+              "lat": 41.87040959854819,
+              "lng": 123.49079317530413
+            },
+            {
+              "lat": 41.870083101191426,
+              "lng": 123.49174663755126
+            },
+            {
+              "lat": 41.869473,
+              "lng": 123.492374
+            },
+            {
+              "lat": 41.865575,
+              "lng": 123.491507
+            }
+          ],
+          [
+            {
+              "lat": 41.862946,
+              "lng": 123.490671
+            },
+            {
+              "lat": 41.857477,
+              "lng": 123.487552
+            }
+          ],
+          [
+            {
+              "lat": 41.839967,
+              "lng": 123.478242
+            }
+          ],
+          [
+            {
+              "lat": 41.838203,
+              "lng": 123.477356
+            },
+            {
+              "lat": 41.835671,
+              "lng": 123.476214
+            },
+            {
+              "lat": 41.832609,
+              "lng": 123.475133
+            },
+            {
+              "lat": 41.83146651560145,
+              "lng": 123.47495597051733
+            },
+            {
+              "lat": 41.83033116317729,
+              "lng": 123.47471195447392
+            }
+          ],
+          [
+            {
+              "lat": 41.828346486024316,
+              "lng": 123.47413513061164
+            },
+            {
+              "lat": 41.827485626599554,
+              "lng": 123.47388237395842
+            },
+            {
+              "lat": 41.826663,
+              "lng": 123.473469
+            },
+            {
+              "lat": 41.823679,
+              "lng": 123.471002
+            }
+          ],
+          [
+            {
+              "lat": 41.82184423812319,
+              "lng": 123.46638338573919
+            },
+            {
+              "lat": 41.821467,
+              "lng": 123.465254
+            },
+            {
+              "lat": 41.819984,
+              "lng": 123.461194
+            }
+          ],
+          [
+            {
+              "lat": 41.818987099723174,
+              "lng": 123.4579852674094
+            },
+            {
+              "lat": 41.81848051359569,
+              "lng": 123.45647995306022
+            },
+            {
+              "lat": 41.818025503383176,
+              "lng": 123.45494639273626
+            },
+            {
+              "lat": 41.8176563813346,
+              "lng": 123.4533733993857
+            },
+            {
+              "lat": 41.817361,
+              "lng": 123.45177
+            },
+            {
+              "lat": 41.81703,
+              "lng": 123.447629
+            },
+            {
+              "lat": 41.817221268803934,
+              "lng": 123.44651123668376
+            },
+            {
+              "lat": 41.818051604208115,
+              "lng": 123.44617459041504
+            },
+            {
+              "lat": 41.818920054255685,
+              "lng": 123.44596923422463
+            },
+            {
+              "lat": 41.81966937843303,
+              "lng": 123.44531296791547
+            },
+            {
+              "lat": 41.819944,
+              "lng": 123.444272
+            },
+            {
+              "lat": 41.817449,
+              "lng": 123.438442
+            },
+            {
+              "lat": 41.81709082941728,
+              "lng": 123.43764615903
+            }
+          ],
+          [
+            {
+              "lat": 41.814547,
+              "lng": 123.431604
+            },
+            {
+              "lat": 41.81415241414566,
+              "lng": 123.4305132114314
+            },
+            {
+              "lat": 41.81424856867225,
+              "lng": 123.42936909427958
+            },
+            {
+              "lat": 41.81443281084092,
+              "lng": 123.42824755897298
+            },
+            {
+              "lat": 41.814577,
+              "lng": 123.427115
+            },
+            {
+              "lat": 41.814139,
+              "lng": 123.422977
+            },
+            {
+              "lat": 41.814014060115944,
+              "lng": 123.42231348767557
+            },
+            {
+              "lat": 41.81375,
+              "lng": 123.42173
+            }
+          ],
+          [
+            {
+              "lat": 41.809909,
+              "lng": 123.419946
+            },
+            {
+              "lat": 41.807879,
+              "lng": 123.418785
+            },
+            {
+              "lat": 41.806767,
+              "lng": 123.41805
+            },
+            {
+              "lat": 41.805056,
+              "lng": 123.416793
+            }
+          ],
+          [
+            {
+              "lng": 123.415932,
+              "lat": 41.803959
+            },
+            {
+              "lng": 123.415053,
+              "lat": 41.802857
+            }
+          ],
+          [
+            {
+              "lat": 41.78933309094274,
+              "lng": 123.40479458706612
+            },
+            {
+              "lat": 41.788131,
+              "lng": 123.403854
+            }
+          ],
+          [
+            {
+              "lat": 41.770801,
+              "lng": 123.39081
+            },
+            {
+              "lat": 41.7696054393738,
+              "lng": 123.39083853054863
+            }
+          ],
+          [
+            {
+              "lat": 41.767026,
+              "lng": 123.391832
+            },
+            {
+              "lat": 41.764796,
+              "lng": 123.392716
+            },
+            {
+              "lat": 41.756535,
+              "lng": 123.397192
+            },
+            {
+              "lat": 41.754727,
+              "lng": 123.398007
+            },
+            {
+              "lat": 41.752799,
+              "lng": 123.398679
+            }
+          ],
+          [
+            {
+              "lng": 123.399134,
+              "lat": 41.751665
+            },
+            {
+              "lng": 123.399582,
+              "lat": 41.750545
+            }
+          ],
+          [
+            {
+              "lat": 41.740194,
+              "lng": 123.403737
+            }
+          ],
+          [
+            {
+              "lat": 41.726386,
+              "lng": 123.409664
+            },
+            {
+              "lat": 41.721949,
+              "lng": 123.411186
+            },
+            {
+              "lat": 41.721064816852476,
+              "lng": 123.41140123744748
+            },
+            {
+              "lat": 41.72016771669172,
+              "lng": 123.41145476607586
+            },
+            {
+              "lat": 41.719278102188085,
+              "lng": 123.41130856600036
+            },
+            {
+              "lat": 41.71840955068326,
+              "lng": 123.41101019252847
+            },
+            {
+              "lat": 41.7175746425525,
+              "lng": 123.41057008059109
+            },
+            {
+              "lat": 41.716749,
+              "lng": 123.410097
+            },
+            {
+              "lat": 41.711774,
+              "lng": 123.406951
+            }
+          ],
+          [
+            {
+              "lng": 123.406145,
+              "lat": 41.710403
+            },
+            {
+              "lng": 123.399702,
+              "lat": 41.699189
+            }
+          ],
+          [
+            {
+              "lat": 41.697339,
+              "lng": 123.398646
+            },
+            {
+              "lat": 41.695338,
+              "lng": 123.39778
+            },
+            {
+              "lat": 41.694632642671635,
+              "lng": 123.39749443652244
+            },
+            {
+              "lat": 41.69391923796834,
+              "lng": 123.39724800189445
+            },
+            {
+              "lat": 41.69319722527176,
+              "lng": 123.3970633906823
+            },
+            {
+              "lat": 41.69249076772881,
+              "lng": 123.39722710874038
+            },
+            {
+              "lat": 41.691949,
+              "lng": 123.397855
+            }
+          ],
+          [
+            {
+              "lat": 41.689875,
+              "lng": 123.404235
+            },
+            {
+              "lat": 41.68584,
+              "lng": 123.414327
+            },
+            {
+              "lat": 41.685493948391375,
+              "lng": 123.41537307867257
+            },
+            {
+              "lat": 41.684896,
+              "lng": 123.416159
+            }
+          ],
+          [
+            {
+              "lat": 41.676542,
+              "lng": 123.415014
+            },
+            {
+              "lat": 41.67589386085656,
+              "lng": 123.41461797054852
+            },
+            {
+              "lat": 41.67534,
+              "lng": 123.414026
+            },
+            {
+              "lat": 41.672934,
+              "lng": 123.410359
+            },
+            {
+              "lat": 41.67252515095357,
+              "lng": 123.4099088843592
+            },
+            {
+              "lat": 41.672010313326055,
+              "lng": 123.40977911995718
+            },
+            {
+              "lat": 41.67149,
+              "lng": 123.409698
+            },
+            {
+              "lat": 41.669385,
+              "lng": 123.409611
+            }
+          ],
+          [
+            {
+              "lat": 41.665591,
+              "lng": 123.409454
+            },
+            {
+              "lat": 41.664810077289204,
+              "lng": 123.40946020744083
+            },
+            {
+              "lat": 41.66407387496868,
+              "lng": 123.40978264667773
+            },
+            {
+              "lat": 41.663412702210465,
+              "lng": 123.41032351871574
+            },
+            {
+              "lat": 41.66295172253027,
+              "lng": 123.41115463521605
+            },
+            {
+              "lat": 41.66244472554403,
+              "lng": 123.4119344915318
+            },
+            {
+              "lat": 41.66185968447188,
+              "lng": 123.41260738036684
+            },
+            {
+              "lat": 41.661148248017696,
+              "lng": 123.41299879602971
+            },
+            {
+              "lat": 41.660388,
+              "lng": 123.413191
+            },
+            {
+              "lat": 41.658321,
+              "lng": 123.413387
+            }
+          ]
+        ]
+      },
+      {
+        "id": "SY9",
+        "name": "沈阳����9����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3A88D6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY9_1",
+            "lat": 41.842252,
+            "lng": 123.388938,
+            "name": "怒江公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_2",
+            "lat": 41.830569,
+            "lng": 123.390833,
+            "name": "淮河街沈医二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "淮河街沈医二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_3",
+            "lat": 41.821049,
+            "lng": 123.386576,
+            "name": "皇姑屯站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_4",
+            "lat": 41.812753,
+            "lng": 123.383836,
+            "name": "重型文化广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_5",
+            "lat": 41.804706,
+            "lng": 123.378755,
+            "name": "北二路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_6",
+            "lat": 41.793929,
+            "lng": 123.370618,
+            "name": "铁西广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "铁西广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_7",
+            "lat": 41.787634,
+            "lng": 123.365836,
+            "name": "兴华公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_8",
+            "lat": 41.781587,
+            "lng": 123.36126,
+            "name": "沈辽路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_9",
+            "lat": 41.77241,
+            "lng": 123.358989,
+            "name": "滑翔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_10",
+            "lat": 41.760993,
+            "lng": 123.345239,
+            "name": "吉力湖街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_11",
+            "lat": 41.751812,
+            "lng": 123.346392,
+            "name": "大通湖街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大通湖街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_12",
+            "lat": 41.732254,
+            "lng": 123.361366,
+            "name": "曹仲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_13",
+            "lat": 41.728305,
+            "lng": 123.36889,
+            "name": "浑河站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_14",
+            "lat": 41.72481,
+            "lng": 123.398268,
+            "name": "胜利南街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_15",
+            "lat": 41.72726,
+            "lng": 123.409381,
+            "name": "长白南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长白南",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_16",
+            "lat": 41.729802,
+            "lng": 123.421603,
+            "name": "榆树台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_17",
+            "lat": 41.731686,
+            "lng": 123.430201,
+            "name": "金阳大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_18",
+            "lat": 41.734121,
+            "lng": 123.441295,
+            "name": "彩霞街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_19",
+            "lat": 41.742873,
+            "lng": 123.453672,
+            "name": "奥体中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥体中心",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_20",
+            "lat": 41.743596,
+            "lng": 123.467941,
+            "name": "天成街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_21",
+            "lat": 41.741203,
+            "lng": 123.485066,
+            "name": "朗日街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_22",
+            "lat": 41.744542,
+            "lng": 123.501486,
+            "name": "长青南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长青南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY9_23",
+            "lat": 41.747294,
+            "lng": 123.516113,
+            "name": "建筑大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 41.841674682206765,
+              "lng": 123.3889363415507
+            },
+            {
+              "lat": 41.8411,
+              "lng": 123.389006
+            },
+            {
+              "lat": 41.838108,
+              "lng": 123.390334
+            },
+            {
+              "lat": 41.837515,
+              "lng": 123.390473
+            },
+            {
+              "lat": 41.833653,
+              "lng": 123.390543
+            },
+            {
+              "lat": 41.833099,
+              "lng": 123.390574
+            }
+          ],
+          [
+            {
+              "lat": 41.82993784340538,
+              "lng": 123.3905354840367
+            },
+            {
+              "lat": 41.829308,
+              "lng": 123.390233
+            },
+            {
+              "lat": 41.825066,
+              "lng": 123.388299
+            }
+          ],
+          [
+            {
+              "lat": 41.818226,
+              "lng": 123.385422
+            },
+            {
+              "lat": 41.815067,
+              "lng": 123.384022
+            }
+          ],
+          [
+            {
+              "lat": 41.81196405772982,
+              "lng": 123.38383389540283
+            },
+            {
+              "lat": 41.81119187356264,
+              "lng": 123.38363977067523
+            },
+            {
+              "lat": 41.810498,
+              "lng": 123.383145
+            }
+          ],
+          [
+            {
+              "lat": 41.794676,
+              "lng": 123.371186
+            }
+          ],
+          [
+            {
+              "lat": 41.793403,
+              "lng": 123.370204
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.78096971233533,
+              "lng": 123.36078263172146
+            },
+            {
+              "lat": 41.78033472935708,
+              "lng": 123.36034905626228
+            },
+            {
+              "lat": 41.77967182325065,
+              "lng": 123.36000734750027
+            },
+            {
+              "lat": 41.77896289407836,
+              "lng": 123.35995571960532
+            },
+            {
+              "lat": 41.77825251360254,
+              "lng": 123.36003036975701
+            },
+            {
+              "lat": 41.777542133126715,
+              "lng": 123.36010501990872
+            },
+            {
+              "lat": 41.77683653224341,
+              "lng": 123.3602340412562
+            },
+            {
+              "lat": 41.77616762536876,
+              "lng": 123.36055469560294
+            },
+            {
+              "lat": 41.77558193562713,
+              "lng": 123.36109093100656
+            },
+            {
+              "lat": 41.774988,
+              "lng": 123.361615
+            }
+          ],
+          [
+            {
+              "lat": 41.771894,
+              "lng": 123.358394
+            },
+            {
+              "lat": 41.770552,
+              "lng": 123.356778
+            },
+            {
+              "lat": 41.768705,
+              "lng": 123.354645
+            },
+            {
+              "lat": 41.76822047694063,
+              "lng": 123.35414389991618
+            },
+            {
+              "lat": 41.76768344483916,
+              "lng": 123.35375047253761
+            },
+            {
+              "lat": 41.767123,
+              "lng": 123.353419
+            },
+            {
+              "lat": 41.764593,
+              "lng": 123.352099
+            },
+            {
+              "lat": 41.76390983502946,
+              "lng": 123.35173653120573
+            },
+            {
+              "lat": 41.76326889648163,
+              "lng": 123.35125882744461
+            },
+            {
+              "lat": 41.76271040410045,
+              "lng": 123.35062260409079
+            },
+            {
+              "lat": 41.76227243058557,
+              "lng": 123.34983663610124
+            },
+            {
+              "lat": 41.76197120641764,
+              "lng": 123.34894358430319
+            },
+            {
+              "lat": 41.76171657049471,
+              "lng": 123.34802135944926
+            },
+            {
+              "lat": 41.76150962837258,
+              "lng": 123.34707797867743
+            },
+            {
+              "lat": 41.761276113468014,
+              "lng": 123.34614619021485
+            }
+          ],
+          [
+            {
+              "lat": 41.760602,
+              "lng": 123.344015
+            },
+            {
+              "lat": 41.759265,
+              "lng": 123.341002
+            },
+            {
+              "lat": 41.758592897294314,
+              "lng": 123.34051281535064
+            },
+            {
+              "lat": 41.757881312728706,
+              "lng": 123.34073799775943
+            },
+            {
+              "lat": 41.757216,
+              "lng": 123.341289
+            }
+          ],
+          [
+            {
+              "lat": 41.750949,
+              "lng": 123.347148
+            },
+            {
+              "lat": 41.749227,
+              "lng": 123.348689
+            },
+            {
+              "lat": 41.747102,
+              "lng": 123.350019
+            },
+            {
+              "lat": 41.739386,
+              "lng": 123.3541
+            },
+            {
+              "lat": 41.736933,
+              "lng": 123.355655
+            },
+            {
+              "lat": 41.73599298921495,
+              "lng": 123.35634100387918
+            },
+            {
+              "lat": 41.73511885073394,
+              "lng": 123.35716436822548
+            },
+            {
+              "lat": 41.7342902185827,
+              "lng": 123.35806650408192
+            },
+            {
+              "lat": 41.73354092359404,
+              "lng": 123.3590862265728
+            },
+            {
+              "lat": 41.73287008818708,
+              "lng": 123.36019622061707
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 41.727797161504114,
+              "lng": 123.36980816767253
+            },
+            {
+              "lat": 41.72735213781479,
+              "lng": 123.37078051395261
+            },
+            {
+              "lat": 41.726934285450774,
+              "lng": 123.37177260049302
+            },
+            {
+              "lat": 41.72656762728234,
+              "lng": 123.37280198637738
+            },
+            {
+              "lat": 41.726245121601515,
+              "lng": 123.37385685976496
+            },
+            {
+              "lat": 41.7259812326467,
+              "lng": 123.37494103572789
+            },
+            {
+              "lat": 41.72575819851814,
+              "lng": 123.37604171835966
+            },
+            {
+              "lat": 41.72554521339247,
+              "lng": 123.37714594128879
+            },
+            {
+              "lat": 41.725356,
+              "lng": 123.378258
+            },
+            {
+              "lat": 41.724617,
+              "lng": 123.384981
+            },
+            {
+              "lat": 41.7244835879891,
+              "lng": 123.38603919980653
+            },
+            {
+              "lat": 41.724283498722045,
+              "lng": 123.38707716287938
+            },
+            {
+              "lat": 41.724112881913264,
+              "lng": 123.38812428064637
+            },
+            {
+              "lat": 41.72398641971791,
+              "lng": 123.3891824551229
+            },
+            {
+              "lat": 41.72389211991816,
+              "lng": 123.39024661147579
+            },
+            {
+              "lat": 41.72384991080541,
+              "lng": 123.39131698202637
+            },
+            {
+              "lat": 41.723849,
+              "lng": 123.392389
+            },
+            {
+              "lat": 41.724168,
+              "lng": 123.395716
+            },
+            {
+              "lat": 41.724366353572314,
+              "lng": 123.39657425749202
+            },
+            {
+              "lat": 41.7246102480021,
+              "lng": 123.39741054928412
+            }
+          ],
+          [
+            {
+              "lng": 123.398268,
+              "lat": 41.72481
+            },
+            {
+              "lng": 123.399217,
+              "lat": 41.725013
+            }
+          ],
+          [
+            {
+              "lat": 41.72749693145118,
+              "lng": 123.41040069962082
+            },
+            {
+              "lat": 41.72773,
+              "lng": 123.411422
+            },
+            {
+              "lat": 41.729058,
+              "lng": 123.41838
+            }
+          ],
+          [],
+          [],
+          [
+            {
+              "lat": 41.735994,
+              "lng": 123.449636
+            },
+            {
+              "lat": 41.736511111899645,
+              "lng": 123.45022720612724
+            },
+            {
+              "lat": 41.737114831540175,
+              "lng": 123.45066490286662
+            },
+            {
+              "lat": 41.73772570092761,
+              "lng": 123.45108391738648
+            },
+            {
+              "lat": 41.738386,
+              "lng": 123.451322
+            },
+            {
+              "lat": 41.740649,
+              "lng": 123.450858
+            },
+            {
+              "lat": 41.7413502245027,
+              "lng": 123.45114234516396
+            },
+            {
+              "lat": 41.74184657296451,
+              "lng": 123.45199810018268
+            },
+            {
+              "lat": 41.742340304602656,
+              "lng": 123.45285658300294
+            }
+          ],
+          [
+            {
+              "lat": 41.74324818373725,
+              "lng": 123.45428439318435
+            },
+            {
+              "lat": 41.74350995291908,
+              "lng": 123.45499703570613
+            },
+            {
+              "lat": 41.74367,
+              "lng": 123.455761
+            },
+            {
+              "lat": 41.743594,
+              "lng": 123.467095
+            }
+          ],
+          [
+            {
+              "lat": 41.74364295445503,
+              "lng": 123.46893936114671
+            },
+            {
+              "lat": 41.74359221998183,
+              "lng": 123.46993343973105
+            },
+            {
+              "lat": 41.74343499483397,
+              "lng": 123.47089726900363
+            },
+            {
+              "lat": 41.742991,
+              "lng": 123.471678
+            },
+            {
+              "lat": 41.740242,
+              "lng": 123.474602
+            },
+            {
+              "lat": 41.73986878181493,
+              "lng": 123.47512588370061
+            },
+            {
+              "lat": 41.73967045183113,
+              "lng": 123.4758006016764
+            },
+            {
+              "lat": 41.739623,
+              "lng": 123.476524
+            }
+          ],
+          [
+            {
+              "lat": 41.743562,
+              "lng": 123.497443
+            },
+            {
+              "lat": 41.74396705820723,
+              "lng": 123.49875600995239
+            },
+            {
+              "lat": 41.74427256890513,
+              "lng": 123.50011417134846
+            }
+          ],
+          [
+            {
+              "lat": 41.746667,
+              "lng": 123.513844
+            },
+            {
+              "lat": 41.74694998037728,
+              "lng": 123.51499396258572
+            }
+          ]
+        ]
+      },
+      {
+        "id": "SY10",
+        "name": "沈阳����10����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#84C136",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "shenyang_SY10_1",
+            "lat": 41.863905,
+            "lng": 123.348284,
+            "name": "丁香湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_2",
+            "lat": 41.851337,
+            "lng": 123.356381,
+            "name": "元江街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_3",
+            "lat": 41.835836,
+            "lng": 123.363829,
+            "name": "向工街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_4",
+            "lat": 41.829766,
+            "lng": 123.374299,
+            "name": "塔湾街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_5",
+            "lat": 41.830671,
+            "lng": 123.391292,
+            "name": "淮河街沈医二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "淮河街沈医二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_6",
+            "lat": 41.831138,
+            "lng": 123.40114,
+            "name": "百鸟公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_7",
+            "lat": 41.831726,
+            "lng": 123.413113,
+            "name": "长江街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_8",
+            "lat": 41.832595,
+            "lng": 123.429117,
+            "name": "中医药大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "中医药大学",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_9",
+            "lat": 41.833166,
+            "lng": 123.444589,
+            "name": "陵东街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_10",
+            "lat": 41.83353,
+            "lng": 123.457213,
+            "name": "北塔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_11",
+            "lat": 41.829362,
+            "lng": 123.473976,
+            "name": "合作街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "合作街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_12",
+            "lat": 41.820634,
+            "lng": 123.481886,
+            "name": "东北大马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_13",
+            "lat": 41.808334,
+            "lng": 123.48859,
+            "name": "滂江街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "滂江街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_14",
+            "lat": 41.798948,
+            "lng": 123.485925,
+            "name": "长安路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_15",
+            "lat": 41.790153,
+            "lng": 123.483277,
+            "name": "万莲站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_16",
+            "lat": 41.777588,
+            "lng": 123.478432,
+            "name": "泉园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_17",
+            "lat": 41.770063,
+            "lng": 123.487209,
+            "name": "江东街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_18",
+            "lat": 41.760952,
+            "lng": 123.495686,
+            "name": "长青桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_19",
+            "lat": 41.744415,
+            "lng": 123.501696,
+            "name": "长青南街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长青南街",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_20",
+            "lat": 41.733153,
+            "lng": 123.505348,
+            "name": "理工大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "shenyang_SY10_21",
+            "lat": 41.721276,
+            "lng": 123.513012,
+            "name": "张沙布站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 41.862012,
+              "lng": 123.348388
+            },
+            {
+              "lat": 41.86110277900218,
+              "lng": 123.34847537025118
+            },
+            {
+              "lat": 41.86022010812278,
+              "lng": 123.3487651019139
+            },
+            {
+              "lat": 41.85935510322387,
+              "lng": 123.34913351461755
+            },
+            {
+              "lat": 41.85852756007586,
+              "lng": 123.34963332985784
+            },
+            {
+              "lat": 41.857719,
+              "lng": 123.35019
+            },
+            {
+              "lat": 41.851892,
+              "lng": 123.355861
+            }
+          ],
+          [
+            {
+              "lat": 41.850091,
+              "lng": 123.357565
+            },
+            {
+              "lat": 41.848451,
+              "lng": 123.359051
+            },
+            {
+              "lat": 41.846984,
+              "lng": 123.360209
+            },
+            {
+              "lat": 41.844487,
+              "lng": 123.3618
+            },
+            {
+              "lat": 41.839463,
+              "lng": 123.365159
+            },
+            {
+              "lat": 41.838972,
+              "lng": 123.365125
+            }
+          ],
+          [
+            {
+              "lat": 41.833054,
+              "lng": 123.362699
+            },
+            {
+              "lat": 41.832371108625175,
+              "lng": 123.36302724227534
+            },
+            {
+              "lat": 41.831801,
+              "lng": 123.363647
+            },
+            {
+              "lat": 41.829835,
+              "lng": 123.370766
+            },
+            {
+              "lat": 41.829727369133145,
+              "lng": 123.37193564392798
+            },
+            {
+              "lat": 41.829759992272315,
+              "lng": 123.3731170180314
+            }
+          ],
+          [
+            {
+              "lat": 41.829763,
+              "lng": 123.37519
+            },
+            {
+              "lat": 41.830584,
+              "lng": 123.389746
+            }
+          ],
+          [],
+          [],
+          [
+            {
+              "lat": 41.832528,
+              "lng": 123.427776
+            }
+          ],
+          [
+            {
+              "lng": 123.442913,
+              "lat": 41.833092
+            }
+          ],
+          [
+            {
+              "lat": 41.833241,
+              "lng": 123.446266
+            },
+            {
+              "lat": 41.833382,
+              "lng": 123.454042
+            },
+            {
+              "lat": 41.833450808889594,
+              "lng": 123.45562794043082
+            }
+          ],
+          [
+            {
+              "lat": 41.83354782431525,
+              "lng": 123.458006728736
+            },
+            {
+              "lat": 41.83349366343155,
+              "lng": 123.45879657495661
+            },
+            {
+              "lat": 41.83336272581273,
+              "lng": 123.45956953304736
+            },
+            {
+              "lat": 41.833202422294725,
+              "lng": 123.46033257928742
+            },
+            {
+              "lat": 41.83302,
+              "lng": 123.461087
+            },
+            {
+              "lat": 41.829682,
+              "lng": 123.472935
+            }
+          ],
+          [
+            {
+              "lat": 41.829124202501696,
+              "lng": 123.47482379845545
+            },
+            {
+              "lat": 41.82881882833223,
+              "lng": 123.47563039858238
+            },
+            {
+              "lat": 41.828343,
+              "lng": 123.476269
+            },
+            {
+              "lat": 41.826309,
+              "lng": 123.478066
+            },
+            {
+              "lat": 41.821154,
+              "lng": 123.481526
+            }
+          ],
+          [
+            {
+              "lat": 41.814956,
+              "lng": 123.485805
+            }
+          ],
+          [
+            {
+              "lat": 41.80773761444573,
+              "lng": 123.48883891236208
+            },
+            {
+              "lat": 41.80713867852673,
+              "lng": 123.48907328318126
+            },
+            {
+              "lat": 41.80652202623662,
+              "lng": 123.48920231130441
+            },
+            {
+              "lat": 41.805898554786964,
+              "lng": 123.4892033773697
+            },
+            {
+              "lat": 41.80528348802119,
+              "lng": 123.48907306757368
+            },
+            {
+              "lat": 41.80469,
+              "lng": 123.488812
+            },
+            {
+              "lat": 41.802905,
+              "lng": 123.487426
+            },
+            {
+              "lat": 41.80166545250242,
+              "lng": 123.48658089780587
+            },
+            {
+              "lat": 41.800307932940434,
+              "lng": 123.48624373082515
+            }
+          ],
+          [
+            {
+              "lat": 41.798218,
+              "lng": 123.485756
+            },
+            {
+              "lat": 41.791644,
+              "lng": 123.483948
+            },
+            {
+              "lat": 41.79088368191604,
+              "lng": 123.48367234940699
+            }
+          ],
+          [
+            {
+              "lat": 41.78943027601896,
+              "lng": 123.48285946098444
+            },
+            {
+              "lat": 41.788700581559816,
+              "lng": 123.48246497790734
+            },
+            {
+              "lat": 41.788020414323455,
+              "lng": 123.48193648997731
+            },
+            {
+              "lat": 41.78742301925127,
+              "lng": 123.48125173325161
+            },
+            {
+              "lat": 41.786851,
+              "lng": 123.480527
+            },
+            {
+              "lat": 41.783642,
+              "lng": 123.476319
+            },
+            {
+              "lat": 41.78296064981121,
+              "lng": 123.47548354907418
+            },
+            {
+              "lat": 41.78208777973245,
+              "lng": 123.47516984838812
+            },
+            {
+              "lat": 41.781197545004986,
+              "lng": 123.475033
+            },
+            {
+              "lat": 41.780308,
+              "lng": 123.475206
+            }
+          ],
+          [
+            {
+              "lng": 123.478432,
+              "lat": 41.777588
+            },
+            {
+              "lng": 123.479103,
+              "lat": 41.777022
+            }
+          ],
+          [
+            {
+              "lat": 41.769453782021024,
+              "lng": 123.48788272966823
+            },
+            {
+              "lat": 41.768848,
+              "lng": 123.488562
+            },
+            {
+              "lat": 41.766715,
+              "lng": 123.491161
+            },
+            {
+              "lat": 41.76571091136061,
+              "lng": 123.49237326809991
+            },
+            {
+              "lat": 41.764616045132435,
+              "lng": 123.49343189579801
+            },
+            {
+              "lat": 41.763462969802795,
+              "lng": 123.49436089952826
+            },
+            {
+              "lat": 41.76222181054614,
+              "lng": 123.49507220538025
+            }
+          ],
+          [
+            {
+              "lat": 41.760086,
+              "lng": 123.496118
+            },
+            {
+              "lat": 41.746267,
+              "lng": 123.501055
+            },
+            {
+              "lat": 41.7453394744178,
+              "lng": 123.50136755652339
+            }
+          ],
+          [
+            {
+              "lng": 123.50511,
+              "lat": 41.733882
+            }
+          ],
+          [
+            {
+              "lat": 41.729726,
+              "lng": 123.506487
+            },
+            {
+              "lat": 41.72911943148707,
+              "lng": 123.50676709194198
+            },
+            {
+              "lat": 41.728532,
+              "lng": 123.507116
+            },
+            {
+              "lat": 41.72169,
+              "lng": 123.512541
+            }
+          ]
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}
