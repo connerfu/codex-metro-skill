@@ -1,4 +1,4 @@
-// post_process.js — Run anchors + transfers + names in one pass
+// post_process.js �?Run anchors + transfers + names in one pass
 const { execSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
@@ -20,7 +20,7 @@ function run(label, script, args) {
     process.stderr.write(label + '...');
     try {
         var out = execSync('"' + nodeExe + '" "' + path.join(skillDir, script) + '" ' + args, {
-            cwd: skillDir, timeout: 120000, encoding: 'utf8', maxBuffer: 2*1024*1024
+            cwd: skillDir, timeout: 300000, encoding: 'utf8', maxBuffer: 2*1024*1024
         });
         var elapsed = ((Date.now() - ts) / 1000).toFixed(1);
         console.log(' ' + elapsed + 's');
@@ -33,7 +33,6 @@ function run(label, script, args) {
 
 console.log('\n=== Post-process: ' + cityName + ' ===');
 run('Anchors', 'amap_anchors.js', slug + ' "' + cityName + '"');
-run('Transfers', 'fix_transfers.js', slug + ' "' + cityName + '"');
 run('Names', 'fix_names.js', slug);
 
 run('Split', 'split_gapped_lines.js', slug);

@@ -1,330 +1,283 @@
-const https = require('https');
-const fs = require('fs');
+﻿const req = require;
+const fs = req("fs");
+const https = req("https");
 
-// AMap Polyline Anchor Builder v4.1 — Ring overlapping windows + gap fill
-const AMAP_KEY = 'c037d67ccb46f69c5f1b7a9b84c61e0e';
-const CONCURRENCY = 5;
+var AMAP_KEY = process.env.AMAP_KEY || "";
+const CONCURRENCY = 2;
 const TIMEOUT_MS = 12000;
-const RATE_LIMIT_MS = 150;
+const RATE_LIMIT_MS = 1000;
 const SEGMENT_EPSILON = 10;
-const RING_CHUNK = 8;
-const RING_OVERLAP = 3;
 https.globalAgent.maxSockets = 10;
 
-// Per-call rate limiter (not serial — concurrent workers get independent slots)
+var _lastRateLimit = 0;
 function rateLimit() {
-    var now = Date.now();
-    if (!rateLimit._last) rateLimit._last = 0;
-    var next = rateLimit._last + RATE_LIMIT_MS;
-    rateLimit._last = Math.max(now, next);
-    var wait = Math.max(0, rateLimit._last - now);
-    return new Promise(r => setTimeout(r, wait));
+  var now = Date.now();
+  var next = _lastRateLimit + RATE_LIMIT_MS;
+  _lastRateLimit = Math.max(now, next);
+  return new Promise(function(r) { setTimeout(r, Math.max(0, _lastRateLimit - now)); });
 }
 
 function amapGet(path) {
-    return rateLimit().then(() => new Promise(r => {
-        const timer = setTimeout(() => r(null), TIMEOUT_MS);
-        https.get('https://restapi.amap.com' + path, {
-            headers: { 'User-Agent': 'CodexMetro/4.1' }
-        }, res => {
-            let d = '';
-            res.on('data', c => d += c);
-            res.on('end', () => { clearTimeout(timer); try { r(JSON.parse(d)); } catch(e) { r(null); } });
-        }).on('error', () => { clearTimeout(timer); r(null); });
-    }));
+  return rateLimit().then(function() {
+    return new Promise(function(resolve) {
+      var timer = setTimeout(function() { resolve(null); }, TIMEOUT_MS);
+      https.get("https://restapi.amap.com" + path, { headers: { "User-Agent": "CodexMetro/5.0" } }, function(res) {
+        var d = "";
+        res.on("data", function(c) { d += c; });
+        res.on("end", function() { clearTimeout(timer); try { resolve(JSON.parse(d)); } catch(e) { resolve(null); } });
+      }).on("error", function() { clearTimeout(timer); resolve(null); });
+    });
+  });
 }
 
 function dist(a, b) {
-    const dlat = (a.lat - b.lat) * 111000;
-    const dlng = (a.lng - b.lng) * 111000 * Math.cos(a.lat * Math.PI / 180);
-    return Math.sqrt(dlat * dlat + dlng * dlng);
+  var dlat = (a.lat - b.lat) * 111000;
+  var dlng = (a.lng - b.lng) * 111000 * Math.cos(a.lat * Math.PI / 180);
+  return Math.sqrt(dlat * dlat + dlng * dlng);
 }
 
-function rdpSegment(pts, epsilonM) {
-    if (pts.length <= 2) return pts;
-    const epsDeg = epsilonM / 111000;
-    function perpDist(pt, a, b) {
-        const dx = b.lng - a.lng, dy = b.lat - a.lat;
-        const lenSq = dx * dx + dy * dy;
-        if (lenSq === 0) return Math.hypot(pt.lng - a.lng, pt.lat - a.lat);
-        const t = Math.max(0, Math.min(1, ((pt.lng - a.lng) * dx + (pt.lat - a.lat) * dy) / lenSq));
-        return Math.hypot(pt.lng - a.lng - t * dx, pt.lat - a.lat - t * dy);
-    }
-    function recurse(start, end) {
-        let maxDist = 0, maxIdx = start;
-        for (let i = start + 1; i < end; i++) {
-            const d = perpDist(pts[i], pts[start], pts[end]);
-            if (d > maxDist) { maxDist = d; maxIdx = i; }
-        }
-        if (maxDist > epsDeg) {
-            const left = recurse(start, maxIdx);
-            const right = recurse(maxIdx, end);
-            left.pop();
-            return left.concat(right);
-        }
-        return [pts[start], pts[end]];
-    }
-    return recurse(0, pts.length - 1);
+function getLineSearchName(l) {
+  var id = l.id || "";
+  if (id.indexOf("TRAMWAY") >= 0) return id.indexOf("BRANCH") >= 0 ? "有轨电车蓉2号线支线" : "有轨电车蓉2号线";
+  if (id.indexOf("LINE_S") >= 0) return "资阳线";
+  var m = id.match(/\d+/);
+  return m ? "成都地铁" + parseInt(m[0]) + "号线" : id;
 }
 
-async function getLinePolyline(city, fromLng, fromLat, toLng, toLat) {
-    const orig = fromLng + ',' + fromLat;
-    const dest = toLng + ',' + toLat;
-    // Try multiple strategies for robustness
-    for (const strat of [0, 2, 5]) {
-        const path = '/v3/direction/transit/integrated?key=' + AMAP_KEY +
-            '&origin=' + orig + '&destination=' + dest +
-            '&city=' + encodeURIComponent(city) + '&cityd=' + encodeURIComponent(city) +
-            '&strategy=' + strat + '&nightflag=0';
-        const result = await amapGet(path);
-        if (!result || result.status !== '1') continue;
-        const transit = result.route && result.route.transits && result.route.transits[0];
+// City detection for cross-city transit queries
+function getCityForCoord(lat, lng, defaultCity) {
+  if (defaultCity === "上海" && lng < 121.2) return encodeURIComponent("苏州");
+  return encodeURIComponent(defaultCity);
+}
+
+// Curvature Catmull-Rom functions
+function calcCurvature(pts) {
+  if (pts.length < 3) return pts.map(function(){return 0;});
+  var c = [0];
+  for (var i = 1; i < pts.length - 1; i++) {
+    var a = Math.abs(Math.atan2(pts[i+1].lat - pts[i].lat, pts[i+1].lng - pts[i].lng) - Math.atan2(pts[i].lat - pts[i-1].lat, pts[i].lng - pts[i-1].lng));
+    c.push(a > Math.PI ? 2 * Math.PI - a : a);
+  }
+  c.push(0);
+  return c;
+}
+
+function catmullRomPoint(p0, p1, p2, p3, t) {
+  var t2 = t * t, t3 = t2 * t;
+  return { lat: 0.5 * ((2*p1.lat) + (-p0.lat+p2.lat)*t + (2*p0.lat-5*p1.lat+4*p2.lat-p3.lat)*t2 + (-p0.lat+3*p1.lat-3*p2.lat+p3.lat)*t3), lng: 0.5 * ((2*p1.lng) + (-p0.lng+p2.lng)*t + (2*p0.lng-5*p1.lng+4*p2.lng-p3.lng)*t2 + (-p0.lng+3*p1.lng-3*p2.lng+p3.lng)*t3) };
+}
+
+function crCheckRemoved(full, ri, pts, idx, eps) {
+  if (ri < 1 || ri + 1 >= full.length) return false;
+  var b = full[ri-1], a = full[ri+1], p = pts[idx];
+  if (ri >= 2 && ri + 2 < full.length) {
+    for (var ti = 0; ti <= 50; ti++) { if (dist(catmullRomPoint(full[ri-2], b, a, full[ri+2], ti/50), p) <= eps) return true; }
+    return false;
+  }
+  return dist(p, b) <= eps;
+}
+
+function redistributeEvenly(pts) {
+  var n = pts.length;
+  if (n <= 2) return pts;
+  var cd = [0];
+  for (var i = 1; i < n; i++) cd.push(cd[i-1] + dist(pts[i], pts[i-1]));
+  var tot = cd[n-1];
+  if (tot < 0.001) return pts;
+  var step = tot / (n-1), r = [pts[0]], j = 1;
+  for (var i = 1; i < n - 1; i++) {
+    var tgt = i * step;
+    while (j < n - 1 && cd[j+1] < tgt) j++;
+    if (j >= n - 1) break;
+    var t = (tgt - cd[j]) / (cd[j+1] - cd[j] || 1);
+    r.push({ lat: pts[j].lat + (pts[j+1].lat - pts[j].lat) * t, lng: pts[j].lng + (pts[j+1].lng - pts[j].lng) * t });
+  }
+  r.push(pts[n-1]);
+  return r;
+}
+
+function catmullRomSimplify(pts, eps) {
+  if (pts.length < 3) return pts;
+  var curv = calcCurvature(pts), th = 0.02;
+  var ret = [0];
+  for (var i = 1; i < pts.length - 1; i++) { if (curv[i] > th) ret.push(i); }
+  ret.push(pts.length - 1);
+  var changed = true;
+  while (changed) {
+    changed = false;
+    for (var ri = 1; ri < ret.length-1; ri++) {
+      if (curv[ret[ri]] > th*2) continue;
+      if (crCheckRemoved(ret, ri, pts, ret[ri], eps)) { ret.splice(ri,1); ri--; changed = true; }
+    }
+  }
+  var r = ret.map(function(i){return{lat:pts[i].lat,lng:pts[i].lng};});
+  var i = 1;
+  while (i < r.length) { if (dist(r[i], r[i-1]) < 50) r.splice(i,1); else i++; }
+  i = 1;
+  while (i < r.length - 1) {
+    var cs = i-1;
+    while (i < r.length && dist(r[i], r[i-1]) < 200) i++;
+    if (i - cs >= 3) { var cl = r.slice(cs,i), rd = redistributeEvenly(cl); r.splice(cs,i-cs,...rd); i = cs + rd.length; }
+    i++;
+  }
+  return r;
+}
+
+// Busline search with AMap POI fallback
+async function findPolyline(l, cityName, allLines) {
+  var name = getLineSearchName(l);
+  // Strategy 1: busline name API
+  for (var attempt = 0; attempt < 3; attempt++) {
+    var result = await amapGet("/v3/bus/linename?key=" + AMAP_KEY + "&keywords=" + encodeURIComponent(name) + "&city=" + encodeURIComponent(cityName) + "&offset=10&page=1");
+    if (result && result.status === "1" && result.buslines && result.buslines.length > 0) {
+      var best = null;
+      for (var bi = 0; bi < result.buslines.length; bi++) {
+        var bl = result.buslines[bi], bt = bl.type || "", bn = bl.name || bl.bus_name || "";
+        if (!bl.polyline) continue;
+        if (bn.indexOf("摆渡车") >= 0 || bn.indexOf("假日接驳专线") >= 0 || bn.indexOf("接驳") >= 0) continue;
+        var pts = bl.polyline.split(";");
+        var sc = 0;
+        if (bt.indexOf("地铁") >= 0) sc += 100;
+        if (bt.indexOf("有轨电车") >= 0) sc += 50;
+        if (bn.match(/^地铁\d+号线/)) sc += 200;
+        sc += Math.min(pts.length, 500);
+        if (!best || sc > best.score) best = { polyline: pts, score: sc };
+      }
+      if (best) { var tmp = best.polyline.map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; }); if (tmp.length >= 3 && l.stations && l.stations.length > 0) { var d = Math.sqrt(Math.pow((l.stations[0].lat-tmp[0].lat)*111000,2)+Math.pow((l.stations[0].lng-tmp[0].lng)*111000*Math.cos(l.stations[0].lat*Math.PI/180),2)); if (d <= 5000) return tmp; } }
+    }
+    if (result && result.status === "0") { await new Promise(function(r) { setTimeout(r, 2000); }); continue; }
+    break;
+  }
+    // Strategy 2: transit direction between first/last station
+  var st = l.stations, n = st.length;
+  if (n < 2) return null;
+  var dest = st[n-1].lng + "," + st[n-1].lat;
+  var cityFrom = encodeURIComponent(cityName);
+  var origins = [st[0].lng + "," + st[0].lat];
+  if (n >= 2 && allLines) {
+    var juncName = (st[0].name || "").replace(/站$/, "");
+    for (var li = 0; li < allLines.length; li++) {
+      var ol = allLines[li];
+      if (ol === l || !ol.stations || ol.stations.length < 2) continue;
+      for (var si2 = 1; si2 < ol.stations.length; si2++) {
+        var sn = (ol.stations[si2].name || "").replace(/站$/, "");
+        if (sn === juncName && ol.stations[si2 - 1]) {
+          origins.push(ol.stations[si2 - 1].lng + "," + ol.stations[si2 - 1].lat);
+          break;
+        }
+      }
+    }
+  }
+  for (var oi = 0; oi < origins.length; oi++) {
+    var orig = origins[oi];
+    for (var si = 0; si < 3; si++) {
+      var strat = [2, 0, 4][si];
+      for (var ci = 0; ci < 2; ci++) {
+        var cityD = ci === 0 ? cityFrom : getCityForCoord(st[n-1].lat, st[n-1].lng, cityName);
+        var tr = await amapGet("/v3/direction/transit/integrated?key=" + AMAP_KEY + "&origin=" + orig + "&destination=" + dest + "&city=" + cityFrom + "&cityd=" + cityD + "&strategy=" + strat + "&nightflag=0");
+        if (!tr || tr.status !== "1") continue;
+        var transit = tr.route && tr.route.transits && tr.route.transits[0];
         if (!transit) continue;
-        let polyline = null;
+        var polyline = null;
         (transit.segments || []).forEach(function(seg) {
-            (seg.bus && seg.bus.buslines || []).forEach(function(bl) {
-                if (bl.type && bl.type.indexOf('\u5730\u94C1') !== -1 && bl.polyline) polyline = bl.polyline;
-            });
+          (seg.bus && seg.bus.buslines || []).forEach(function(bl) {
+            if (bl.type && bl.type.indexOf("地铁") !== -1 && bl.polyline) polyline = bl.polyline;
+          });
         });
-        if (polyline) return polyline.split(';').map(function(p) {
-            const parts = p.split(','); return { lng: +parts[0], lat: +parts[1] };
-        });
+        if (polyline && polyline.length > 20) return polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
+      }
     }
-    return null;
+  }
+  return null;
+}
+function computeStationIndices(poly, st) {
+  var idx = [], cur = 0;
+  for (var i = 0; i < st.length; i++) {
+    var s = st[i], bi = cur, bd = Infinity;
+    for (var j = cur; j < poly.length; j++) { var d = dist(s, poly[j]); if (d < bd) { bd = d; bi = j; } }
+    cur = bi; idx.push(bi);
+  }
+  return idx;
 }
 
-function buildAnchorsForStations(polylinePts, stations) {
-    let currentIdx = 0;
-    const stationIndices = [];
-    for (let si = 0; si < stations.length; si++) {
-        const s = stations[si];
-        let bestIdx = currentIdx, bestDist = Infinity;
-        for (let j = currentIdx; j < polylinePts.length; j++) {
-            const d = dist(s, polylinePts[j]);
-            if (d < bestDist) { bestDist = d; bestIdx = j; }
-        }
-        stationIndices.push(bestIdx);
-        currentIdx = bestIdx;
+function buildSegmentAnchors(poly, stIdx) {
+  var ans = [];
+  for (var i = 0; i < stIdx.length - 1; i++) {
+    var seg = poly.slice(stIdx[i], stIdx[i+1]+1);
+    if (seg.length < 2) { ans.push([]); continue; }
+    if (seg.length < 5) {
+      ans.push(seg.slice(1, -1));
+    } else {
+      var s = catmullRomSimplify(seg, SEGMENT_EPSILON);
+      ans.push(s.slice(1, -1));
     }
-    const anchors = [];
-    for (let i = 0; i < stations.length - 1; i++) {
-        const start = stationIndices[i], end = stationIndices[i + 1];
-        if (end - start <= 1) { anchors.push([]); continue; }
-        const segPts = polylinePts.slice(start + 1, end);
-        const simplified = rdpSegment(segPts, SEGMENT_EPSILON);
-        anchors.push(simplified.map(function(p) { return { lat: p.lat, lng: p.lng }; }));
-    }
-    return anchors;
+  }
+  return ans;
 }
 
-async function processRing(cityName, l) {
-    // v4.1: Overlapping 8-station windows instead of fixed quarters
-    // This ensures full coverage even when some windows fail
-    const st = l.stations;
-    const n = st.length;
-    
-    if (!l.segmentAnchors) l.segmentAnchors = [];
-    for (let si = 0; si < n; si++) {
-        if (!l.segmentAnchors[si]) l.segmentAnchors[si] = [];
-    }
-    
-    const chunks = [];
-    for (let start = 0; start < n; start += RING_CHUNK - RING_OVERLAP) {
-        let end = Math.min(start + RING_CHUNK, n);
-        if (end - start < 3) continue;
-        chunks.push({ start, end, wrap: false });
-    }
-    // Wrap-around chunk for ring closing
-    const lastChunkEnd = chunks.length > 0 ? chunks[chunks.length - 1].end : 0;
-    if (n - lastChunkEnd >= 2) {
-        chunks.push({ start: Math.max(0, n - RING_CHUNK), end: n, wrap: false });
-    }
-    // Ensure closing segment is covered: wrap-around
-    chunks.push({ start: n - 3, end: 3, wrap: true });
-    
-    console.log("  Ring " + l.id + ": " + n + " st, " + chunks.length + " windows");
-    
-    let totalPts = 0, totalAnchors = 0, okChunks = 0;
-    
-    for (let ci = 0; ci < chunks.length; ci++) {
-        const { start, end, wrap } = chunks[ci];
-        let chunkSt;
-        if (wrap) {
-            chunkSt = st.slice(start).concat(st.slice(0, end));
-        } else {
-            chunkSt = st.slice(start, end);
-        }
-        if (chunkSt.length < 2) continue;
-        
-        const first = chunkSt[0], last = chunkSt[chunkSt.length - 1];
-        const polyline = await getLinePolyline(cityName, first.lng, first.lat, last.lng, last.lat);
-        
-        if (!polyline || polyline.length < 3) {
-            process.stderr.write("\r    window " + ci + " [" + start + "-" + end + (wrap?"W":"") + "] FAIL: no polyline");
-            continue;
-        }
-        
-        const firstD = dist(chunkSt[0], polyline[0]);
-        const lastD = dist(chunkSt[chunkSt.length - 1], polyline[polyline.length - 1]);
-        if (firstD > 2000 || lastD > 2000) {
-            process.stderr.write("\r    window " + ci + " [" + start + "-" + end + (wrap?"W":"") + "] MISMATCH: " + firstD.toFixed(0) + "/" + lastD.toFixed(0));
-            continue;
-        }
-        
-        const chunkStationObjs = chunkSt.map(s => ({ lat: s.lat, lng: s.lng }));
-        const anchors = buildAnchorsForStations(polyline, chunkStationObjs);
-        
-        for (let si = 0; si < chunkSt.length - 1; si++) {
-            let globalSi = wrap ? ((start + si) % n) : (start + si);
-            if (anchors[si] && anchors[si].length > 0) {
-                if (!l.segmentAnchors[globalSi] || l.segmentAnchors[globalSi].length === 0) {
-                    l.segmentAnchors[globalSi] = anchors[si];
-                } else if (anchors[si].length > l.segmentAnchors[globalSi].length) {
-                    // Prefer more detailed result
-                    l.segmentAnchors[globalSi] = anchors[si];
-                }
-            }
-        }
-        
-        const aCount = anchors.reduce((a, seg) => a + (seg || []).length, 0);
-        totalPts += polyline.length;
-        totalAnchors += aCount;
-        okChunks++;
-        process.stderr.write("\r    window " + ci + " [" + start + "-" + end + (wrap?"W":"") + "] OK: " + polyline.length + "pts->" + aCount + "a");
-    }
-    
-    // Gap fill: for any segment still with 0 anchors, try individual pair or use midpoint
-    for (let si = 0; si < n; si++) {
-        const seg = l.segmentAnchors[si];
-        if (seg && seg.length > 0) continue;
-        
-        const s = st[si % n];
-        const ns = st[(si + 1) % n];
-        if (!s || !ns) continue;
-        
-        // Try individual transit polyline
-        const polyline = await getLinePolyline(cityName, s.lng, s.lat, ns.lng, ns.lat);
-        if (polyline && polyline.length > 2) {
-            const midPts = polyline.slice(1, -1);
-            const step = Math.max(1, Math.floor(midPts.length / 5));
-            l.segmentAnchors[si] = midPts.filter((p, i) => i % step === 0).map(p => ({ lat: p.lat, lng: p.lng }));
-        } else {
-            // Midpoint fallback
-            l.segmentAnchors[si] = [{ lat: (s.lat + ns.lat) / 2, lng: (s.lng + ns.lng) / 2 }];
-        }
-    }
-    
-    console.log("\n  Ring done: " + okChunks + "/" + chunks.length + " windows, " + totalAnchors + " anchors (" + totalPts + " raw)");
-    return { ok: okChunks > 0, pts: totalPts, aCount: totalAnchors };
+async function processLine(l, city, allLines) {
+  var poly = await findPolyline(l, city, allLines);
+  if (!poly || poly.length < 3) return { ok: false, id: l.id, reason: "no polyline from busline API" };
+  var st = l.stations, n = st.length;
+  if (n < 2) return { ok: false, id: l.id, reason: "<2 stations" };
+  var isRing = l.isRing || l._isRing || false;
+  if (dist(st[0], poly[poly.length-1]) < dist(st[0], poly[0])) poly.reverse();
+  if (dist(st[0], poly[0]) > 5000) return { ok: false, id: l.id, reason: "mismatch first=" + dist(st[0], poly[0]).toFixed(0) + "m" };
+  var snapCur = 0;
+  for (var si = 0; si < n; si++) {
+    var s = st[si], bi = snapCur, bd = Infinity;
+    for (var j = snapCur; j < poly.length; j++) { var d = dist(s, poly[j]); if (d < bd) { bd = d; bi = j; } }
+    snapCur = bi; s.lat = poly[bi].lat; s.lng = poly[bi].lng;
+  }
+  var stIdx = computeStationIndices(poly, st);
+  var ans = buildSegmentAnchors(poly, stIdx);
+  if (isRing) {
+    var wp = poly.slice(stIdx[n-1]).concat(poly.slice(0, stIdx[0]+1));
+    var ws = catmullRomSimplify(wp, SEGMENT_EPSILON);
+    ans.push(ws.slice(1, -1));
+  }
+  l.segmentAnchors = ans;
+  var ac = ans.reduce(function(a, seg) { return a + seg.length; }, 0);
+  return { ok: true, id: l.id, anchors: ans, pts: poly.length, aCount: ac };
 }
 
-async function processOneLine(l, cityName) {
-    const first = l.stations[0], last = l.stations[l.stations.length - 1];
-    const polyline = await getLinePolyline(cityName, first.lng, first.lat, last.lng, last.lat);
-    if (!polyline || polyline.length === 0) return { id: l.id, ok: false, reason: 'no polyline' };
-    const stationObjs = l.stations.map(function(s) { return { lat: s.lat, lng: s.lng }; });
-    const rawCount = polyline.length;
-    const anchors = buildAnchorsForStations(polyline, stationObjs);
-    const firstD = dist(stationObjs[0], polyline[0]);
-    const lastD = dist(stationObjs[stationObjs.length - 1], polyline[polyline.length - 1]);
-    if (firstD > 2000 || lastD > 2000) {
-        return { id: l.id, ok: false, reason: 'mismatch first=' + firstD.toFixed(0) + 'm last=' + lastD.toFixed(0) + 'm' };
+async function processCity(slug, cityName, inFile, outFile) {
+  var t0 = Date.now();
+  console.log("\n=== " + cityName + " (" + slug + ") ===");
+  var data = JSON.parse(fs.readFileSync(inFile, "utf8"));
+  var lines = data.data && data.data.lines ? data.data.lines : data.lines || (Array.isArray(data) ? data : []);
+  console.log("Total lines in data: " + lines.length);
+  var queue = [];
+  for (var li = 0; li < lines.length; li++) {
+    var l = lines[li];
+    if (l.stations.length < 2) continue;
+    if (l.segmentAnchors && l.segmentAnchors.some(function(a) { return a && a.length > 0; })) { console.log("  SKIP " + l.id); continue; }
+    queue.push(l);
+  }
+  console.log("Lines to process: " + queue.length + " (concurrency=" + CONCURRENCY + ")");
+  var totalAnchors = 0, totalRaw = 0, ok = 0, fail = 0, i = 0;
+  async function worker() {
+    while (i < queue.length) {
+      var idx = i++, l = queue[idx];
+      process.stderr.write("\r  [" + (idx+1) + "/" + queue.length + "] " + l.id + ": " + (l.stations[0].name || "?") + " ...");
+      var r = await processLine(l, cityName, data.data && data.data.lines ? data.data.lines : data.lines || (Array.isArray(data) ? data : []));
+      if (r.ok) { totalAnchors += r.aCount; totalRaw += r.pts; ok++; console.log("  [" + (idx+1) + "/" + queue.length + "] " + l.id + " OK: " + r.pts + "->" + r.aCount + " (-" + ((1-r.aCount/r.pts)*100).toFixed(0) + "%)"); }
+      else { fail++; console.log("  [" + (idx+1) + "/" + queue.length + "] " + l.id + " FAIL: " + (r.reason || "unknown")); }
     }
-    const aCount = anchors.reduce(function(a, seg) { return a + seg.length; }, 0);
-    return { id: l.id, ok: true, anchors: anchors, pts: rawCount, aCount: aCount };
+  }
+  var workers = [];
+  for (var w = 0; w < Math.min(CONCURRENCY, queue.length); w++) workers.push(worker());
+  await Promise.all(workers);
+  data.data.lineCounter = lines.length;
+  fs.writeFileSync(outFile, JSON.stringify(data, null, 2), "utf8");
+  var e = ((Date.now() - t0) / 1000).toFixed(1);
+  var ratio = totalRaw > 0 ? ((1 - totalAnchors / totalRaw) * 100).toFixed(0) : 0;
+  console.log("\nDone: " + ok + "/" + queue.length + " OK, " + totalAnchors + " anchors (from " + totalRaw + " raw, -" + ratio + "%), " + fail + " failed, " + e + "s");
 }
 
-async function processCity(slug, cityName, inputFile, outputFile) {
-    const t0 = Date.now();
-    console.log('\n=== ' + cityName + ' (' + slug + ') ===');
-    const data = JSON.parse(fs.readFileSync(inputFile, 'utf8'));
-    const lines = data.data.lines;
-    const queue = [];
-    for (let li = 0; li < lines.length; li++) {
-        const l = lines[li];
-        if (l.stations.length < 2) continue;
-        if (l.isRing) { l._isRing = true; }
-        const hasAnchors = l.segmentAnchors && l.segmentAnchors.some(function(a) { return a.length > 0; });
-        if (hasAnchors) { console.log('  SKIP ' + l.id + ' (cached)'); continue; }
-        queue.push(l);
-    }
-    console.log('Lines to process: ' + queue.length + ' (concurrency=' + CONCURRENCY + ', segRDP=' + SEGMENT_EPSILON + 'm)');
-    let totalAnchors = 0, totalRaw = 0, ok = 0, fail = 0;
-    let i = 0;
-    async function worker() {
-        while (i < queue.length) {
-            const idx = i++;
-            const l = queue[idx];
-            process.stderr.write('\r  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ': ' + l.stations[0].name + ' ...');
-            let result;
-            if (l._isRing) {
-                result = await processRing(cityName, l);
-            } else {
-                result = await processOneLine(l, cityName);
-            }
-            if (result.ok) {
-                if (!l._isRing) l.segmentAnchors = result.anchors;
-                totalAnchors += result.aCount;
-                totalRaw += result.pts;
-                ok++;
-                const ratio = ((1 - result.aCount / result.pts) * 100).toFixed(0);
-                console.log('  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ' OK: ' + result.pts + '->' + result.aCount + ' anchors (-' + ratio + '%)');
-            } else {
-                // Fallback: split long line into 5-station windows
-                var n = l.stations.length;
-                if (n >= 5 && !l._isRing) {
-                    console.log('  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ' FAIL, retry with windows...');
-                    var windowSize = 5, overlap = 2;
-                    if (!l.segmentAnchors) l.segmentAnchors = [];
-                    for (var si = 0; si < n; si++) {
-                        if (!l.segmentAnchors[si]) l.segmentAnchors[si] = [];
-                    }
-                    var wOk = 0, wFail = 0, wPts = 0, wAnchors = 0;
-                    var wi = 0;
-                    for (var ws = 0; ws < n - 1; ws += windowSize - overlap) {
-                        var we = Math.min(ws + windowSize, n);
-                        if (we - ws < 2) continue;
-                        wi++;
-                        var chunk = JSON.parse(JSON.stringify(l));
-                        chunk.stations = l.stations.slice(ws, we);
-                        var cr = await processOneLine(chunk, cityName);
-                        if (cr.ok) {
-                            for (var hi = 0; hi < cr.anchors.length; hi++) {
-                                if (cr.anchors[hi].length > 0 && l.segmentAnchors[ws + hi].length === 0) {
-                                    l.segmentAnchors[ws + hi] = cr.anchors[hi];
-                                }
-                            }
-                            wOk++; wPts += cr.pts; wAnchors += cr.aCount;
-                        } else { wFail++; }
-                        process.stderr.write('\r    win ' + wi + ': [' + ws + '-' + we + '] ' + (cr.ok?'OK':'FAIL'));
-                    }
-                    if (wOk > 0) {
-                        totalAnchors += wAnchors; totalRaw += wPts; ok++;
-                        console.log('  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ' WINDOWS: ' + wOk + '/' + wi + ' OK, ' + wAnchors + ' anchors');
-                    } else {
-                        fail++;
-                        console.log('  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ' FAIL (windows also failed)');
-                    }
-                } else {
-                    fail++;
-                    console.log('  [' + (idx + 1) + '/' + queue.length + '] ' + l.id + ' FAIL: ' + result.reason);
-                }
-            }
-        }
-    }
-    const workers = [];
-    for (let w = 0; w < Math.min(CONCURRENCY, queue.length); w++) workers.push(worker());
-    await Promise.all(workers);
-    data.data.lineCounter = lines.length;
-    fs.writeFileSync(outputFile, JSON.stringify(data, null, 2), 'utf8');
-    const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-    const overallRatio = totalRaw > 0 ? ((1 - totalAnchors / totalRaw) * 100).toFixed(0) : 0;
-    console.log('\nDone: ' + ok + '/' + queue.length + ' OK, ' + totalAnchors + ' anchors (from ' + totalRaw + ' raw, -' + overallRatio + '%), ' + fail + ' failed, ' + elapsed + 's');
-}
-
-const args = process.argv;
-const slug = args[2], cityName = args[3];
-if (!slug) { console.log('Usage: amap_anchors.js {slug} {中文名}'); process.exit(1); }
-const f = 'C:/Users/Conner/Downloads/' + slug + '_metro.json';
-if (!fs.existsSync(f)) { console.log('File not found: ' + f); process.exit(1); }
+var args = process.argv;
+var slug = args[2], cityName = args[3];
+if (!slug) { console.log("Usage: amap_anchors.js {slug} {中文名}"); process.exit(1); }
+var f = "C:/Users/Conner/Downloads/" + slug + "_metro.json";
+if (!fs.existsSync(f)) { console.log("File not found: " + f); process.exit(1); }
 processCity(slug, cityName, f, f).catch(function(e) { console.error(e); process.exit(1); });

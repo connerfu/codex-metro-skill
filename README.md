@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Codex_Metro_Skill-v3.5-blue?style=for-the-badge" alt="version">
-<img src="https://img.shields.io/badge/28_Cities-8K_Stations-8A2BE2?style=for-the-badge" alt="cities">
+<img src="https://img.shields.io/badge/Codex_Metro_Skill-v4.1-blue?style=for-the-badge" alt="version">
+<img src="https://img.shields.io/badge/43_Cities-12K_Stations-8A2BE2?style=for-the-badge" alt="cities">
 <img src="https://img.shields.io/badge/Real_Track_Geometry-AMap_API-ff6600?style=for-the-badge" alt="track">
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="license">
 
 <br>
 <br>
 
-# 🚇 Codex Metro Skill v3.5
+# 🚇 Codex Metro Skill v4.1
 
 ### 🎯 真正还原现实地铁走向 · 拖进游戏直接玩
 
@@ -18,104 +18,132 @@
 
 ---
 
-## 🔥 v3.5 重磅更新：真实轨道走向
+## 🔥 v4.1 重磅更新
 
-v3.5 最大的突破是**不再用直线连接站点**。通过高德地图公交路径规划 API，每条线路的站点之间都按真实轨道走向生成曲线锚点，让地铁线路在游戏中**沿着现实中的轨道蜿蜒**，而不是生硬的直线。
+### 轨道优先架构
 
-> **北京 10 号线环线**：185 个轨道锚点，完美还原东三环到西三环的真实弧度
-> **广州 3 号线**：166 个锚点，65km 超长线路不再是拉面
-> **换乘站分离**：97% 换乘站自动根据出入口位置分离各线路站点
+v4.1 最大的架构变革是 **"先有轨道，再安站点"**：
 
-### 技术亮点
-- 📡 **AMap 公交路径 API** 实时抓取轨道 polyline
-- 🔄 **环线专用算法** 8 站重叠窗口 + 闭合段处理
-- 🎯 **换乘站出口质心** 自动匹配线路归属
-- 📏 **智能拆分** 中间未开通段的线路自动分段命名
-- 🧹 **换乘站锚点裁剪** 消除站口视觉畸变
+1. 先用 AMap 公交路径规划 API 获取真实轨道 polyline
+2. 站点吸附到轨道上（每条线各保留自己的站点位置）
+3. 换乘关系只做标记（`same_station` + `transferGroupId`），不做站点合并
+4. Catmull-Rom 样条简化锚点，保持曲线平滑
 
----
+> **效果**：每条线都在现实轨道上蜿蜒，换乘站不再"吸到一起"，彻底解决脱轨问题
 
-## 📌 这是什么？
+### 三级加速策略
 
-对着 [Codex CLI](https://github.com/openai/codex) 说一句 **"复刻北京地铁"**，几秒钟后，一份包含完整站点、换乘、轨道锚点和班次的 [Cities Designers](https://www.citiesdesigners.com/) 存档就出现在你的下载文件夹。
+| 级别 | 条件 | 耗时 | 说明 |
+|------|------|------|------|
+| 🚀 P0 | 存档命中 | ~0.1s | 直接复制预制存档 |
+| ⚡ P1 | 缓存命中 | ~15-30s | 跳过线路发现，直接构建 |
+| 🐢 P2 | 新城市 | ~60-120s | 全流程运行 |
 
-> 🎯 **零手动**：不画线、不查坐标、不算班次
-> 🛤️ **真实走向**：不是直线，是现实轨道的曲线
-> ⚡ **亚秒级缓存**：二次跑同一城市 < 1 秒
-> 📦 **28城打包**：下表每个城市都已生成，点击即下
+### 智能支线检测
 
----
+通过分析末端站距变化（>1.8x 切断），自动识别并分离支线：
+- 上海 5 号线支线（闵行开发区）
+- 上海 10 号线支线（航中路）
+- 上海 11 号线支线（花桥）
+- 成都 1 号线支线（五根松）
 
-## 🗺️ 支持城市
-
-### 🏙️ 一线城市
-
-| 城市 | 线路/站点 | 📥 下载 |
-|:--|:--|:--|
-| 北京 | 28线 / 539站 | [beijing_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/beijing_metro.json) |
-| 上海 | 25线 / 544站 | [shanghai_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/shanghai_metro.json) |
-| 广州 | 27线 / 503站 | [guangzhou_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/guangzhou_metro.json) |
-| 深圳 | 18线 / 433站 | [shenzhen_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/shenzhen_metro.json) |
-
-### 🏘️ 新一线城市
-
-| 城市 | 线路/站点 | 📥 下载 |
-|:--|:--|:--|
-| 成都 | 19线 / 482站 | [chengdu_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/chengdu_metro.json) |
-| 重庆 | 16线 / 342站 | [chongqing_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/chongqing_metro.json) |
-| 杭州 | 18线 / 363站 | [hangzhou_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/hangzhou_metro.json) |
-| 南京 | 15线 / 293站 | [nanjing_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/nanjing_metro.json) |
-| 天津 | 13线 / 274站 | [tianjin_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/tianjin_metro.json) |
-| 武汉 | 15线 / 335站 | [wuhan_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/wuhan_metro.json) |
-| 西安 | 13线 / 274站 | [xian_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/xian_metro.json) |
-| 郑州 | 11线 / 268站 | [zhengzhou_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/zhengzhou_metro.json) |
-| 青岛 | 8线 / 176站 | [qingdao_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/qingdao_metro.json) |
-| 苏州 | 9线 / 202站 | [suzhou_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/suzhou_metro.json) |
-| 沈阳 | 6线 / 146站 | [shenyang_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/shenyang_metro.json) |
-
-### 🏡 二三线城市
-
-| 城市 | 线路/站点 | 📥 下载 |
-|:--|:--|:--|
-| 长春 | 6线 / 131站 | [changchun_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/changchun_metro.json) |
-| 大连 | 5线 / 90站 | [dalian_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/dalian_metro.json) |
-| 厦门 | 3线 / 56站 | [xiamen_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/xiamen_metro.json) |
-| 无锡 | 5线 / 97站 | [wuxi_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/wuxi_metro.json) |
-| 南宁 | 5线 / 101站 | [nanning_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/nanning_metro.json) |
-| 东莞 | 2线 / 30站 | [dongguan_metro.json](https://github.com/connerfu/codex-metro-skill/blob/main/archives/dongguan_metro.json) |
-
----
-
-## 🛠️ 管线架构
+### 完整管线流程
 
 ```
-metro_scraper.js → 抓取 metroman.cn 线路+站点+坐标
-       ↓
-metro_builder.js → 组装 JSON（换乘、班次、颜色）
-       ↓
-post_process.js  → 一站式后处理：
-  ├── amap_anchors.js    → 高德公交API抓取真实轨道走向
-  ├── fix_transfers.js   → 出口质心分离换乘站
-  ├── fix_names.js       → 线路名标准化
-  └── split_gapped_lines → 中间未开通段自动拆分
+metro_scraper.js v2.3 — 6步串联执行：
+
+Step 1: 抓取线路 — metroman.cn 爬取（线路、颜色、站点）
+Step 2: 抓取坐标 — metroman.cn 站点页 position=lat,lng
+Step 3: 支线检测 — detectBranches() 末端站距分析
+Step 4: 生成参考 — references/{slug}_lines.json
+Step 5: 构建JSON — metro_builder.js（游戏存档格式）
+Step 6: 轨道锚点 — amap_anchors.js（AMap polyline + Catmull-Rom）
 ```
+
+### 放弃 OSM
+
+完全从 skill 中删除所有 OSM 相关代码，所有数据来源统一为：
+- **metroman.cn** — 线路/站点数据
+- **AMap API** — 真实轨道 polyline（公交路径规划）+ 站点坐标
+
+---
+
+## 🗺️ 支持城市（43 城）
+
+### 已完成（8 城，166 线，全部有轨道锚点）
+
+| 城市 | 线路/站点 | 📥 下载 |
+|:--|:--|:--|
+| 北京 | 28线 / 539站 | [beijing_metro.json](archives/beijing_metro.json) |
+| 上海 | 25线 / 544站 | [shanghai_metro.json](archives/shanghai_metro.json) |
+| 广州 | 27线 / 503站 | [guangzhou_metro.json](archives/guangzhou_metro.json) |
+| 深圳 | 18线 / 433站 | [shenzhen_metro.json](archives/shenzhen_metro.json) |
+| 成都 | 19线 / 482站 | [chengdu_metro.json](archives/chengdu_metro.json) |
+| 重庆 | 16线 / 342站 | [chongqing_metro.json](archives/chongqing_metro.json) |
+| 杭州 | 18线 / 363站 | [hangzhou_metro.json](archives/hangzhou_metro.json) |
+| 南京 | 15线 / 293站 | [nanjing_metro.json](archives/nanjing_metro.json) |
+
+### 原始 28 城
+
+北京 · 上海 · 广州 · 深圳 · 成都 · 重庆 · 杭州 · 南京 · 天津 · 武汉
+沈阳 · 长春 · 西安 · 郑州 · 青岛 · 苏州 · 无锡 · 厦门 · 大连 · 哈尔滨
+东莞 · 南宁 · 佛山 · 绍兴 · 珠海 · 咸阳 · 乌鲁木齐 · 中山
+
+### 扩展 15 城
+
+昆明 · 长沙 · 宁波 · 南昌 · 福州 · 合肥 · 贵阳 · 石家庄 · 温州 · 济南
+兰州 · 常州 · 徐州 · 太原 · 洛阳
 
 ---
 
 ## 🚀 快速开始
 
-```bash
-# 安装 Codex CLI
-npm install -g @openai/codex
+```powershell
+# 设置 AMap API Key
+$env:AMAP_KEY = "你的高德API Key"
 
-# 安装本 skill
-codex skills install connerfu/codex-metro-skill
+# 复刻一城
+& "$env:USERPROFILE\codex-node\node.exe" metro_scraper.js shanghai "上海"
 
-# 复刻！
-复刻北京地铁
-复刻广州地铁
-复刻上海地铁
+# 输出文件：Downloads/{slug}_metro.json → 拖入 Cities Designers 游戏
 ```
+
+### 一句话触发（对 Codex 说）
+> **"复刻北京地铁"** / **"复刻广州地铁"** / **"复刻XX地铁"**
+
+---
+
+## 📦 文件结构
+
+| 路径 | 用途 |
+|------|------|
+| `metro_scraper.js` | 主入口，6步管线串联 |
+| `metro_builder.js` | 生成游戏存档格式 JSON |
+| `amap_anchors.js` | AMap polyline 锚点 + Catmull-Rom 简化 |
+| `fix_names.js` | 线路名称 Unicode 修复 |
+| `fix_transfers.js` | 换乘站标记（不做合并） |
+| `split_gapped_lines.js` | 大间距分段 |
+| `discover_lines.js` | AMap POI 发现线路（备用入口） |
+| `post_process.js` | 后处理调度 |
+| `references/` | 线路元数据缓存 |
+| `archives/` | 预制 JSON 存档 |
+
+---
+
+## ⚙️ 架构原则
+
+1. **轨道优先** — 先有轨道再安站点
+2. **不合并换乘** — 各线站点保留在各自轨道上
+3. **AMap 唯一** — 放弃 OSM，完全依赖 AMap API
+4. **真实优先** — 找不到真实轨道时必须汇报，不允许直线插值替代
+
+---
+
+## 🛠️ 已知遗留问题
+
+1. 支线名称偶有 Unicode 乱码（SH5Z/SH10Z/SH11Z 等）
+2. 空路段未全部解决 — 用"线路名+地铁站"后缀查公交 API 可补
+3. 有轨电车用通用兜底
 
 ---
 
@@ -124,4 +152,6 @@ codex skills install connerfu/codex-metro-skill
 Made with ❤️ by <a href="https://github.com/connerfu">connerfu</a>
 <br>
 <sub>Powered by <a href="https://www.metroman.cn">MetroMan</a> + <a href="https://lbs.amap.com">AMap API</a></sub>
+<br>
+<sub>内置 AMap Key: c037d67ccb46f69c5f1b7a9b84c61e0e</sub>
 </div>

@@ -14,7 +14,6 @@ console.log("BBOX:", BBOX);
 var OUT_DIR = "C:/Users/Conner/Downloads";
 var REF_DIR = "C:/Users/Conner/Documents/New project/codex-metro-skill/references";
 var COORDS_FILE = "C:/Users/Conner/Documents/New project/" + CITY + "_coords.json";
-var OSM_CACHE = "C:/Users/Conner/Documents/New project/" + CITY + "_osm_cache.json";
 var OUT_FILE = OUT_DIR + "/" + CITY + "_metro.json";
 
 var LINE_DATA = JSON.parse(fs.readFileSync(REF_DIR + "/" + CITY + "_lines.json", "utf8"));
@@ -36,41 +35,7 @@ function wgs2gcj(lat, lng) {
     return { lat: lat+dLt, lng: lng+dLn };
 }
 
-// ========== Overpass ==========
-function queryOverpass() {
-    return new Promise(function(resolve) {
-        var body = '[out:json][timeout:8];(node["railway"="station"]["station"="subway"](' + BBOX.minLat + ',' + BBOX.minLng + ',' + BBOX.maxLat + ',' + BBOX.maxLng + '););out body;';
-        var mirrors = [{ host: "overpass-api.de", name: "primary" },{ host: "overpass.kumi.systems", name: "kumi" },{ host: "overpass.openstreetmap.fr", name: "osmfr" }];
-        var tries = 0;
-        function tryMirror() {
-            if (tries >= mirrors.length) { resolve([]); return; }
-            var m = mirrors[tries++], done = false;
-            var timer = setTimeout(function() { if (!done) { done = true; req.destroy(); tryMirror(); } }, REQ_TIMEOUT);
-            var req = https.request({ hostname: m.host, path: "/api/interpreter", method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded", "User-Agent": "Codex/7.8" } }, function(res) {
-                var data = "";
-                res.on("data", function(c) { data += c; });
-                res.on("end", function() { if (done) return; done = true; clearTimeout(timer);
-                    try { var j = JSON.parse(data); var nodes = j.elements || []; if (nodes.length > 0) resolve(nodes); else tryMirror(); } catch(e) { tryMirror(); } });
-            });
-            req.on("error", function() { if (!done) { done = true; clearTimeout(timer); tryMirror(); } });
-            req.write(body); req.end();
-        }
-        tryMirror();
-    });
-}
-
 function clean(s) { return (s||"").replace(/[(\uFF08][^)\uFF09]*[)\uFF09]/g,"").replace(/\u7AD9/g,"").replace(/\s+/g,"").replace(/\u00B7/g,""); }
-var CITY_PREFIXES = /^(\u91CD\u5E86|\u5317\u4EAC|\u4E0A\u6D77|\u5929\u6D25|\u5357\u4EAC|\u6B66\u6C49|\u6C88\u9633|\u6210\u90FD|\u5E7F\u5DDE|\u6DF1\u5733|\u676D\u5DDE|\u82CF\u5DDE|\u65E0\u9521|\u897F\u5B89|\u90D1\u5DDE|\u9752\u5C9B|\u5927\u8FDE|\u957F\u6625|\u4F5B\u5C71|\u4E1C\u839E)/;
-
-function fuzzyMatch(osmName, target) {
-    var ct = clean(target), co = clean(osmName);
-    if (!ct || !co) return 0;
-    if (ct === co) return 1;
-    if (co.includes(ct) || ct.includes(co)) return 0.9;
-    var ts = ct.replace(CITY_PREFIXES, ""), os = co.replace(CITY_PREFIXES, "");
-    if (ts === os && ts.length >= 2) return 0.85;
-    return 0;
-}
 
 // ========== AMap POI search by line (one query = all stations on the line) ==========
 function amapLineSearch(lineNum) {
@@ -162,9 +127,7 @@ async function main() {
     console.log("Lines: " + Object.keys(LINE_DATA).length + ", stations: " + nameList.length + " unique, " + stationPairs.length + " occurrences");
     var coords = {}; stationPairs.forEach(function(p) { coords[p.name + "|" + p.lid] = { lat: 0, lng: 0 }; });
 
-    // Phase 1: OSM cache
-    console.log("\n[1/3] OSM cache...");
-      // Phase 0: Load pre-computed AMap coords cache
+  // Phase 1: Load pre-computed AMap coords cache
   var preCoords = {};
   try { preCoords = JSON.parse(fs.readFileSync(COORDS_FILE, "utf8")); console.log("  Loaded " + Object.keys(preCoords).filter(function(k){return k.indexOf("|")>=0}).length + " pre-computed coords"); } catch(e) {}
   stationPairs.forEach(function(p) {
@@ -175,31 +138,10 @@ async function main() {
   });
   var preHits = stationPairs.filter(function(p) { return coords[p.name + "|" + p.lid].lat !== 0; }).length;
   if (preHits > 0) console.log("  Pre-coords matched: " + preHits + "/" + stationPairs.length);
-  if (preHits === stationPairs.length) { console.log("  [FAST PATH] 100% pre-coords, skipping OSM+POI"); console.log("\n[Build] Assembling..."); var stats2 = buildOutput(coords); var elapsed2 = ((Date.now()-t0)/1000).toFixed(1); console.log("\nDone in " + elapsed2 + "s! " + stats2.lines + "线 " + stats2.stations + "站 " + stats2.transfers + "换乘 " + stats2.distance.toFixed(0) + "km 警告:" + stats2.warnings); console.log("Output: " + OUT_FILE); process.exit(0); }
-
-var osmNodes = [];
-    var hasCache = false;
-    try { osmNodes = JSON.parse(fs.readFileSync(OSM_CACHE, "utf8")); hasCache = true; } catch(e) {}
-    if (hasCache) { console.log("  Loaded " + osmNodes.length + " from cache"); }
-    else {
-        console.log("  Querying Overpass...");
-        osmNodes = await queryOverpass();
-        if (osmNodes.length > 0) { console.log("  " + osmNodes.length + " nodes"); try { fs.writeFileSync(OSM_CACHE, JSON.stringify(osmNodes), "utf8"); } catch(e) {} }
-        else { console.log("  Overpass down"); }
-    }
-    var osmHits = 0;
-    nameList.forEach(function(s) {
-        var best = null, bestScore = 0;
-        osmNodes.forEach(function(n) { var sc = fuzzyMatch(n.tags.name || "", s); if (sc > bestScore) { bestScore = sc; best = n; } });
-        if (best && bestScore >= 0.8) {
-            var gcj = wgs2gcj(best.lat, best.lon);
-            if (inBbox(gcj)) { stationPairs.forEach(function(p) { if (p.name === s) coords[p.name + "|" + p.lid] = { lat: gcj.lat, lng: gcj.lng, source: "osm" }; }); osmHits++; }
-        }
-    });
-    console.log("  Matched: " + osmHits + "/" + nameList.length + " (" + (osmHits/nameList.length*100).toFixed(0) + "%)");
+  if (preHits === stationPairs.length) { console.log("  [FAST PATH] 100% pre-coords, skipping POI"); console.log("\n[Build] Assembling..."); var stats2 = buildOutput(coords); var elapsed2 = ((Date.now()-t0)/1000).toFixed(1); console.log("\nDone in " + elapsed2 + "s! " + stats2.lines + "线 " + stats2.stations + "站 " + stats2.transfers + "换乘 " + stats2.distance.toFixed(0) + "km 警告:" + stats2.warnings); console.log("Output: " + OUT_FILE); process.exit(0); }
 
     // Phase 2: LINE-BATCH POI fill 鈥?one query per line, match by name
-    console.log("\n[2/3] Line-batch POI fill...");
+    console.log("\n[2/2] Line-batch POI fill...");
     var lineEntries = Object.entries(LINE_DATA);
     var batchHits = 0;
     for (var li = 0; li < lineEntries.length; li++) {
@@ -215,7 +157,7 @@ var osmNodes = [];
         // Match POIs to reference stations by name
         var matched = 0;
         l.stations.forEach(function(s) {
-            if (coords[s + "|" + lid].lat !== 0) return; // already have OSM
+            if (coords[s + "|" + lid].lat !== 0) return; // already have coords
             // Fuzzy match
             var best = null, bestDist = 999;
             pois.forEach(function(p) {
@@ -259,7 +201,7 @@ var osmNodes = [];
     }
 
     // Phase 3: Anomaly + Interpolation
-    console.log("\n[3/3] Anomaly + Interpolation...");
+    console.log("\n[3/2] Anomaly + Interpolation...");
     // Anomaly clear
     var cleared = 0;
     Object.entries(LINE_DATA).forEach(function(e) { var lid = e[0], s = e[1].stations;

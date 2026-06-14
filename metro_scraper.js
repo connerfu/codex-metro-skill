@@ -1,9 +1,10 @@
 const https = require("https"), fs = require("fs"), { execSync } = require("child_process");
 
-// === metro_scraper.js v2.1 â€?Auto-detect branches, cache, one-shot ===
+// === metro_scraper.js v2.1 ï¿½?Auto-detect branches, cache, one-shot ===
 const [,, SLUG, CITY_NAME, ...flags] = process.argv;
 const NOCACHE = flags.includes("--nocache");
-const AMAP_KEY = "c037d67ccb46f69c5f1b7a9b84c61e0e";
+const AMAP_KEY = process.env.AMAP_KEY || "";
+if (!AMAP_KEY) { console.error("Set AMAP_KEY env var"); process.exit(1); }
 const CACHE_DIR = __dirname + "/cache";
 const REF_DIR = __dirname + "/references";
 const COORDS_DIR = process.env.USERPROFILE + "/Documents/New project";
@@ -25,7 +26,7 @@ function fetch(url) {
 }
 function geocode(name, lineNum) {
     return new Promise(r => {
-        const q = encodeURIComponent(name + "µØÌúÕ¾" + (lineNum ? lineNum + "ºÅÏß" : ""));
+        const q = encodeURIComponent(name + "ï¿½ï¿½ï¿½ï¿½Õ¾" + (lineNum ? lineNum + "ï¿½ï¿½ï¿½ï¿½" : ""));
         const p = "/v3/geocode/geo?key=" + AMAP_KEY + "&address=" + q + "&city=" + encodeURIComponent(CITY_NAME);
         let d2 = false; const t2 = setTimeout(()=>{if(!d2){d2=true;r(null)}},10000);
         https.get({hostname:"restapi.amap.com",path:p,headers:{"User-Agent":"CodexMetro/2.1"},agent:false},res2=>{
@@ -47,57 +48,57 @@ const BBOX = {
     dalian:[38.6,39.3,121.1,122.2],haerbin:[45.3,46.2,126.1,127.2],dongguan:[22.6,23.3,113.4,114.3],
     nanning:[22.3,23.1,107.8,109.0],foshan:[22.6,23.4,112.6,113.4],shaoxing:[29.7,30.5,120.1,121.1],
     zhuhai:[22.0,22.5,113.1,113.6],xianyang:[34.1,34.6,108.3,109.1],wulumuqi:[43.4,44.2,87.1,88.2],
-    zhongshan:[22.3,22.8,113.1,113.7],
+    zhongshan:[22.3,22.8,113.1,113.7],kunming:[24.8,25.5,102.5,103.0],changsha:[27.9,28.5,112.8,113.3],ningbo:[29.7,30.1,121.3,121.8],nanchang:[28.4,28.9,115.7,116.1],fuzhou:[25.8,26.3,119.1,119.5],hefei:[31.6,32.0,117.1,117.5],guiyang:[26.3,26.7,106.5,106.8],shijiazhuang:[37.8,38.2,114.3,114.7],wenzhou:[27.8,28.1,120.5,120.8],jinan:[36.5,36.8,116.8,117.2],lanzhou:[36.0,36.2,103.6,103.9],changzhou:[31.6,31.9,119.9,120.1],xuzhou:[34.1,34.4,117.0,117.3],taiyuan:[37.7,38.0,112.4,112.7],luoyang:[34.5,34.8,112.3,112.6],
 };
-const PREFIX = { beijing:"BJ",shanghai:"SH",guangzhou:"GZ",shenzhen:"SZ",chengdu:"CD",chongqing:"CQ",hangzhou:"HZ",nanjing:"NJ",tianjin:"TJ",wuhan:"WH",shenyang:"SY",changchun:"CC",xian:"XA",zhengzhou:"ZZ",qingdao:"QD",suzhou:"SZ2",wuxi:"WX",xiamen:"XM",dalian:"DL",haerbin:"HEB",dongguan:"DG",nanning:"NN",foshan:"FS",shaoxing:"SX",zhuhai:"ZH",xianyang:"XY",wulumuqi:"WLMQ",zhongshan:"ZS" };
+const PREFIX = { beijing:"BJ",shanghai:"SH",guangzhou:"GZ",shenzhen:"SZ",chengdu:"CD",chongqing:"CQ",hangzhou:"HZ",nanjing:"NJ",tianjin:"TJ",wuhan:"WH",shenyang:"SY",changchun:"CC",xian:"XA",zhengzhou:"ZZ",qingdao:"QD",suzhou:"SZ2",wuxi:"WX",xiamen:"XM",dalian:"DL",haerbin:"HEB",dongguan:"DG",nanning:"NN",foshan:"FS",shaoxing:"SX",zhuhai:"ZH",xianyang:"XY",wulumuqi:"WLMQ",zhongshan:"ZS",kunming:"KM",changsha:"CS",ningbo:"NB",nanchang:"NC",fuzhou:"FZ",hefei:"HF",guiyang:"GY",shijiazhuang:"SJZ",wenzhou:"WZ",jinan:"JN",lanzhou:"LZ",changzhou:"CZ",xuzhou:"XZ",taiyuan:"TY",luoyang:"LY" };
 const SPECIAL_IDS = { "guangfo-line":"GZ_GUANGFO_LINE","apm-line":"GZ_APM_LINE","tram-haizhu":"GZ_TRAM_HAIZHU","pujiang-line":"SHPJ","airport-link-line":"SH_AIRPORT_LINK","jinshan-railway":"SH_JINSHAN","maglev-line":"SH_MAGLEV","pingshan-skyshuttle-line-1":"SZ_PINGSHAN","foshan-line-2":"GZ_FOSHAN_LINE_2","foshan-line-3":"GZ_FOSHAN_LINE_3","nanhai-tram-line-1":"GZ_NANHAI_TRAM","tram-huangpu-line-1":"GZ_TRAM_HP1","tram-huangpu-line-2":"GZ_TRAM_HP2","yizhuang-line":"BJYZ","changping-line":"BJCP","fangshan-line":"BJFS","yanfang-line":"BJYF","xijiao-line":"BJXJ","capital-airport-express":"BJCA","daxing-airport-express":"BJJX","yizhuang-t1-line":"BJYZT1" };
 const LINE_NAMES = {
-    "GZ_GUANGFO_LINE":"¹ã·ðÏß",
-    "GZ_APM_LINE":"¹ãÖÝAPMÏß",
-    "GZ_TRAM_HAIZHU":"º£ÖéÓÐ¹ìµç³µ",
-    "SHPJ":"ÆÖ½­Ïß",
-    "SH_AIRPORT_LINK":"»ú³¡ÁªÂçÏß",
-    "SH_JINSHAN":"½ðÉ½ÌúÂ·",
-    "SH_MAGLEV":"´ÅÐü¸¡",
-    "SZ_PINGSHAN":"ÆºÉ½ÔÆ°Í1ºÅÏß",
-    "GZ_FOSHAN_LINE_2":"·ðÉ½µØÌú2ºÅÏß",
-    "GZ_FOSHAN_LINE_3":"·ðÉ½µØÌú3ºÅÏß",
-    "GZ_NANHAI_TRAM":"ÄÏº£ÓÐ¹ìµç³µ1ºÅÏß",
-    "GZ_TRAM_HP1":"»ÆÆÒÓÐ¹ìµç³µ1ºÅÏß",
-    "GZ_TRAM_HP2":"»ÆÆÒÓÐ¹ìµç³µ2ºÅÏß",
-    "BJYZ":"Òà×¯Ïß",
-    "BJCP":"²ýÆ½Ïß",
-    "BJFS":"·¿É½Ïß",
-    "BJYF":"Ñà·¿Ïß",
-    "BJXJ":"Î÷½¼Ïß",
-    "BJS1":"±±¾©µØÌúS1Ïß",
-    "BJCA":"Ê×¶¼»ú³¡Ïß",
-    "BJJX":"´óÐË»ú³¡Ïß",
-    "BJYZT1":"Òà×¯T1Ïß",
-    "TJ_JINJING_LINE":"½ò¾²Ïß",
-    "TJ_LINE_Z4":"Ìì½òµØÌúZ4Ïß",
-    "TJ6P2":"Ìì½òµØÌú6ºÅÏß¶þÆÚ",
-    "CQ_KONGGANG_LINE":"¿Õ¸ÛÏß",
-    "CQ_INTERNATIONAL_EXPO_LINE":"¹ú²©Ïß",
-    "CQ_LOOP_LINE":"ÖØÇì»·Ïß",
-    "CQ_JIANGTIAO_LINE":"½­ÌøÏß",
-    "CQ_BITONG_LINE":"èµÍ­Ïß",
-    "CQ_CHONGQING_SKYSHUTTLE":"ÖØÇìÔÆ°Í",
-    "CD_LINE_S3":"×ÊÑôÏß(S3)",
-    "CD_TRAMWAY_RONG_2_LINE":"ÈØ2ºÅÏß",
-    "CD_TRAMWAY_RONG_2_LINE_BRANCH":"ÈØ2ºÅÏß(Ö§Ïß)",
-    "HZ_HANGZHOU_HAINING_INTERCITY_RAIL":"º¼º£³Ç¼Ê",
-    "HZ_SHAOXING_LINE_1":"ÉÜÐËµØÌú1ºÅÏß",
-    "HZ_SHAOXING_LINE_2":"ÉÜÐËµØÌú2ºÅÏß",
-    "HZ_SHAOXING_LINE_1_BRANCH":"ÉÜÐËµØÌú1ºÅÏß(Ö§Ïß)",
-    "NJ_LINE_S1":"ÄÏ¾©µØÌúS1ºÅÏß(»ú³¡Ïß)",
-    "NJ_LINE_S2":"ÄÏ¾©µØÌúS2ºÅÏß(ÄþÂíÏß)",
-    "NJ_LINE_S3":"ÄÏ¾©µØÌúS3ºÅÏß(ÄþºÍÏß)",
-    "NJ_LINE_S6":"ÄÏ¾©µØÌúS6ºÅÏß(Äþ¾äÏß)",
-    "NJ_LINE_S7":"ÄÏ¾©µØÌúS7ºÅÏß(ÄþäàÏß)",
-    "NJ_LINE_S8":"ÄÏ¾©µØÌúS8ºÅÏß(ÄþÌìÏß)",
-    "NJ_LINE_S9":"ÄÏ¾©µØÌúS9ºÅÏß(Äþ¸ßÏß)",
-    "NJ_NANJING_CHUZHOU_LINE":"Äþ³üÏß",
+    "GZ_GUANGFO_LINE":"ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "GZ_APM_LINE":"ï¿½ï¿½ï¿½ï¿½APMï¿½ï¿½",
+    "GZ_TRAM_HAIZHU":"ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ç³µ",
+    "SHPJ":"ï¿½Ö½ï¿½ï¿½ï¿½",
+    "SH_AIRPORT_LINK":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "SH_JINSHAN":"ï¿½ï¿½É½ï¿½ï¿½Â·",
+    "SH_MAGLEV":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "SZ_PINGSHAN":"ÆºÉ½ï¿½Æ°ï¿½1ï¿½ï¿½ï¿½ï¿½",
+    "GZ_FOSHAN_LINE_2":"ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½",
+    "GZ_FOSHAN_LINE_3":"ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½ï¿½ï¿½",
+    "GZ_NANHAI_TRAM":"ï¿½Ïºï¿½ï¿½Ð¹ï¿½ç³µ1ï¿½ï¿½ï¿½ï¿½",
+    "GZ_TRAM_HP1":"ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ç³µ1ï¿½ï¿½ï¿½ï¿½",
+    "GZ_TRAM_HP2":"ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ç³µ2ï¿½ï¿½ï¿½ï¿½",
+    "BJYZ":"ï¿½ï¿½×¯ï¿½ï¿½",
+    "BJCP":"ï¿½ï¿½Æ½ï¿½ï¿½",
+    "BJFS":"ï¿½ï¿½É½ï¿½ï¿½",
+    "BJYF":"ï¿½à·¿ï¿½ï¿½",
+    "BJXJ":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "BJS1":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½S1ï¿½ï¿½",
+    "BJCA":"ï¿½×¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "BJJX":"ï¿½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "BJYZT1":"ï¿½ï¿½×¯T1ï¿½ï¿½",
+    "TJ_JINJING_LINE":"ï¿½ï¿½ï¿½ï¿½",
+    "TJ_LINE_Z4":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Z4ï¿½ï¿½",
+    "TJ6P2":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½6ï¿½ï¿½ï¿½ß¶ï¿½ï¿½ï¿½",
+    "CQ_KONGGANG_LINE":"ï¿½Õ¸ï¿½ï¿½ï¿½",
+    "CQ_INTERNATIONAL_EXPO_LINE":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "CQ_LOOP_LINE":"ï¿½ï¿½ï¿½ì»·ï¿½ï¿½",
+    "CQ_JIANGTIAO_LINE":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
+    "CQ_BITONG_LINE":"ï¿½Í­ï¿½ï¿½",
+    "CQ_CHONGQING_SKYSHUTTLE":"ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½",
+    "CD_LINE_S3":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(S3)",
+    "CD_TRAMWAY_RONG_2_LINE":"ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½",
+    "CD_TRAMWAY_RONG_2_LINE_BRANCH":"ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½(Ö§ï¿½ï¿½)",
+    "HZ_HANGZHOU_HAINING_INTERCITY_RAIL":"ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½",
+    "HZ_SHAOXING_LINE_1":"ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½",
+    "HZ_SHAOXING_LINE_2":"ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½",
+    "HZ_SHAOXING_LINE_1_BRANCH":"ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½(Ö§ï¿½ï¿½)",
+    "NJ_LINE_S1":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S1ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S2":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S2ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S3":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S3ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S6":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S6ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S7":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S7ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S8":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S8ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_LINE_S9":"ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½S9ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)",
+    "NJ_NANJING_CHUZHOU_LINE":"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½",
 };
 const RINGS = { beijing:[2,10], guangzhou:[11], shanghai:[4], wuhan:[12], chengdu:[7], chongqing:[0], xian:[8] };
 
@@ -246,7 +247,7 @@ async function main() {
     for (const [slug, line] of Object.entries(allLines)) { if (slug === "_ts") continue;
         const lid = getLid(slug, prefix);
         ref[lid] = {
-            line: line.num||0, name: LINE_NAMES[lid]||(function(){const ps=lid.match(/P(\d+)/);const pm={"1":"Ò»ÆÚ","2":"¶þÆÚ","3":"ÈýÆÚ","4":"ËÄÆÚ"};return CITY_NAME+"µØÌú"+(line.num||"")+"ºÅÏß"+(ps?pm[ps[1]]||"":"")+(line.isBranch?"(Ö§Ïß)":"");})(),
+            line: line.num||0, name: LINE_NAMES[lid]||(function(){const ps=lid.match(/P(\d+)/);const pm={"1":"Ò»ï¿½ï¿½","2":"ï¿½ï¿½ï¿½ï¿½","3":"ï¿½ï¿½ï¿½ï¿½","4":"ï¿½ï¿½ï¿½ï¿½"};return CITY_NAME+"ï¿½ï¿½ï¿½ï¿½"+(line.num||"")+"ï¿½ï¿½ï¿½ï¿½"+(ps?pm[ps[1]]||"":"")+(line.isBranch?"(Ö§ï¿½ï¿½)":"");})(),
             color: line.color, speed: getSpeed(line.num, lid), cars: getCars(line.num, lid),
             ring: isRing(line.num, lid), so: 360, sc: 1380, stations: line.stations.map(s=>s.name)
         };
@@ -273,8 +274,6 @@ async function main() {
     const bbox = BBOX[SLUG] || [30,32,113,115];
     const nodeExe = process.env.USERPROFILE + "\\codex-node\\node.exe";
     const builderPath = __dirname + "\\metro_builder.js";
-    const osmFile = COORDS_DIR + "\\" + SLUG + "_osm_cache.json";
-    try { fs.writeFileSync(osmFile, "[]", "utf8"); } catch(e) {}
     console.log("\n=== Building " + CITY_NAME + " metro ===");
     try {
         const result = execSync('"' + nodeExe + '" "' + builderPath + '" ' + SLUG + ' "' + CITY_NAME + '" ' + bbox.join(" "), {

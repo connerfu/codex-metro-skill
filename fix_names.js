@@ -17,6 +17,9 @@ const SPECIAL_NAMES = {
     GZ_NANHAI_TRAM: "\u5357\u6D77\u6709\u8F68\u7535\u8F661\u53F7\u7EBF",
     GZ_TRAM_HAIZHU: "\u6D77\u73E0\u6709\u8F68\u7535\u8F66",
     GZ_TRAM_HP1: "\u9EC4\u57D4\u6709\u8F68\u7535\u8F661\u53F7\u7EBF", GZ_TRAM_HP2: "\u9EC4\u57D4\u6709\u8F68\u7535\u8F662\u53F7\u7EBF",
+    CD_LINE_S3: "资阳线(S3)",
+    CD_TRAMWAY_RONG_2_LINE: "有轨电车蓉2号线",
+    CD_TRAMWAY_RONG_2_LINE_BRANCH: "有轨电车蓉2号线(支线)",
 };
 
 const CITY_CHARS = {
@@ -43,7 +46,7 @@ function main() {
             l.name = SPECIAL_NAMES[l.id];
             fixed++;
         } else {
-            const numMatch = l.id.match(/\d+$/);
+            const numMatch = l.id.match(/(?<!LINE_S)\d+$/);
             if (numMatch) {
                 l.name = city + "\u5730\u94C1" + parseInt(numMatch[0]) + "\u53F7\u7EBF";
                 fixed++;
