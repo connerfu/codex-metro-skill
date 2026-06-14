@@ -100,7 +100,7 @@ const LINE_NAMES = {
     "NJ_LINE_S9":"�Ͼ�����S9����(������)",
     "NJ_NANJING_CHUZHOU_LINE":"������",
 };
-const RINGS = { beijing:[2,10], guangzhou:[11], shanghai:[4], wuhan:[12], chengdu:[7], chongqing:[0], xian:[8] };
+const RINGS = { beijing:[2], guangzhou:[11], shanghai:[4], wuhan:[], chengdu:[7], chongqing:[0], xian:[8] };
 
 function getLid(slug, prefix) {
     if (SPECIAL_IDS[slug]) return SPECIAL_IDS[slug];

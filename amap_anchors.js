@@ -36,7 +36,7 @@ function dist(a, b) {
   return Math.sqrt(dlat * dlat + dlng * dlng);
 }
 
-function getLineSearchName(l) {
+function getLineSearchName(l, cityName) {
   var id = l.id || "";
   if (id.indexOf("TRAMWAY") >= 0) return id.indexOf("BRANCH") >= 0 ? "有轨电车蓉2号线支线" : "有轨电车蓉2号线";
   if (id.indexOf("LINE_S") >= 0) return "资阳线";
@@ -125,7 +125,7 @@ function catmullRomSimplify(pts, eps) {
 
 // Busline search with AMap POI fallback
 async function findPolyline(l, cityName, allLines) {
-  var name = getLineSearchName(l);
+  var name = getLineSearchName(l, cityName);
   // Strategy 1: busline name API
   for (var attempt = 0; attempt < 3; attempt++) {
     var result = await amapGet("/v3/bus/linename?key=" + AMAP_KEY + "&keywords=" + encodeURIComponent(name) + "&city=" + encodeURIComponent(cityName) + "&offset=10&page=1");
@@ -223,12 +223,7 @@ async function processLine(l, city, allLines) {
   var isRing = l.isRing || l._isRing || false;
   if (dist(st[0], poly[poly.length-1]) < dist(st[0], poly[0])) poly.reverse();
   if (dist(st[0], poly[0]) > 5000) return { ok: false, id: l.id, reason: "mismatch first=" + dist(st[0], poly[0]).toFixed(0) + "m" };
-  var snapCur = 0;
-  for (var si = 0; si < n; si++) {
-    var s = st[si], bi = snapCur, bd = Infinity;
-    for (var j = snapCur; j < poly.length; j++) { var d = dist(s, poly[j]); if (d < bd) { bd = d; bi = j; } }
-    snapCur = bi; s.lat = poly[bi].lat; s.lng = poly[bi].lng;
-  }
+  // Station positions preserved from builder - no snapping to polyline
   var stIdx = computeStationIndices(poly, st);
   var ans = buildSegmentAnchors(poly, stIdx);
   if (isRing) {
