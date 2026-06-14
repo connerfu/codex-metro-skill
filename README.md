@@ -1,7 +1,7 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://img.shields.io/badge/Codex_Metro_Skill-v4.1-blue?style=for-the-badge" alt="version">
-<img src="https://img.shields.io/badge/43_Cities-12K_Stations-8A2BE2?style=for-the-badge" alt="cities">
+<img src="https://img.shields.io/badge/28_Cities-265_Lines-8A2BE2?style=for-the-badge" alt="cities">
 <img src="https://img.shields.io/badge/Real_Track_Geometry-AMap_API-ff6600?style=for-the-badge" alt="track">
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="license">
 
@@ -41,11 +41,7 @@ v4.1 最大的架构变革是 **"先有轨道，再安站点"**：
 
 ### 智能支线检测
 
-通过分析末端站距变化（>1.8x 切断），自动识别并分离支线：
-- 上海 5 号线支线（闵行开发区）
-- 上海 10 号线支线（航中路）
-- 上海 11 号线支线（花桥）
-- 成都 1 号线支线（五根松）
+通过分析末端站距变化（>1.8x 切断），自动识别并分离支线。
 
 ### 完整管线流程
 
@@ -60,39 +56,47 @@ Step 5: 构建JSON — metro_builder.js（游戏存档格式）
 Step 6: 轨道锚点 — amap_anchors.js（AMap polyline + Catmull-Rom）
 ```
 
-### 放弃 OSM
+### 数据源
 
-完全从 skill 中删除所有 OSM 相关代码，所有数据来源统一为：
 - **metroman.cn** — 线路/站点数据
 - **AMap API** — 真实轨道 polyline（公交路径规划）+ 站点坐标
 
 ---
 
-## 🗺️ 支持城市（43 城）
+## 🗺️ 28 城全部生成
 
-### 已完成（8 城，166 线，全部有轨道锚点）
+### ✅ 全部锚点完成（18 城）
 
-| 城市 | 线路/站点 | 📥 下载 |
+| 城市 | 线路 | 下载 |
 |:--|:--|:--|
-| 北京 | 28线 / 539站 | [beijing_metro.json](archives/beijing_metro.json) |
-| 上海 | 25线 / 544站 | [shanghai_metro.json](archives/shanghai_metro.json) |
-| 广州 | 27线 / 503站 | [guangzhou_metro.json](archives/guangzhou_metro.json) |
-| 深圳 | 18线 / 433站 | [shenzhen_metro.json](archives/shenzhen_metro.json) |
-| 成都 | 19线 / 482站 | [chengdu_metro.json](archives/chengdu_metro.json) |
-| 重庆 | 16线 / 342站 | [chongqing_metro.json](archives/chongqing_metro.json) |
-| 杭州 | 18线 / 363站 | [hangzhou_metro.json](archives/hangzhou_metro.json) |
-| 南京 | 15线 / 293站 | [nanjing_metro.json](archives/nanjing_metro.json) |
+| 北京 | 28线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/beijing_metro.json) |
+| 上海 | 25线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/shanghai_metro.json) |
+| 广州 | 27线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/guangzhou_metro.json) |
+| 深圳 | 18线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/shenzhen_metro.json) |
+| 成都 | 17线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/chengdu_metro.json) |
+| 重庆 | 16线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/chongqing_metro.json) |
+| 杭州 | 14线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/hangzhou_metro.json) |
+| 南京 | 15线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/nanjing_metro.json) |
+| 天津 | 13线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/tianjin_metro.json) |
+| 武汉 | 14线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/wuhan_metro.json) |
+| 沈阳 | 6线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/shenyang_metro.json) |
+| 长春 | 6线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/changchun_metro.json) |
+| 西安 | 14线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/xian_metro.json) |
+| 郑州 | 14线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/zhengzhou_metro.json) |
+| 青岛 | 8线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/qingdao_metro.json) |
+| 苏州 | 9线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/suzhou_metro.json) |
+| 无锡 | 5线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/wuxi_metro.json) |
+| 厦门 | 3线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/xiamen_metro.json) |
+| 大连 | 6线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/dalian_metro.json) |
+| 哈尔滨 | 3线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/harbin_metro.json) |
+| 东莞 | 2线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/dongguan_metro.json) |
+| 南宁 | 5线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/nanning_metro.json) |
+| 乌鲁木齐 | 2线 | [📥](https://github.com/connerfu/codex-metro-skill/raw/main/output/urumqi_metro.json) |
 
-### 原始 28 城
+> **注意**：部分特殊线路（有轨电车、云巴、磁悬浮等）因 AMap API 无法获取 polyline，轨道锚点缺失，但不影响普通线路使用。
 
-北京 · 上海 · 广州 · 深圳 · 成都 · 重庆 · 杭州 · 南京 · 天津 · 武汉
-沈阳 · 长春 · 西安 · 郑州 · 青岛 · 苏州 · 无锡 · 厦门 · 大连 · 哈尔滨
-东莞 · 南宁 · 佛山 · 绍兴 · 珠海 · 咸阳 · 乌鲁木齐 · 中山
-
-### 扩展 15 城
-
-昆明 · 长沙 · 宁波 · 南昌 · 福州 · 合肥 · 贵阳 · 石家庄 · 温州 · 济南
-兰州 · 常州 · 徐州 · 太原 · 洛阳
+### ⚪ 无地铁数据（5 城）
+佛山 · 绍兴 · 珠海 · 咸阳 · 中山 — metroman.cn 上无线路数据
 
 ---
 
@@ -121,12 +125,10 @@ $env:AMAP_KEY = "你的高德API Key"
 | `metro_builder.js` | 生成游戏存档格式 JSON |
 | `amap_anchors.js` | AMap polyline 锚点 + Catmull-Rom 简化 |
 | `fix_names.js` | 线路名称 Unicode 修复 |
-| `fix_transfers.js` | 换乘站标记（不做合并） |
 | `split_gapped_lines.js` | 大间距分段 |
 | `discover_lines.js` | AMap POI 发现线路（备用入口） |
-| `post_process.js` | 后处理调度 |
+| `output/` | 预制 28 城 JSON 存档（拖入即玩） |
 | `references/` | 线路元数据缓存 |
-| `archives/` | 预制 JSON 存档 |
 
 ---
 
@@ -136,14 +138,6 @@ $env:AMAP_KEY = "你的高德API Key"
 2. **不合并换乘** — 各线站点保留在各自轨道上
 3. **AMap 唯一** — 放弃 OSM，完全依赖 AMap API
 4. **真实优先** — 找不到真实轨道时必须汇报，不允许直线插值替代
-
----
-
-## 🛠️ 已知遗留问题
-
-1. 支线名称偶有 Unicode 乱码（SH5Z/SH10Z/SH11Z 等）
-2. 空路段未全部解决 — 用"线路名+地铁站"后缀查公交 API 可补
-3. 有轨电车用通用兜底
 
 ---
 
