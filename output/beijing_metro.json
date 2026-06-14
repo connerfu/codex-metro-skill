@@ -1,7 +1,7 @@
 {
   "app": "Cities Designers",
   "version": 2,
-  "exportedAt": "2026-06-14T14:09:49.512Z",
+  "exportedAt": "2026-06-14T14:14:15.218Z",
   "data": {
     "cityKey": "beijing",
     "lineCounter": 28,
@@ -8078,7 +8078,7 @@
         "name": "北京����10����",
         "_lineNameCustomizedByUser": true,
         "color": "#09A0CE",
-        "isRing": false,
+        "isRing": true,
         "branchRootId": null,
         "trainType": "B",
         "trainCars": 6,
@@ -8744,6 +8744,7 @@
               "lng": 116.28864964640495
             }
           ],
+          [],
           [],
           [],
           [],
