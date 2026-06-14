@@ -17,9 +17,9 @@ const SPECIAL_NAMES = {
     GZ_NANHAI_TRAM: "\u5357\u6D77\u6709\u8F68\u7535\u8F661\u53F7\u7EBF",
     GZ_TRAM_HAIZHU: "\u6D77\u73E0\u6709\u8F68\u7535\u8F66",
     GZ_TRAM_HP1: "\u9EC4\u57D4\u6709\u8F68\u7535\u8F661\u53F7\u7EBF", GZ_TRAM_HP2: "\u9EC4\u57D4\u6709\u8F68\u7535\u8F662\u53F7\u7EBF",
-    CD_LINE_S3: "资阳线(S3)",
-    CD_TRAMWAY_RONG_2_LINE: "有轨电车蓉2号线",
-    CD_TRAMWAY_RONG_2_LINE_BRANCH: "有轨电车蓉2号线(支线)",
+    CD_LINE_S3: "资阳�?S3)",
+    CD_TRAMWAY_RONG_2_LINE: "有轨电车�?号线",
+    CD_TRAMWAY_RONG_2_LINE_BRANCH: "有轨电车�?号线(支线)",
 };
 
 const CITY_CHARS = {
@@ -29,9 +29,9 @@ const CITY_CHARS = {
     wuhan: "\u6B66\u6C49", shenyang: "\u6C88\u9633", changchun: "\u957F\u6625",
     xian: "\u897F\u5B89", zhengzhou: "\u90D1\u5DDE", qingdao: "\u9752\u5C9B",
     suzhou: "\u82CF\u5DDE", wuxi: "\u65E0\u9521", xiamen: "\u53A6\u95E8",
-    dalian: "\u5927\u8FDE", haerbin: "\u54C8\u5C14\u6EE8", dongguan: "\u4E1C\u839E",
+    dalian: "\u5927\u8FDE", harbin: "\u54C8\u5C14\u6EE8", dongguan: "\u4E1C\u839E",
     nanning: "\u5357\u5B81", foshan: "\u4F5B\u5C71", shaoxing: "\u7ECD\u5174",
-    zhuhai: "\u73E0\u6D77", zhongshan: "\u4E2D\u5C71", wulumuqi: "\u4E4C\u9C81\u6728\u9F50",
+    zhuhai: "\u73E0\u6D77", zhongshan: "\u4E2D\u5C71", urumqi: "\u4E4C\u9C81\u6728\u9F50",
     xianyang: "\u54B8\u9633",
 };
 

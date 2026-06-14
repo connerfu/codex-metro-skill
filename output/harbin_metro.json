@@ -1,0 +1,1906 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-06-14T13:52:18.353Z",
+  "data": {
+    "cityKey": "harbin",
+    "lineCounter": 3,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "HEB1",
+        "name": "哈尔滨����1����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E73B41",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "harbin_HEB1_1",
+            "lat": 45.789336,
+            "lng": 126.709138,
+            "name": "哈尔滨东站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_2",
+            "lat": 45.788083,
+            "lng": 126.698039,
+            "name": "桦树街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_3",
+            "lat": 45.787766,
+            "lng": 126.687501,
+            "name": "交通学院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_4",
+            "lat": 45.784346,
+            "lng": 126.677969,
+            "name": "太平桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太平桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_5",
+            "lat": 45.775477,
+            "lng": 126.668068,
+            "name": "工程大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_6",
+            "lat": 45.768727,
+            "lng": 126.65591,
+            "name": "烟厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_7",
+            "lat": 45.764078,
+            "lng": 126.650438,
+            "name": "医大一院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_8",
+            "lat": 45.758405,
+            "lng": 126.643793,
+            "name": "博物馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "博物馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_9",
+            "lat": 45.751513,
+            "lng": 126.635996,
+            "name": "铁路局站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_10",
+            "lat": 45.744564,
+            "lng": 126.627753,
+            "name": "哈工大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_11",
+            "lat": 45.738848,
+            "lng": 126.621115,
+            "name": "西大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_12",
+            "lat": 45.732416,
+            "lng": 126.615449,
+            "name": "和兴路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_13",
+            "lat": 45.722457,
+            "lng": 126.60988,
+            "name": "学府路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_14",
+            "lat": 45.714853,
+            "lng": 126.611868,
+            "name": "理工大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_15",
+            "lat": 45.70697,
+            "lng": 126.613592,
+            "name": "黑龙江大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_16",
+            "lat": 45.697491,
+            "lng": 126.615695,
+            "name": "医大二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "医大二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_17",
+            "lat": 45.683208,
+            "lng": 126.618814,
+            "name": "哈达站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_18",
+            "lat": 45.669922,
+            "lng": 126.621748,
+            "name": "哈尔滨南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_19",
+            "lat": 45.656247,
+            "lng": 126.624716,
+            "name": "同江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_20",
+            "lat": 45.645435,
+            "lng": 126.633464,
+            "name": "瓦盆窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_21",
+            "lat": 45.632188,
+            "lng": 126.636902,
+            "name": "镜泊路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_22",
+            "lat": 45.615382,
+            "lng": 126.647845,
+            "name": "渤海路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB1_23",
+            "lat": 45.605905,
+            "lng": 126.632979,
+            "name": "新疆大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 45.788349,
+              "lng": 126.700817
+            }
+          ],
+          [
+            {
+              "lat": 45.787986046268315,
+              "lng": 126.69708904148138
+            },
+            {
+              "lat": 45.78788116953108,
+              "lng": 126.6961420809467
+            },
+            {
+              "lat": 45.787883,
+              "lng": 126.695182
+            },
+            {
+              "lat": 45.788202,
+              "lng": 126.691208
+            },
+            {
+              "lat": 45.78823783253871,
+              "lng": 126.69025527944858
+            },
+            {
+              "lat": 45.78818374464832,
+              "lng": 126.68930378965847
+            },
+            {
+              "lat": 45.78801481327717,
+              "lng": 126.68838562013256
+            }
+          ],
+          [
+            {
+              "lat": 45.787292,
+              "lng": 126.68585
+            },
+            {
+              "lat": 45.784959,
+              "lng": 126.67898
+            },
+            {
+              "lat": 45.784692230872935,
+              "lng": 126.67842498705745
+            }
+          ],
+          [
+            {
+              "lat": 45.783569,
+              "lng": 126.677185
+            },
+            {
+              "lat": 45.781593,
+              "lng": 126.675126
+            }
+          ],
+          [
+            {
+              "lat": 45.77496177342958,
+              "lng": 126.66746194811192
+            },
+            {
+              "lat": 45.774477752605584,
+              "lng": 126.66680734984799
+            },
+            {
+              "lat": 45.774072,
+              "lng": 126.666049
+            },
+            {
+              "lat": 45.771934,
+              "lng": 126.65995
+            },
+            {
+              "lat": 45.771426127466846,
+              "lng": 126.65896049624482
+            },
+            {
+              "lat": 45.770778479676984,
+              "lng": 126.65815169098727
+            },
+            {
+              "lat": 45.77010291843626,
+              "lng": 126.65738775255541
+            },
+            {
+              "lat": 45.76940136813737,
+              "lng": 126.65667552295282
+            }
+          ],
+          [
+            {
+              "lat": 45.768205272943035,
+              "lng": 126.65533339965823
+            },
+            {
+              "lat": 45.767732,
+              "lng": 126.654678
+            },
+            {
+              "lat": 45.765899,
+              "lng": 126.652526
+            },
+            {
+              "lat": 45.76497827476471,
+              "lng": 126.65150045661571
+            }
+          ],
+          [
+            {
+              "lat": 45.758797,
+              "lng": 126.644254
+            }
+          ],
+          [
+            {
+              "lat": 45.753939,
+              "lng": 126.638618
+            },
+            {
+              "lat": 45.75270604421796,
+              "lng": 126.63734519265238
+            }
+          ],
+          [
+            {
+              "lat": 45.75088290103013,
+              "lng": 126.63524730584832
+            },
+            {
+              "lat": 45.750258407507104,
+              "lng": 126.63448897703378
+            },
+            {
+              "lat": 45.74963585118436,
+              "lng": 126.6337275857868
+            },
+            {
+              "lat": 45.749029,
+              "lng": 126.63294
+            },
+            {
+              "lat": 45.74525,
+              "lng": 126.628517
+            }
+          ],
+          [
+            {
+              "lat": 45.743856,
+              "lng": 126.626954
+            }
+          ],
+          [
+            {
+              "lat": 45.73652,
+              "lng": 126.618399
+            },
+            {
+              "lat": 45.736116,
+              "lng": 126.617985
+            }
+          ],
+          [
+            {
+              "lat": 45.724163,
+              "lng": 126.609737
+            },
+            {
+              "lat": 45.72360238393478,
+              "lng": 126.60956998595434
+            },
+            {
+              "lat": 45.72302825014708,
+              "lng": 126.60971344443603
+            }
+          ],
+          [
+            {
+              "lat": 45.716983,
+              "lng": 126.61137
+            }
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [
+            {
+              "lat": 45.655726,
+              "lng": 126.624837
+            },
+            {
+              "lat": 45.651485,
+              "lng": 126.62596
+            },
+            {
+              "lat": 45.6507289168217,
+              "lng": 126.62633569139871
+            },
+            {
+              "lat": 45.65005925068456,
+              "lng": 126.62694105218351
+            },
+            {
+              "lat": 45.64953200701524,
+              "lng": 126.62779919778812
+            },
+            {
+              "lat": 45.64903633735463,
+              "lng": 126.62869922954027
+            },
+            {
+              "lat": 45.64865345098764,
+              "lng": 126.62969906719583
+            },
+            {
+              "lat": 45.64839985852846,
+              "lng": 126.63078589202088
+            },
+            {
+              "lat": 45.64814626606928,
+              "lng": 126.63187271684593
+            },
+            {
+              "lat": 45.647726339324635,
+              "lng": 126.63283122880179
+            },
+            {
+              "lat": 45.64703371111219,
+              "lng": 126.63335632194428
+            },
+            {
+              "lat": 45.646235807589235,
+              "lng": 126.63344138230993
+            }
+          ],
+          [
+            {
+              "lat": 45.64472773499953,
+              "lng": 126.63348184203701
+            },
+            {
+              "lat": 45.644020682694695,
+              "lng": 126.63345565491461
+            },
+            {
+              "lat": 45.64331586965148,
+              "lng": 126.63337497154258
+            },
+            {
+              "lat": 45.64261711464238,
+              "lng": 126.63322482275488
+            },
+            {
+              "lat": 45.64193207513177,
+              "lng": 126.63297307484827
+            },
+            {
+              "lat": 45.64124661680129,
+              "lng": 126.6327236953981
+            },
+            {
+              "lat": 45.64055684965188,
+              "lng": 126.63250125315837
+            },
+            {
+              "lat": 45.63985524154027,
+              "lng": 126.63239100106063
+            },
+            {
+              "lat": 45.63914852267797,
+              "lng": 126.63238506357949
+            },
+            {
+              "lat": 45.63844202822636,
+              "lng": 126.63242591478523
+            },
+            {
+              "lat": 45.63773758133081,
+              "lng": 126.632513375523
+            },
+            {
+              "lat": 45.63704225532834,
+              "lng": 126.63268950675456
+            },
+            {
+              "lat": 45.636376,
+              "lng": 126.633023
+            },
+            {
+              "lat": 45.633095,
+              "lng": 126.636001
+            },
+            {
+              "lat": 45.632638181463534,
+              "lng": 126.63644467279894
+            }
+          ],
+          [
+            {
+              "lat": 45.6317208456564,
+              "lng": 126.63736100536748
+            },
+            {
+              "lat": 45.631208,
+              "lng": 126.637705
+            },
+            {
+              "lat": 45.629149,
+              "lng": 126.639078
+            }
+          ],
+          [
+            {
+              "lat": 45.613141,
+              "lng": 126.649289
+            },
+            {
+              "lat": 45.612579057844236,
+              "lng": 126.64943292384774
+            },
+            {
+              "lat": 45.61200764735949,
+              "lng": 126.64941367265223
+            },
+            {
+              "lat": 45.61145140133261,
+              "lng": 126.64923261719785
+            },
+            {
+              "lat": 45.61097440157405,
+              "lng": 126.64879273250385
+            },
+            {
+              "lat": 45.610626,
+              "lng": 126.648145
+            }
+          ]
+        ]
+      },
+      {
+        "id": "HEB2",
+        "name": "哈尔滨����2����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#3E8A5B",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "harbin_HEB2_1",
+            "lat": 45.873058,
+            "lng": 126.543571,
+            "name": "江北大学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_2",
+            "lat": 45.852317,
+            "lng": 126.537626,
+            "name": "哈尔滨北站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_3",
+            "lat": 45.835022,
+            "lng": 126.540919,
+            "name": "大耿家站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_4",
+            "lat": 45.823373,
+            "lng": 126.549543,
+            "name": "龙川路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_5",
+            "lat": 45.806676,
+            "lng": 126.552393,
+            "name": "世茂大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_6",
+            "lat": 45.778569,
+            "lng": 126.567694,
+            "name": "冰雪大世界站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_7",
+            "lat": 45.784524,
+            "lng": 126.587862,
+            "name": "太阳岛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_8",
+            "lat": 45.773337,
+            "lng": 126.604255,
+            "name": "人民广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_9",
+            "lat": 45.768927,
+            "lng": 126.616256,
+            "name": "中央大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_10",
+            "lat": 45.765586,
+            "lng": 126.625999,
+            "name": "尚志大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_11",
+            "lat": 45.76241,
+            "lng": 126.634916,
+            "name": "哈尔滨站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_12",
+            "lat": 45.758405,
+            "lng": 126.643793,
+            "name": "博物馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "博物馆",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_13",
+            "lat": 45.75001,
+            "lng": 126.653898,
+            "name": "工人文化宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_14",
+            "lat": 45.742451,
+            "lng": 126.663409,
+            "name": "省政府站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_15",
+            "lat": 45.736725,
+            "lng": 126.677255,
+            "name": "省医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_16",
+            "lat": 45.736632,
+            "lng": 126.692624,
+            "name": "珠江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_17",
+            "lat": 45.73493,
+            "lng": 126.705955,
+            "name": "南直路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_18",
+            "lat": 45.729713,
+            "lng": 126.72404,
+            "name": "东北农业大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB2_19",
+            "lat": 45.727093,
+            "lng": 126.742583,
+            "name": "气象台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 45.863,
+              "lng": 126.543192
+            },
+            {
+              "lat": 45.858325,
+              "lng": 126.542846
+            },
+            {
+              "lat": 45.855888,
+              "lng": 126.541332
+            },
+            {
+              "lat": 45.854281,
+              "lng": 126.539873
+            },
+            {
+              "lat": 45.85339155155019,
+              "lng": 126.53857958276512
+            }
+          ],
+          [
+            {
+              "lat": 45.85129,
+              "lng": 126.536719
+            },
+            {
+              "lat": 45.848825,
+              "lng": 126.534609
+            },
+            {
+              "lat": 45.84746454667291,
+              "lng": 126.53416877727302
+            },
+            {
+              "lat": 45.84609750666681,
+              "lng": 126.53452128444441
+            },
+            {
+              "lat": 45.844760173162925,
+              "lng": 126.53504493661052
+            },
+            {
+              "lat": 45.84342821060247,
+              "lng": 126.53560765556287
+            },
+            {
+              "lat": 45.842069,
+              "lng": 126.536012
+            },
+            {
+              "lat": 45.839897,
+              "lng": 126.537152
+            },
+            {
+              "lat": 45.838455,
+              "lng": 126.538118
+            },
+            {
+              "lat": 45.835522,
+              "lng": 126.540526
+            }
+          ],
+          [
+            {
+              "lat": 45.830903,
+              "lng": 126.544156
+            },
+            {
+              "lat": 45.826078,
+              "lng": 126.547804
+            },
+            {
+              "lat": 45.824011,
+              "lng": 126.54918
+            }
+          ],
+          [
+            {
+              "lat": 45.82230448290644,
+              "lng": 126.55010037509543
+            },
+            {
+              "lat": 45.82121606319624,
+              "lng": 126.55057280835057
+            },
+            {
+              "lat": 45.82012037216829,
+              "lng": 126.55100917894575
+            },
+            {
+              "lat": 45.81901139058287,
+              "lng": 126.55136810416477
+            },
+            {
+              "lat": 45.817894,
+              "lng": 126.551672
+            },
+            {
+              "lat": 45.8076,
+              "lng": 126.552302
+            }
+          ],
+          [
+            {
+              "lat": 45.805986142643135,
+              "lng": 126.55243729577654
+            },
+            {
+              "lat": 45.805307,
+              "lng": 126.552606
+            },
+            {
+              "lat": 45.803257,
+              "lng": 126.553492
+            },
+            {
+              "lat": 45.794698,
+              "lng": 126.554522
+            },
+            {
+              "lat": 45.7937325399955,
+              "lng": 126.55467547078575
+            },
+            {
+              "lat": 45.792774501748106,
+              "lng": 126.55490536500022
+            },
+            {
+              "lat": 45.79183538515091,
+              "lng": 126.55525724593963
+            },
+            {
+              "lat": 45.790920511285634,
+              "lng": 126.55572472077291
+            },
+            {
+              "lat": 45.79001937855351,
+              "lng": 126.55624410568143
+            },
+            {
+              "lat": 45.78916396766444,
+              "lng": 126.55690386153994
+            },
+            {
+              "lat": 45.788321,
+              "lng": 126.557596
+            },
+            {
+              "lat": 45.786468,
+              "lng": 126.559392
+            },
+            {
+              "lat": 45.779151,
+              "lng": 126.566904
+            }
+          ],
+          [
+            {
+              "lat": 45.778025848217546,
+              "lng": 126.56840667258867
+            },
+            {
+              "lat": 45.77749978601956,
+              "lng": 126.56914508551975
+            },
+            {
+              "lat": 45.77697372382157,
+              "lng": 126.56988349845084
+            },
+            {
+              "lat": 45.77658637199252,
+              "lng": 126.57077201303109
+            },
+            {
+              "lat": 45.77649634927507,
+              "lng": 126.5717910882742
+            },
+            {
+              "lat": 45.77662751761755,
+              "lng": 126.57282685314411
+            },
+            {
+              "lat": 45.776899,
+              "lng": 126.573808
+            },
+            {
+              "lat": 45.778194,
+              "lng": 126.576255
+            },
+            {
+              "lat": 45.780761,
+              "lng": 126.580422
+            },
+            {
+              "lat": 45.78173713602912,
+              "lng": 126.58207176791214
+            },
+            {
+              "lat": 45.782632,
+              "lng": 126.583813
+            },
+            {
+              "lat": 45.783728,
+              "lng": 126.586243
+            }
+          ],
+          [
+            {
+              "lat": 45.785037024937395,
+              "lng": 126.58874233984206
+            },
+            {
+              "lat": 45.7854295438485,
+              "lng": 126.58973269524854
+            },
+            {
+              "lat": 45.78571065672018,
+              "lng": 126.59075040895952
+            },
+            {
+              "lat": 45.78533352752965,
+              "lng": 126.591701513116
+            },
+            {
+              "lat": 45.784767,
+              "lng": 126.5925
+            },
+            {
+              "lat": 45.774921,
+              "lng": 126.601451
+            },
+            {
+              "lat": 45.77407950628822,
+              "lng": 126.60279637698468
+            }
+          ],
+          [
+            {
+              "lat": 45.77286744559373,
+              "lng": 126.60529940647926
+            },
+            {
+              "lat": 45.772421633333444,
+              "lng": 126.60636419735997
+            },
+            {
+              "lat": 45.771999,
+              "lng": 126.607449
+            },
+            {
+              "lat": 45.769149,
+              "lng": 126.615578
+            }
+          ],
+          [
+            {
+              "lat": 45.767623,
+              "lng": 126.619933
+            }
+          ],
+          [
+            {
+              "lat": 45.764836,
+              "lng": 126.628145
+            },
+            {
+              "lat": 45.763979,
+              "lng": 126.630994
+            },
+            {
+              "lat": 45.763493397483764,
+              "lng": 126.63233176748713
+            },
+            {
+              "lat": 45.76297536254863,
+              "lng": 126.63364444243078
+            }
+          ],
+          [
+            {
+              "lat": 45.761853,
+              "lng": 126.636112
+            },
+            {
+              "lat": 45.760404,
+              "lng": 126.639271
+            },
+            {
+              "lat": 45.758999,
+              "lng": 126.642771
+            }
+          ],
+          [
+            {
+              "lat": 45.757938,
+              "lng": 126.644583
+            },
+            {
+              "lat": 45.756738,
+              "lng": 126.64674
+            },
+            {
+              "lat": 45.755376,
+              "lng": 126.648993
+            },
+            {
+              "lat": 45.75504719803783,
+              "lng": 126.64963584853545
+            },
+            {
+              "lat": 45.7545064677408,
+              "lng": 126.64983327187493
+            },
+            {
+              "lat": 45.753961108877995,
+              "lng": 126.64971584690005
+            },
+            {
+              "lat": 45.753407,
+              "lng": 126.649757
+            }
+          ],
+          [
+            {
+              "lng": 126.653898,
+              "lat": 45.75001
+            },
+            {
+              "lng": 126.662223,
+              "lat": 45.743386
+            }
+          ],
+          [
+            {
+              "lat": 45.736943,
+              "lng": 126.669982
+            },
+            {
+              "lat": 45.7364398092327,
+              "lng": 126.67069167467248
+            },
+            {
+              "lat": 45.73608496854427,
+              "lng": 126.67155653894423
+            },
+            {
+              "lat": 45.73590377561702,
+              "lng": 126.67253879533935
+            },
+            {
+              "lat": 45.735842,
+              "lng": 126.673544
+            }
+          ],
+          [
+            {
+              "lat": 45.737793,
+              "lng": 126.681776
+            },
+            {
+              "lat": 45.73788162505304,
+              "lng": 126.68262099780101
+            },
+            {
+              "lat": 45.737861,
+              "lng": 126.683476
+            },
+            {
+              "lat": 45.7374,
+              "lng": 126.687285
+            },
+            {
+              "lat": 45.736751,
+              "lng": 126.691791
+            }
+          ],
+          [],
+          [
+            {
+              "lat": 45.73475644436234,
+              "lng": 126.70728373628144
+            },
+            {
+              "lat": 45.734513,
+              "lng": 126.70859
+            },
+            {
+              "lat": 45.73396,
+              "lng": 126.713101
+            },
+            {
+              "lat": 45.73339160864865,
+              "lng": 126.71419146512204
+            },
+            {
+              "lat": 45.73255216648774,
+              "lng": 126.7146906759222
+            },
+            {
+              "lat": 45.731717632333144,
+              "lng": 126.71520559837558
+            },
+            {
+              "lat": 45.730998,
+              "lng": 126.71597
+            },
+            {
+              "lat": 45.730403,
+              "lng": 126.71944
+            }
+          ],
+          [
+            {
+              "lng": 126.72404,
+              "lat": 45.729713
+            },
+            {
+              "lng": 126.741573,
+              "lat": 45.727244
+            }
+          ]
+        ]
+      },
+      {
+        "id": "HEB3",
+        "name": "哈尔滨����3����",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FDAF2D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 35,
+        "freqOff": 17,
+        "freqLow": 12,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "harbin_HEB3_1",
+            "lat": 45.738632,
+            "lng": 126.550267,
+            "name": "体育公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_2",
+            "lat": 45.738632,
+            "lng": 126.550267,
+            "name": "群力第五大道站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_3",
+            "lat": 45.738632,
+            "lng": 126.550267,
+            "name": "医大一院群力院区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_4",
+            "lat": 45.738786,
+            "lng": 126.551334,
+            "name": "工农大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_5",
+            "lat": 45.740706,
+            "lng": 126.565932,
+            "name": "城乡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_6",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "哈尔滨西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_7",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "凯盛源广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_8",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "哈西大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_9",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "医大二院站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "医大二院",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_10",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "征仪路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_11",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "肿瘤医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_12",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "旭升街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_13",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "劳动公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_14",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "进乡街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_15",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "汽轮机厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_16",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "油坊街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_17",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "公滨路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_18",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "珠江路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠江路",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_19",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "湘江路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_20",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "会展中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_21",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "海河东路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_22",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "市第二医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_23",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "大有坊街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_24",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "太平桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太平桥",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_25",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "靖宇公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_26",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "清真寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_27",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "中华巴洛克街区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_28",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "北马路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_29",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "兆麟公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_30",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "友谊宫站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_31",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "人民广场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民广场",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_32",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "上海街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_33",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "公路大桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_34",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "河松街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_35",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "河山街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "harbin_HEB3_36",
+            "lat": 45.740978,
+            "lng": 126.567893,
+            "name": "丁香公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}
