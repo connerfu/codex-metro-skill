@@ -130,10 +130,11 @@ async function runPipeline(slug, cityName, options) {
       var lid = slugId;
       var lineName = transform.resolveLineName(lid, cityName) || cityName + "����" + line.num + "����";
       var ringL = transform.getRingForCity(slug);
+      var meta = transform.enrichLineMetadata(line, slug);
       ref[lid] = {
         line: line.num, name: lineName, color: line.color,
-        speed: ([16,19].indexOf(line.num) >= 0 ? 120 : [7,11,21].indexOf(line.num) >= 0 ? 100 : 80),
-        cars: ([1,16,19,21].indexOf(line.num) >= 0 ? 4 : 6),
+        speed: meta.speed,
+        cars: meta.cars,
         ring: ringL.indexOf(lid) >= 0,
         so: 360, sc: 1380,
         stations: line.stations.map(function(s) { return s.name; })
@@ -310,6 +311,9 @@ async function runPipeline(slug, cityName, options) {
         entry += "- ��Դ��pipeline.js try-catch\n";
         fs2.appendFileSync(lessonsPath, entry, 'utf8');
       } catch(e) {}
+    }
+    if (errMsg.indexOf("DescriptiveError") >= 0 || errMsg.indexOf("Contract validation") >= 0) {
+      process.exit(1);
     }
     return { success: false, error: errMsg, tier: "ERR" };
   }

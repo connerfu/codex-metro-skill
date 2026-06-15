@@ -877,6 +877,25 @@ function validateQuality(data) {
 
 
 // Spec v2.0 config constants
+
+/**
+ * ??????? (Spec v2.0 Task 1.2)
+ * ??????????????????
+ * @param {object} line - ?????? num ???
+ * @param {string} slug - ?? slug
+ * @returns {{ speed: number, cars: number }}
+ */
+function enrichLineMetadata(line, slug) {
+  // ?????????????
+  // 16???19?? ? 120km/h
+  // 7???11???21?? ? 100km/h
+  // ?? ? 80km/h
+  // ????1???16???19???21?? ? 4???? ? 6?
+  var speed = ([16,19].indexOf(line.num) >= 0 ? 120 : [7,11,21].indexOf(line.num) >= 0 ? 100 : 80);
+  var cars = ([1,16,19,21].indexOf(line.num) >= 0 ? 4 : 6);
+  return { speed: speed, cars: cars };
+}
+
 var SPECIAL_LINE_NAMES = {
   BJYZ: "亦庄线", BJCP: "昌平线", BJFS: "房山线", BJYF: "燕房线", BJXJ: "西郊线",
   BJCA: "首都机场线", BJJX: "大兴机场线", BJYZT1: "亦庄T1线", BJ_LINE_S1: "北京地铁S1线",
@@ -1055,7 +1074,8 @@ module.exports = {
   validateContract,
   resolveLineName,
   getSpecialLineNames,
-  getRingForCity
+  getRingForCity,
+  enrichLineMetadata
 
 };
 
