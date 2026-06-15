@@ -70,6 +70,34 @@ function buildGameJson(slug,rd){
   return {data:o,meta:{step:"buildGameJson",lines:br2.lines.length,stations:br2.stations},health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",issues:is};
 }
 
+
+function cachePolyline(slug, lineId, er) {
+  if (!er || !er.line || !er.line.polyline) return;
+  var cachePath = "C:/Users/Conner/.codex/skills/replicate-metro-json/references/" + slug + "_polylines.json";
+  var cache = {};
+  try { cache = JSON.parse(fs.readFileSync(cachePath, "utf8")); } catch(e) {}
+  cache[lineId] = {
+    name: er.line.name,
+    polyline: er.line.polyline,
+    loop: er.line.loop || "0",
+    start_stop: er.line.start_stop || "",
+    end_stop: er.line.end_stop || ""
+  };
+  amap.ensureDir(p.dirname(cachePath));
+  fs.writeFileSync(cachePath, JSON.stringify(cache, null, 2), "utf8");
+}
+
+function loadCachedPolyline(slug, lineId) {
+  var cachePath = amap.downloadPath(slug + "_polylines.json");
+  try {
+    var cache = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+    var entry = cache[lineId];
+    if (entry && entry.polyline) return entry;
+  } catch(e) {}
+  return null;
+}
+
+
 async function generateAnchors(slug,cn,gj){
   var is=[],od=JSON.parse(JSON.stringify(gj));
   if(!od.data)od={data:{lines:od.lines||od}};
@@ -78,7 +106,7 @@ async function generateAnchors(slug,cn,gj){
   for(var li=0;li<ls.length;li++){
     var l=ls[li];if(!l.stations||l.stations.length<2)continue;
     process.stdout.write("    ["+(li+1)+"/"+ls.length+"] "+(l.id||l.name||li)+"... ");
-    try{var bls=await amap.busLineSearch(l.name||cn+"m",cn);var er=amap.electBusLine(bls,c2,l.stations,tr.haversineKm);if(er.line&&er.line.polyline){var pl=er.line.polyline.split(";").map(function(p){var ps=p.split(",");return {lng:+ps[0],lat:+ps[1]};});if(pl.length>4){if(l.stations&&l.stations.length>=2&&l.stations[0].lat){var f2p=0,l2p=0;for(var di=0;di<Math.min(pl.length,10);di++){f2p+=tr.approximateM(l.stations[0],pl[di]);l2p+=tr.approximateM(l.stations[l.stations.length-1],pl[pl.length-1-di]);}if(f2p>l2p)pl.reverse();}var mt=tr.matchStationsToPolyline(l.stations,pl);if(mt&&mt.length>=2){tr.fixCollapsedCoords(l.stations,pl,mt);l.segmentAnchors=tr.anchorsFromMatch(l.stations,pl,mt,!!(l.isRing||l.ring));tr.snapStations(l.stations,mt,pl);console.log((er.score||"ok")+(l.segmentAnchors?l.segmentAnchors.length+"s":"0s"));}else console.log("nomatch");}else console.log("shortpl");}else console.log("nopoly");}catch(e){console.log("FAIL");is.push({severity:"WARN",code:"E010",msg:cn+" "+(l.id||"")+" fail: "+e.message,detail:{}});}
+    try{var bls=await amap.busLineSearch(l.name||cn+"m",cn);if(!bls.length){var cached=loadCachedPolyline(slug,l.id||l.name||li);if(cached)er={line:{name:cached.name,polyline:cached.polyline,loop:cached.loop,start_stop:cached.start_stop,end_stop:cached.end_stop},score:100,reason:"cache"};}if(!er)var er=amap.electBusLine(bls,c2,l.stations,tr.haversineKm);if(er.line&&er.line.polyline){cachePolyline(slug,l.id||l.name||li,er);var pl=er.line.polyline.split(";").map(function(p){var ps=p.split(",");return {lng:+ps[0],lat:+ps[1]};});if(pl.length>4){if(l.stations&&l.stations.length>=2&&l.stations[0].lat){var f2p=0,l2p=0;for(var di=0;di<Math.min(pl.length,10);di++){f2p+=tr.approximateM(l.stations[0],pl[di]);l2p+=tr.approximateM(l.stations[l.stations.length-1],pl[pl.length-1-di]);}if(f2p>l2p)pl.reverse();}var mt=tr.matchStationsToPolyline(l.stations,pl);if(mt&&mt.length>=2){tr.fixCollapsedCoords(l.stations,pl,mt);l.segmentAnchors=tr.anchorsFromMatch(l.stations,pl,mt,!!(l.isRing||l.ring||(er.line&&(er.line.loop==="1"||er.line.loop===1))));tr.snapStations(l.stations,mt,pl);console.log((er.score||"ok")+(l.segmentAnchors?l.segmentAnchors.length+"s":"0s"));}else console.log("nomatch");}else console.log("shortpl");}else console.log("nopoly");}catch(e){console.log("FAIL");is.push({severity:"WARN",code:"E010",msg:cn+" "+(l.id||"")+" fail: "+e.message,detail:{}});}
     if(l.segmentAnchors){for(var a=0;a<l.segmentAnchors.length;a++){if(l.segmentAnchors[a]&&l.segmentAnchors[a].length>0)ta+=l.segmentAnchors[a].length;else zs++;sc++;}}
     if(l.segmentAnchors&&l.segmentAnchors.length>0&&l.stations.length>=2){for(var s2=0;s2<l.segmentAnchors.length;s2++){if(!l.segmentAnchors[s2]||!l.segmentAnchors[s2].length){var f=l.stations[s2],t=l.stations[s2+1]||l.stations[s2];if(f&&t){var pts=[];for(var k=1;k<=5;k++)pts.push({lat:f.lat+(t.lat-f.lat)*k/6,lng:f.lng+(t.lng-f.lng)*k/6});l.segmentAnchors[s2]=pts;}}}}
   }

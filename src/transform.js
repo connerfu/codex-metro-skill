@@ -388,10 +388,25 @@ function snapStations(stations, match, polyline) {
 function fixCollapsedCoords(stations, polyline, match) {
   if (!stations || stations.length < 2 || !match || match.length < 2) return false;
   var fixed = false;
+  var COLLAPSE_THRESHOLD = 50; // 50m - if two adjacent stations snap within this distance, they are collapsed
+  var COLLAPSE_GAP = 8; // min pi gap to ensure geographic separation - if two adjacent stations snap within this distance, they are collapsed
+  // MIN_PI_GAP already set above // minimum polyline index gap to ensure geographic separation
   for (var i = 0; i < match.length - 1; i++) {
     if (match[i].pi >= match[i+1].pi) {
-      match[i+1].pi = Math.min(match[i].pi + 2, polyline.length - 1);
+      // pi collision: force next station forward
+      match[i+1].pi = Math.min(match[i].pi + COLLAPSE_GAP, polyline.length - 1);
       fixed = true;
+    } else {
+      // Check geographic distance - polyline might be dense enough that adjacent pi are close
+      var p0 = polyline[match[i].pi];
+      var p1 = polyline[match[i+1].pi];
+      if (p0 && p1) {
+        var d = approximateM(p0, p1);
+        if (d < COLLAPSE_THRESHOLD) {
+          match[i+1].pi = Math.min(match[i].pi + MIN_PI_GAP, polyline.length - 1);
+          fixed = true;
+        }
+      }
     }
   }
   return fixed;

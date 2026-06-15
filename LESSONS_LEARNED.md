@@ -49,3 +49,9 @@
 - 现象: rateLimit+releaseRateLimit未配对，第3次起队列死锁；AMap服务端自身也有限频，快速请求返回0结果
 - 对策: 删除旧限频器，在generateAnchors循环中加800ms延迟避免触发AMap服务端限频
 - 来源: v5.6 修复
+
+## L10: matchStationsToPolyline 搜索起点不走动导致坍塌
+- 现象: searchStart = bestPi 导致多站匹配到 polyline 同一点，fixCollapsedCoords 也修不好
+- 对策: searchStart = Math.max(bestPi + 1, searchStart + 3)，强制搜索起点前进
+- 补充: fixCollapsedCoords 新增地理距离检测坍塌(50m阈值) + COLLAPSE_GAP=8
+- 来源: v5.6 修复
