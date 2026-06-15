@@ -1,115 +1,111 @@
-﻿// bin/run.js — 唯一 CLI 入口
-// 参数解析 → 读 config/{slug}.json → 调 pipeline.js → 退出码
+// bin/run.js ? ??? CLI ?? (ATOMIZATION_SPEC.md)
+// ?? --city, --all, --force, --step, --validate, --resume
 
 const fs = require("fs");
 const path = require("path");
 const amap = require("../src/amap");
 const pipeline = require("../src/pipeline");
 
-// ===== Config helpers (inline, no I/O) =====
-// CITY_CHARS removed per Spec v2.0 Task 2: use config/ files instead
-
-
 function getAllCitySlugs() {
-  const configDir = amap.skillPath("config");
+  var configDir = amap.skillPath("config");
   if (!fs.existsSync(configDir)) return [];
-  return fs.readdirSync(configDir)
-    .filter(function(f) { return f.endsWith(".json"); })
-    .map(function(f) { return f.replace(/\.json$/, ""); });
+  return fs.readdirSync(configDir).filter(function(f){return f.endsWith(".json");}).map(function(f){return f.replace(/\.json$/,"");});
 }
 
-// ===== Argument parsing =====
-const args = process.argv.slice(2);
-let city = null;
-let force = false;
-let all = false;
-let help = false;
+var args = process.argv.slice(2);
+var city = null, force = false, all = false, help = false, step = null, validateOnly = false, resume = null;
 
-for (let i = 0; i < args.length; i++) {
-  const a = args[i];
-  if (a === "--city" || a === "-c") { city = args[++i]; }
-  else if (a === "--force" || a === "-f") { force = true; }
-  else if (a === "--all" || a === "-a") { all = true; }
-  else if (a === "--help" || a === "-h") { help = true; }
+for (var i = 0; i < args.length; i++) {
+  var a = args[i];
+  if (a === "--city" || a === "-c") city = args[++i];
+  else if (a === "--force" || a === "-f") force = true;
+  else if (a === "--all" || a === "-a") all = true;
+  else if (a === "--step" || a === "-s") step = args[++i];
+  else if (a === "--validate" || a === "-v") validateOnly = true;
+  else if (a === "--resume" || a === "-r") resume = args[++i];
+  else if (a === "--help" || a === "-h") help = true;
 }
 
-// ===== Help =====
 if (help || (!city && !all)) {
   console.log([
-    "Metro Pipeline — 地铁存档生成器",
+    "Metro Pipeline ? ?????",
     "",
     "Usage:",
-    "  node bin/run.js --city <slug>        生成指定城市",
-    "  node bin/run.js --all                 生成所有城市",
-    "  node bin/run.js --city <slug> --force 强制重新生成",
+    "  node bin/run.js --city <slug>         ??????",
+    "  node bin/run.js --all                  ??????",
+    "  node bin/run.js --city <slug> --force  ??????",
+    "  node bin/run.js --city <slug> --step <name>  ???????",
+    "  node bin/run.js --city <slug> --validate     ??????",
+    "  node bin/run.js --city <slug> --resume <name> ?????????",
+    "",
+    "Steps: fetchLines, fetchCoords, detectBranches, buildReference, buildGameJson, generateAnchors",
     "",
     "Options:",
-    "  --city <slug>, -c <slug>  城市 slug（如 beijing）",
-    "  --all, -a                  处理所有城市",
-    "  --force, -f                忽略缓存",
-    "  --help, -h                 显示帮助",
+    "  --city <slug>, -c <slug>  ?? slug",
+    "  --all, -a                  ??????",
+    "  --force, -f                ????",
+    "  --step <name>, -s <name>   ???????",
+    "  --validate, -v             ??????",
+    "  --resume <name>, -r <name> ???????",
+    "  --help, -h                 ????",
     "",
-    "Examples:",
-    "  node bin/run.js --city beijing",
-    "  node bin/run.js -c shanghai --force",
-    "  node bin/run.js --all",
-    "",
-    "Available slugs: " + getAllCitySlugs().join(", "),
+    "Available slugs: " + getAllCitySlugs().join(", ")
   ].join("\n"));
   process.exit(0);
 }
 
-// ===== Main =====
 async function main() {
-  const t0 = Date.now();
-  let slugs = [];
-
-  if (all) {
-    slugs = getAllCitySlugs();
-  } else if (city) {
-    slugs = [city];
-  }
-
-  if (slugs.length === 0) {
-    console.error("错误: 未指定城市");
-    process.exit(1);
-  }
-
-  console.log("=== Metro Pipeline ===");
-  const results = {};
-
-  for (const slug of slugs) {
-    var config = (function() { try { return JSON.parse(fs.readFileSync(amap.skillPath("config", slug + ".json"), "utf8")); } catch(e) { return {}; } })();
-    const cityName = config.name || slug;
+  var t0 = Date.now();
+  var slugs = [];
+  if (all) slugs = getAllCitySlugs();
+  else if (city) slugs = [city];
+  if (slugs.length === 0) { console.error("??: ?????"); process.exit(1); }
+  console.log("=== Metro Pipeline (Atomized) ===");
+  var results = {};
+  for (var si = 0; si < slugs.length; si++) {
+    var slug = slugs[si];
+    var config = (function(){try{return JSON.parse(fs.readFileSync(amap.skillPath("config",slug+".json"),"utf8"));}catch(e){return{};}})();
+    var cityName = config.name || slug;
     console.log("\n" + "=".repeat(50));
-    console.log("城市: " + slug + " (" + cityName + ")");
-
+    console.log("??: " + slug + " (" + cityName + ")");
+    if (step) console.log("??: " + step);
+    if (resume) console.log("??: ? " + resume + " ??");
+    if (validateOnly) console.log("??: ??");
     try {
-      const result = await pipeline.runPipeline(slug, cityName, { force: force });
-      results[slug] = result.success ? "OK" : "FAIL";
+      var opts = { force: force };
+      if (step) opts.step = step;
+      if (resume) opts.resume = resume;
+      if (validateOnly) opts.validate = true;
+      var result = await pipeline.runPipeline(slug, cityName, opts);
+      results[slug] = result.health || "FAIL";
       if (result.success) {
-        console.log("结果: OK [" + result.tier + "] (" + (result.stats.elapsed || "?") + "s)");
+        var extra = "";
+        if (result.tier) extra += " [" + result.tier + "]";
+        if (result.health) extra += " health:" + result.health;
+        if (result.steps) extra += " steps:" + result.steps.length;
+        if (result.stats && result.stats.elapsed) extra += " (" + result.stats.elapsed + "s)";
+        console.log("??: OK" + extra);
+        if (result.validate) {
+          var v = result.validate;
+          console.log("??: " + v.health + " (" + (v.stats?v.stats.lines+"?, "+v.stats.stations+"?":"") + ")");
+          if (v.issues && v.issues.length > 0) v.issues.forEach(function(iss){console.log("  ["+iss.severity+"] "+iss.msg);});
+        }
       } else {
-        console.error("结果: FAIL - " + (result.error || "unknown"));
+        console.error("??: FAIL [" + (result.tier||"ERR") + "] - " + (result.error||result.health||"unknown"));
+        if (result.steps) result.steps.forEach(function(s,i){if(s.health==="FAIL"||s.health==="WARN")console.log("  ??"+(i+1)+" "+s.meta.step+": "+s.health);if(s.issues)s.issues.forEach(function(iss){console.log("    ["+iss.severity+"] "+iss.msg);});});
       }
     } catch (err) {
-      console.error("结果: FAIL - " + (err.message || err));
+      console.error("??: FAIL - " + (err.message||err));
       results[slug] = "FAIL";
     }
   }
-
-  const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-  const okCount = Object.values(results).filter(function(s) { return s === "OK"; }).length;
-  const failCount = Object.values(results).filter(function(s) { return s === "FAIL"; }).length;
-
+  var elapsed = ((Date.now()-t0)/1000).toFixed(1);
+  var okCount = Object.values(results).filter(function(s){return s!=="FAIL";}).length;
+  var failCount = Object.values(results).filter(function(s){return s==="FAIL";}).length;
   console.log("\n" + "=".repeat(50));
-  console.log("完成 in " + elapsed + "s | OK: " + okCount + "  FAIL: " + failCount);
-
+  console.log("?? in " + elapsed + "s | OK: " + okCount + "  FAIL: " + failCount);
   if (failCount > 0) process.exit(1);
   process.exit(0);
 }
 
-main().catch(function(err) {
-  console.error("FATAL:", err.message || err);
-  process.exit(2);
-});
+main().catch(function(err){console.error("FATAL:",err.message||err);process.exit(2);});

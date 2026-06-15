@@ -1,323 +1,112 @@
-// src/pipeline.js �� ETL ��������
-// �������� (P0/P1/P2) + ���������� + ê������ + ���˷��� + ֧�߼��
-// �����ţ�I/O �� src/amap.js, ���� �� src/transform.js
 
-const path = require("path");
-const fs = require("fs");
-const amap = require("./amap");
-const transform = require("./transform");
+const p=require("path"),fs=require("fs"),amap=require("./amap"),tr=require("./transform");
+function sp(){var a=Array.prototype.slice.call(arguments);return p.join.apply(null,[__dirname,".."].concat(a));}
+function cp(s,n){return sp("references",s+"_"+n+".json");}
+function wc(s,n,d){var f=cp(s,n);amap.ensureDir(p.dirname(f));fs.writeFileSync(f,JSON.stringify(d,null,2),"utf8");}
+function rc(s,n){return amap.readJSON(cp(s,n),0);}
+function ap(s){return sp("archives",s+"_metro.json");}
+function cf(s){try{return JSON.parse(fs.readFileSync(sp("config",s+".json"),"utf8"));}catch(e){return{};}}
 
-
-
-
-
-async function runPipeline(slug, cityName, options) {
-  try {
-
-  options = options || {};
-  const t0 = Date.now();
-  const force = !!options.force;
-  const outputFile = amap.downloadPath(slug + "_metro.json");
-  var tier = "P2";
-
-  // ===== P0: Archive copy =====
-  if (!force) {
-    const archiveFile = amap.skillPath("archives", slug + "_metro.json");
-    if (fs.existsSync(archiveFile)) {
-      amap.ensureDir(path.dirname(outputFile));
-      fs.copyFileSync(archiveFile, outputFile);
-      const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-      console.log("[P0] " + slug + ": �浵���� -> ֱ�Ӹ��� (" + elapsed + "s)");
-      return { success: true, file: outputFile, tier: "P0", stats: { elapsed: elapsed } };
-    }
-  }
-
-  // ===== Extract Phase =====
-  const refFile = amap.refPath(slug);
-  const hasRefCache = !force && fs.existsSync(refFile);
-
-  let allLines, slugCoords, ref;
-
-  if (hasRefCache) {
-    tier = "P1";
-    console.log("[P1] " + slug + ": �ο��ļ��������У�������·����");
-    ref = amap.readJSON(refFile);
-    // Build allLines from reference
-    allLines = {};
-    for (const [lid, line] of Object.entries(ref)) {
-      allLines[lid] = { num: line.line, color: line.color, stations: line.stations.map(function(s) { return { name: s }; }) };
-    }
-    // Load coords from cache and build name|lid mapping
-    slugCoords = amap.readJSON(amap.cachePath(slug + "_coords.json"), 0) || {};
-    // Also load cache lines for slug-to-name mapping
-    var cacheLines = amap.readJSON(amap.cachePath(slug + "_lines.json"), 0) || {};
-    // Build slug-to-name map from cache lines
-    var slugToName = {};
-    Object.values(cacheLines).forEach(function(l) {
-      if (l.stations) l.stations.forEach(function(s) { if (s.slug && s.name) slugToName[s.slug] = s.name; });
-    });
-    // If we have slug-to-name mapping, use it; otherwise try direct name lookup
-    var hasSlugMapping = Object.keys(slugToName).length > 0;
-    if (hasSlugMapping) {
-      // Build reverse mapping: station name -> [lid] from ref
-      var nameToLids = {};
-      Object.entries(ref).forEach(function(e) {
-        var lid = e[0];
-        e[1].stations.forEach(function(s) {
-          if (!nameToLids[s]) nameToLids[s] = [];
-          nameToLids[s].push(lid);
-        });
-      });
-      // Now match cache coords (keyed by slug path) to name|lid
-      Object.entries(slugCoords).forEach(function(e) {
-        var slugPath = e[0];
-        var coord = e[1];
-        var stnName = slugToName[slugPath] || slugPath.split("/").pop();
-        var lids = nameToLids[stnName] || [];
-        if (lids.length > 0) {
-          lids.forEach(function(lid) {
-            var key = stnName + "|" + lid;
-            slugCoords[key] = coord;
-          });
-        }
-        // Also keep the original slug path entry for fallback
-      });
-    }
-  } else {
-    console.log("[P2] " + slug + ": ȫ���̿�ʼ");
-    // Step 1: Fetch lines
-    console.log("  [1/6] ץȡ��·...");
-    allLines = await amap.fetchMetroLines(slug);
-    var lc = Object.keys(allLines).length;
-    console.log("    " + lc + " ����·");
-
-    // Step 2: Fetch stations
-    console.log("  [2/6] ץȡվ��...");
-    for (const ls of Object.values(allLines)) {
-      const stations = await amap.fetchMetroStations(slug, ls.num);
-      for (const s of stations) ls.stations.push(s);
-      if (ls.stations.length > 0) {
-        console.log("    line " + ls.num + ": " + ls.stations.length + " վ");
-      }
-    }
-
-    // Step 3: Fetch coordinates from metroman
-    console.log("  [3/6] ץȡ����...");
-    slugCoords = {};
-    const allSlugs = [...new Set(Object.values(allLines).flatMap(function(l) { return l.stations.map(function(s) { return s.slug; }); }))];
-    var done = 0;
-    for (const slugPath of allSlugs) {
-      const coord = await amap.fetchMetroCoord(slugPath);
-      if (coord) { slugCoords[slugPath] = coord; done++; }
-    }
-    console.log("    " + done + "/" + allSlugs.length);
-
-    // Step 4: Branch detection
-    console.log("  [4/6] ֧�߼��...");
-    const branches = transform.detectBranches(allLines, slugCoords);
-    for (const b of branches) {
-      const line = allLines[b.slug];
-      const brSlug = b.slug + "-branch";
-      const removed = line.stations.splice(b.i + 1, b.j - b.i);
-      allLines[brSlug] = { num: line.num, color: line.color, stations: [line.stations[b.i]].concat(removed), isBranch: true };
-    }
-    console.log("    " + branches.length + " ֧��");
-
-    // Step 5: Build reference
-    console.log("  [5/6] ���ɲο�...");
-    ref = {};
-    for (const [slugId, line] of Object.entries(allLines)) {
-      var lid = slugId;
-      var lineName = transform.resolveLineName(lid, cityName) || cityName + "����" + line.num + "����";
-      var ringL = transform.getRingForCity(slug);
-      var meta = transform.enrichLineMetadata(line, slug);
-      ref[lid] = {
-        line: line.num, name: lineName, color: line.color,
-        speed: meta.speed,
-        cars: meta.cars,
-        ring: ringL.indexOf(lid) >= 0,
-        so: 360, sc: 1380,
-        stations: line.stations.map(function(s) { return s.name; })
-      };
-    }
-    amap.writeJSON(refFile, ref);
-    amap.writeJSON(amap.cachePath(slug + "_coords.json"), slugCoords);
-
-    var totalSt = 0;
-    for (const v of Object.values(ref)) totalSt += v.stations.length;
-    console.log("    " + Object.keys(ref).length + " ��, " + totalSt + " վ");
-  }
-
-  // ===== Transform Phase =====
-  console.log("  [6/6] ����JSON...");
-
-  // Initialize coords from reference + cache (now handles name|lid keys from slug mapping)
-  var coords = {};
-  for (const [lid, line] of Object.entries(ref)) {
-    for (const name of line.stations) {
-      var key = name + "|" + lid;
-      var cached = slugCoords[key] || slugCoords[name] || slugCoords["/cities/" + slug + "/stations/" + name];
-      coords[key] = cached ? { lat: cached.lat, lng: cached.lng, source: "metroman" } : { lat: 0, lng: 0 };
-    }
-  }
-
-  // Fill missing coords via AMap geocode
-  var needsFix = Object.entries(coords).filter(function(e) { return e[1].lat === 0 && e[1].lng === 0; });
-  if (needsFix.length > 0 && process.env.AMAP_KEY) {
-    console.log("    AMap ��������: " + needsFix.length + " վ...");
-    for (const [key] of needsFix) {
-      var parts = key.split("|");
-      var stName = parts[0].replace(/վ$/, "");
-      var lineNum = parts[1].replace(/^[A-Z_]+/, "").replace(/\D/g, "");
-      await amap.rateLimit();
-      var gc = await amap.geocode(stName + "����վ" + lineNum + "����", cityName);
-      if (gc) coords[key] = { lat: gc.lat, lng: gc.lng, source: "amap_fix" };
-    }
-  }
-
-  // Interpolate remaining zero coords (via transform.js)
-  transform.interpolateZeroCoords(coords, ref);
-
-  // Build output JSON
-  var ringForCity = transform.getRingForCity(slug);
-  var ringLines = {}; ringLines[slug] = ringForCity;
-  var buildResult = transform.buildOutput(coords, ref, slug, ringLines);
-  var rawOutput = { lines: buildResult.lines, output: buildResult.output };
-  // Empty line check: skip lines with stations.length < 2 (Spec v2.0 Task 3)
-  var warnLines = [];
-  rawOutput.lines = rawOutput.lines.filter(function(l) {
-    if (l.stations && l.stations.length < 2) {
-      warnLines.push(l.id || l.name);
-      return false;
-    }
-    return true;
-  });
-  if (warnLines.length > 0) {
-    console.log("    Warn: ?????: " + warnLines.join(", "));
-  }
-  transform.sanitizeStationsData(rawOutput);
-    amap.writeJSON(outputFile, buildResult.output);
-
-  // Add anchors via AMap bus/linename (skip if no AMAP_KEY)
-  var outputData = amap.readJSON(outputFile);
-  if (process.env.AMAP_KEY) {
-    console.log("    AMap ���ê��...");
-    if (outputData && outputData.data && outputData.data.lines) {
-    for (var li = 0; li < outputData.data.lines.length; li++) {
-      var line = outputData.data.lines[li];
-      if (!line.stations || line.stations.length < 2) continue;
-      var lineName = line.name || cityName + "����";
-      // ?????? (SPEC P0-1): ???? bls[0]
-      var config = (function() { try { var r = require("fs").readFileSync(require("path").join(amap.skillPath("config"), slug + ".json"), "utf8"); return JSON.parse(r); } catch(e) { return {}; } })();
-      await amap.rateLimit();
-      var bls = await amap.busLineSearch(lineName, cityName);
-      var electResult = amap.electBusLine(bls, config, line.stations, transform.haversineKm);
-      if (electResult.line && electResult.line.polyline) {
-        console.log("    ?? [" + electResult.score.toFixed(0) + "]: " + electResult.reason);
-        var pl = electResult.line.polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
-        if (pl.length > 4) {
-          var match = transform.matchStationsToPolyline(line.stations, pl);
-          if (match && match.length >= 2) {
-            transform.fixCollapsedCoords(line.stations, pl, match);
-            var segAnchors = transform.anchorsFromMatch(line.stations, pl, match, !!(line.isRing || line.ring));
-            line.segmentAnchors = segAnchors;
-            // Snap stations to polyline (with MAX_SNAP_DIST boundary)
-            transform.snapStations(line.stations, match, pl);
-          }
-        }
-      }
-    }
-  }
-  } else {
-    console.log("    AMap ���ê��: ���� (�� AMAP_KEY)");
-  }
-
-  // Fix names (via transform.js)
-  for (var li2 = 0; li2 < outputData.data.lines.length; li2++) {
-    var l2 = outputData.data.lines[li2];
-    var fixedName = transform.resolveLineName(l2.id, cityName);
-    if (fixedName) l2.name = fixedName;
-  }
-
-  // Fix transfers with same_station + transferGroupId linking// Fix transfers with same_station + transferGroupId linking (via transform.js)
-  transform.enrichTransferFields(outputData);
-  transform.separateTransferStations({ lines: outputData.data.lines });
-
-  // Dirty data re-check before split
-  transform.sanitizeStationsData(outputData.data);
-  
-  // Split gapped lines
-  var splitResult = transform.splitGappedLines(outputData.data.lines, 8, 4);
-  if (splitResult.splitCount > 0) {
-    outputData.data.lines = splitResult.newLines;
-    outputData.data.lineCounter = splitResult.newLines.length;
-  }
-
-  // Dirty data interception
-  for (var li3 = 0; li3 < outputData.data.lines.length; li3++) {
-    var l3 = outputData.data.lines[li3];
-    if (l3.segmentAnchors) {
-      for (var si = 0; si < l3.segmentAnchors.length; si++) {
-        if (!l3.segmentAnchors[si] || l3.segmentAnchors[si].length === 0) {
-          var from = l3.stations[si];
-          var to = l3.stations[si + 1];
-          if (from && to) {
-            var pts = [];
-            for (var k = 1; k <= 5; k++) pts.push({ lat: from.lat + (to.lat - from.lat) * k / 6, lng: from.lng + (to.lng - from.lng) * k / 6 });
-            l3.segmentAnchors[si] = pts;
-          }
-        }
-      }
-    }
-  }
-
-    // Validate contract before final write (Spec v2.0 Task 4)
-    var contractResult = transform.validateContract(outputData);
-    if (!contractResult.valid) {
-      throw new Error("Contract validation FAILED: " + contractResult.errors.join("; "));
-    }
-    amap.writeJSON(outputFile, outputData);
-
-  // Validate
-  var quality = transform.validateQuality(outputData.data);
-
-  var elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-  console.log("=== " + cityName + " (" + slug + ") ��� in " + elapsed + "s ===");
-  console.log("���: " + outputFile);
-  console.log("����: " + quality.total + "/" + quality.maxScore + " (" + Math.round(quality.total / quality.maxScore * 100) + "%)");
-
-  return {
-    success: true,
-    file: outputFile,
-    tier: tier,
-    stats: { elapsed: elapsed, lines: buildResult.lines.length, stations: buildResult.stations, quality: quality }
-  };
-
-  } catch (err) {
-    var errMsg = err.message || String(err);
-    console.error("Pipeline error: " + errMsg);
-    // Write to LESSONS_LEARNED.md on DescriptiveError
-    if (errMsg.indexOf("DescriptiveError") >= 0 || errMsg.indexOf("Contract validation") >= 0) {
-      try {
-        var lessonsPath = require("path").join(amap.skillPath(), "LESSONS_LEARNED.md");
-        var fs2 = require('fs');
-        var lessons = fs2.readFileSync(lessonsPath, 'utf8');
-        var lCount = (lessons.match(/## L\d+/g) || []).length;
-        var lNum = lCount + 1;
-        var entry = "\n## L" + lNum + ": " + errMsg.substring(0, 60) + "\n";
-        entry += "- ���󣺹������ص��쳣\n";
-        entry += "- �Բߣ�" + errMsg + "\n";
-        entry += "- ��Դ��pipeline.js try-catch\n";
-        fs2.appendFileSync(lessonsPath, entry, 'utf8');
-      } catch(e) {}
-    }
-    if (errMsg.indexOf("DescriptiveError") >= 0 || errMsg.indexOf("Contract validation") >= 0) {
-      process.exit(1);
-    }
-    return { success: false, error: errMsg, tier: "ERR" };
-  }
+async function fetchLines(slug,cn){
+  var is=[],ls;try{ls=await amap.fetchMetroLines(slug);}catch(e){return {data:null,meta:{step:"fetchLines"},health:"FAIL",issues:[{severity:"FAIL",code:"E001",msg:e.message}]};}
+  for(var i=0;i<ls.length;i++){try{ls[i].stations=await amap.fetchMetroStations(slug,ls[i].num);}catch(e){ls[i].stations=[];}}
+  if(ls.length===0)is.push({severity:"FAIL",code:"E001",msg:"0 lines"});
+  return {data:{lines:ls},meta:{step:"fetchLines",lineCount:ls.length},health:is.length?"FAIL":"OK",issues:is};
 }
 
+async function fetchCoords(slug,cn,ld){
+  var is=[],al=ld.lines||{},cfg=cf(slug),bb=cfg.bbox||{};
+  var slugs=[...new Set(Object.values(al).flatMap(function(l){return (l.stations||[]).map(function(s){return s.slug;});}))];
+  var sc={},done=0;
+  for(var i=0;i<slugs.length;i++){try{var c=await amap.fetchMetroCoord(slugs[i]);if(c){sc[slugs[i]]=c;done++;}}catch(e){}}
+  var ol={},ts=0,mc=0,cl=[],obl=[];
+  Object.entries(al).forEach(function(e){
+    var lid=e[0],line=e[1];
+    var sts=(line.stations||[]).map(function(st){var c=sc[st.slug]||{};return {name:st.name,slug:st.slug,lat:c.lat||0,lng:c.lng||0};});
+    ol[lid]={num:line.num,name:line.name,color:line.color,stations:sts,isRing:!!line.ring};
+    ts+=sts.length;var miss=sts.filter(function(s){return s.lat===0&&s.lng===0;});if(miss.length)mc+=miss.length;
+    var f=sts[0];if(f&&sts.length>1&&sts.every(function(s){return s.lat===f.lat&&s.lng===f.lng;}))cl.push(lid);
+    if(bb.minLat!==undefined){var o=sts.filter(function(s){return s.lat!==0&&(s.lat<bb.minLat||s.lat>bb.maxLat||s.lng<bb.minLng||s.lng>bb.maxLng);});if(o.length)obl.push({lid:lid,count:o.length});}
+  });
+  if(cl.length)is.push({severity:"FAIL",code:"E002",msg:"collapsed:"+cl.join(","),detail:{lines:cl}});
+  if(mc)is.push({severity:"WARN",code:"E003",msg:mc+" missing",detail:{count:mc}});
+  if(obl.length)is.push({severity:"WARN",code:"E004",msg:obl.length+" oob",detail:{lines:obl}});
+  return {data:{lines:ol,slugCoords:sc},meta:{step:"fetchCoords",totalStations:ts,stationsMissingCoords:mc},health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",issues:is};
+}
 
-module.exports = { runPipeline };
+function detectBranches(slug,ld){
+  var al=JSON.parse(JSON.stringify(ld.lines||ld)),sc={};
+  Object.values(al).forEach(function(l){(l.stations||[]).forEach(function(s){if(s.slug&&s.lat)sc[s.slug]={lat:s.lat,lng:s.lng};});});
+  var br=tr.detectBranches(al,sc);
+  for(var b=0;b<br.length;b++){var r=br[b],p=al[r.slug];if(!p)continue;var rm=p.stations.splice(r.i+1,r.j-r.i);al[r.slug+"-b"]={num:p.num,color:p.color,stations:[p.stations[r.i]].concat(rm),isBranch:true,isRing:false};}
+  return {data:{lines:al},meta:{step:"detectBranches",branchCount:br.length},health:"OK",issues:[]};
+}
 
+function buildReference(slug,ld){
+  var al=ld.lines||ld,ref={},brc={};
+  Object.entries(al).forEach(function(e){
+    var lid=e[0],line=e[1];
+    var nm=tr.resolveLineName(lid,slug)||tr.resolveLineName(String(line.num),slug)||line.name||slug+"m";
+    var md=tr.enrichLineMetadata(line,slug),rl=tr.getRingForCity(slug);
+    var sn=[],sw=(line.stations||[]);
+    sw.forEach(function(s){var n=s.name||s;sn.push(n);if(s.lat)brc[n+"|"+lid]={lat:s.lat,lng:s.lng,source:"m"};});
+    ref[lid]={line:line.num,name:nm,color:line.color,speed:md.speed,cars:md.cars,ring:rl.indexOf(lid)>=0||!!line.isRing,stations:sn};
+  });
+  return {data:{ref:ref,brCoords:brc},meta:{step:"buildReference",lineCount:Object.keys(ref).length},health:"OK",issues:[]};
+}
+
+function buildGameJson(slug,rd){
+  var is=[],ref=rd.ref||rd,bc=rd.brCoords||{},coords={};
+  Object.entries(ref).forEach(function(e){var lid=e[0],line=e[1];(line.stations||[]).forEach(function(s){coords[s+"|"+lid]={lat:0,lng:0,s:"i"};});});
+  Object.keys(bc).forEach(function(k){if(coords[k]&&bc[k].lat!==0)coords[k]=bc[k];});
+  tr.interpolateZeroCoords(coords,ref);
+  var rf=tr.getRingForCity(slug),rl={};rl[slug]=rf;
+  var br2=tr.buildOutput(coords,ref,slug,rl);
+  var el=br2.lines.filter(function(l){return !l.stations||!l.stations.length;});
+  if(el.length)is.push({severity:"FAIL",code:"E005",msg:el.length+" lines 0 st: "+el.map(function(l){return l.id;}).join(",")});
+  if((br2.stations||0)<10)is.push({severity:"WARN",code:"E006",msg:"st too few: "+br2.stations});
+  var o=br2.output;tr.sanitizeStationsData(o.data);tr.enrichTransferFields(o);tr.separateTransferStations({lines:o.data.lines});
+  var sp2=tr.splitGappedLines(o.data.lines,8,4);if(sp2.splitCount){o.data.lines=sp2.newLines;o.data.lineCounter=sp2.newLines.length;}
+  return {data:o,meta:{step:"buildGameJson",lines:br2.lines.length,stations:br2.stations},health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",issues:is};
+}
+
+async function generateAnchors(slug,cn,gj){
+  var is=[],od=JSON.parse(JSON.stringify(gj));
+  if(!od.data)od={data:{lines:od.lines||od}};
+  var ls=(od.data&&od.data.lines)||od.lines||[],ta=0,zs=0,sc=0,c2=cf(slug);
+  for(var li=0;li<ls.length;li++){
+    var l=ls[li];if(!l.stations||l.stations.length<2)continue;
+    try{await amap.rateLimit();var bls=await amap.busLineSearch(l.name||cn+"m",cn);var er=amap.electBusLine(bls,c2,l.stations,tr.haversineKm);if(er.line&&er.line.polyline){var pl=er.line.polyline.split(";").map(function(p){var ps=p.split(",");return {lng:+ps[0],lat:+ps[1]};});if(pl.length>4){var mt=tr.matchStationsToPolyline(l.stations,pl);if(mt&&mt.length>=2){tr.fixCollapsedCoords(l.stations,pl,mt);l.segmentAnchors=tr.anchorsFromMatch(l.stations,pl,mt,!!(l.isRing||l.ring));tr.snapStations(l.stations,mt,pl);}}}}catch(e){is.push({severity:"WARN",code:"E010",msg:cn+" "+(l.id||"")+" fail: "+e.message,detail:{}});}
+    if(l.segmentAnchors){for(var a=0;a<l.segmentAnchors.length;a++){if(l.segmentAnchors[a]&&l.segmentAnchors[a].length>0)ta+=l.segmentAnchors[a].length;else zs++;sc++;}}
+    if(l.segmentAnchors&&l.segmentAnchors.length>0&&l.stations.length>=2){for(var s2=0;s2<l.segmentAnchors.length;s2++){if(!l.segmentAnchors[s2]||!l.segmentAnchors[s2].length){var f=l.stations[s2],t=l.stations[s2+1]||l.stations[s2];if(f&&t){var pts=[];for(var k=1;k<=5;k++)pts.push({lat:f.lat+(t.lat-f.lat)*k/6,lng:f.lng+(t.lng-f.lng)*k/6});l.segmentAnchors[s2]=pts;}}}}
+  }
+  var zr=sc?zs/sc:0;if(zr>0.3)is.push({severity:"WARN",code:"E007",msg:"zr "+(zr*100).toFixed(1)+"%"});if(ta>5000)is.push({severity:"WARN",code:"E008",msg:"ta "+ta+" >5k"});
+  return {data:od,meta:{step:"generateAnchors",totalAnchors:ta},health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",issues:is};
+}
+
+function validate(slug,gj){
+  var is=[],d=gj.data||gj,ls=d.lines||[],c2=cf(slug),bb=c2.bbox||{};
+  var ts=0,ta=0,zs=0,sc=0,cl=[],oos=0,tsi=0;
+  if(!ls.length)is.push({severity:"FAIL",code:"E001",msg:"0 lines"});
+  for(var i=0;i<ls.length;i++){var l=ls[i],st=l.stations||[];ts+=st.length;if(!st.length)is.push({severity:"FAIL",code:"E005",msg:"empty:"+(l.id||l.name),detail:{}});if(st.length>1){var f=st[0];if(st.every(function(s){return s.lat===f.lat&&s.lng===f.lng;}))cl.push(l.id||l.name);}if(bb.minLat!==undefined)st.forEach(function(s){if(s.lat&&(s.lat<bb.minLat||s.lat>bb.maxLat||s.lng<bb.minLng||s.lng>bb.maxLng))oos++;});for(var t=0;t<st.length-1;t++){if(st[t].isTransfer&&st[t+1].isTransfer){var d2=tr.approximateM(st[t],st[t+1]);if(d2<30&&d2>0)tsi++;}}if(l.segmentAnchors)l.segmentAnchors.forEach(function(seg){if(seg&&seg.length>0)ta+=seg.length;else zs++;sc++;});}
+  if(cl.length)is.push({severity:"FAIL",code:"E002",msg:"collapsed:"+cl.join(",")});if(oos)is.push({severity:"WARN",code:"E004",msg:oos+" oob"});var zr=sc?zs/sc:0;if(zr>0.3)is.push({severity:"WARN",code:"E007",msg:"zr "+(zr*100).toFixed(1)+"%"});if(ta>5000)is.push({severity:"WARN",code:"E008",msg:"ta "+ta});if(tsi)is.push({severity:"WARN",code:"E009",msg:tsi+" xfer <30m"});
+  return {health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",stats:{lines:ls.length,stations:ts,totalAnchors:ta,zeroAnchorSegments:zs,zeroAnchorRatio:zr,collapsedLines:cl,outOfBboxStations:oos,transferSeparationIssues:tsi},issues:is};
+}
+
+async function runPipeline(slug,cn,op){
+  op=op||{};var t0=Date.now(),f=!!op.force,sn=op.step||null,rs=op.resume||null,vo=op.validate||false,af=ap(slug);
+  if(!f&&!sn&&!rs&&!vo&&fs.existsSync(af)){amap.ensureDir(p.dirname(amap.downloadPath("")));fs.copyFileSync(af,amap.downloadPath(slug+"_m.json"));return {success:true,health:"OK",tier:"P0",steps:[],stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)}};}
+  if(vo){if(fs.existsSync(af)){var gjd=amap.readJSON(af,0);var vr=validate(slug,gjd);return {success:vr.health!=="FAIL",health:vr.health,tier:"VAL",validate:vr,steps:[],stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)}};}return {success:false,health:"FAIL",tier:"VAL",validate:{health:"FAIL",issues:[{severity:"FAIL",code:"E001",msg:"no archive"}]},steps:[],stats:{elapsed:"0"}};}
+  var steps=[{n:"fetchLines",fn:function(){return fetchLines(slug,cn);}},{n:"fetchCoords",fn:function(pr){return fetchCoords(slug,cn,pr.data);}},{n:"detectBranches",fn:function(pr){return detectBranches(slug,pr.data);}},{n:"buildReference",fn:function(pr){return buildReference(slug,pr.data);}},{n:"buildGameJson",fn:function(pr){return buildGameJson(slug,pr.data);}},{n:"generateAnchors",fn:function(pr){return generateAnchors(slug,cn,pr.data);}}];
+  var sr=[],pr=null,si=0;
+  if(sn){var fd=false;for(var i=0;i<steps.length;i++){if(steps[i].n===sn){si=i;fd=true;break;}}if(!fd)return {success:false,health:"FAIL",tier:"ERR",steps:[],stats:{elapsed:"0"},error:"unknown step:"+sn};}else if(rs){var fdr=false;for(var i=0;i<steps.length;i++){if(steps[i].n===rs){si=i;fdr=true;break;}var c=rc(slug,steps[i].n);if(c){sr.push({data:c,meta:{step:steps[i].n,cached:true},health:"OK",issues:[]});pr={data:c};}else return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"no cache:"+steps[i].n};}if(!fdr)return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"unknown step:"+rs};}
+  if(si===0&&!f&&!sn&&!rs){var lr=sp("references",slug+"_lines.json");var p1=rc(slug,"fetchLines");if(!p1&&fs.existsSync(lr)){var ld=amap.readJSON(lr,0);if(ld){var cl2={lines:[]};Object.entries(ld).forEach(function(e){cl2.lines.push({num:e[1].line,name:e[1].name,color:e[1].color,stations:(e[1].stations||[]).map(function(s){return {name:s,slug:""};}),isRing:!!e[1].ring});});p1={lines:cl2.lines};wc(slug,"fetchLines",p1);}}if(p1){var rc2=rc(slug,"fetchCoords");if(rc2){sr.push({data:p1,meta:{step:"fetchLines",cached:true},health:"OK",issues:[]});sr.push({data:rc2,meta:{step:"fetchCoords",cached:true},health:"OK",issues:[]});pr={data:rc2};si=2;}else{sr.push({data:p1,meta:{step:"fetchLines",cached:true},health:"OK",issues:[]});pr={data:p1};si=1;}}}
+  for(var si2=si;si2<steps.length;si2++){if(sn&&si2>si)break;var res;try{res=await steps[si2].fn(pr);}catch(e){res={data:null,meta:{step:steps[si2].n},health:"FAIL",issues:[{severity:"FAIL",code:"E000",msg:e.message}]};}sr.push(res);pr=res;if(res.data!==null&&res.data!==undefined)wc(slug,steps[si2].n,res.data);if(res.health==="FAIL"){console.log("Step "+steps[si2].n+" FAIL:");res.issues.forEach(function(ix){console.log("  ["+ix.severity+"] "+ix.msg);});return {success:false,health:"FAIL",tier:sn?"STEP":"ERR",steps:sr,stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)}};}if(res.health==="WARN")res.issues.forEach(function(ix){console.warn("  [WARN] "+ix.msg);});}
+  var fd2=pr?pr.data:null;
+  if(fd2&&!sn){amap.ensureDir(p.dirname(af));var cv=tr.validateContract(fd2);if(!cv.valid)return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)},error:"CV fail:"+cv.errors.join(";")};fs.writeFileSync(af,JSON.stringify(fd2,null,2),"utf8");fs.writeFileSync(amap.downloadPath(slug+"_m.json"),JSON.stringify(fd2,null,2),"utf8");}
+  var fv=(fd2&&!sn)?validate(slug,fd2):null;
+  var rh=sr.some(function(r){return r.health==="FAIL";})?"FAIL":sr.some(function(r){return r.health==="WARN";})?"WARN":"OK";
+  return {success:rh!=="FAIL",health:rh,tier:sn?"STEP":rs?"RESUME":"P2",steps:sr,validate:fv,stats:{elapsed:((Date.now()-t0)/1000).toFixed(1),lines:fd2&&fd2.data&&fd2.data.lineCounter,stations:fv?fv.stats.stations:null}};
+}
+
+module.exports={fetchLines,fetchCoords,detectBranches,buildReference,buildGameJson,generateAnchors,validate,runPipeline};

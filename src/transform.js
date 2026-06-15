@@ -869,6 +869,21 @@ var RING_LINES = {
 var MAX_SNAP_DIST = 2000; // 2km
 
 
+/**
+ * ??????? (SPEC v2.0)
+ * ??????????????????
+ * @param {object} line - ?????? num ???
+ * @param {string} slug - ?? slug
+ * @returns {{ speed: number, cars: number }}
+ */
+function enrichLineMetadata(line, slug) {
+  var speed = ([16,19].indexOf(line.num) >= 0 ? 120 : [7,11,21].indexOf(line.num) >= 0 ? 100 : 80);
+  var cars = ([1,16,19,21].indexOf(line.num) >= 0 ? 4 : 6);
+  return { speed: speed, cars: cars };
+}
+
+
+
 function interpolateZeroCoords(coords, ref) {
   for (var lid in ref) {
     var line = ref[lid];
@@ -1055,7 +1070,9 @@ module.exports = {
   validateContract,
   resolveLineName,
   getSpecialLineNames,
-  getRingForCity
+  getRingForCity,
+  enrichLineMetadata
+
 };
 
 

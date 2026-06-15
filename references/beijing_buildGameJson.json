@@ -1,0 +1,6877 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-06-15T14:20:55.787Z",
+  "data": {
+    "cityKey": "beijing",
+    "lineCounter": 19,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "0",
+        "name": "beijing地铁0号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C43830",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 46,
+        "freqOff": 23,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_0_1",
+            "lat": 39.925608202883716,
+            "lng": 116.1781936048918,
+            "name": "苹果园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苹果园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苹果园站"
+          },
+          {
+            "sid": "beijing_0_2",
+            "lat": 39.907449,
+            "lng": 116.19033,
+            "name": "古城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_3",
+            "lat": 39.907416,
+            "lng": 116.235894,
+            "name": "八宝山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_4",
+            "lat": 39.907439,
+            "lng": 116.252884,
+            "name": "玉泉路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_5",
+            "lat": 39.907456,
+            "lng": 116.273987,
+            "name": "五棵松站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_6",
+            "lat": 39.907466,
+            "lng": 116.294752,
+            "name": "万寿路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_7",
+            "lat": 39.907212825741816,
+            "lng": 116.31033623630721,
+            "name": "公主坟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "公主坟站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "公主坟站"
+          },
+          {
+            "sid": "beijing_0_8",
+            "lat": 39.90716333774938,
+            "lng": 116.32151177145322,
+            "name": "军事博物馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "军事博物馆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "军事博物馆站"
+          },
+          {
+            "sid": "beijing_0_9",
+            "lat": 39.90711417884184,
+            "lng": 116.3340429978998,
+            "name": "木樨地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "木樨地站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "木樨地站"
+          },
+          {
+            "sid": "beijing_0_10",
+            "lat": 39.907236,
+            "lng": 116.352584,
+            "name": "南礼士路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_11",
+            "lat": 39.90691559501225,
+            "lng": 116.35690905106726,
+            "name": "复兴门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "复兴门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "复兴门站"
+          },
+          {
+            "sid": "beijing_0_12",
+            "lat": 39.90692080648595,
+            "lng": 116.37431198952646,
+            "name": "西单站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西单站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西单站"
+          },
+          {
+            "sid": "beijing_0_13",
+            "lat": 39.907469,
+            "lng": 116.391277,
+            "name": "天安门西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_14",
+            "lat": 39.90777,
+            "lng": 116.401208,
+            "name": "天安门东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_15",
+            "lat": 39.90781876652801,
+            "lng": 116.41141827118585,
+            "name": "王府井站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王府井站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "王府井站"
+          },
+          {
+            "sid": "beijing_0_16",
+            "lat": 39.90806140210278,
+            "lng": 116.41854594031098,
+            "name": "东单站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东单站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东单站"
+          },
+          {
+            "sid": "beijing_0_17",
+            "lat": 39.90829454530747,
+            "lng": 116.43583576499432,
+            "name": "建国门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建国门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "建国门站"
+          },
+          {
+            "sid": "beijing_0_18",
+            "lat": 39.908208121634416,
+            "lng": 116.45036671657508,
+            "name": "永安里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永安里站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "永安里站"
+          },
+          {
+            "sid": "beijing_0_19",
+            "lat": 39.908152196668155,
+            "lng": 116.46189508525156,
+            "name": "国贸站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国贸站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "国贸站"
+          },
+          {
+            "sid": "beijing_0_20",
+            "lat": 39.90802488004686,
+            "lng": 116.4779993294806,
+            "name": "大望路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大望路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大望路站"
+          },
+          {
+            "sid": "beijing_0_21",
+            "lat": 39.908749,
+            "lng": 116.495454,
+            "name": "四惠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_22",
+            "lat": 39.908504,
+            "lng": 116.515653,
+            "name": "四惠东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_23",
+            "lat": 39.909449,
+            "lng": 116.531416,
+            "name": "高碑店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_24",
+            "lat": 39.909217,
+            "lng": 116.554639,
+            "name": "传媒大学站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_25",
+            "lat": 39.910136,
+            "lng": 116.576754,
+            "name": "双桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_26",
+            "lat": 39.909102,
+            "lng": 116.598975,
+            "name": "管庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_27",
+            "lat": 39.906122,
+            "lng": 116.61865,
+            "name": "八里桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_28",
+            "lat": 39.90386,
+            "lng": 116.637245,
+            "name": "通州北苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_29",
+            "lat": 39.89334,
+            "lng": 116.646622,
+            "name": "果园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_30",
+            "lat": 39.890279,
+            "lng": 116.657528,
+            "name": "九棵树站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_31",
+            "lat": 39.883682,
+            "lng": 116.668715,
+            "name": "梨园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_32",
+            "lat": 39.8755,
+            "lng": 116.678808,
+            "name": "临河里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_33",
+            "lat": 39.871931,
+            "lng": 116.686345,
+            "name": "土桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_0_34",
+            "lat": 39.856692472608906,
+            "lng": 116.69576486476477,
+            "name": "花庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "花庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "花庄站"
+          },
+          {
+            "sid": "beijing_0_35",
+            "lat": 39.84936476718239,
+            "lng": 116.67892768374357,
+            "name": "环球度假区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "环球度假区站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "环球度假区站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "1",
+        "name": "beijing地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#1077B5",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 20,
+        "freqOff": 10,
+        "freqLow": 7,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_1_1",
+            "lat": 39.94035400270619,
+            "lng": 116.35517436574085,
+            "name": "西直门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西直门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西直门站"
+          },
+          {
+            "sid": "beijing_1_2",
+            "lat": 39.93233663950298,
+            "lng": 116.35560078143166,
+            "name": "车公庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "车公庄站"
+          },
+          {
+            "sid": "beijing_1_3",
+            "lat": 39.923677,
+            "lng": 116.356212,
+            "name": "阜成门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_1_4",
+            "lat": 39.90713459892645,
+            "lng": 116.35659174268204,
+            "name": "复兴门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "复兴门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "复兴门站"
+          },
+          {
+            "sid": "beijing_1_5",
+            "lat": 39.899433,
+            "lng": 116.363366,
+            "name": "长椿街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_1_6",
+            "lat": 39.899521741987634,
+            "lng": 116.37440716565963,
+            "name": "宣武门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宣武门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "宣武门站"
+          },
+          {
+            "sid": "beijing_1_7",
+            "lat": 39.900099,
+            "lng": 116.384206,
+            "name": "和平门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_1_8",
+            "lat": 39.90037166576102,
+            "lng": 116.40310883664664,
+            "name": "前门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "前门站"
+          },
+          {
+            "sid": "beijing_1_9",
+            "lat": 39.90090106116503,
+            "lng": 116.41869607188963,
+            "name": "崇文门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "崇文门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "崇文门站"
+          },
+          {
+            "sid": "beijing_1_10",
+            "lat": 39.904957,
+            "lng": 116.427293,
+            "name": "北京站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_1_11",
+            "lat": 39.90837659609542,
+            "lng": 116.43597943629204,
+            "name": "建国门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "建国门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "建国门站"
+          },
+          {
+            "sid": "beijing_1_12",
+            "lat": 39.92451205968881,
+            "lng": 116.43476003191184,
+            "name": "朝阳门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "朝阳门站"
+          },
+          {
+            "sid": "beijing_1_13",
+            "lat": 39.93377052636876,
+            "lng": 116.43439063383809,
+            "name": "东四十条站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东四十条站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东四十条站"
+          },
+          {
+            "sid": "beijing_1_14",
+            "lat": 39.94169364661845,
+            "lng": 116.43373234162094,
+            "name": "东直门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东直门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东直门站"
+          },
+          {
+            "sid": "beijing_1_15",
+            "lat": 39.949618269504825,
+            "lng": 116.41650335676235,
+            "name": "雍和宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "雍和宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "雍和宫站"
+          },
+          {
+            "sid": "beijing_1_16",
+            "lat": 39.949098,
+            "lng": 116.408216,
+            "name": "安定门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_1_17",
+            "lat": 39.94923138874488,
+            "lng": 116.39379292317255,
+            "name": "鼓楼大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼大街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "鼓楼大街站"
+          },
+          {
+            "sid": "beijing_1_18",
+            "lat": 39.94887248440638,
+            "lng": 116.37167581705735,
+            "name": "积水潭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "积水潭站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "积水潭站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "2",
+        "name": "beijing地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E21441",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 12,
+        "freqOff": 6,
+        "freqLow": 4,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_2_1",
+            "lat": 39.93343374349973,
+            "lng": 116.43407818293663,
+            "name": "东四十条站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东四十条站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东四十条站"
+          },
+          {
+            "sid": "beijing_2_2",
+            "lat": 39.93349043353051,
+            "lng": 116.450502232257,
+            "name": "工人体育场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "工人体育场站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "工人体育场站"
+          },
+          {
+            "sid": "beijing_2_3",
+            "lat": 39.93348253654049,
+            "lng": 116.46186172340241,
+            "name": "团结湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "团结湖站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "团结湖站"
+          },
+          {
+            "sid": "beijing_2_4",
+            "lat": 39.933483685519505,
+            "lng": 116.4783570932586,
+            "name": "朝阳公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳公园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "朝阳公园站"
+          },
+          {
+            "sid": "beijing_2_5",
+            "lat": 39.935395,
+            "lng": 116.499461,
+            "name": "石佛营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_2_6",
+            "lat": 39.943773,
+            "lng": 116.505761,
+            "name": "朝阳站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_2_7",
+            "lat": 39.947748,
+            "lng": 116.527281,
+            "name": "姚家园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_2_8",
+            "lat": 39.952141,
+            "lng": 116.547137,
+            "name": "东坝南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_2_9",
+            "lat": 39.96573,
+            "lng": 116.547126,
+            "name": "东坝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_2_10",
+            "lat": 39.975481370643145,
+            "lng": 116.55729440324384,
+            "name": "东坝北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东坝北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东坝北站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "3",
+        "name": "beijing地铁3号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00979E",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 44,
+        "freqOff": 22,
+        "freqLow": 15,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_3_1",
+            "lat": 40.012198,
+            "lng": 116.269955,
+            "name": "安河桥北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_2",
+            "lat": 40.002417,
+            "lng": 116.277345,
+            "name": "北宫门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_3",
+            "lat": 39.99799264558636,
+            "lng": 116.29092323103342,
+            "name": "西苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西苑站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西苑站"
+          },
+          {
+            "sid": "beijing_3_4",
+            "lat": 39.999581,
+            "lng": 116.309873,
+            "name": "圆明园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_5",
+            "lat": 39.992128,
+            "lng": 116.315809,
+            "name": "北京大学东门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_6",
+            "lat": 39.983991,
+            "lng": 116.316464,
+            "name": "中关村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_7",
+            "lat": 39.97587812194022,
+            "lng": 116.31732026768181,
+            "name": "海淀黄庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海淀黄庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "海淀黄庄站"
+          },
+          {
+            "sid": "beijing_3_8",
+            "lat": 39.96681122254002,
+            "lng": 116.32113503237503,
+            "name": "人民大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民大学站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "人民大学站"
+          },
+          {
+            "sid": "beijing_3_9",
+            "lat": 39.957909,
+            "lng": 116.323205,
+            "name": "魏公村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_10",
+            "lat": 39.94172780803347,
+            "lng": 116.32517404554888,
+            "name": "国家图书馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国家图书馆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "国家图书馆站"
+          },
+          {
+            "sid": "beijing_3_11",
+            "lat": 39.93825,
+            "lng": 116.33902,
+            "name": "动物园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_12",
+            "lat": 39.94020151284439,
+            "lng": 116.35543855947353,
+            "name": "西直门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西直门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西直门站"
+          },
+          {
+            "sid": "beijing_3_13",
+            "lat": 39.940686,
+            "lng": 116.367589,
+            "name": "新街口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_14",
+            "lat": 39.93241717309616,
+            "lng": 116.37269174182384,
+            "name": "平安里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平安里站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "平安里站"
+          },
+          {
+            "sid": "beijing_3_15",
+            "lat": 39.924206,
+            "lng": 116.373323,
+            "name": "西四站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_16",
+            "lat": 39.916058,
+            "lng": 116.373697,
+            "name": "灵境胡同站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_17",
+            "lat": 39.90722773845508,
+            "lng": 116.3739881302875,
+            "name": "西单站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西单站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西单站"
+          },
+          {
+            "sid": "beijing_3_18",
+            "lat": 39.89983026429445,
+            "lng": 116.37407954707238,
+            "name": "宣武门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宣武门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "宣武门站"
+          },
+          {
+            "sid": "beijing_3_19",
+            "lat": 39.889362461278125,
+            "lng": 116.37469530691074,
+            "name": "菜市口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "菜市口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "菜市口站"
+          },
+          {
+            "sid": "beijing_3_20",
+            "lat": 39.878469,
+            "lng": 116.374375,
+            "name": "陶然亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_21",
+            "lat": 39.86504941992459,
+            "lng": 116.37922857167047,
+            "name": "北京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北京南站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北京南站站"
+          },
+          {
+            "sid": "beijing_3_22",
+            "lat": 39.853427,
+            "lng": 116.371397,
+            "name": "马家堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_23",
+            "lat": 39.845816370392704,
+            "lng": 116.37088727452998,
+            "name": "角门西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "角门西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "角门西站"
+          },
+          {
+            "sid": "beijing_3_24",
+            "lat": 39.836998,
+            "lng": 116.370832,
+            "name": "公益西桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_25",
+            "lat": 39.81244915316195,
+            "lng": 116.36533419582682,
+            "name": "新宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "新宫站"
+          },
+          {
+            "sid": "beijing_3_26",
+            "lat": 39.7898,
+            "lng": 116.328681,
+            "name": "西红门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_27",
+            "lat": 39.773555,
+            "lng": 116.33078,
+            "name": "高米店北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_28",
+            "lat": 39.763492,
+            "lng": 116.3316,
+            "name": "高米店南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_29",
+            "lat": 39.753464,
+            "lng": 116.3322,
+            "name": "枣园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_30",
+            "lat": 39.742725,
+            "lng": 116.33251,
+            "name": "清源路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_31",
+            "lat": 39.731768,
+            "lng": 116.33263,
+            "name": "黄村西大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_32",
+            "lat": 39.7229975,
+            "lng": 116.3326142,
+            "name": "黄村火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_33",
+            "lat": 39.712383,
+            "lng": 116.319072,
+            "name": "义和庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_34",
+            "lat": 39.686526,
+            "lng": 116.321622,
+            "name": "生物医药基地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_3_35",
+            "lat": 39.670342,
+            "lng": 116.319927,
+            "name": "天宫院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "4",
+        "name": "beijing地铁4号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#BF1DA0",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 26,
+        "freqOff": 13,
+        "freqLow": 9,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_4_1",
+            "lat": 40.083664,
+            "lng": 116.412882,
+            "name": "天通苑北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_2",
+            "lat": 40.07422092745243,
+            "lng": 116.41292461865237,
+            "name": "天通苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天通苑站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "天通苑站"
+          },
+          {
+            "sid": "beijing_4_3",
+            "lat": 40.066624,
+            "lng": 116.412677,
+            "name": "天通苑南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_4",
+            "lat": 40.05257304472531,
+            "lng": 116.41221105622806,
+            "name": "立水桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "立水桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "立水桥站"
+          },
+          {
+            "sid": "beijing_4_5",
+            "lat": 40.041959,
+            "lng": 116.414494,
+            "name": "立水桥南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_6",
+            "lat": 40.03044,
+            "lng": 116.41809,
+            "name": "北苑路北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_7",
+            "lat": 40.00307997917649,
+            "lng": 116.41720667669499,
+            "name": "大屯路东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大屯路东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大屯路东站"
+          },
+          {
+            "sid": "beijing_4_8",
+            "lat": 39.987821,
+            "lng": 116.417046,
+            "name": "惠新西街北口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_9",
+            "lat": 39.97706128342015,
+            "lng": 116.41733084098313,
+            "name": "惠新西街南口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惠新西街南口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "惠新西街南口站"
+          },
+          {
+            "sid": "beijing_4_10",
+            "lat": 39.96909183139781,
+            "lng": 116.41770999734433,
+            "name": "和平西桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和平西桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "和平西桥站"
+          },
+          {
+            "sid": "beijing_4_11",
+            "lat": 39.958727,
+            "lng": 116.418511,
+            "name": "和平里北街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_12",
+            "lat": 39.94927353120125,
+            "lng": 116.41676380842367,
+            "name": "雍和宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "雍和宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "雍和宫站"
+          },
+          {
+            "sid": "beijing_4_13",
+            "lat": 39.940994,
+            "lng": 116.416882,
+            "name": "北新桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_14",
+            "lat": 39.933633,
+            "lng": 116.417388,
+            "name": "张自忠路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_15",
+            "lat": 39.924241406964626,
+            "lng": 116.41723438154631,
+            "name": "东四站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东四站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东四站"
+          },
+          {
+            "sid": "beijing_4_16",
+            "lat": 39.917108,
+            "lng": 116.417787,
+            "name": "灯市口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_17",
+            "lat": 39.90836432606058,
+            "lng": 116.41821475511637,
+            "name": "东单站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东单站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东单站"
+          },
+          {
+            "sid": "beijing_4_18",
+            "lat": 39.90118818840575,
+            "lng": 116.41831688666407,
+            "name": "崇文门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "崇文门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "崇文门站"
+          },
+          {
+            "sid": "beijing_4_19",
+            "lat": 39.89308647513021,
+            "lng": 116.4186116184179,
+            "name": "磁器口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "磁器口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "磁器口站"
+          },
+          {
+            "sid": "beijing_4_20",
+            "lat": 39.882553,
+            "lng": 116.420829,
+            "name": "天坛东门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_21",
+            "lat": 39.86546952099187,
+            "lng": 116.42141403328367,
+            "name": "蒲黄榆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "蒲黄榆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "蒲黄榆站"
+          },
+          {
+            "sid": "beijing_4_22",
+            "lat": 39.857524,
+            "lng": 116.422114,
+            "name": "刘家窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_4_23",
+            "lat": 39.845673147300786,
+            "lng": 116.42817640309502,
+            "name": "宋家庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宋家庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "宋家庄站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "5",
+        "name": "beijing地铁5号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#D3A554",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 48,
+        "freqOff": 24,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_5_1",
+            "lat": 39.92331950889941,
+            "lng": 116.16119012400445,
+            "name": "金安桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金安桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "金安桥站"
+          },
+          {
+            "sid": "beijing_5_2",
+            "lat": 39.9255267603793,
+            "lng": 116.1783829298167,
+            "name": "苹果园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苹果园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苹果园站"
+          },
+          {
+            "sid": "beijing_5_3",
+            "lat": 39.927859,
+            "lng": 116.187007,
+            "name": "杨庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_4",
+            "lat": 39.933745,
+            "lng": 116.206337,
+            "name": "西黄村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_5",
+            "lat": 39.932429,
+            "lng": 116.2273,
+            "name": "廖公庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_6",
+            "lat": 39.929499,
+            "lng": 116.252902,
+            "name": "田村站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_7",
+            "lat": 39.932416,
+            "lng": 116.2766,
+            "name": "海淀五路居站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_8",
+            "lat": 39.93239970222688,
+            "lng": 116.2953606053347,
+            "name": "慈寿寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "慈寿寺站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "慈寿寺站"
+          },
+          {
+            "sid": "beijing_5_9",
+            "lat": 39.932334,
+            "lng": 116.310512,
+            "name": "花园桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_10",
+            "lat": 39.93225091558401,
+            "lng": 116.32559669033486,
+            "name": "白石桥南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白石桥南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "白石桥南站"
+          },
+          {
+            "sid": "beijing_5_11",
+            "lat": 39.932150596435235,
+            "lng": 116.3337550069097,
+            "name": "二里沟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "二里沟站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "二里沟站"
+          },
+          {
+            "sid": "beijing_5_12",
+            "lat": 39.932462,
+            "lng": 116.344078,
+            "name": "车公庄西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_13",
+            "lat": 39.9321407600738,
+            "lng": 116.35581009816437,
+            "name": "车公庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "车公庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "车公庄站"
+          },
+          {
+            "sid": "beijing_5_14",
+            "lat": 39.93232291163313,
+            "lng": 116.37290691428636,
+            "name": "平安里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平安里站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "平安里站"
+          },
+          {
+            "sid": "beijing_5_15",
+            "lat": 39.933247,
+            "lng": 116.386825,
+            "name": "北海北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_16",
+            "lat": 39.932851792295956,
+            "lng": 116.40297305775545,
+            "name": "南锣鼓巷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南锣鼓巷站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "南锣鼓巷站"
+          },
+          {
+            "sid": "beijing_5_17",
+            "lat": 39.92406042484025,
+            "lng": 116.41737483502322,
+            "name": "东四站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东四站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东四站"
+          },
+          {
+            "sid": "beijing_5_18",
+            "lat": 39.92417922597903,
+            "lng": 116.43443578739922,
+            "name": "朝阳门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "朝阳门站"
+          },
+          {
+            "sid": "beijing_5_19",
+            "lat": 39.92277875198064,
+            "lng": 116.4504264543989,
+            "name": "东大桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东大桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东大桥站"
+          },
+          {
+            "sid": "beijing_5_20",
+            "lat": 39.92304754132655,
+            "lng": 116.4616537461122,
+            "name": "呼家楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "呼家楼站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "呼家楼站"
+          },
+          {
+            "sid": "beijing_5_21",
+            "lat": 39.92263571442929,
+            "lng": 116.4781576680265,
+            "name": "金台路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金台路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "金台路站"
+          },
+          {
+            "sid": "beijing_5_22",
+            "lat": 39.922923,
+            "lng": 116.50204,
+            "name": "十里堡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_23",
+            "lat": 39.922931,
+            "lng": 116.517511,
+            "name": "青年路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_24",
+            "lat": 39.924017,
+            "lng": 116.563957,
+            "name": "褡裢坡站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_25",
+            "lat": 39.924213,
+            "lng": 116.578257,
+            "name": "黄渠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_26",
+            "lat": 39.925698,
+            "lng": 116.599728,
+            "name": "常营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_27",
+            "lat": 39.924482,
+            "lng": 116.615571,
+            "name": "草房站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_28",
+            "lat": 39.926806,
+            "lng": 116.639315,
+            "name": "物资学院路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_29",
+            "lat": 39.917711,
+            "lng": 116.661557,
+            "name": "通州北关站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_30",
+            "lat": 39.903019,
+            "lng": 116.688346,
+            "name": "北运河西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_31",
+            "lat": 39.903261,
+            "lng": 116.707046,
+            "name": "北运河东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_32",
+            "lat": 39.903216,
+            "lng": 116.717822,
+            "name": "郝家府站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_33",
+            "lat": 39.903239,
+            "lng": 116.733834,
+            "name": "东夏园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_34",
+            "lat": 39.902819,
+            "lng": 116.747502,
+            "name": "潞城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_5_35",
+            "lat": 39.890875,
+            "lng": 116.756868,
+            "name": "潞阳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "6",
+        "name": "beijing地铁6号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFC375",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_6_1",
+            "lat": 39.894464501761306,
+            "lng": 116.32109296622723,
+            "name": "北京西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北京西站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北京西站站"
+          },
+          {
+            "sid": "beijing_6_2",
+            "lat": 39.889969,
+            "lng": 116.327738,
+            "name": "湾子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_3",
+            "lat": 39.8896311415491,
+            "lng": 116.33486763438165,
+            "name": "达官营站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "达官营站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "达官营站"
+          },
+          {
+            "sid": "beijing_6_4",
+            "lat": 39.889413,
+            "lng": 116.358236,
+            "name": "广安门内站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_5",
+            "lat": 39.88904062779109,
+            "lng": 116.37437977881561,
+            "name": "菜市口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "菜市口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "菜市口站"
+          },
+          {
+            "sid": "beijing_6_6",
+            "lat": 39.889488,
+            "lng": 116.384562,
+            "name": "虎坊桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_7",
+            "lat": 39.89108041121041,
+            "lng": 116.39845486574774,
+            "name": "珠市口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠市口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "珠市口站"
+          },
+          {
+            "sid": "beijing_6_8",
+            "lat": 39.892722,
+            "lng": 116.40846,
+            "name": "桥湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_9",
+            "lat": 39.89290510308312,
+            "lng": 116.41882543176355,
+            "name": "磁器口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "磁器口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "磁器口站"
+          },
+          {
+            "sid": "beijing_6_10",
+            "lat": 39.89367,
+            "lng": 116.433877,
+            "name": "广渠门内站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_11",
+            "lat": 39.893643,
+            "lng": 116.450361,
+            "name": "广渠门外站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_12",
+            "lat": 39.893262204382815,
+            "lng": 116.4618829766156,
+            "name": "双井站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双井站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "双井站"
+          },
+          {
+            "sid": "beijing_6_13",
+            "lat": 39.892976738711084,
+            "lng": 116.4775677925438,
+            "name": "九龙山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九龙山站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "九龙山站"
+          },
+          {
+            "sid": "beijing_6_14",
+            "lat": 39.893182,
+            "lng": 116.487939,
+            "name": "大郊亭站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_15",
+            "lat": 39.892526,
+            "lng": 116.497767,
+            "name": "百子湾站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_16",
+            "lat": 39.887364,
+            "lng": 116.503522,
+            "name": "化工站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_17",
+            "lat": 39.874583,
+            "lng": 116.501088,
+            "name": "南楼梓庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_18",
+            "lat": 39.866554,
+            "lng": 116.499164,
+            "name": "欢乐谷景区站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_19",
+            "lat": 39.860722,
+            "lng": 116.511806,
+            "name": "垡头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_20",
+            "lat": 39.859696,
+            "lng": 116.526817,
+            "name": "双合站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_21",
+            "lat": 39.855485,
+            "lng": 116.537244,
+            "name": "焦化厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_22",
+            "lat": 39.848975,
+            "lng": 116.553753,
+            "name": "黄厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_23",
+            "lat": 39.856503,
+            "lng": 116.569826,
+            "name": "郎辛庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_24",
+            "lat": 39.858731,
+            "lng": 116.599112,
+            "name": "黑庄户站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_25",
+            "lat": 39.863327,
+            "lng": 116.632146,
+            "name": "万盛西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_26",
+            "lat": 39.86349,
+            "lng": 116.657373,
+            "name": "万盛东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_27",
+            "lat": 39.863523,
+            "lng": 116.670794,
+            "name": "群芳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_28",
+            "lat": 39.863158,
+            "lng": 116.68434,
+            "name": "高楼金站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_6_29",
+            "lat": 39.856655275867126,
+            "lng": 116.69575840580333,
+            "name": "花庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "花庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "花庄站"
+          },
+          {
+            "sid": "beijing_6_30",
+            "lat": 39.849408344915105,
+            "lng": 116.67902420958399,
+            "name": "环球度假区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "环球度假区站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "环球度假区站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "7",
+        "name": "beijing地铁7号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#009B76",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 43,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_7_1",
+            "lat": 40.104298,
+            "lng": 116.3137,
+            "name": "朱辛庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_2",
+            "lat": 40.08788,
+            "lng": 116.326976,
+            "name": "育知路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_3",
+            "lat": 40.090129,
+            "lng": 116.350408,
+            "name": "平西府站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_4",
+            "lat": 40.081181476901634,
+            "lng": 116.3632753585566,
+            "name": "回龙观东大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "回龙观东大街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "回龙观东大街站"
+          },
+          {
+            "sid": "beijing_7_5",
+            "lat": 40.07068469585144,
+            "lng": 116.35761374503289,
+            "name": "霍营站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "霍营站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "霍营站"
+          },
+          {
+            "sid": "beijing_7_6",
+            "lat": 40.060274,
+            "lng": 116.347142,
+            "name": "育新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_7",
+            "lat": 40.046863,
+            "lng": 116.351643,
+            "name": "西小口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_8",
+            "lat": 40.037724,
+            "lng": 116.354579,
+            "name": "永泰庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_9",
+            "lat": 40.021911,
+            "lng": 116.372988,
+            "name": "林萃桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_10",
+            "lat": 40.010124,
+            "lng": 116.392591,
+            "name": "森林公园南门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_11",
+            "lat": 40.00214991169262,
+            "lng": 116.39279693444594,
+            "name": "奥林匹克公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥林匹克公园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "奥林匹克公园站"
+          },
+          {
+            "sid": "beijing_7_12",
+            "lat": 39.985848,
+            "lng": 116.393751,
+            "name": "奥体中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_13",
+            "lat": 39.977007910867094,
+            "lng": 116.39445777173603,
+            "name": "北土城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北土城站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北土城站"
+          },
+          {
+            "sid": "beijing_7_14",
+            "lat": 39.96859259338326,
+            "lng": 116.39443261837505,
+            "name": "安华桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安华桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "安华桥站"
+          },
+          {
+            "sid": "beijing_7_15",
+            "lat": 39.957213,
+            "lng": 116.395145,
+            "name": "安德里北街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_16",
+            "lat": 39.94892086491129,
+            "lng": 116.39411530353468,
+            "name": "鼓楼大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "鼓楼大街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "鼓楼大街站"
+          },
+          {
+            "sid": "beijing_7_17",
+            "lat": 39.937588,
+            "lng": 116.396221,
+            "name": "什刹海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_18",
+            "lat": 39.93295650005886,
+            "lng": 116.40278255702773,
+            "name": "南锣鼓巷站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "南锣鼓巷站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "南锣鼓巷站"
+          },
+          {
+            "sid": "beijing_7_19",
+            "lat": 39.924113,
+            "lng": 116.410794,
+            "name": "中国美术馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_20",
+            "lat": 39.916374,
+            "lng": 116.41119,
+            "name": "金鱼胡同站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_21",
+            "lat": 39.90792799000752,
+            "lng": 116.41157909669337,
+            "name": "王府井站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "王府井站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "王府井站"
+          },
+          {
+            "sid": "beijing_7_22",
+            "lat": 39.900840045563626,
+            "lng": 116.4028719251982,
+            "name": "前门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "前门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "前门站"
+          },
+          {
+            "sid": "beijing_7_23",
+            "lat": 39.89123082346815,
+            "lng": 116.39861596569268,
+            "name": "珠市口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "珠市口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "珠市口站"
+          },
+          {
+            "sid": "beijing_7_24",
+            "lat": 39.881927,
+            "lng": 116.398705,
+            "name": "天桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_25",
+            "lat": 39.86748877863079,
+            "lng": 116.39909696803774,
+            "name": "永定门外站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永定门外站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "永定门外站"
+          },
+          {
+            "sid": "beijing_7_26",
+            "lat": 39.859252,
+            "lng": 116.399832,
+            "name": "木樨园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_27",
+            "lat": 39.851805,
+            "lng": 116.400293,
+            "name": "海户屯站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_28",
+            "lat": 39.84533108756113,
+            "lng": 116.40036589015777,
+            "name": "大红门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大红门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大红门站"
+          },
+          {
+            "sid": "beijing_7_29",
+            "lat": 39.83672,
+            "lng": 116.401043,
+            "name": "大红门南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_30",
+            "lat": 39.814851,
+            "lng": 116.402051,
+            "name": "和义站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_31",
+            "lat": 39.805085,
+            "lng": 116.409399,
+            "name": "东高地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_32",
+            "lat": 39.799276,
+            "lng": 116.41862,
+            "name": "火箭万源站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_33",
+            "lat": 39.785039,
+            "lng": 116.423909,
+            "name": "五福堂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_34",
+            "lat": 39.772664,
+            "lng": 116.441756,
+            "name": "德茂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_7_35",
+            "lat": 39.760728,
+            "lng": 116.448976,
+            "name": "瀛海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "8",
+        "name": "beijing地铁8号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#99CC02",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 15,
+        "freqOff": 7,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_8_1",
+            "lat": 39.94196285551558,
+            "lng": 116.325023824177,
+            "name": "国家图书馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国家图书馆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "国家图书馆站"
+          },
+          {
+            "sid": "beijing_8_2",
+            "lat": 39.93255807397182,
+            "lng": 116.32527702472045,
+            "name": "白石桥南站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "白石桥南站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "白石桥南站"
+          },
+          {
+            "sid": "beijing_8_3",
+            "lat": 39.923823,
+            "lng": 116.325762,
+            "name": "白堆子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_8_4",
+            "lat": 39.90751675641177,
+            "lng": 116.32120171913827,
+            "name": "军事博物馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "军事博物馆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "军事博物馆站"
+          },
+          {
+            "sid": "beijing_8_5",
+            "lat": 39.89457144886956,
+            "lng": 116.32143805517285,
+            "name": "北京西站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北京西站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北京西站站"
+          },
+          {
+            "sid": "beijing_8_6",
+            "lat": 39.887131,
+            "lng": 116.315025,
+            "name": "六里桥东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_8_7",
+            "lat": 39.88039480018177,
+            "lng": 116.30259175796284,
+            "name": "六里桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "六里桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "六里桥站"
+          },
+          {
+            "sid": "beijing_8_8",
+            "lat": 39.866164190184996,
+            "lng": 116.29397072646934,
+            "name": "七里庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "七里庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "七里庄站"
+          },
+          {
+            "sid": "beijing_8_9",
+            "lat": 39.855104,
+            "lng": 116.293859,
+            "name": "丰台东大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_8_10",
+            "lat": 39.84068790172842,
+            "lng": 116.29634618963826,
+            "name": "丰台南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丰台南路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丰台南路站"
+          },
+          {
+            "sid": "beijing_8_11",
+            "lat": 39.832482,
+            "lng": 116.297416,
+            "name": "科怡路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_8_12",
+            "lat": 39.825237,
+            "lng": 116.297175,
+            "name": "丰台科技园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_8_13",
+            "lat": 39.814322,
+            "lng": 116.301887,
+            "name": "郭公庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "9",
+        "name": "beijing地铁9号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#09A0CE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 52,
+        "freqOff": 26,
+        "freqLow": 17,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_9_1",
+            "lat": 39.97443,
+            "lng": 116.293358,
+            "name": "巴沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_2",
+            "lat": 39.97538092922689,
+            "lng": 116.30640006760835,
+            "name": "苏州街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苏州街站"
+          },
+          {
+            "sid": "beijing_9_3",
+            "lat": 39.975732432562616,
+            "lng": 116.3175174150214,
+            "name": "海淀黄庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "海淀黄庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "海淀黄庄站"
+          },
+          {
+            "sid": "beijing_9_4",
+            "lat": 39.976333,
+            "lng": 116.328858,
+            "name": "知春里站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_5",
+            "lat": 39.97621308718247,
+            "lng": 116.34001754641072,
+            "name": "知春路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "知春路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "知春路站"
+          },
+          {
+            "sid": "beijing_9_6",
+            "lat": 39.97638,
+            "lng": 116.354225,
+            "name": "西土城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_7",
+            "lat": 39.976123332606605,
+            "lng": 116.36999674659683,
+            "name": "牡丹园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牡丹园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "牡丹园站"
+          },
+          {
+            "sid": "beijing_9_8",
+            "lat": 39.976556,
+            "lng": 116.381339,
+            "name": "健德门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_9",
+            "lat": 39.976683033020464,
+            "lng": 116.39414596267297,
+            "name": "北土城站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北土城站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北土城站"
+          },
+          {
+            "sid": "beijing_9_10",
+            "lat": 39.977005,
+            "lng": 116.405954,
+            "name": "安贞门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_11",
+            "lat": 39.97686159903851,
+            "lng": 116.41754192800545,
+            "name": "惠新西街南口站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "惠新西街南口站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "惠新西街南口站"
+          },
+          {
+            "sid": "beijing_9_12",
+            "lat": 39.97689282063507,
+            "lng": 116.43561300926257,
+            "name": "芍药居站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "芍药居站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "芍药居站"
+          },
+          {
+            "sid": "beijing_9_13",
+            "lat": 39.9725327580858,
+            "lng": 116.44722889709422,
+            "name": "太阳宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太阳宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "太阳宫站"
+          },
+          {
+            "sid": "beijing_9_14",
+            "lat": 39.96112611040281,
+            "lng": 116.45762193275122,
+            "name": "三元桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三元桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "三元桥站"
+          },
+          {
+            "sid": "beijing_9_15",
+            "lat": 39.949378,
+            "lng": 116.462141,
+            "name": "亮马桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_16",
+            "lat": 39.941255,
+            "lng": 116.462513,
+            "name": "农业展览馆站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_17",
+            "lat": 39.93381471910132,
+            "lng": 116.46154435110871,
+            "name": "团结湖站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "团结湖站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "团结湖站"
+          },
+          {
+            "sid": "beijing_9_18",
+            "lat": 39.92336213780988,
+            "lng": 116.46133242097407,
+            "name": "呼家楼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "呼家楼站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "呼家楼站"
+          },
+          {
+            "sid": "beijing_9_19",
+            "lat": 39.916789,
+            "lng": 116.461692,
+            "name": "金台夕照站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_20",
+            "lat": 39.908366571118414,
+            "lng": 116.46210652391022,
+            "name": "国贸站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国贸站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "国贸站"
+          },
+          {
+            "sid": "beijing_9_21",
+            "lat": 39.89358919659539,
+            "lng": 116.4615707491772,
+            "name": "双井站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "双井站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "双井站"
+          },
+          {
+            "sid": "beijing_9_22",
+            "lat": 39.884464,
+            "lng": 116.461419,
+            "name": "劲松站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_23",
+            "lat": 39.875384,
+            "lng": 116.460926,
+            "name": "潘家园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_24",
+            "lat": 39.8657601010821,
+            "lng": 116.45884361878228,
+            "name": "十里河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "十里河站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "十里河站"
+          },
+          {
+            "sid": "beijing_9_25",
+            "lat": 39.85223,
+            "lng": 116.453978,
+            "name": "分钟寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_26",
+            "lat": 39.845889,
+            "lng": 116.447646,
+            "name": "成寿寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_27",
+            "lat": 39.84611001714771,
+            "lng": 116.4284380276382,
+            "name": "宋家庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "宋家庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "宋家庄站"
+          },
+          {
+            "sid": "beijing_9_28",
+            "lat": 39.84591,
+            "lng": 116.414106,
+            "name": "石榴庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_29",
+            "lat": 39.845663431137154,
+            "lng": 116.40067339237982,
+            "name": "大红门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大红门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大红门站"
+          },
+          {
+            "sid": "beijing_9_30",
+            "lat": 39.84514,
+            "lng": 116.385646,
+            "name": "角门东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_31",
+            "lat": 39.84612375464636,
+            "lng": 116.37121298733356,
+            "name": "角门西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "角门西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "角门西站"
+          },
+          {
+            "sid": "beijing_9_32",
+            "lat": 39.846069956157784,
+            "lng": 116.34840647939875,
+            "name": "草桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "草桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "草桥站"
+          },
+          {
+            "sid": "beijing_9_33",
+            "lat": 39.844434,
+            "lng": 116.333379,
+            "name": "纪家庙站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_34",
+            "lat": 39.844458,
+            "lng": 116.320269,
+            "name": "首经贸站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_35",
+            "lat": 39.851762013005555,
+            "lng": 116.30420912087213,
+            "name": "丰台站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丰台站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丰台站站"
+          },
+          {
+            "sid": "beijing_9_36",
+            "lat": 39.858616,
+            "lng": 116.304172,
+            "name": "泥洼站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_37",
+            "lat": 39.86672091433535,
+            "lng": 116.30407210936532,
+            "name": "西局站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西局站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西局站"
+          },
+          {
+            "sid": "beijing_9_38",
+            "lat": 39.88014537337754,
+            "lng": 116.30306678759477,
+            "name": "六里桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "六里桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "六里桥站"
+          },
+          {
+            "sid": "beijing_9_39",
+            "lat": 39.897865,
+            "lng": 116.310344,
+            "name": "莲花桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_40",
+            "lat": 39.90751517619828,
+            "lng": 116.31055170123136,
+            "name": "公主坟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "公主坟站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "公主坟站"
+          },
+          {
+            "sid": "beijing_9_41",
+            "lat": 39.923361,
+            "lng": 116.297895,
+            "name": "西钓鱼台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_42",
+            "lat": 39.93266176234956,
+            "lng": 116.29557925087717,
+            "name": "慈寿寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "慈寿寺站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "慈寿寺站"
+          },
+          {
+            "sid": "beijing_9_43",
+            "lat": 39.947928,
+            "lng": 116.293814,
+            "name": "车道沟站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_9_44",
+            "lat": 39.95867426202899,
+            "lng": 116.29447548996447,
+            "name": "长春桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "长春桥站"
+          },
+          {
+            "sid": "beijing_9_45",
+            "lat": 39.965936,
+            "lng": 116.289064,
+            "name": "火器营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "10",
+        "name": "beijing地铁10号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FC7E75",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 100,
+        "freqPeak": 3,
+        "freqOff": 1,
+        "freqLow": 1,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_10_1",
+            "lat": 39.93349,
+            "lng": 116.156029,
+            "name": "模式口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_10_2",
+            "lat": 39.923510769870724,
+            "lng": 116.16084597025174,
+            "name": "金安桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金安桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "金安桥站"
+          },
+          {
+            "sid": "beijing_10_3",
+            "lat": 39.915135,
+            "lng": 116.164821,
+            "name": "北辛安站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_10_4",
+            "lat": 39.908914,
+            "lng": 116.164865,
+            "name": "新首钢站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "11",
+        "name": "beijing地铁11号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#C47323",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 25,
+        "freqOff": 12,
+        "freqLow": 8,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_11_1",
+            "lat": 39.942418,
+            "lng": 116.274191,
+            "name": "四季青桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_2",
+            "lat": 39.957138,
+            "lng": 116.282582,
+            "name": "蓝靛厂站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_3",
+            "lat": 39.95827873971349,
+            "lng": 116.29423367695664,
+            "name": "长春桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "长春桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "长春桥站"
+          },
+          {
+            "sid": "beijing_11_4",
+            "lat": 39.9618513223237,
+            "lng": 116.30794366756074,
+            "name": "苏州桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苏州桥站"
+          },
+          {
+            "sid": "beijing_11_5",
+            "lat": 39.96667275116426,
+            "lng": 116.32136759621184,
+            "name": "人民大学站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "人民大学站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "人民大学站"
+          },
+          {
+            "sid": "beijing_11_6",
+            "lat": 39.96723960256049,
+            "lng": 116.34509156242937,
+            "name": "大钟寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大钟寺站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大钟寺站"
+          },
+          {
+            "sid": "beijing_11_7",
+            "lat": 39.967734,
+            "lng": 116.354563,
+            "name": "蓟门桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_8",
+            "lat": 39.967615039201,
+            "lng": 116.37015805786407,
+            "name": "北太平庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北太平庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北太平庄站"
+          },
+          {
+            "sid": "beijing_11_9",
+            "lat": 39.968254,
+            "lng": 116.382204,
+            "name": "马甸桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_10",
+            "lat": 39.968266614158374,
+            "lng": 116.39412334255405,
+            "name": "安华桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "安华桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "安华桥站"
+          },
+          {
+            "sid": "beijing_11_11",
+            "lat": 39.968923,
+            "lng": 116.407212,
+            "name": "安贞桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_12",
+            "lat": 39.96889572009412,
+            "lng": 116.41792472872689,
+            "name": "和平西桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "和平西桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "和平西桥站"
+          },
+          {
+            "sid": "beijing_11_13",
+            "lat": 39.969255208981465,
+            "lng": 116.43174108804874,
+            "name": "光熙门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "光熙门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "光熙门站"
+          },
+          {
+            "sid": "beijing_11_14",
+            "lat": 39.966172258032785,
+            "lng": 116.44102929853582,
+            "name": "西坝河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西坝河站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西坝河站"
+          },
+          {
+            "sid": "beijing_11_15",
+            "lat": 39.961041313780335,
+            "lng": 116.45779078126706,
+            "name": "三元桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "三元桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "三元桥站"
+          },
+          {
+            "sid": "beijing_11_16",
+            "lat": 39.972682,
+            "lng": 116.480036,
+            "name": "将台西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_17",
+            "lat": 39.980279,
+            "lng": 116.488784,
+            "name": "高家园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_18",
+            "lat": 39.980463,
+            "lng": 116.505626,
+            "name": "驼房营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_19",
+            "lat": 39.974285,
+            "lng": 116.534665,
+            "name": "东坝西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_11_20",
+            "lat": 39.97536423639229,
+            "lng": 116.55703327576579,
+            "name": "东坝北站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东坝北站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东坝北站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "12",
+        "name": "beijing地铁12号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#FFCB33",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 33,
+        "freqOff": 16,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_12_1",
+            "lat": 39.94046401562395,
+            "lng": 116.35568818000941,
+            "name": "西直门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西直门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西直门站"
+          },
+          {
+            "sid": "beijing_12_2",
+            "lat": 39.967566216256564,
+            "lng": 116.34529377314152,
+            "name": "大钟寺站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大钟寺站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大钟寺站"
+          },
+          {
+            "sid": "beijing_12_3",
+            "lat": 39.976512498299556,
+            "lng": 116.3402320594828,
+            "name": "知春路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "知春路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "知春路站"
+          },
+          {
+            "sid": "beijing_12_4",
+            "lat": 39.992893,
+            "lng": 116.337739,
+            "name": "五道口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_5",
+            "lat": 40.03301,
+            "lng": 116.320185,
+            "name": "上地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_6",
+            "lat": 40.041159,
+            "lng": 116.314926,
+            "name": "清河站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_7",
+            "lat": 40.053044,
+            "lng": 116.306294,
+            "name": "西二旗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_8",
+            "lat": 40.070885,
+            "lng": 116.319421,
+            "name": "龙泽站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_9",
+            "lat": 40.070796,
+            "lng": 116.336103,
+            "name": "回龙观站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_10",
+            "lat": 40.07031654337772,
+            "lng": 116.3577615029904,
+            "name": "霍营站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "霍营站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "霍营站"
+          },
+          {
+            "sid": "beijing_12_11",
+            "lat": 40.05226643625406,
+            "lng": 116.41180935882241,
+            "name": "立水桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "立水桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "立水桥站"
+          },
+          {
+            "sid": "beijing_12_12",
+            "lat": 40.043022,
+            "lng": 116.434561,
+            "name": "北苑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_13",
+            "lat": 39.995499807435124,
+            "lng": 116.44908379481527,
+            "name": "望京西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望京西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "望京西站"
+          },
+          {
+            "sid": "beijing_12_14",
+            "lat": 39.97734611437268,
+            "lng": 116.43540721583186,
+            "name": "芍药居站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "芍药居站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "芍药居站"
+          },
+          {
+            "sid": "beijing_12_15",
+            "lat": 39.96942660525723,
+            "lng": 116.43197672304937,
+            "name": "光熙门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "光熙门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "光熙门站"
+          },
+          {
+            "sid": "beijing_12_16",
+            "lat": 39.958156,
+            "lng": 116.432722,
+            "name": "柳芳站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_12_17",
+            "lat": 39.941535536072685,
+            "lng": 116.43328063710439,
+            "name": "东直门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东直门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东直门站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "13",
+        "name": "beijing地铁13号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#EDAEBA",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 41,
+        "freqOff": 21,
+        "freqLow": 14,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_13_1",
+            "lat": 39.858125,
+            "lng": 116.18719,
+            "name": "张郭庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_2",
+            "lat": 39.861337,
+            "lng": 116.201636,
+            "name": "园博园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_3",
+            "lat": 39.859485,
+            "lng": 116.240443,
+            "name": "大瓦窑站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_4",
+            "lat": 39.864837,
+            "lng": 116.253065,
+            "name": "郭庄子站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_5",
+            "lat": 39.865242,
+            "lng": 116.276045,
+            "name": "大井站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_6",
+            "lat": 39.86587355957238,
+            "lng": 116.29420099183845,
+            "name": "七里庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "七里庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "七里庄站"
+          },
+          {
+            "sid": "beijing_13_7",
+            "lat": 39.86638699515194,
+            "lng": 116.3037750797994,
+            "name": "西局站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西局站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西局站"
+          },
+          {
+            "sid": "beijing_13_8",
+            "lat": 39.867567,
+            "lng": 116.321192,
+            "name": "东管头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_9",
+            "lat": 39.8674461178576,
+            "lng": 116.33163069794807,
+            "name": "丽泽商务区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丽泽商务区站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丽泽商务区站"
+          },
+          {
+            "sid": "beijing_13_10",
+            "lat": 39.86764,
+            "lng": 116.342437,
+            "name": "菜户营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_11",
+            "lat": 39.861356,
+            "lng": 116.35594,
+            "name": "西铁营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_12",
+            "lat": 39.86230133103179,
+            "lng": 116.3646844971581,
+            "name": "景风门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "景风门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "景风门站"
+          },
+          {
+            "sid": "beijing_13_13",
+            "lat": 39.864760060776064,
+            "lng": 116.37894562710295,
+            "name": "北京南站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北京南站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北京南站站"
+          },
+          {
+            "sid": "beijing_13_14",
+            "lat": 39.86729157486642,
+            "lng": 116.39929855814374,
+            "name": "永定门外站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永定门外站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "永定门外站"
+          },
+          {
+            "sid": "beijing_13_15",
+            "lat": 39.86526,
+            "lng": 116.411012,
+            "name": "景泰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_16",
+            "lat": 39.865269821526866,
+            "lng": 116.42162914875206,
+            "name": "蒲黄榆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "蒲黄榆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "蒲黄榆站"
+          },
+          {
+            "sid": "beijing_13_17",
+            "lat": 39.865877,
+            "lng": 116.440243,
+            "name": "方庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_18",
+            "lat": 39.86552941699534,
+            "lng": 116.4591760014426,
+            "name": "十里河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "十里河站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "十里河站"
+          },
+          {
+            "sid": "beijing_13_19",
+            "lat": 39.875303,
+            "lng": 116.477263,
+            "name": "北工大西门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_20",
+            "lat": 39.885279,
+            "lng": 116.4773,
+            "name": "平乐园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_21",
+            "lat": 39.893179619212695,
+            "lng": 116.47777897272931,
+            "name": "九龙山站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "九龙山站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "九龙山站"
+          },
+          {
+            "sid": "beijing_13_22",
+            "lat": 39.90823104468453,
+            "lng": 116.47820598333357,
+            "name": "大望路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大望路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大望路站"
+          },
+          {
+            "sid": "beijing_13_23",
+            "lat": 39.92284360892258,
+            "lng": 116.4783701065755,
+            "name": "金台路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "金台路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "金台路站"
+          },
+          {
+            "sid": "beijing_13_24",
+            "lat": 39.93373267006917,
+            "lng": 116.47856194134906,
+            "name": "朝阳公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "朝阳公园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "朝阳公园站"
+          },
+          {
+            "sid": "beijing_13_25",
+            "lat": 39.944128,
+            "lng": 116.474953,
+            "name": "枣营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_26",
+            "lat": 39.958367,
+            "lng": 116.485925,
+            "name": "东风北桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_27",
+            "lat": 39.971028,
+            "lng": 116.490207,
+            "name": "将台站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_28",
+            "lat": 39.98408,
+            "lng": 116.482771,
+            "name": "望京南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_29",
+            "lat": 39.991851,
+            "lng": 116.471528,
+            "name": "阜通站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_30",
+            "lat": 39.9975989885107,
+            "lng": 116.46845804402979,
+            "name": "望京站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望京站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "望京站"
+          },
+          {
+            "sid": "beijing_13_31",
+            "lat": 40.010562,
+            "lng": 116.467408,
+            "name": "东湖渠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_32",
+            "lat": 40.020428,
+            "lng": 116.466997,
+            "name": "来广营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_13_33",
+            "lat": 40.027159,
+            "lng": 116.478196,
+            "name": "善各庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "14",
+        "name": "beijing地铁14号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#7C3699",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 34,
+        "freqOff": 17,
+        "freqLow": 11,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_14_1",
+            "lat": 40.132577,
+            "lng": 116.684717,
+            "name": "俸伯站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_2",
+            "lat": 40.129992,
+            "lng": 116.657022,
+            "name": "顺义站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_3",
+            "lat": 40.1298,
+            "lng": 116.641108,
+            "name": "石门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_4",
+            "lat": 40.128482,
+            "lng": 116.609529,
+            "name": "南法信站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_5",
+            "lat": 40.114124,
+            "lng": 116.564208,
+            "name": "后沙峪站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_6",
+            "lat": 40.084409,
+            "lng": 116.557603,
+            "name": "花梨坎站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_7",
+            "lat": 40.070029,
+            "lng": 116.555123,
+            "name": "国展站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_8",
+            "lat": 40.045113,
+            "lng": 116.534704,
+            "name": "孙河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_9",
+            "lat": 40.033741,
+            "lng": 116.50348,
+            "name": "马泉营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_10",
+            "lat": 40.022202,
+            "lng": 116.492967,
+            "name": "崔各庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_11",
+            "lat": 40.00317,
+            "lng": 116.48705,
+            "name": "望京东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_12",
+            "lat": 39.997741268027575,
+            "lng": 116.46822110102707,
+            "name": "望京站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望京站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "望京站"
+          },
+          {
+            "sid": "beijing_14_13",
+            "lat": 39.995709860602496,
+            "lng": 116.4488475680144,
+            "name": "望京西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望京西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "望京西站"
+          },
+          {
+            "sid": "beijing_14_14",
+            "lat": 40.001139,
+            "lng": 116.430947,
+            "name": "关庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_15",
+            "lat": 40.00338830694352,
+            "lng": 116.41753812362377,
+            "name": "大屯路东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "大屯路东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "大屯路东站"
+          },
+          {
+            "sid": "beijing_14_16",
+            "lat": 40.002621,
+            "lng": 116.407846,
+            "name": "安立路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_17",
+            "lat": 40.002482432367856,
+            "lng": 116.39310438515558,
+            "name": "奥林匹克公园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "奥林匹克公园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "奥林匹克公园站"
+          },
+          {
+            "sid": "beijing_14_18",
+            "lat": 40.001525,
+            "lng": 116.36827,
+            "name": "北沙滩站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_19",
+            "lat": 40.000959,
+            "lng": 116.352716,
+            "name": "六道口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_14_20",
+            "lat": 40.000673,
+            "lng": 116.33953,
+            "name": "清华东路西口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "15",
+        "name": "beijing地铁15号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#67A525",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 30,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_15_1",
+            "lat": 40.068028,
+            "lng": 116.130617,
+            "name": "北安河站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_2",
+            "lat": 40.068518,
+            "lng": 116.16136,
+            "name": "温阳路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_3",
+            "lat": 40.06895,
+            "lng": 116.188135,
+            "name": "稻香湖路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_4",
+            "lat": 40.068498,
+            "lng": 116.215804,
+            "name": "屯佃站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_5",
+            "lat": 40.071881,
+            "lng": 116.238442,
+            "name": "永丰站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_6",
+            "lat": 40.065559,
+            "lng": 116.24812,
+            "name": "永丰南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_7",
+            "lat": 40.048705,
+            "lng": 116.257924,
+            "name": "西北旺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_8",
+            "lat": 40.03242652339808,
+            "lng": 116.2723108563424,
+            "name": "马连洼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马连洼站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "马连洼站"
+          },
+          {
+            "sid": "beijing_15_9",
+            "lat": 40.021352,
+            "lng": 116.282312,
+            "name": "农大南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_10",
+            "lat": 39.9981923335705,
+            "lng": 116.29063986285674,
+            "name": "西苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西苑站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西苑站"
+          },
+          {
+            "sid": "beijing_15_11",
+            "lat": 39.985259,
+            "lng": 116.299017,
+            "name": "万泉河桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_12",
+            "lat": 39.97559373791244,
+            "lng": 116.30606825714362,
+            "name": "苏州街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苏州街站"
+          },
+          {
+            "sid": "beijing_15_13",
+            "lat": 39.96210537573442,
+            "lng": 116.30754522629054,
+            "name": "苏州桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "苏州桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "苏州桥站"
+          },
+          {
+            "sid": "beijing_15_14",
+            "lat": 39.947763,
+            "lng": 116.309875,
+            "name": "万寿寺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_15",
+            "lat": 39.941823305384496,
+            "lng": 116.3250670050468,
+            "name": "国家图书馆站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "国家图书馆站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "国家图书馆站"
+          },
+          {
+            "sid": "beijing_15_16",
+            "lat": 39.93235589136864,
+            "lng": 116.33343527251054,
+            "name": "二里沟站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "二里沟站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "二里沟站"
+          },
+          {
+            "sid": "beijing_15_17",
+            "lat": 39.923172,
+            "lng": 116.334545,
+            "name": "甘家口站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_18",
+            "lat": 39.91398,
+            "lng": 116.334519,
+            "name": "玉渊潭东门站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_19",
+            "lat": 39.90732194912564,
+            "lng": 116.33425318027317,
+            "name": "木樨地站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "木樨地站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "木樨地站"
+          },
+          {
+            "sid": "beijing_15_20",
+            "lat": 39.88992554418799,
+            "lng": 116.33455024128233,
+            "name": "达官营站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "达官营站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "达官营站"
+          },
+          {
+            "sid": "beijing_15_21",
+            "lat": 39.877534,
+            "lng": 116.33667,
+            "name": "红莲南路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_22",
+            "lat": 39.86788956581241,
+            "lng": 116.33137412006104,
+            "name": "丽泽商务区站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丽泽商务区站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丽泽商务区站"
+          },
+          {
+            "sid": "beijing_15_23",
+            "lat": 39.854326,
+            "lng": 116.322951,
+            "name": "东管头南站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_24",
+            "lat": 39.85182879028677,
+            "lng": 116.3039210671784,
+            "name": "丰台站站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丰台站站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丰台站站"
+          },
+          {
+            "sid": "beijing_15_25",
+            "lat": 39.841013895673825,
+            "lng": 116.29646909378307,
+            "name": "丰台南路站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "丰台南路站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "丰台南路站"
+          },
+          {
+            "sid": "beijing_15_26",
+            "lat": 39.836229,
+            "lng": 116.28702,
+            "name": "富丰桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_27",
+            "lat": 39.834911,
+            "lng": 116.272522,
+            "name": "看丹站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_28",
+            "lat": 39.838747,
+            "lng": 116.258959,
+            "name": "榆树庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_29",
+            "lat": 39.848545,
+            "lng": 116.249307,
+            "name": "洪泰庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_15_30",
+            "lat": 39.849066,
+            "lng": 116.22957,
+            "name": "宛平城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "16",
+        "name": "beijing地铁16号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#00B2AE",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 39,
+        "freqOff": 20,
+        "freqLow": 13,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_16_1",
+            "lat": 40.130082,
+            "lng": 116.468825,
+            "name": "未来科学城北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_2",
+            "lat": 40.115646,
+            "lng": 116.466822,
+            "name": "未来科学城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_3",
+            "lat": 40.068376359028754,
+            "lng": 116.44205606008939,
+            "name": "天通苑东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天通苑东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "天通苑东站"
+          },
+          {
+            "sid": "beijing_16_4",
+            "lat": 40.050785,
+            "lng": 116.442087,
+            "name": "清河营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_5",
+            "lat": 40.03373,
+            "lng": 116.441794,
+            "name": "红军营站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_6",
+            "lat": 39.99535090292144,
+            "lng": 116.44907481078357,
+            "name": "望京西站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "望京西站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "望京西站"
+          },
+          {
+            "sid": "beijing_16_7",
+            "lat": 39.972939843950854,
+            "lng": 116.44711089549284,
+            "name": "太阳宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "太阳宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "太阳宫站"
+          },
+          {
+            "sid": "beijing_16_8",
+            "lat": 39.96630633541109,
+            "lng": 116.44129233196001,
+            "name": "西坝河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "西坝河站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "西坝河站"
+          },
+          {
+            "sid": "beijing_16_9",
+            "lat": 39.949967,
+            "lng": 116.442701,
+            "name": "左家庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_10",
+            "lat": 39.93376131981157,
+            "lng": 116.45071719637113,
+            "name": "工人体育场站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "工人体育场站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "工人体育场站"
+          },
+          {
+            "sid": "beijing_16_11",
+            "lat": 39.92298990415637,
+            "lng": 116.45064459491114,
+            "name": "东大桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "东大桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "东大桥站"
+          },
+          {
+            "sid": "beijing_16_12",
+            "lat": 39.90842195073731,
+            "lng": 116.45057840533485,
+            "name": "永安里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "永安里站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "永安里站"
+          },
+          {
+            "sid": "beijing_16_13",
+            "lat": 39.876243,
+            "lng": 116.450869,
+            "name": "潘家园西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_14",
+            "lat": 39.86566626470406,
+            "lng": 116.45887275816766,
+            "name": "十里河站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "十里河站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "十里河站"
+          },
+          {
+            "sid": "beijing_16_15",
+            "lat": 39.856703,
+            "lng": 116.47634,
+            "name": "周家庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_16",
+            "lat": 39.844306,
+            "lng": 116.495834,
+            "name": "十八里店站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_17",
+            "lat": 39.818617,
+            "lng": 116.55274,
+            "name": "北神树站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_18",
+            "lat": 39.809387,
+            "lng": 116.576665,
+            "name": "次渠北站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_19",
+            "lat": 39.803542,
+            "lng": 116.591532,
+            "name": "次渠站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_16_20",
+            "lat": 39.792907,
+            "lng": 116.610362,
+            "name": "嘉会湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "17",
+        "name": "beijing地铁17号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#5D5DAF",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 16,
+        "freqOff": 8,
+        "freqLow": 5,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_17_1",
+            "lat": 40.0324009525618,
+            "lng": 116.27259623809361,
+            "name": "马连洼站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "马连洼站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "马连洼站"
+          },
+          {
+            "sid": "beijing_17_2",
+            "lat": 40.04368,
+            "lng": 116.286531,
+            "name": "上地软件园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_3",
+            "lat": 40.05361,
+            "lng": 116.295024,
+            "name": "东北旺站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_4",
+            "lat": 40.072615,
+            "lng": 116.310782,
+            "name": "龙泽西站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_5",
+            "lat": 40.07934,
+            "lng": 116.333128,
+            "name": "回龙观西大街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_6",
+            "lat": 40.080342,
+            "lng": 116.344156,
+            "name": "文华路站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_7",
+            "lat": 40.08079842689769,
+            "lng": 116.36299291254917,
+            "name": "回龙观东大街站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "回龙观东大街站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "回龙观东大街站"
+          },
+          {
+            "sid": "beijing_17_8",
+            "lat": 40.082049,
+            "lng": 116.376742,
+            "name": "霍营东站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_9",
+            "lat": 40.0739131501251,
+            "lng": 116.41257800950052,
+            "name": "天通苑站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天通苑站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "天通苑站"
+          },
+          {
+            "sid": "beijing_17_10",
+            "lat": 40.07417,
+            "lng": 116.428325,
+            "name": "太平庄站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_17_11",
+            "lat": 40.068138348026565,
+            "lng": 116.44217574185603,
+            "name": "天通苑东站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "天通苑东站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "天通苑东站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      },
+      {
+        "id": "18",
+        "name": "beijing地铁18号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#DDABC9",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 120,
+        "freqPeak": 12,
+        "freqOff": 6,
+        "freqLow": 4,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "beijing_18_1",
+            "lat": 39.97643579677088,
+            "lng": 116.36967598968499,
+            "name": "牡丹园站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "牡丹园站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "牡丹园站"
+          },
+          {
+            "sid": "beijing_18_2",
+            "lat": 39.9679156728347,
+            "lng": 116.36983222934778,
+            "name": "北太平庄站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "北太平庄站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "北太平庄站"
+          },
+          {
+            "sid": "beijing_18_3",
+            "lat": 39.94864076961409,
+            "lng": 116.37146760344523,
+            "name": "积水潭站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "积水潭站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "积水潭站"
+          },
+          {
+            "sid": "beijing_18_4",
+            "lat": 39.93245253544209,
+            "lng": 116.37312790198561,
+            "name": "平安里站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "平安里站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "平安里站"
+          },
+          {
+            "sid": "beijing_18_5",
+            "lat": 39.909519,
+            "lng": 116.363237,
+            "name": "太平桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_18_6",
+            "lat": 39.890718,
+            "lng": 116.363461,
+            "name": "牛街站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_18_7",
+            "lat": 39.8624112576379,
+            "lng": 116.36482224475373,
+            "name": "景风门站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "景风门站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "景风门站"
+          },
+          {
+            "sid": "beijing_18_8",
+            "lat": 39.845966736437894,
+            "lng": 116.34825425640061,
+            "name": "草桥站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "草桥站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "草桥站"
+          },
+          {
+            "sid": "beijing_18_9",
+            "lat": 39.823571,
+            "lng": 116.346321,
+            "name": "新发地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "beijing_18_10",
+            "lat": 39.81213657884091,
+            "lng": 116.36540191428493,
+            "name": "新宫站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "新宫站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            },
+            "same_station": "新宫站"
+          }
+        ],
+        "segmentAnchors": [
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

@@ -1,0 +1,1913 @@
+{
+  "lines": [
+    {
+      "num": 1,
+      "color": "#C43830",
+      "slug": "line-1",
+      "stations": [
+        {
+          "name": "苹果园",
+          "slug": "/cities/beijing/stations/pingguoyuan"
+        },
+        {
+          "name": "古城",
+          "slug": "/cities/beijing/stations/gucheng"
+        },
+        {
+          "name": "八宝山",
+          "slug": "/cities/beijing/stations/babaoshan"
+        },
+        {
+          "name": "玉泉路",
+          "slug": "/cities/beijing/stations/yuquan-lu"
+        },
+        {
+          "name": "五棵松",
+          "slug": "/cities/beijing/stations/wukesong"
+        },
+        {
+          "name": "万寿路",
+          "slug": "/cities/beijing/stations/wanshou-lu"
+        },
+        {
+          "name": "公主坟",
+          "slug": "/cities/beijing/stations/gongzhufen"
+        },
+        {
+          "name": "军事博物馆",
+          "slug": "/cities/beijing/stations/military-museum"
+        },
+        {
+          "name": "木樨地",
+          "slug": "/cities/beijing/stations/muxidi"
+        },
+        {
+          "name": "南礼士路",
+          "slug": "/cities/beijing/stations/nanlishi-lu"
+        },
+        {
+          "name": "复兴门",
+          "slug": "/cities/beijing/stations/fuxingmen"
+        },
+        {
+          "name": "西单",
+          "slug": "/cities/beijing/stations/xidan"
+        },
+        {
+          "name": "天安门西",
+          "slug": "/cities/beijing/stations/tian-anmenxi"
+        },
+        {
+          "name": "天安门东",
+          "slug": "/cities/beijing/stations/tian-anmendong"
+        },
+        {
+          "name": "王府井",
+          "slug": "/cities/beijing/stations/wangfujing"
+        },
+        {
+          "name": "东单",
+          "slug": "/cities/beijing/stations/dongdan"
+        },
+        {
+          "name": "建国门",
+          "slug": "/cities/beijing/stations/jianguomen"
+        },
+        {
+          "name": "永安里",
+          "slug": "/cities/beijing/stations/yong-an-li"
+        },
+        {
+          "name": "国贸",
+          "slug": "/cities/beijing/stations/guomao"
+        },
+        {
+          "name": "大望路",
+          "slug": "/cities/beijing/stations/dawang-lu"
+        },
+        {
+          "name": "四惠",
+          "slug": "/cities/beijing/stations/sihui"
+        },
+        {
+          "name": "四惠东",
+          "slug": "/cities/beijing/stations/sihui-dong-e"
+        },
+        {
+          "name": "高碑店",
+          "slug": "/cities/beijing/stations/gaobeidian"
+        },
+        {
+          "name": "传媒大学",
+          "slug": "/cities/beijing/stations/communication-univ-of-china"
+        },
+        {
+          "name": "双桥",
+          "slug": "/cities/beijing/stations/shuang-qiao"
+        },
+        {
+          "name": "管庄",
+          "slug": "/cities/beijing/stations/guaanzhuang"
+        },
+        {
+          "name": "八里桥",
+          "slug": "/cities/beijing/stations/bali-qiao"
+        },
+        {
+          "name": "通州北苑",
+          "slug": "/cities/beijing/stations/tongzhou-beiyuan"
+        },
+        {
+          "name": "果园",
+          "slug": "/cities/beijing/stations/guoyuan"
+        },
+        {
+          "name": "九棵树",
+          "slug": "/cities/beijing/stations/jiukeshu"
+        },
+        {
+          "name": "梨园",
+          "slug": "/cities/beijing/stations/liyuan"
+        },
+        {
+          "name": "临河里",
+          "slug": "/cities/beijing/stations/linheli"
+        },
+        {
+          "name": "土桥",
+          "slug": "/cities/beijing/stations/tu-qiao"
+        },
+        {
+          "name": "花庄",
+          "slug": "/cities/beijing/stations/huazhuang"
+        },
+        {
+          "name": "环球度假区",
+          "slug": "/cities/beijing/stations/universal-resort"
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "color": "#1077B5",
+      "slug": "line-2",
+      "stations": [
+        {
+          "name": "西直门",
+          "slug": "/cities/beijing/stations/xizhimen"
+        },
+        {
+          "name": "车公庄",
+          "slug": "/cities/beijing/stations/chegongzhuang"
+        },
+        {
+          "name": "阜成门",
+          "slug": "/cities/beijing/stations/fucheng-men"
+        },
+        {
+          "name": "复兴门",
+          "slug": "/cities/beijing/stations/fuxingmen"
+        },
+        {
+          "name": "长椿街",
+          "slug": "/cities/beijing/stations/changchun-jie"
+        },
+        {
+          "name": "宣武门",
+          "slug": "/cities/beijing/stations/xuanwu-men"
+        },
+        {
+          "name": "和平门",
+          "slug": "/cities/beijing/stations/heping-men"
+        },
+        {
+          "name": "前门",
+          "slug": "/cities/beijing/stations/qianmen"
+        },
+        {
+          "name": "崇文门",
+          "slug": "/cities/beijing/stations/chongwen-men"
+        },
+        {
+          "name": "北京站",
+          "slug": "/cities/beijing/stations/beijing-zhan-beijing-railway-station"
+        },
+        {
+          "name": "建国门",
+          "slug": "/cities/beijing/stations/jianguomen"
+        },
+        {
+          "name": "朝阳门",
+          "slug": "/cities/beijing/stations/chaoyang-men"
+        },
+        {
+          "name": "东四十条",
+          "slug": "/cities/beijing/stations/dongsi-shitiao"
+        },
+        {
+          "name": "东直门",
+          "slug": "/cities/beijing/stations/dongzhimen"
+        },
+        {
+          "name": "雍和宫",
+          "slug": "/cities/beijing/stations/yonghegong-lama-temple"
+        },
+        {
+          "name": "安定门",
+          "slug": "/cities/beijing/stations/anding-men"
+        },
+        {
+          "name": "鼓楼大街",
+          "slug": "/cities/beijing/stations/gulou-dajie"
+        },
+        {
+          "name": "积水潭",
+          "slug": "/cities/beijing/stations/jishuitan"
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "color": "#E21441",
+      "slug": "line-3",
+      "stations": [
+        {
+          "name": "东四十条",
+          "slug": "/cities/beijing/stations/dongsi-shitiao"
+        },
+        {
+          "name": "工人体育场",
+          "slug": "/cities/beijing/stations/workers-stadium"
+        },
+        {
+          "name": "团结湖",
+          "slug": "/cities/beijing/stations/tuanjiehu"
+        },
+        {
+          "name": "朝阳公园",
+          "slug": "/cities/beijing/stations/chaoyang-park"
+        },
+        {
+          "name": "石佛营",
+          "slug": "/cities/beijing/stations/shifoying"
+        },
+        {
+          "name": "朝阳站",
+          "slug": "/cities/beijing/stations/chaoyang-railway-station"
+        },
+        {
+          "name": "姚家园",
+          "slug": "/cities/beijing/stations/yaojiayuan"
+        },
+        {
+          "name": "东坝南",
+          "slug": "/cities/beijing/stations/dongbanan"
+        },
+        {
+          "name": "东坝",
+          "slug": "/cities/beijing/stations/dongba"
+        },
+        {
+          "name": "东坝北",
+          "slug": "/cities/beijing/stations/dongbabei"
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "color": "#00979E",
+      "slug": "line-4",
+      "stations": [
+        {
+          "name": "安河桥北",
+          "slug": "/cities/beijing/stations/anheqiao-bei-n"
+        },
+        {
+          "name": "北宫门",
+          "slug": "/cities/beijing/stations/beigongmen"
+        },
+        {
+          "name": "西苑",
+          "slug": "/cities/beijing/stations/xi-yuan"
+        },
+        {
+          "name": "圆明园",
+          "slug": "/cities/beijing/stations/yuanmingyuan-park"
+        },
+        {
+          "name": "北京大学东门",
+          "slug": "/cities/beijing/stations/peking-univ-east-gate"
+        },
+        {
+          "name": "中关村",
+          "slug": "/cities/beijing/stations/zhongguancun"
+        },
+        {
+          "name": "海淀黄庄",
+          "slug": "/cities/beijing/stations/haidian-huangzhuang"
+        },
+        {
+          "name": "人民大学",
+          "slug": "/cities/beijing/stations/renmin-univ"
+        },
+        {
+          "name": "魏公村",
+          "slug": "/cities/beijing/stations/weigongcun"
+        },
+        {
+          "name": "国家图书馆",
+          "slug": "/cities/beijing/stations/guojia-tushuguan-national-library"
+        },
+        {
+          "name": "动物园",
+          "slug": "/cities/beijing/stations/dongwuyuan-beijing-zoo"
+        },
+        {
+          "name": "西直门",
+          "slug": "/cities/beijing/stations/xizhimen"
+        },
+        {
+          "name": "新街口",
+          "slug": "/cities/beijing/stations/xinjie-kou"
+        },
+        {
+          "name": "平安里",
+          "slug": "/cities/beijing/stations/ping-anli"
+        },
+        {
+          "name": "西四",
+          "slug": "/cities/beijing/stations/xisi"
+        },
+        {
+          "name": "灵境胡同",
+          "slug": "/cities/beijing/stations/lingjing-hutong"
+        },
+        {
+          "name": "西单",
+          "slug": "/cities/beijing/stations/xidan"
+        },
+        {
+          "name": "宣武门",
+          "slug": "/cities/beijing/stations/xuanwu-men"
+        },
+        {
+          "name": "菜市口",
+          "slug": "/cities/beijing/stations/caishi-kou"
+        },
+        {
+          "name": "陶然亭",
+          "slug": "/cities/beijing/stations/taoranting"
+        },
+        {
+          "name": "北京南站",
+          "slug": "/cities/beijing/stations/beijingnan-zhan-beijing-south-railway-station"
+        },
+        {
+          "name": "马家堡",
+          "slug": "/cities/beijing/stations/majiapu"
+        },
+        {
+          "name": "角门西",
+          "slug": "/cities/beijing/stations/jiaomen-xi-w"
+        },
+        {
+          "name": "公益西桥",
+          "slug": "/cities/beijing/stations/gongyi-xiqiao"
+        },
+        {
+          "name": "新宫",
+          "slug": "/cities/beijing/stations/xingong"
+        },
+        {
+          "name": "西红门",
+          "slug": "/cities/beijing/stations/xihong-men"
+        },
+        {
+          "name": "高米店北",
+          "slug": "/cities/beijing/stations/gaomidian-bei-n"
+        },
+        {
+          "name": "高米店南",
+          "slug": "/cities/beijing/stations/gaomidian-nan-s"
+        },
+        {
+          "name": "枣园",
+          "slug": "/cities/beijing/stations/zaoyuan"
+        },
+        {
+          "name": "清源路",
+          "slug": "/cities/beijing/stations/qingyuan-lu"
+        },
+        {
+          "name": "黄村西大街",
+          "slug": "/cities/beijing/stations/huangcun-xidajie"
+        },
+        {
+          "name": "黄村火车站",
+          "slug": "/cities/beijing/stations/huangcun-railway-station"
+        },
+        {
+          "name": "义和庄",
+          "slug": "/cities/beijing/stations/yihezhuang"
+        },
+        {
+          "name": "生物医药基地",
+          "slug": "/cities/beijing/stations/biomedical-base"
+        },
+        {
+          "name": "天宫院",
+          "slug": "/cities/beijing/stations/tiangong-yuan"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "color": "#BF1DA0",
+      "slug": "line-5",
+      "stations": [
+        {
+          "name": "天通苑北",
+          "slug": "/cities/beijing/stations/tiantongyuan-bei-n"
+        },
+        {
+          "name": "天通苑",
+          "slug": "/cities/beijing/stations/tiantongyuan"
+        },
+        {
+          "name": "天通苑南",
+          "slug": "/cities/beijing/stations/tiantongyuan-nan-s"
+        },
+        {
+          "name": "立水桥",
+          "slug": "/cities/beijing/stations/lishui-qiao"
+        },
+        {
+          "name": "立水桥南",
+          "slug": "/cities/beijing/stations/lishuiqiao-nan-s"
+        },
+        {
+          "name": "北苑路北",
+          "slug": "/cities/beijing/stations/beiyuanlu-bei-n"
+        },
+        {
+          "name": "大屯路东",
+          "slug": "/cities/beijing/stations/datunludong"
+        },
+        {
+          "name": "惠新西街北口",
+          "slug": "/cities/beijing/stations/huixin-xijie-beikou"
+        },
+        {
+          "name": "惠新西街南口",
+          "slug": "/cities/beijing/stations/huixin-xijie-nankou"
+        },
+        {
+          "name": "和平西桥",
+          "slug": "/cities/beijing/stations/heping-xiqiao"
+        },
+        {
+          "name": "和平里北街",
+          "slug": "/cities/beijing/stations/hepingli-beijie"
+        },
+        {
+          "name": "雍和宫",
+          "slug": "/cities/beijing/stations/yonghegong-lama-temple"
+        },
+        {
+          "name": "北新桥",
+          "slug": "/cities/beijing/stations/beixinqiao"
+        },
+        {
+          "name": "张自忠路",
+          "slug": "/cities/beijing/stations/zhangzizhong-lu"
+        },
+        {
+          "name": "东四",
+          "slug": "/cities/beijing/stations/dongsi"
+        },
+        {
+          "name": "灯市口",
+          "slug": "/cities/beijing/stations/dengshi-kou"
+        },
+        {
+          "name": "东单",
+          "slug": "/cities/beijing/stations/dongdan"
+        },
+        {
+          "name": "崇文门",
+          "slug": "/cities/beijing/stations/chongwen-men"
+        },
+        {
+          "name": "磁器口",
+          "slug": "/cities/beijing/stations/ciqi-kou"
+        },
+        {
+          "name": "天坛东门",
+          "slug": "/cities/beijing/stations/temple-of-heaven-east-gate"
+        },
+        {
+          "name": "蒲黄榆",
+          "slug": "/cities/beijing/stations/puhuangyu"
+        },
+        {
+          "name": "刘家窑",
+          "slug": "/cities/beijing/stations/liujiayao"
+        },
+        {
+          "name": "宋家庄",
+          "slug": "/cities/beijing/stations/songjiazhuang"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "color": "#D3A554",
+      "slug": "line-6",
+      "stations": [
+        {
+          "name": "金安桥",
+          "slug": "/cities/beijing/stations/jin-anqiao"
+        },
+        {
+          "name": "苹果园",
+          "slug": "/cities/beijing/stations/pingguoyuan"
+        },
+        {
+          "name": "杨庄",
+          "slug": "/cities/beijing/stations/yangzhuang"
+        },
+        {
+          "name": "西黄村",
+          "slug": "/cities/beijing/stations/xihuangcun"
+        },
+        {
+          "name": "廖公庄",
+          "slug": "/cities/beijing/stations/liaogongzhuang"
+        },
+        {
+          "name": "田村",
+          "slug": "/cities/beijing/stations/tiancun"
+        },
+        {
+          "name": "海淀五路居",
+          "slug": "/cities/beijing/stations/haidian-wuluju"
+        },
+        {
+          "name": "慈寿寺",
+          "slug": "/cities/beijing/stations/cishou-si"
+        },
+        {
+          "name": "花园桥",
+          "slug": "/cities/beijing/stations/huayuanqiao"
+        },
+        {
+          "name": "白石桥南",
+          "slug": "/cities/beijing/stations/baishiqiaonan"
+        },
+        {
+          "name": "二里沟",
+          "slug": "/cities/beijing/stations/erligou"
+        },
+        {
+          "name": "车公庄西",
+          "slug": "/cities/beijing/stations/chegongzhuang-xi-w"
+        },
+        {
+          "name": "车公庄",
+          "slug": "/cities/beijing/stations/chegongzhuang"
+        },
+        {
+          "name": "平安里",
+          "slug": "/cities/beijing/stations/ping-anli"
+        },
+        {
+          "name": "北海北",
+          "slug": "/cities/beijing/stations/beihai-bei-n"
+        },
+        {
+          "name": "南锣鼓巷",
+          "slug": "/cities/beijing/stations/nanluogu-xiang"
+        },
+        {
+          "name": "东四",
+          "slug": "/cities/beijing/stations/dongsi"
+        },
+        {
+          "name": "朝阳门",
+          "slug": "/cities/beijing/stations/chaoyang-men"
+        },
+        {
+          "name": "东大桥",
+          "slug": "/cities/beijing/stations/dongdaqiao"
+        },
+        {
+          "name": "呼家楼",
+          "slug": "/cities/beijing/stations/hujialou"
+        },
+        {
+          "name": "金台路",
+          "slug": "/cities/beijing/stations/jintai-lu"
+        },
+        {
+          "name": "十里堡",
+          "slug": "/cities/beijing/stations/shilipu"
+        },
+        {
+          "name": "青年路",
+          "slug": "/cities/beijing/stations/qingnian-lu"
+        },
+        {
+          "name": "褡裢坡",
+          "slug": "/cities/beijing/stations/dalianpo"
+        },
+        {
+          "name": "黄渠",
+          "slug": "/cities/beijing/stations/huangqu"
+        },
+        {
+          "name": "常营",
+          "slug": "/cities/beijing/stations/changying"
+        },
+        {
+          "name": "草房",
+          "slug": "/cities/beijing/stations/caofang"
+        },
+        {
+          "name": "物资学院路",
+          "slug": "/cities/beijing/stations/wuzi-xueyuan-lu"
+        },
+        {
+          "name": "通州北关",
+          "slug": "/cities/beijing/stations/tongzhou-beiguan"
+        },
+        {
+          "name": "北运河西",
+          "slug": "/cities/beijing/stations/beiyunhe-xi-w"
+        },
+        {
+          "name": "北运河东",
+          "slug": "/cities/beijing/stations/beiyunhe-dong-e"
+        },
+        {
+          "name": "郝家府",
+          "slug": "/cities/beijing/stations/haojia-fu"
+        },
+        {
+          "name": "东夏园",
+          "slug": "/cities/beijing/stations/dongxia-yuan"
+        },
+        {
+          "name": "潞城",
+          "slug": "/cities/beijing/stations/lucheng"
+        },
+        {
+          "name": "潞阳",
+          "slug": "/cities/beijing/stations/luyang"
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "color": "#FFC375",
+      "slug": "line-7",
+      "stations": [
+        {
+          "name": "北京西站",
+          "slug": "/cities/beijing/stations/beijingxi-zhan-beijing-west-railway-station"
+        },
+        {
+          "name": "湾子",
+          "slug": "/cities/beijing/stations/wanzi"
+        },
+        {
+          "name": "达官营",
+          "slug": "/cities/beijing/stations/daguanying"
+        },
+        {
+          "name": "广安门内",
+          "slug": "/cities/beijing/stations/guang-anmen-nei"
+        },
+        {
+          "name": "菜市口",
+          "slug": "/cities/beijing/stations/caishi-kou"
+        },
+        {
+          "name": "虎坊桥",
+          "slug": "/cities/beijing/stations/hufangqiao"
+        },
+        {
+          "name": "珠市口",
+          "slug": "/cities/beijing/stations/zhushikou"
+        },
+        {
+          "name": "桥湾",
+          "slug": "/cities/beijing/stations/qiaowan"
+        },
+        {
+          "name": "磁器口",
+          "slug": "/cities/beijing/stations/ciqi-kou"
+        },
+        {
+          "name": "广渠门内",
+          "slug": "/cities/beijing/stations/guanqumen-nei"
+        },
+        {
+          "name": "广渠门外",
+          "slug": "/cities/beijing/stations/guangqumen-wai"
+        },
+        {
+          "name": "双井",
+          "slug": "/cities/beijing/stations/shuangjing"
+        },
+        {
+          "name": "九龙山",
+          "slug": "/cities/beijing/stations/jiulongshan"
+        },
+        {
+          "name": "大郊亭",
+          "slug": "/cities/beijing/stations/dajiaoting"
+        },
+        {
+          "name": "百子湾",
+          "slug": "/cities/beijing/stations/baiziwan"
+        },
+        {
+          "name": "化工",
+          "slug": "/cities/beijing/stations/huagong"
+        },
+        {
+          "name": "南楼梓庄",
+          "slug": "/cities/beijing/stations/nanlouzi-zhuang"
+        },
+        {
+          "name": "欢乐谷景区",
+          "slug": "/cities/beijing/stations/happy-valley"
+        },
+        {
+          "name": "垡头",
+          "slug": "/cities/beijing/stations/fatou"
+        },
+        {
+          "name": "双合",
+          "slug": "/cities/beijing/stations/shuanghe"
+        },
+        {
+          "name": "焦化厂",
+          "slug": "/cities/beijing/stations/jiaohua-chang"
+        },
+        {
+          "name": "黄厂",
+          "slug": "/cities/beijing/stations/huangchang"
+        },
+        {
+          "name": "郎辛庄",
+          "slug": "/cities/beijing/stations/langxinzhuang"
+        },
+        {
+          "name": "黑庄户",
+          "slug": "/cities/beijing/stations/heizhuanghu"
+        },
+        {
+          "name": "万盛西",
+          "slug": "/cities/beijing/stations/wanshen-xi-w"
+        },
+        {
+          "name": "万盛东",
+          "slug": "/cities/beijing/stations/wansheng-dong-e"
+        },
+        {
+          "name": "群芳",
+          "slug": "/cities/beijing/stations/qunfang"
+        },
+        {
+          "name": "高楼金",
+          "slug": "/cities/beijing/stations/gaoloujin"
+        },
+        {
+          "name": "花庄",
+          "slug": "/cities/beijing/stations/huazhuang"
+        },
+        {
+          "name": "环球度假区",
+          "slug": "/cities/beijing/stations/universal-resort"
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "color": "#009B76",
+      "slug": "line-8",
+      "stations": [
+        {
+          "name": "朱辛庄",
+          "slug": "/cities/beijing/stations/zhuxinzhuang"
+        },
+        {
+          "name": "育知路",
+          "slug": "/cities/beijing/stations/yuzhi-lu"
+        },
+        {
+          "name": "平西府",
+          "slug": "/cities/beijing/stations/pingxi-fu"
+        },
+        {
+          "name": "回龙观东大街",
+          "slug": "/cities/beijing/stations/huilongguan-dongdajie"
+        },
+        {
+          "name": "霍营",
+          "slug": "/cities/beijing/stations/huoying"
+        },
+        {
+          "name": "育新",
+          "slug": "/cities/beijing/stations/yuxin"
+        },
+        {
+          "name": "西小口",
+          "slug": "/cities/beijing/stations/xixiao-kou"
+        },
+        {
+          "name": "永泰庄",
+          "slug": "/cities/beijing/stations/yongtaizhuang"
+        },
+        {
+          "name": "林萃桥",
+          "slug": "/cities/beijing/stations/lincuiqiao"
+        },
+        {
+          "name": "森林公园南门",
+          "slug": "/cities/beijing/stations/senlin-gongyuan-nanmen-forest-park-south-gate"
+        },
+        {
+          "name": "奥林匹克公园",
+          "slug": "/cities/beijing/stations/aolinpike-gongyuan-olympic-park"
+        },
+        {
+          "name": "奥体中心",
+          "slug": "/cities/beijing/stations/aoti-zhongxin-olympic-sports-center"
+        },
+        {
+          "name": "北土城",
+          "slug": "/cities/beijing/stations/beitucheng"
+        },
+        {
+          "name": "安华桥",
+          "slug": "/cities/beijing/stations/anhuaqiao"
+        },
+        {
+          "name": "安德里北街",
+          "slug": "/cities/beijing/stations/andeli-beijie"
+        },
+        {
+          "name": "鼓楼大街",
+          "slug": "/cities/beijing/stations/gulou-dajie"
+        },
+        {
+          "name": "什刹海",
+          "slug": "/cities/beijing/stations/shichahai"
+        },
+        {
+          "name": "南锣鼓巷",
+          "slug": "/cities/beijing/stations/nanluogu-xiang"
+        },
+        {
+          "name": "中国美术馆",
+          "slug": "/cities/beijing/stations/zhongguo-meishuguan-national-art-museum"
+        },
+        {
+          "name": "金鱼胡同",
+          "slug": "/cities/beijing/stations/jinyu-hutong"
+        },
+        {
+          "name": "王府井",
+          "slug": "/cities/beijing/stations/wangfujing"
+        },
+        {
+          "name": "前门",
+          "slug": "/cities/beijing/stations/qianmen"
+        },
+        {
+          "name": "珠市口",
+          "slug": "/cities/beijing/stations/zhushikou"
+        },
+        {
+          "name": "天桥",
+          "slug": "/cities/beijing/stations/tianqiao"
+        },
+        {
+          "name": "永定门外",
+          "slug": "/cities/beijing/stations/yongdingmenwai"
+        },
+        {
+          "name": "木樨园",
+          "slug": "/cities/beijing/stations/muxi-yuan"
+        },
+        {
+          "name": "海户屯",
+          "slug": "/cities/beijing/stations/haihutun"
+        },
+        {
+          "name": "大红门",
+          "slug": "/cities/beijing/stations/dahong-men"
+        },
+        {
+          "name": "大红门南",
+          "slug": "/cities/beijing/stations/dahongmen-nan-s"
+        },
+        {
+          "name": "和义",
+          "slug": "/cities/beijing/stations/heyi"
+        },
+        {
+          "name": "东高地",
+          "slug": "/cities/beijing/stations/donggaodi"
+        },
+        {
+          "name": "火箭万源",
+          "slug": "/cities/beijing/stations/huojian-wanyuan"
+        },
+        {
+          "name": "五福堂",
+          "slug": "/cities/beijing/stations/wufutang"
+        },
+        {
+          "name": "德茂",
+          "slug": "/cities/beijing/stations/demao"
+        },
+        {
+          "name": "瀛海",
+          "slug": "/cities/beijing/stations/yinghai"
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "color": "#99CC02",
+      "slug": "line-9",
+      "stations": [
+        {
+          "name": "国家图书馆",
+          "slug": "/cities/beijing/stations/guojia-tushuguan-national-library"
+        },
+        {
+          "name": "白石桥南",
+          "slug": "/cities/beijing/stations/baishiqiaonan"
+        },
+        {
+          "name": "白堆子",
+          "slug": "/cities/beijing/stations/baiduizi"
+        },
+        {
+          "name": "军事博物馆",
+          "slug": "/cities/beijing/stations/military-museum"
+        },
+        {
+          "name": "北京西站",
+          "slug": "/cities/beijing/stations/beijingxi-zhan-beijing-west-railway-station"
+        },
+        {
+          "name": "六里桥东",
+          "slug": "/cities/beijing/stations/liuliqiao-dong-e"
+        },
+        {
+          "name": "六里桥",
+          "slug": "/cities/beijing/stations/liuli-qiao"
+        },
+        {
+          "name": "七里庄",
+          "slug": "/cities/beijing/stations/qilizhuang"
+        },
+        {
+          "name": "丰台东大街",
+          "slug": "/cities/beijing/stations/fengtai-dongdajie"
+        },
+        {
+          "name": "丰台南路",
+          "slug": "/cities/beijing/stations/fengtai-nanlu"
+        },
+        {
+          "name": "科怡路",
+          "slug": "/cities/beijing/stations/keyi-lu"
+        },
+        {
+          "name": "丰台科技园",
+          "slug": "/cities/beijing/stations/fengtai-science-park"
+        },
+        {
+          "name": "郭公庄",
+          "slug": "/cities/beijing/stations/guogongzhuang"
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "color": "#09A0CE",
+      "slug": "line-10",
+      "stations": [
+        {
+          "name": "巴沟",
+          "slug": "/cities/beijing/stations/bagou"
+        },
+        {
+          "name": "苏州街",
+          "slug": "/cities/beijing/stations/suzhou-jie"
+        },
+        {
+          "name": "海淀黄庄",
+          "slug": "/cities/beijing/stations/haidian-huangzhuang"
+        },
+        {
+          "name": "知春里",
+          "slug": "/cities/beijing/stations/zhichun-li"
+        },
+        {
+          "name": "知春路",
+          "slug": "/cities/beijing/stations/zhichun-lu"
+        },
+        {
+          "name": "西土城",
+          "slug": "/cities/beijing/stations/xitucheng"
+        },
+        {
+          "name": "牡丹园",
+          "slug": "/cities/beijing/stations/mudanyuan"
+        },
+        {
+          "name": "健德门",
+          "slug": "/cities/beijing/stations/jiande-men"
+        },
+        {
+          "name": "北土城",
+          "slug": "/cities/beijing/stations/beitucheng"
+        },
+        {
+          "name": "安贞门",
+          "slug": "/cities/beijing/stations/anzhenmen"
+        },
+        {
+          "name": "惠新西街南口",
+          "slug": "/cities/beijing/stations/huixin-xijie-nankou"
+        },
+        {
+          "name": "芍药居",
+          "slug": "/cities/beijing/stations/shaoyaoju"
+        },
+        {
+          "name": "太阳宫",
+          "slug": "/cities/beijing/stations/taiyanggong"
+        },
+        {
+          "name": "三元桥",
+          "slug": "/cities/beijing/stations/sanyuan-qiao"
+        },
+        {
+          "name": "亮马桥",
+          "slug": "/cities/beijing/stations/liangma-qiao"
+        },
+        {
+          "name": "农业展览馆",
+          "slug": "/cities/beijing/stations/agricultural-exhibition-center"
+        },
+        {
+          "name": "团结湖",
+          "slug": "/cities/beijing/stations/tuanjiehu"
+        },
+        {
+          "name": "呼家楼",
+          "slug": "/cities/beijing/stations/hujialou"
+        },
+        {
+          "name": "金台夕照",
+          "slug": "/cities/beijing/stations/jintai-xizhao"
+        },
+        {
+          "name": "国贸",
+          "slug": "/cities/beijing/stations/guomao"
+        },
+        {
+          "name": "双井",
+          "slug": "/cities/beijing/stations/shuangjing"
+        },
+        {
+          "name": "劲松",
+          "slug": "/cities/beijing/stations/jingsong"
+        },
+        {
+          "name": "潘家园",
+          "slug": "/cities/beijing/stations/panjia-yuan"
+        },
+        {
+          "name": "十里河",
+          "slug": "/cities/beijing/stations/shilihe"
+        },
+        {
+          "name": "分钟寺",
+          "slug": "/cities/beijing/stations/fenzhong-si"
+        },
+        {
+          "name": "成寿寺",
+          "slug": "/cities/beijing/stations/chengshou-si"
+        },
+        {
+          "name": "宋家庄",
+          "slug": "/cities/beijing/stations/songjiazhuang"
+        },
+        {
+          "name": "石榴庄",
+          "slug": "/cities/beijing/stations/shiliuzhuang"
+        },
+        {
+          "name": "大红门",
+          "slug": "/cities/beijing/stations/dahong-men"
+        },
+        {
+          "name": "角门东",
+          "slug": "/cities/beijing/stations/jiaomen-dong-e"
+        },
+        {
+          "name": "角门西",
+          "slug": "/cities/beijing/stations/jiaomen-xi-w"
+        },
+        {
+          "name": "草桥",
+          "slug": "/cities/beijing/stations/caoqiao"
+        },
+        {
+          "name": "纪家庙",
+          "slug": "/cities/beijing/stations/jijiamiao"
+        },
+        {
+          "name": "首经贸",
+          "slug": "/cities/beijing/stations/capital-univ-of-economics-business"
+        },
+        {
+          "name": "丰台站",
+          "slug": "/cities/beijing/stations/fengtai-railway-station"
+        },
+        {
+          "name": "泥洼",
+          "slug": "/cities/beijing/stations/niwa"
+        },
+        {
+          "name": "西局",
+          "slug": "/cities/beijing/stations/xiju"
+        },
+        {
+          "name": "六里桥",
+          "slug": "/cities/beijing/stations/liuli-qiao"
+        },
+        {
+          "name": "莲花桥",
+          "slug": "/cities/beijing/stations/lianhua-qiao"
+        },
+        {
+          "name": "公主坟",
+          "slug": "/cities/beijing/stations/gongzhufen"
+        },
+        {
+          "name": "西钓鱼台",
+          "slug": "/cities/beijing/stations/xidiaoyutai"
+        },
+        {
+          "name": "慈寿寺",
+          "slug": "/cities/beijing/stations/cishou-si"
+        },
+        {
+          "name": "车道沟",
+          "slug": "/cities/beijing/stations/chedaogou"
+        },
+        {
+          "name": "长春桥",
+          "slug": "/cities/beijing/stations/changchun-qiao"
+        },
+        {
+          "name": "火器营",
+          "slug": "/cities/beijing/stations/huoqiying"
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "color": "#FC7E75",
+      "slug": "line-11",
+      "stations": [
+        {
+          "name": "模式口",
+          "slug": "/cities/beijing/stations/moshikou"
+        },
+        {
+          "name": "金安桥",
+          "slug": "/cities/beijing/stations/jin-anqiao"
+        },
+        {
+          "name": "北辛安",
+          "slug": "/cities/beijing/stations/beixin-an"
+        },
+        {
+          "name": "新首钢",
+          "slug": "/cities/beijing/stations/xinshougang-shougang-park"
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "color": "#C47323",
+      "slug": "line-12",
+      "stations": [
+        {
+          "name": "四季青桥",
+          "slug": "/cities/beijing/stations/sijiqing-qiao"
+        },
+        {
+          "name": "蓝靛厂",
+          "slug": "/cities/beijing/stations/landianchang"
+        },
+        {
+          "name": "长春桥",
+          "slug": "/cities/beijing/stations/changchun-qiao"
+        },
+        {
+          "name": "苏州桥",
+          "slug": "/cities/beijing/stations/suzhou-qiao"
+        },
+        {
+          "name": "人民大学",
+          "slug": "/cities/beijing/stations/renmin-univ"
+        },
+        {
+          "name": "大钟寺",
+          "slug": "/cities/beijing/stations/dazhong-si"
+        },
+        {
+          "name": "蓟门桥",
+          "slug": "/cities/beijing/stations/jimen-qiao"
+        },
+        {
+          "name": "北太平庄",
+          "slug": "/cities/beijing/stations/beitaipingzhuang"
+        },
+        {
+          "name": "马甸桥",
+          "slug": "/cities/beijing/stations/madian-qiao"
+        },
+        {
+          "name": "安华桥",
+          "slug": "/cities/beijing/stations/anhuaqiao"
+        },
+        {
+          "name": "安贞桥",
+          "slug": "/cities/beijing/stations/anzhen-qiao"
+        },
+        {
+          "name": "和平西桥",
+          "slug": "/cities/beijing/stations/heping-xiqiao"
+        },
+        {
+          "name": "光熙门",
+          "slug": "/cities/beijing/stations/guangxi-men"
+        },
+        {
+          "name": "西坝河",
+          "slug": "/cities/beijing/stations/xibahe"
+        },
+        {
+          "name": "三元桥",
+          "slug": "/cities/beijing/stations/sanyuan-qiao"
+        },
+        {
+          "name": "将台西",
+          "slug": "/cities/beijing/stations/jiangtaixi"
+        },
+        {
+          "name": "高家园",
+          "slug": "/cities/beijing/stations/gaojiayuan"
+        },
+        {
+          "name": "驼房营",
+          "slug": "/cities/beijing/stations/tuofangying"
+        },
+        {
+          "name": "东坝西",
+          "slug": "/cities/beijing/stations/dongbaxi"
+        },
+        {
+          "name": "东坝北",
+          "slug": "/cities/beijing/stations/dongbabei"
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "color": "#FFCB33",
+      "slug": "line-13",
+      "stations": [
+        {
+          "name": "西直门",
+          "slug": "/cities/beijing/stations/xizhimen"
+        },
+        {
+          "name": "大钟寺",
+          "slug": "/cities/beijing/stations/dazhong-si"
+        },
+        {
+          "name": "知春路",
+          "slug": "/cities/beijing/stations/zhichun-lu"
+        },
+        {
+          "name": "五道口",
+          "slug": "/cities/beijing/stations/wudao-kou"
+        },
+        {
+          "name": "上地",
+          "slug": "/cities/beijing/stations/shangdi"
+        },
+        {
+          "name": "清河站",
+          "slug": "/cities/beijing/stations/qinghe-zhan-qinghe-railway-station"
+        },
+        {
+          "name": "西二旗",
+          "slug": "/cities/beijing/stations/xi-erqi"
+        },
+        {
+          "name": "龙泽",
+          "slug": "/cities/beijing/stations/longze"
+        },
+        {
+          "name": "回龙观",
+          "slug": "/cities/beijing/stations/huilong-guan"
+        },
+        {
+          "name": "霍营",
+          "slug": "/cities/beijing/stations/huoying"
+        },
+        {
+          "name": "立水桥",
+          "slug": "/cities/beijing/stations/lishui-qiao"
+        },
+        {
+          "name": "北苑",
+          "slug": "/cities/beijing/stations/bei-yuan"
+        },
+        {
+          "name": "望京西",
+          "slug": "/cities/beijing/stations/wangjing-xi-w"
+        },
+        {
+          "name": "芍药居",
+          "slug": "/cities/beijing/stations/shaoyaoju"
+        },
+        {
+          "name": "光熙门",
+          "slug": "/cities/beijing/stations/guangxi-men"
+        },
+        {
+          "name": "柳芳",
+          "slug": "/cities/beijing/stations/liufang"
+        },
+        {
+          "name": "东直门",
+          "slug": "/cities/beijing/stations/dongzhimen"
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "color": "#EDAEBA",
+      "slug": "line-14",
+      "stations": [
+        {
+          "name": "张郭庄",
+          "slug": "/cities/beijing/stations/zhangguozhuang"
+        },
+        {
+          "name": "园博园",
+          "slug": "/cities/beijing/stations/garden-expo-park"
+        },
+        {
+          "name": "大瓦窑",
+          "slug": "/cities/beijing/stations/dawayao"
+        },
+        {
+          "name": "郭庄子",
+          "slug": "/cities/beijing/stations/guozhuangzi"
+        },
+        {
+          "name": "大井",
+          "slug": "/cities/beijing/stations/dajing"
+        },
+        {
+          "name": "七里庄",
+          "slug": "/cities/beijing/stations/qilizhuang"
+        },
+        {
+          "name": "西局",
+          "slug": "/cities/beijing/stations/xiju"
+        },
+        {
+          "name": "东管头",
+          "slug": "/cities/beijing/stations/dongguantou"
+        },
+        {
+          "name": "丽泽商务区",
+          "slug": "/cities/beijing/stations/lize-shangwuqu"
+        },
+        {
+          "name": "菜户营",
+          "slug": "/cities/beijing/stations/caihuying"
+        },
+        {
+          "name": "西铁营",
+          "slug": "/cities/beijing/stations/xitieying"
+        },
+        {
+          "name": "景风门",
+          "slug": "/cities/beijing/stations/jingfengmen"
+        },
+        {
+          "name": "北京南站",
+          "slug": "/cities/beijing/stations/beijingnan-zhan-beijing-south-railway-station"
+        },
+        {
+          "name": "永定门外",
+          "slug": "/cities/beijing/stations/yongdingmenwai"
+        },
+        {
+          "name": "景泰",
+          "slug": "/cities/beijing/stations/jingtai"
+        },
+        {
+          "name": "蒲黄榆",
+          "slug": "/cities/beijing/stations/puhuangyu"
+        },
+        {
+          "name": "方庄",
+          "slug": "/cities/beijing/stations/fangzhuang"
+        },
+        {
+          "name": "十里河",
+          "slug": "/cities/beijing/stations/shilihe"
+        },
+        {
+          "name": "北工大西门",
+          "slug": "/cities/beijing/stations/beijing-univ-of-tech-west-gate"
+        },
+        {
+          "name": "平乐园",
+          "slug": "/cities/beijing/stations/pingle-yuan"
+        },
+        {
+          "name": "九龙山",
+          "slug": "/cities/beijing/stations/jiulongshan"
+        },
+        {
+          "name": "大望路",
+          "slug": "/cities/beijing/stations/dawang-lu"
+        },
+        {
+          "name": "金台路",
+          "slug": "/cities/beijing/stations/jintai-lu"
+        },
+        {
+          "name": "朝阳公园",
+          "slug": "/cities/beijing/stations/chaoyang-park"
+        },
+        {
+          "name": "枣营",
+          "slug": "/cities/beijing/stations/zaoying"
+        },
+        {
+          "name": "东风北桥",
+          "slug": "/cities/beijing/stations/dongfeng-beiqiao"
+        },
+        {
+          "name": "将台",
+          "slug": "/cities/beijing/stations/jiangtai"
+        },
+        {
+          "name": "望京南",
+          "slug": "/cities/beijing/stations/wangjing-nan-s"
+        },
+        {
+          "name": "阜通",
+          "slug": "/cities/beijing/stations/futong"
+        },
+        {
+          "name": "望京",
+          "slug": "/cities/beijing/stations/wangjing"
+        },
+        {
+          "name": "东湖渠",
+          "slug": "/cities/beijing/stations/donghuqu"
+        },
+        {
+          "name": "来广营",
+          "slug": "/cities/beijing/stations/laiguangying"
+        },
+        {
+          "name": "善各庄",
+          "slug": "/cities/beijing/stations/shangezhuang"
+        }
+      ]
+    },
+    {
+      "num": 15,
+      "color": "#7C3699",
+      "slug": "line-15",
+      "stations": [
+        {
+          "name": "俸伯",
+          "slug": "/cities/beijing/stations/fengbo"
+        },
+        {
+          "name": "顺义",
+          "slug": "/cities/beijing/stations/shunyi"
+        },
+        {
+          "name": "石门",
+          "slug": "/cities/beijing/stations/shimen"
+        },
+        {
+          "name": "南法信",
+          "slug": "/cities/beijing/stations/nanfaxin"
+        },
+        {
+          "name": "后沙峪",
+          "slug": "/cities/beijing/stations/houshayu"
+        },
+        {
+          "name": "花梨坎",
+          "slug": "/cities/beijing/stations/hualikan"
+        },
+        {
+          "name": "国展",
+          "slug": "/cities/beijing/stations/china-int-l-exhibition-center"
+        },
+        {
+          "name": "孙河",
+          "slug": "/cities/beijing/stations/sunhe"
+        },
+        {
+          "name": "马泉营",
+          "slug": "/cities/beijing/stations/maquanying"
+        },
+        {
+          "name": "崔各庄",
+          "slug": "/cities/beijing/stations/cuigezhuang"
+        },
+        {
+          "name": "望京东",
+          "slug": "/cities/beijing/stations/wangjing-dong-e"
+        },
+        {
+          "name": "望京",
+          "slug": "/cities/beijing/stations/wangjing"
+        },
+        {
+          "name": "望京西",
+          "slug": "/cities/beijing/stations/wangjing-xi-w"
+        },
+        {
+          "name": "关庄",
+          "slug": "/cities/beijing/stations/guanzhuang"
+        },
+        {
+          "name": "大屯路东",
+          "slug": "/cities/beijing/stations/datunludong"
+        },
+        {
+          "name": "安立路",
+          "slug": "/cities/beijing/stations/anli-lu"
+        },
+        {
+          "name": "奥林匹克公园",
+          "slug": "/cities/beijing/stations/aolinpike-gongyuan-olympic-park"
+        },
+        {
+          "name": "北沙滩",
+          "slug": "/cities/beijing/stations/beishatan"
+        },
+        {
+          "name": "六道口",
+          "slug": "/cities/beijing/stations/liudao-kou"
+        },
+        {
+          "name": "清华东路西口",
+          "slug": "/cities/beijing/stations/qinghua-donglu-xikou"
+        }
+      ]
+    },
+    {
+      "num": 16,
+      "color": "#67A525",
+      "slug": "line-16",
+      "stations": [
+        {
+          "name": "北安河",
+          "slug": "/cities/beijing/stations/bei-anhe"
+        },
+        {
+          "name": "温阳路",
+          "slug": "/cities/beijing/stations/wenyang-lu"
+        },
+        {
+          "name": "稻香湖路",
+          "slug": "/cities/beijing/stations/daoxianghu-lu"
+        },
+        {
+          "name": "屯佃",
+          "slug": "/cities/beijing/stations/tundian"
+        },
+        {
+          "name": "永丰",
+          "slug": "/cities/beijing/stations/yongfeng"
+        },
+        {
+          "name": "永丰南",
+          "slug": "/cities/beijing/stations/yongfeng-nan-s"
+        },
+        {
+          "name": "西北旺",
+          "slug": "/cities/beijing/stations/xibeiwang"
+        },
+        {
+          "name": "马连洼",
+          "slug": "/cities/beijing/stations/malianwa"
+        },
+        {
+          "name": "农大南路",
+          "slug": "/cities/beijing/stations/nongda-nanlu"
+        },
+        {
+          "name": "西苑",
+          "slug": "/cities/beijing/stations/xi-yuan"
+        },
+        {
+          "name": "万泉河桥",
+          "slug": "/cities/beijing/stations/wanquanhe-qiao"
+        },
+        {
+          "name": "苏州街",
+          "slug": "/cities/beijing/stations/suzhou-jie"
+        },
+        {
+          "name": "苏州桥",
+          "slug": "/cities/beijing/stations/suzhou-qiao"
+        },
+        {
+          "name": "万寿寺",
+          "slug": "/cities/beijing/stations/wanshou-si"
+        },
+        {
+          "name": "国家图书馆",
+          "slug": "/cities/beijing/stations/guojia-tushuguan-national-library"
+        },
+        {
+          "name": "二里沟",
+          "slug": "/cities/beijing/stations/erligou"
+        },
+        {
+          "name": "甘家口",
+          "slug": "/cities/beijing/stations/ganjiakou"
+        },
+        {
+          "name": "玉渊潭东门",
+          "slug": "/cities/beijing/stations/yuyuantan-dongmen-yuyuantan-park-east-gate"
+        },
+        {
+          "name": "木樨地",
+          "slug": "/cities/beijing/stations/muxidi"
+        },
+        {
+          "name": "达官营",
+          "slug": "/cities/beijing/stations/daguanying"
+        },
+        {
+          "name": "红莲南路",
+          "slug": "/cities/beijing/stations/honglian-nanlu"
+        },
+        {
+          "name": "丽泽商务区",
+          "slug": "/cities/beijing/stations/lize-shangwuqu"
+        },
+        {
+          "name": "东管头南",
+          "slug": "/cities/beijing/stations/dongguantou-nan-s"
+        },
+        {
+          "name": "丰台站",
+          "slug": "/cities/beijing/stations/fengtai-railway-station"
+        },
+        {
+          "name": "丰台南路",
+          "slug": "/cities/beijing/stations/fengtai-nanlu"
+        },
+        {
+          "name": "富丰桥",
+          "slug": "/cities/beijing/stations/fufengqiao"
+        },
+        {
+          "name": "看丹",
+          "slug": "/cities/beijing/stations/kandan"
+        },
+        {
+          "name": "榆树庄",
+          "slug": "/cities/beijing/stations/yushuzhuang"
+        },
+        {
+          "name": "洪泰庄",
+          "slug": "/cities/beijing/stations/hongtaizhuang"
+        },
+        {
+          "name": "宛平城",
+          "slug": "/cities/beijing/stations/wanpingcheng"
+        }
+      ]
+    },
+    {
+      "num": 17,
+      "color": "#00B2AE",
+      "slug": "line-17",
+      "stations": [
+        {
+          "name": "未来科学城北",
+          "slug": "/cities/beijing/stations/weilaikexuechengbei-future-science-city-north"
+        },
+        {
+          "name": "未来科学城",
+          "slug": "/cities/beijing/stations/weilaikexuecheng-future-science-city"
+        },
+        {
+          "name": "天通苑东",
+          "slug": "/cities/beijing/stations/tiantongyuandong"
+        },
+        {
+          "name": "清河营",
+          "slug": "/cities/beijing/stations/qingheying"
+        },
+        {
+          "name": "红军营",
+          "slug": "/cities/beijing/stations/hongjunying"
+        },
+        {
+          "name": "望京西",
+          "slug": "/cities/beijing/stations/wangjing-xi-w"
+        },
+        {
+          "name": "太阳宫",
+          "slug": "/cities/beijing/stations/taiyanggong"
+        },
+        {
+          "name": "西坝河",
+          "slug": "/cities/beijing/stations/xibahe"
+        },
+        {
+          "name": "左家庄",
+          "slug": "/cities/beijing/stations/zuojiazhuang"
+        },
+        {
+          "name": "工人体育场",
+          "slug": "/cities/beijing/stations/workers-stadium"
+        },
+        {
+          "name": "东大桥",
+          "slug": "/cities/beijing/stations/dongdaqiao"
+        },
+        {
+          "name": "永安里",
+          "slug": "/cities/beijing/stations/yong-an-li"
+        },
+        {
+          "name": "潘家园西",
+          "slug": "/cities/beijing/stations/panjiayuanxi"
+        },
+        {
+          "name": "十里河",
+          "slug": "/cities/beijing/stations/shilihe"
+        },
+        {
+          "name": "周家庄",
+          "slug": "/cities/beijing/stations/zhoujiazhuang"
+        },
+        {
+          "name": "十八里店",
+          "slug": "/cities/beijing/stations/shibalidian"
+        },
+        {
+          "name": "北神树",
+          "slug": "/cities/beijing/stations/beishenshu"
+        },
+        {
+          "name": "次渠北",
+          "slug": "/cities/beijing/stations/ciqubei"
+        },
+        {
+          "name": "次渠",
+          "slug": "/cities/beijing/stations/ciqu"
+        },
+        {
+          "name": "嘉会湖",
+          "slug": "/cities/beijing/stations/jiahuihu"
+        }
+      ]
+    },
+    {
+      "num": 18,
+      "color": "#5D5DAF",
+      "slug": "line-18",
+      "stations": [
+        {
+          "name": "马连洼",
+          "slug": "/cities/beijing/stations/malianwa"
+        },
+        {
+          "name": "上地软件园",
+          "slug": "/cities/beijing/stations/shangdi-ruanjianyuan"
+        },
+        {
+          "name": "东北旺",
+          "slug": "/cities/beijing/stations/dongbeiwang"
+        },
+        {
+          "name": "龙泽西",
+          "slug": "/cities/beijing/stations/longzexi"
+        },
+        {
+          "name": "回龙观西大街",
+          "slug": "/cities/beijing/stations/huilongguan-xidajie"
+        },
+        {
+          "name": "文华路",
+          "slug": "/cities/beijing/stations/wenhualu"
+        },
+        {
+          "name": "回龙观东大街",
+          "slug": "/cities/beijing/stations/huilongguan-dongdajie"
+        },
+        {
+          "name": "霍营东",
+          "slug": "/cities/beijing/stations/huoyingdong"
+        },
+        {
+          "name": "天通苑",
+          "slug": "/cities/beijing/stations/tiantongyuan"
+        },
+        {
+          "name": "太平庄",
+          "slug": "/cities/beijing/stations/taipingzhuang"
+        },
+        {
+          "name": "天通苑东",
+          "slug": "/cities/beijing/stations/tiantongyuandong"
+        }
+      ]
+    },
+    {
+      "num": 19,
+      "color": "#DDABC9",
+      "slug": "line-19",
+      "stations": [
+        {
+          "name": "牡丹园",
+          "slug": "/cities/beijing/stations/mudanyuan"
+        },
+        {
+          "name": "北太平庄",
+          "slug": "/cities/beijing/stations/beitaipingzhuang"
+        },
+        {
+          "name": "积水潭",
+          "slug": "/cities/beijing/stations/jishuitan"
+        },
+        {
+          "name": "平安里",
+          "slug": "/cities/beijing/stations/ping-anli"
+        },
+        {
+          "name": "太平桥",
+          "slug": "/cities/beijing/stations/taipingqiao"
+        },
+        {
+          "name": "牛街",
+          "slug": "/cities/beijing/stations/niujie"
+        },
+        {
+          "name": "景风门",
+          "slug": "/cities/beijing/stations/jingfengmen"
+        },
+        {
+          "name": "草桥",
+          "slug": "/cities/beijing/stations/caoqiao"
+        },
+        {
+          "name": "新发地",
+          "slug": "/cities/beijing/stations/xinfadi"
+        },
+        {
+          "name": "新宫",
+          "slug": "/cities/beijing/stations/xingong"
+        }
+      ]
+    }
+  ]
+}
