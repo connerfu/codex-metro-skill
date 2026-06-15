@@ -40,14 +40,9 @@
 - 对策: 仅修复相邻collapse的站对(match[i].pi >= match[i+1].pi时给i+1分配pi+2)
 - 来源: v5.5→v5.6 修复
 
-## L9: 删除限频器
-- 现象: rateLimit + releaseRateLimit 未配对调用，导致第3次请求起死锁，全量管线卡在第2条线
-- 对策: 完全删除RATE_LIMIT_MS/CONCURRENCY限频机制，AMap请求不再做人为限频
-- 来源: v5.6 修复
-
-## L9: 限频器死锁
-- 现象: rateLimit+releaseRateLimit未配对，第3次起队列死锁；AMap服务端自身也有限频，快速请求返回0结果
-- 对策: 删除旧限频器，在generateAnchors循环中加800ms延迟避免触发AMap服务端限频
+## L9: 限频器死锁 + 并发信号量重写
+- 现象: rateLimit+releaseRateLimit 未配对调用，第3次起队列死锁；AMap服务端限频，快速请求返回0结果
+- 对策: 1) 删除旧限频器(含RATE_LIMIT_MS/CONCURRENCY/requestQueue) 2) 加3并发信号量concAcquire/concRelease在busLineSearch内部配对使用 3) 去掉pipeline中的800ms延时
 - 来源: v5.6 修复
 
 ## L10: matchStationsToPolyline 搜索起点不走动导致坍塌
@@ -55,3 +50,9 @@
 - 对策: searchStart = Math.max(bestPi + 1, searchStart + 3)，强制搜索起点前进
 - 补充: fixCollapsedCoords 新增地理距离检测坍塌(50m阈值) + COLLAPSE_GAP=8
 - 来源: v5.6 修复
+
+## L11: 环线检测 + polyline缓存
+- 现象: metroman数据未标记环线(isRing=undefined)，anchorsFromMatch收不到isRing参数，2/10号线缺闭合段
+- 对策: generateAnchors加入er.line.loop==="1"检测环线；pipeline写入polyline缓存(references/{slug}_polylines.json)，AMap不可用时离线回退
+- 来源: v5.6 修复
+
