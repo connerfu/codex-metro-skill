@@ -12,6 +12,16 @@ const geo = require("./utils/geo");
 
 // ===== ���� =====
 const AMAP_KEY = process.env.AMAP_KEY || "";
+
+// ===== 并发控制信号量 (最大3并发) =====
+const MAX_CONCURRENCY = 3;
+let concCurrent = 0;
+const concQueue = [];
+
+function concAcquire() { return new Promise(function(r) { if (concCurrent < MAX_CONCURRENCY) { concCurrent++; r(); } else { concQueue.push(r); } }); }
+
+function concRelease() { if (concQueue.length > 0) { concQueue.shift()(); } else { concCurrent = Math.max(0, concCurrent - 1); } }
+
 const CACHE_TTL = 86400000; // 24h
 const RATE_LIMIT_MS = 1000; // L1: ��� 1s
 const CONCURRENCY = 2;      // L1: ��󲢷� 2

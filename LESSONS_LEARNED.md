@@ -39,3 +39,13 @@
 - 现象: 原逻辑将所有站点均匀重分配给polyline，导致望京西站偏移1.3km
 - 对策: 仅修复相邻collapse的站对(match[i].pi >= match[i+1].pi时给i+1分配pi+2)
 - 来源: v5.5→v5.6 修复
+
+## L9: 删除限频器
+- 现象: rateLimit + releaseRateLimit 未配对调用，导致第3次请求起死锁，全量管线卡在第2条线
+- 对策: 完全删除RATE_LIMIT_MS/CONCURRENCY限频机制，AMap请求不再做人为限频
+- 来源: v5.6 修复
+
+## L9: 限频器死锁
+- 现象: rateLimit+releaseRateLimit未配对，第3次起队列死锁；AMap服务端自身也有限频，快速请求返回0结果
+- 对策: 删除旧限频器，在generateAnchors循环中加800ms延迟避免触发AMap服务端限频
+- 来源: v5.6 修复
