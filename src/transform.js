@@ -15,75 +15,7 @@
  * 3. 颜色格式不匹配 /^#[0-9A-Fa-f]{6}$/ -> 替换为 #999999
  * 4. headways 长度不为 5 -> 补齐至 5（末位重复）
  */
-function sanitizeStationsData(data) {
-  if (!data || typeof data !== "object") throw new Error("sanitizeStationsData: data must be an object");
-  if (!data.lines) throw new Error("sanitizeStationsData: missing lines array");
 
-  for (const line of data.lines) {
-    if (!line.stations || !Array.isArray(line.stations)) {
-      throw new Error("sanitizeStationsData: line missing stations array");
-    }
-    if (line.color && !/^#[0-9A-Fa-f]{6}$/.test(line.color)) {
-      line.color = "#999999";
-    }
-    if (line.headways && Array.isArray(line.headways)) {
-      while (line.headways.length < 5) {
-        line.headways.push(line.headways[line.headways.length - 1] || 0);
-      }
-    }
-    const seen = new Set();
-    const deduped = [];
-    for (const st of line.stations) {
-      if (!st || typeof st !== "object") throw new Error("sanitizeStationsData: station must be an object");
-      if (st.name === undefined || st.name === null || st.lat === undefined || st.lng === undefined) {
-        throw new Error("sanitizeStationsData: station missing required key (name/lat/lng)");
-      }
-      const key = String(st.name);
-      if (!seen.has(key)) {
-        seen.add(key);
-        deduped.push(st);
-      }
-    }
-    line.stations = deduped;
-  }
-  return data;
-}
-
-// ================================================================
-// 坐标工具
-// ================================================================
-
-const EARTH_RADIUS_KM = 6371;
-
-function toRadians(degrees) {
-  return degrees * Math.PI / 180;
-}
-
-function haversineKm(a, b) {
-  const deltaLat = toRadians(b.lat - a.lat);
-  const deltaLng = toRadians(b.lng - a.lng);
-  const sinDeltaLat = Math.sin(deltaLat / 2);
-  const sinDeltaLng = Math.sin(deltaLng / 2);
-  const hv = sinDeltaLat ** 2
-    + Math.cos(toRadians(a.lat))
-    * Math.cos(toRadians(b.lat))
-    * sinDeltaLng ** 2;
-  return EARTH_RADIUS_KM * 2 * Math.atan2(Math.sqrt(hv), Math.sqrt(1 - hv));
-}
-
-function haversineM(a, b) {
-  return haversineKm(a, b) * 1000;
-}
-
-function approximateM(a, b) {
-  const dlat = (a.lat - b.lat) * 111000;
-  const dlng = (a.lng - b.lng) * 111000 * Math.cos(toRadians(a.lat));
-  return Math.sqrt(dlat * dlat + dlng * dlng);
-}
-
-function dist(a, b) {
-  return approximateM(a, b);
-}
 
 function wgs2gcj(lat, lng) {
   const A = 6378245.0;
@@ -188,21 +120,44 @@ function getSpecialLineName(lineId, SPECIAL_LINE_NAMES) {
 // 锚点简化 (参考 lib/anchor-simplify.js + scripts/anchors.js)
 // ================================================================
 
-function perpendicularDist(point, lineStart, lineEnd) {
-  const dx = lineEnd.lng - lineStart.lng;
-  const dy = lineEnd.lat - lineStart.lat;
-  const lengthSq = dx * dx + dy * dy;
-  if (lengthSq === 0) {
-    return Math.hypot(point.lng - lineStart.lng, point.lat - lineStart.lat);
+
+function sanitizeStationsData(data) {
+  if (!data || typeof data !== "object") throw new Error("sanitizeStationsData: data must be an object");
+  if (!data.lines) throw new Error("sanitizeStationsData: missing lines array");
+
+  for (const line of data.lines) {
+    if (!line.stations || !Array.isArray(line.stations)) {
+      throw new Error("sanitizeStationsData: line missing stations array");
+    }
+    if (line.color && !/^#[0-9A-Fa-f]{6}$/.test(line.color)) {
+      line.color = "#999999";
+    }
+    if (line.headways && Array.isArray(line.headways)) {
+      while (line.headways.length < 5) {
+        line.headways.push(line.headways[line.headways.length - 1] || 0);
+      }
+    }
+    const seen = new Set();
+    const deduped = [];
+    for (const st of line.stations) {
+      if (!st || typeof st !== "object") throw new Error("sanitizeStationsData: station must be an object");
+      if (st.name === undefined || st.name === null || st.lat === undefined || st.lng === undefined) {
+        throw new Error("sanitizeStationsData: station missing required key (name/lat/lng)");
+      }
+      const key = String(st.name);
+      if (!seen.has(key)) {
+        seen.add(key);
+        deduped.push(st);
+      }
+    }
+    line.stations = deduped;
   }
-  const t = Math.max(0, Math.min(1,
-    ((point.lng - lineStart.lng) * dx + (point.lat - lineStart.lat) * dy) / lengthSq
-  ));
-  return Math.hypot(
-    point.lng - lineStart.lng - t * dx,
-    point.lat - lineStart.lat - t * dy
-  );
+  return data;
 }
+
+// ================================================================
+// 坐标工具
+// ================================================================
 
 function rdpSimplify(points, epsilon) {
   if (points.length <= 2) return points;
@@ -414,9 +369,17 @@ function snapStations(stations, match, polyline) {
   let snapped = 0;
   for (const m of match) {
     if (m.pi >= 0 && m.pi < polyline.length) {
-      stations[m.si].lat = polyline[m.pi].lat;
-      stations[m.si].lng = polyline[m.pi].lng;
-      snapped++;
+      var snapPt = polyline[m.pi];
+      var d = approximateM(stations[m.si], snapPt);
+      if (d <= MAX_SNAP_DIST) {
+        stations[m.si].lat = snapPt.lat;
+        stations[m.si].lng = snapPt.lng;
+        stations[m.si].isSnapped = true;
+        snapped++;
+      } else {
+        stations[m.si].isSuspicious = true;
+        console.warn("[????] ??????: " + (stations[m.si].name || "") + " " + d.toFixed(0) + "m");
+      }
     }
   }
   return snapped;
@@ -686,6 +649,9 @@ function isRing(lineNum, lineId) {
 // 输出构建
 // ================================================================
 
+const geo = require("./utils/geo");
+const { haversineKm, haversineM, approximateM, dist, perpendicularDist } = geo;
+
 
 function buildOutput(coords, lineData, slug, RING_LINES) {
   var stationLines = {};
@@ -877,25 +843,6 @@ function validateQuality(data) {
 
 
 // Spec v2.0 config constants
-
-/**
- * ??????? (Spec v2.0 Task 1.2)
- * ??????????????????
- * @param {object} line - ?????? num ???
- * @param {string} slug - ?? slug
- * @returns {{ speed: number, cars: number }}
- */
-function enrichLineMetadata(line, slug) {
-  // ?????????????
-  // 16???19?? ? 120km/h
-  // 7???11???21?? ? 100km/h
-  // ?? ? 80km/h
-  // ????1???16???19???21?? ? 4???? ? 6?
-  var speed = ([16,19].indexOf(line.num) >= 0 ? 120 : [7,11,21].indexOf(line.num) >= 0 ? 100 : 80);
-  var cars = ([1,16,19,21].indexOf(line.num) >= 0 ? 4 : 6);
-  return { speed: speed, cars: cars };
-}
-
 var SPECIAL_LINE_NAMES = {
   BJYZ: "亦庄线", BJCP: "昌平线", BJFS: "房山线", BJYF: "燕房线", BJXJ: "西郊线",
   BJCA: "首都机场线", BJJX: "大兴机场线", BJYZT1: "亦庄T1线", BJ_LINE_S1: "北京地铁S1线",
@@ -913,10 +860,14 @@ var SPECIAL_LINE_NAMES = {
 
 var RING_LINES = {
   beijing: ["BJ2", "BJ10"], shanghai: ["SH4"], chengdu: ["CD7"],
-  chongqing: ["CQ_LOOP_LINE"], zhengzhou: ["ZZ5"], harbin: ["HEB3"],
+  chongqing: ["CQ_LOOP_LINE"], zhengzhou: ["ZZ5"], harbin: ["HEB3"]
 };
 
 // Spec v2.0: Pure logic from pipeline
+
+// P0-4: ??????
+var MAX_SNAP_DIST = 2000; // 2km
+
 
 function interpolateZeroCoords(coords, ref) {
   for (var lid in ref) {
@@ -958,15 +909,36 @@ function enrichTransferFields(outputData) {
     }
   }
   var stnNames = Object.keys(index);
+  var TRANSFER_DIST_M = 100; // 100m
   for (var ti = 0; ti < stnNames.length; ti++) {
     var entries = index[stnNames[ti]];
     if (entries.length < 2) continue;
+    // SPEC P0-3: ??????????????
+    var groups = [];
     for (var ei = 0; ei < entries.length; ei++) {
       var stn = lines[entries[ei].li].stations[entries[ei].si];
-      stn.isTransfer = true;
-      stn.transferType = "same_station";
-      stn.transferGroupId = stnNames[ti];
-      stn.same_station = stnNames[ti];
+      var added = false;
+      for (var gi = 0; gi < groups.length; gi++) {
+        var ref = lines[groups[gi][0].li].stations[groups[gi][0].si];
+        var d = approximateM(stn, ref);
+        if (d < TRANSFER_DIST_M) {
+          groups[gi].push(entries[ei]);
+          added = true;
+          break;
+        }
+      }
+      if (!added) groups.push([entries[ei]]);
+    }
+    // ????????? transferGroupId
+    for (var gi2 = 0; gi2 < groups.length; gi2++) {
+      var gid = stnNames[ti] + "_" + gi2;
+      for (var ej = 0; ej < groups[gi2].length; ej++) {
+        var stn2 = lines[groups[gi2][ej].li].stations[groups[gi2][ej].si];
+        stn2.isTransfer = true;
+        stn2.transferType = "same_station";
+        stn2.transferGroupId = gid;
+        stn2.same_station = gid;
+      }
     }
   }
   return outputData;
@@ -1067,16 +1039,23 @@ module.exports = {
   assembleStationLineMap,
   validateStationCoords,
   matchOSM,
-  validateQuality,
+  validateQuality
+,
+  interpolateZeroCoords,
+  enrichTransferFields,
+  sanitizeStation,
+  validateContract,
+  resolveLineName,
+  getSpecialLineNames: function() { return SPECIAL_LINE_NAMES; },
+  getRingForCity: function(slug) { return RING_LINES[slug] || []; }
+,
   interpolateZeroCoords,
   enrichTransferFields,
   sanitizeStation,
   validateContract,
   resolveLineName,
   getSpecialLineNames,
-  getRingForCity,
-  enrichLineMetadata
-
+  getRingForCity
 };
 
 

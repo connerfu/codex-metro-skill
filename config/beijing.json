@@ -1,6 +1,21 @@
-﻿{
+{
   "slug": "beijing",
   "name": "北京",
-  "bbox": { "minLat": 39.6, "maxLat": 40.2, "minLng": 116.0, "maxLng": 116.8 },
-  "linePatterns": ["地铁\\d+号线", "有轨电车\\w+线"]
+  "bbox": {
+    "minLat": 39.6,
+    "maxLat": 40.2,
+    "minLng": 116,
+    "maxLng": 116.8
+  },
+  "linePatterns": [
+    "地铁\\d+号线",
+    "有轨电车\\w+线"
+  ],
+  "firstStop": "????",
+  "lastStop": "??????",
+  "cityCenter": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  },
+  "cityRadiusKm": 50
 }

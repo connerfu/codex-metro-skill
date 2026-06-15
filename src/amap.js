@@ -8,6 +8,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const os = require("os");
+const geo = require("./utils/geo");
 
 // ===== 常量 =====
 const AMAP_KEY = process.env.AMAP_KEY || "";
@@ -265,13 +266,31 @@ function readJSON(filePath, ttl = CACHE_TTL) {
   try {
     if (!fs.existsSync(filePath)) return null;
     var raw = fs.readFileSync(filePath, "utf8");
-    if (ttl > 0) {
-      var parsed = JSON.parse(raw);
-      if (parsed && parsed._ts && Date.now() - parsed._ts > ttl) return null;
-      var stat = fs.statSync(filePath);
-      if (Date.now() - stat.mtimeMs > ttl) return null;
+    var parsed = JSON.parse(raw);
+    // SPEC v2.0: cache version validation
+    if (parsed.cacheVersion && parsed.cacheVersion !== "v9") {
+      console.warn("[???????] ?????: " + filePath);
+      fs.unlinkSync(filePath);
+      return null;
     }
-    return JSON.parse(raw);
+    // Legacy format (no cacheVersion) also supported
+    if (parsed.cacheVersion) {
+      // New format: data is nested under payload.data
+      if (ttl > 0 && Date.now() - parsed.createdAt > ttl) {
+        console.warn("[????] ??: " + filePath);
+        fs.unlinkSync(filePath);
+        return null;
+      }
+      return parsed.data;
+    } else {
+      // Legacy format with _ts
+      if (ttl > 0 && parsed._ts && Date.now() - parsed._ts > ttl) return null;
+      if (ttl > 0) {
+        var stat = fs.statSync(filePath);
+        if (Date.now() - stat.mtimeMs > ttl) return null;
+      }
+      return parsed;
+    }
   } catch (e) { return null; }
 }/**
  * 写入 JSON 文件（自动确保目录存在）
@@ -280,7 +299,13 @@ function readJSON(filePath, ttl = CACHE_TTL) {
  */
 function writeJSON(filePath, data) {
   ensureDir(path.dirname(filePath));
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+  var payload = {
+    cacheVersion: "v9",
+    createdAt: Date.now(),
+    ttl: CACHE_TTL,
+    data: data
+  };
+  fs.writeFileSync(filePath, JSON.stringify(payload, null, 2), "utf8");
 }
 
 /**
@@ -395,7 +420,145 @@ async function fetchMetroCoord(stationPath) {
 }
 
 // ===== 导出 =====
+
+/**
+ * ?????? (SPEC P0-1)
+ * ??????????????????
+ * @param {Array} candidates - busLineSearch ?????????
+ * @param {object} config - ?????? firstStop, lastStop, cityCenter, cityRadiusKm?
+ * @param {Array} metroStations - ????? Metroman ????
+ * @param {function} distanceFn - ?????? (a, b) => km
+ * @returns {{ line: object|null, score: number, reason: string }}
+ */
+function electBusLine(candidates, config, metroStations, distanceFn) {
+  if (!candidates || candidates.length === 0) return { line: null, score: 0, reason: "?????" };
+  if (!distanceFn) distanceFn = geo.haversineKm;
+
+  var results = [];
+  var cc = config.cityCenter;
+
+  for (var i = 0; i < candidates.length; i++) {
+    var bl = candidates[i];
+    var score = 0;
+    var reasons = [];
+
+    // ---- ??????? ----
+    // ????????????
+    if (config.firstStop && config.lastStop) {
+      var firstStopName = (bl.start_stop || bl.departure_stop || bl.stops && bl.stops[0] && bl.stops[0].name || "");
+      var lastStopName = (bl.end_stop || bl.arrival_stop || bl.stops && bl.stops[bl.stops.length-1] && bl.stops[bl.stops.length-1].name || "");
+      if (firstStopName.indexOf(config.firstStop) >= 0 && lastStopName.indexOf(config.lastStop) >= 0) {
+        return { line: bl, score: 100, reason: "????: ?????" };
+      }
+    }
+
+    // ---- ??????? ----
+    if (bl.start_location && cc) {
+      var sl = bl.start_location;
+      var slLat = parseFloat(sl.lat || sl.latitude || 0);
+      var slLng = parseFloat(sl.lng || sl.longitude || 0);
+      if (slLat && slLng) {
+        var distKm = distanceFn({ lat: slLat, lng: slLng }, cc);
+        if (distKm > (config.cityRadiusKm || 50)) {
+          continue; // ??
+        }
+      }
+    }
+
+    // ---- ??????? ----
+    // 3a. ????? (40?)
+    var blStops = (bl.stops || bl.buslines || []).map(function(s) { return (s.name || s.stop_name || "").replace(/\u7ad9$/, ""); });
+    if (blStops.length === 0) blStops = [];
+    var metroNames = (metroStations || []).map(function(s) { return (s.name || "").replace(/\u7ad9$/, ""); });
+    var overlap = 0;
+    for (var mi = 0; mi < metroNames.length; mi++) {
+      for (var bi = 0; bi < blStops.length; bi++) {
+        if (metroNames[mi] === blStops[bi]) { overlap++; break; }
+      }
+    }
+    var overlapScore = metroNames.length > 0 ? (overlap / metroNames.length) * 40 : 0;
+    score += overlapScore;
+    reasons.push("????:" + overlapScore.toFixed(0));
+
+    // 3b. ??????? (30?)
+    var blKm = 0;
+    if (bl.polyline) {
+      var pts = bl.polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
+      for (var pi = 0; pi < pts.length - 1; pi++) {
+        blKm += distanceFn(pts[pi], pts[pi+1]);
+      }
+    }
+    // ??????? 10-60km ??
+    var lengthScore = 0;
+    if (blKm >= 5 && blKm <= 80) {
+      lengthScore = blKm <= 40 ? 30 - Math.abs(blKm - 20) * 0.5 : 30 - (blKm - 40) * 0.3;
+      if (lengthScore < 10) lengthScore = 10;
+    } else {
+      lengthScore = 5;
+    }
+    score += lengthScore;
+    reasons.push("??:" + lengthScore.toFixed(0) + "(" + blKm.toFixed(0) + "km)");
+
+    // 3c. ??????? (30?)
+    var stationCountRatio = metroNames.length > 0 ? blStops.length / metroNames.length : 0;
+    var countScore = 0;
+    if (stationCountRatio >= 0.5 && stationCountRatio <= 2.0) {
+      countScore = 30 - Math.abs(stationCountRatio - 1.0) * 20;
+      if (countScore < 10) countScore = 10;
+    } else {
+      countScore = 5;
+    }
+    score += countScore;
+    reasons.push("???:" + countScore.toFixed(0) + "(" + (stationCountRatio).toFixed(1) + ")");
+
+    // 3d. Metroman ???? (SPEC P0-2) - ??? 20?
+    var distScore = 20;
+    if (bl.polyline && metroStations && metroStations.length >= 2) {
+      var polyPts = bl.polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
+      // Compute metro segment distances (haversine between consecutive metro stations)
+      var metroSegKm = [];
+      for (var mi2 = 0; mi2 < metroStations.length - 1; mi2++) {
+        if (metroStations[mi2].lat && metroStations[mi2+1].lat) {
+          metroSegKm.push(distanceFn({ lat: metroStations[mi2].lat, lng: metroStations[mi2].lng }, { lat: metroStations[mi2+1].lat, lng: metroStations[mi2+1].lng }));
+        }
+      }
+      var totalMetroKm = metroSegKm.reduce(function(s, v) { return s + v; }, 0);
+      // Match polyline segments to metro segments via station-to-polyline matching and compare
+      var abnormalSegs = 0;
+      var totalSegs = 0;
+      for (var si2 = 0; si2 < metroStations.length - 1 && si2 < polyPts.length - 1; si2++) {
+        if (metroSegKm[si2] > 0) {
+          // Estimate AMap distance for this segment (1/5 of polyline per station pair as rough approx)
+          var amapEst = totalMetroKm > 0 ? (blKm * metroSegKm[si2] / totalMetroKm) : 0;
+          if (amapEst > 0 && metroSegKm[si2] > 0 && amapEst > metroSegKm[si2] * 1.5) {
+            abnormalSegs++;
+          }
+          totalSegs++;
+        }
+      }
+      if (totalSegs > 0) {
+        var abnormalRatio = abnormalSegs / totalSegs;
+        distScore = Math.max(0, 20 - abnormalRatio * 40);
+        if (abnormalRatio > 0.5) { distScore = 0; reasons.push("Metroman???"); score = -1; break; } // ??????? ? ??
+      }
+    }
+    score += distScore;
+    reasons.push("Metroman?:" + distScore.toFixed(0));
+
+    results.push({ line: bl, score: score, reason: reasons.join(" | ") });
+  }
+
+  if (results.length === 0) return { line: null, score: 0, reason: "??????" };
+
+  // ????
+  results.sort(function(a, b) { return b.score - a.score; });
+  if (results[0].score < 0) return { line: null, score: -1, reason: "????: " + results[0].reason };
+  return { line: results[0].line, score: results[0].score, reason: results[0].reason };
+}
+
+
 module.exports = {
+  electBusLine,
   fetchUrl,
   amapGet,
   searchPOI,

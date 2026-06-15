@@ -207,23 +207,22 @@ async function runPipeline(slug, cityName, options) {
       var line = outputData.data.lines[li];
       if (!line.stations || line.stations.length < 2) continue;
       var lineName = line.name || cityName + "����";
+      // ?????? (SPEC P0-1): ???? bls[0]
+      var config = (function() { try { var r = require("fs").readFileSync(require("path").join(amap.skillPath("config"), slug + ".json"), "utf8"); return JSON.parse(r); } catch(e) { return {}; } })();
       await amap.rateLimit();
       var bls = await amap.busLineSearch(lineName, cityName);
-      if (bls && bls.length > 0 && bls[0].polyline) {
-        var pl = bls[0].polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
+      var electResult = amap.electBusLine(bls, config, line.stations, transform.haversineKm);
+      if (electResult.line && electResult.line.polyline) {
+        console.log("    ?? [" + electResult.score.toFixed(0) + "]: " + electResult.reason);
+        var pl = electResult.line.polyline.split(";").map(function(p) { var ps = p.split(","); return { lng: +ps[0], lat: +ps[1] }; });
         if (pl.length > 4) {
           var match = transform.matchStationsToPolyline(line.stations, pl);
           if (match && match.length >= 2) {
             transform.fixCollapsedCoords(line.stations, pl, match);
             var segAnchors = transform.anchorsFromMatch(line.stations, pl, match, !!(line.isRing || line.ring));
             line.segmentAnchors = segAnchors;
-            // Snap stations to polyline
-            for (var mi = 0; mi < match.length; mi++) {
-              if (match[mi].pi >= 0 && match[mi].pi < pl.length) {
-                line.stations[mi].lat = pl[match[mi].pi].lat;
-                line.stations[mi].lng = pl[match[mi].pi].lng;
-              }
-            }
+            // Snap stations to polyline (with MAX_SNAP_DIST boundary)
+            transform.snapStations(line.stations, match, pl);
           }
         }
       }
