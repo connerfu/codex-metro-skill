@@ -1,0 +1,13 @@
+﻿{
+  "name": "replicate-metro-json",
+  "version": "8.0.0",
+  "description": "28城地铁存档生成 — 6文件极简架构，AMap真实轨道",
+  "main": "SKILL.md",
+  "scripts": {
+    "start": "node bin/run.js",
+    "city": "node bin/run.js --city",
+    "all": "node bin/run.js --all"
+  },
+  "keywords": ["metro", "地铁", "cities-designers", "amap"],
+  "license": "MIT"
+}

@@ -1,0 +1,14 @@
+version: 5.0
+commands:
+  run:
+    description: "运行地铁管线（默认读取 SKILL.md）"
+    command: "node bin/run.js"
+  city:
+    description: "生成指定城市地铁"
+    command: "node bin/run.js --city"
+  all:
+    description: "批量生成所有城市"
+    command: "node bin/run.js --all"
+  help:
+    description: "显示帮助"
+    command: "node bin/run.js --help"
