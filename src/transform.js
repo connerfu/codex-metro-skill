@@ -387,19 +387,16 @@ function snapStations(stations, match, polyline) {
 
 function fixCollapsedCoords(stations, polyline, match) {
   if (!stations || stations.length < 2 || !match || match.length < 2) return false;
-  const uniquePoints = new Set();
-  for (let i = 0; i < match.length; i++) uniquePoints.add(match[i].pi);
-  if (uniquePoints.size >= stations.length) return false;
-  const totalPts = polyline.length;
-  const interval = totalPts / (stations.length - 1);
-  for (let i = 0; i < stations.length; i++) {
-    let pi = Math.round(i * interval);
-    if (pi >= totalPts) pi = totalPts - 1;
-    stations[i] = { lat: polyline[pi].lat, lng: polyline[pi].lng, name: stations[i].name };
-    match[i] = { si: i, pi: pi };
+  var fixed = false;
+  for (var i = 0; i < match.length - 1; i++) {
+    if (match[i].pi >= match[i+1].pi) {
+      match[i+1].pi = Math.min(match[i].pi + 2, polyline.length - 1);
+      fixed = true;
+    }
   }
-  return true;
+  return fixed;
 }
+
 
 // ================================================================
 // 支线检测

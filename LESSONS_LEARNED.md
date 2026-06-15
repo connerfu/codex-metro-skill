@@ -24,3 +24,18 @@
 - 现象：架构存在 5 处偏差（IO与计算未彻底分离、配置源冗余、拦截规则弱、无契约校验、路径散落）
 - 对策：按 Spec v2.0 剥离纯逻辑至 transform、统一 config 源、强化拦截表与契约校验、收束路径
 - 来源：Spec v2.0 终审
+
+## L6: ElectBusLine 首末站匹配 - config乱码修复
+- 现象: config/firstStop / lastStop 在非UTF8环境下为乱码，导致1号线选举匹配到支线
+- 对策: 改用 metroman 返回的实际站点 metroStations[0].name / metroStations[-1].name 进行匹配
+- 来源: v5.5→v5.6 修复
+
+## L7: Polyline方向检测
+- 现象: AMap返回的polyline方向与站点列表方向相反(东→西 vs 西→东)，导致全量失败
+- 对策: 在匹配前比较首站到polyline首/末10点的距离，若首站更靠近末点则反转polyline
+- 来源: v5.5→v5.6 修复
+
+## L8: fixCollapsedCoords 全量重分配破坏原始坐标
+- 现象: 原逻辑将所有站点均匀重分配给polyline，导致望京西站偏移1.3km
+- 对策: 仅修复相邻collapse的站对(match[i].pi >= match[i+1].pi时给i+1分配pi+2)
+- 来源: v5.5→v5.6 修复

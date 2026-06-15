@@ -1,7 +1,7 @@
-// src/amap.js ¡ª ÍøÂçÓë»º´æ IO µÄÎ¨Ò»³ö¿Ú£¨ÖØ¹¹°æ v8.0£©
-// ¹ÜÏ½ËùÓÐÍâ²¿ÍøÂçÇëÇó£¨AMap POI/Â·¾¶¹æ»®¡¢metroman ×¥È¡£©¼°±¾µØÎÄ¼þ»º´æ¶ÁÐ´
-// Ô¼Êø£ºÏÞÆµ ²¢·¢2/¼ä¸ô1s£¨L1£©£¬AMAP_KEY ´Ó process.env.AMAP_KEY ¶ÁÈ¡
-// Ê¹ÓÃ Node.js ÄÚÖÃÄ£¿é£¨https, fs, path£©£¬²»Ê¹ÓÃµÚÈý·½°ü
+// src/amap.js ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ë»ºï¿½ï¿½ IO ï¿½ï¿½Î¨Ò»ï¿½ï¿½ï¿½Ú£ï¿½ï¿½Ø¹ï¿½ï¿½ï¿½ v8.0ï¿½ï¿½
+// ï¿½ï¿½Ï½ï¿½ï¿½ï¿½ï¿½ï¿½â²¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½AMap POI/Â·ï¿½ï¿½ï¿½æ»®ï¿½ï¿½metroman ×¥È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´
+// Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æµ ï¿½ï¿½ï¿½ï¿½2/ï¿½ï¿½ï¿½1sï¿½ï¿½L1ï¿½ï¿½ï¿½ï¿½AMAP_KEY ï¿½ï¿½ process.env.AMAP_KEY ï¿½ï¿½È¡
+// Ê¹ï¿½ï¿½ Node.js ï¿½ï¿½ï¿½ï¿½Ä£ï¿½é£¨https, fs, pathï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 const https = require("https");
 const http = require("http");
@@ -10,23 +10,23 @@ const path = require("path");
 const os = require("os");
 const geo = require("./utils/geo");
 
-// ===== ³£Á¿ =====
+// ===== ï¿½ï¿½ï¿½ï¿½ =====
 const AMAP_KEY = process.env.AMAP_KEY || "";
 const CACHE_TTL = 86400000; // 24h
-const RATE_LIMIT_MS = 1000; // L1: ¼ä¸ô 1s
-const CONCURRENCY = 2;      // L1: ×î´ó²¢·¢ 2
+const RATE_LIMIT_MS = 1000; // L1: ï¿½ï¿½ï¿½ 1s
+const CONCURRENCY = 2;      // L1: ï¿½ï¿½ó²¢·ï¿½ 2
 
-// ===== ¼¼ÄÜ¸ùÄ¿Â¼£¨src/ µÄ¸¸Ä¿Â¼£© =====
+// ===== ï¿½ï¿½ï¿½Ü¸ï¿½Ä¿Â¼ï¿½ï¿½src/ ï¿½Ä¸ï¿½Ä¿Â¼ï¿½ï¿½ =====
 const SKILL_DIR = path.resolve(__dirname, "..");
 
-// ===== ÏÞÆµÆ÷ =====
+// ===== ï¿½ï¿½Æµï¿½ï¿½ =====
 let lastRequestTime = 0;
 let activeRequests = 0;
 const requestQueue = [];
 
 /**
- * ÏÞÆµ£º¿ØÖÆ²¢·¢Êý + ×îÐ¡ÇëÇó¼ä¸ô
- * Ã¿¸ö HTTP ÇëÇóÇ°±ØÐë¾­¹ý´Ëº¯Êý
+ * ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ï¿½ + ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * Ã¿ï¿½ï¿½ HTTP ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ë¾­ï¿½ï¿½ï¿½Ëºï¿½ï¿½ï¿½
  * @returns {Promise<void>}
  */
 async function rateLimit() {
@@ -51,7 +51,7 @@ async function rateLimit() {
 }
 
 /**
- * ÊÍ·ÅÏÞÆµ²ÛÎ»£¬»½ÐÑÏÂÒ»¸öÅÅ¶ÓÇëÇó
+ * ï¿½Í·ï¿½ï¿½ï¿½Æµï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Å¶ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 function releaseRateLimit() {
   activeRequests = Math.max(0, activeRequests - 1);
@@ -61,11 +61,11 @@ function releaseRateLimit() {
   }
 }
 
-// ===== Í¨ÓÃ HTTP GET ÇëÇó =====
+// ===== Í¨ï¿½ï¿½ HTTP GET ï¿½ï¿½ï¿½ï¿½ =====
 /**
- * Í¨ÓÃ HTTP GET ÇëÇó£¬³¬Ê±×Ô¶¯·µ»Ø¿Õ×Ö·û´®
- * @param {string} url - ÇëÇóµØÖ·
- * @param {number} timeout - ³¬Ê±Ê±¼ä£¨ms£©£¬Ä¬ÈÏ 15000
+ * Í¨ï¿½ï¿½ HTTP GET ï¿½ï¿½ï¿½ó£¬³ï¿½Ê±ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ø¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+ * @param {string} url - ï¿½ï¿½ï¿½ï¿½ï¿½Ö·
+ * @param {number} timeout - ï¿½ï¿½Ê±Ê±ï¿½ä£¨msï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ï¿½ 15000
  * @returns {Promise<string>}
  */
 function fetchUrl(url, timeout = 15000) {
@@ -90,16 +90,16 @@ function fetchUrl(url, timeout = 15000) {
   });
 }
 
-// ===== AMap API ÇëÇó£¨´øÏÞÆµ+ÖØÊÔ£© =====
+// ===== AMap API ï¿½ï¿½ï¿½ó£¨´ï¿½ï¿½ï¿½Æµ+ï¿½ï¿½ï¿½Ô£ï¿½ =====
 /**
- * AMap API GET ÇëÇó£¨×Ô¶¯Æ´½Ó key + ÏÞÆµ + ÖØÊÔ£©
- * @param {string} apiPath - API Â·¾¶£¨Èç /v3/place/text£©
+ * AMap API GET ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Æ´ï¿½ï¿½ key + ï¿½ï¿½Æµ + ï¿½ï¿½ï¿½Ô£ï¿½
+ * @param {string} apiPath - API Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ /v3/place/textï¿½ï¿½
  * @param {{timeout?: number, retries?: number}} options
  * @returns {Promise<object|null>}
  */
 async function amapGet(apiPath, options = {}) {
   if (!AMAP_KEY) {
-    console.error("[amap] AMAP_KEY »·¾³±äÁ¿Î´ÉèÖÃ");
+    console.error("[amap] AMAP_KEY ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½");
     return null;
   }
   const { timeout = 10000, retries = 1 } = options;
@@ -126,12 +126,12 @@ async function amapGet(apiPath, options = {}) {
   return null;
 }
 
-// ===== AMap ÒµÎñ½Ó¿Ú =====
+// ===== AMap Òµï¿½ï¿½Ó¿ï¿½ =====
 
 /**
- * POI ËÑË÷£¨/v3/place/text£©
- * @param {string} city - ³ÇÊÐÃû
- * @param {string} keywords - ËÑË÷¹Ø¼ü´Ê
+ * POI ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/v3/place/textï¿½ï¿½
+ * @param {string} city - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @param {string} keywords - ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½
  * @param {{types?: string, offset?: number, page?: number}} options
  * @returns {Promise<Array>}
  */
@@ -143,9 +143,9 @@ async function searchPOI(city, keywords, options = {}) {
 }
 
 /**
- * µØÀí±àÂë£¨/v3/geocode/geo£©
- * @param {string} address - µØÖ·
- * @param {string} city - ³ÇÊÐÃû
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¨/v3/geocode/geoï¿½ï¿½
+ * @param {string} address - ï¿½ï¿½Ö·
+ * @param {string} city - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @returns {Promise<{lat: number, lng: number}|null>}
  */
 async function geocode(address, city) {
@@ -159,9 +159,9 @@ async function geocode(address, city) {
 }
 
 /**
- * ¹«½»ÏßÂ·ÃûËÑË÷£¨/v3/bus/linename£©
- * @param {string} keywords - ËÑË÷¹Ø¼ü´Ê
- * @param {string} city - ³ÇÊÐÃû
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/v3/bus/linenameï¿½ï¿½
+ * @param {string} keywords - ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½
+ * @param {string} city - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @returns {Promise<Array>}
  */
 async function busLineSearch(keywords, city) {
@@ -174,12 +174,12 @@ async function busLineSearch(keywords, city) {
 }
 
 /**
- * Â·¾¶¹æ»® ¡ª »ñÈ¡¹ìµÀ½»Í¨ polyline£¨/v3/direction/transit/integrated£©
- * @param {{lat: number, lng: number}} origin - Æðµã
- * @param {{lat: number, lng: number}} destination - ÖÕµã
- * @param {string} city - ³ÇÊÐÃû
- * @param {number} strategy - ²ßÂÔ£¨Ä¬ÈÏ0£©
- * @param {string} [expectedLine] - ÆÚÍûÏßÂ·Ãû£¨ÓÃÓÚ¹ýÂË£©
+ * Â·ï¿½ï¿½ï¿½æ»® ï¿½ï¿½ ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ polylineï¿½ï¿½/v3/direction/transit/integratedï¿½ï¿½
+ * @param {{lat: number, lng: number}} origin - ï¿½ï¿½ï¿½
+ * @param {{lat: number, lng: number}} destination - ï¿½Õµï¿½
+ * @param {string} city - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * @param {number} strategy - ï¿½ï¿½ï¿½Ô£ï¿½Ä¬ï¿½ï¿½0ï¿½ï¿½
+ * @param {string} [expectedLine] - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¹ï¿½ï¿½Ë£ï¿½
  * @returns {Promise<Array<{lat: number, lng: number}>|null>}
  */
 async function getTransitPolyline(origin, destination, city, strategy = 0, expectedLine) {
@@ -194,18 +194,18 @@ async function getTransitPolyline(origin, destination, city, strategy = 0, expec
       for (const busLine of (segment.bus && segment.bus.buslines || [])) {
         if (!busLine.polyline) continue;
         const type = busLine.type || "";
-        // Ö»È¡¹ìµÀ½»Í¨ÀàÐÍ
-        if (!type.includes("µØÌú") && !type.includes("¹ìµÀ") && !type.includes("Çá¹ì") &&
-            !type.includes("ÓÐ¹ìµç³µ") && !type.includes("´Å¸¡") && !type.includes("APM") &&
-            !type.includes("ÔÆ°Í") && !type.includes("ÊÐÓò") && !type.includes("ÊÐ½¼") &&
-            !type.includes("ÌúÂ·") && !type.includes("»ð³µ") && !type.includes("»ú³¡")) continue;
-        // ÏßÂ·ÃûÐ£Ñé
+        // Ö»È¡ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½
+        if (!type.includes("ï¿½ï¿½ï¿½ï¿½") && !type.includes("ï¿½ï¿½ï¿½") && !type.includes("ï¿½ï¿½ï¿½") &&
+            !type.includes("ï¿½Ð¹ï¿½ç³µ") && !type.includes("ï¿½Å¸ï¿½") && !type.includes("APM") &&
+            !type.includes("ï¿½Æ°ï¿½") && !type.includes("ï¿½ï¿½ï¿½ï¿½") && !type.includes("ï¿½Ð½ï¿½") &&
+            !type.includes("ï¿½ï¿½Â·") && !type.includes("ï¿½ï¿½") && !type.includes("ï¿½ï¿½ï¿½ï¿½")) continue;
+        // ï¿½ï¿½Â·ï¿½ï¿½Ð£ï¿½ï¿½
         if (expectedLine) {
           const expNum = expectedLine.match(/\d+/);
           const actNum = (busLine.name || "").match(/\d+/);
           if (expNum && actNum && expNum[0] !== actNum[0]) continue;
         }
-        // ½âÎö polyline ×Ö·û´® ¡ú ×ø±êÊý×é
+        // ï¿½ï¿½ï¿½ï¿½ polyline ï¿½Ö·ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         return busLine.polyline.split(";").map(p => {
           const parts = p.split(",");
           return { lng: parseFloat(parts[0]), lat: parseFloat(parts[1]) };
@@ -219,7 +219,7 @@ async function getTransitPolyline(origin, destination, city, strategy = 0, expec
 // ===== OSM Overpass API =====
 
 /**
- * OSM Overpass API ²éÑ¯µØÌúÕ¾½Úµã
+ * OSM Overpass API ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½Õ¾ï¿½Úµï¿½
  * @param {Array<number>} bbox - [minLat, maxLat, minLng, maxLng]
  * @returns {Promise<Array>}
  */
@@ -254,12 +254,12 @@ async function queryOverpass(bbox) {
   return [];
 }
 
-// ===== ÎÄ¼þ»º´æ =====
+// ===== ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ =====
 
 /**
- * ¶ÁÈ¡ JSON ÎÄ¼þ£¬Ö§³Ö TTL ¹ýÆÚ¼ì²â
- * @param {string} filePath - ÎÄ¼þÂ·¾¶
- * @param {number} [ttl=CACHE_TTL] - ¹ýÆÚÊ±¼ä£¨ms£©£¬0 »ò¸ºÊý±íÊ¾ÓÀ²»¹ýÆÚ
+ * ï¿½ï¿½È¡ JSON ï¿½Ä¼ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ TTL ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½
+ * @param {string} filePath - ï¿½Ä¼ï¿½Â·ï¿½ï¿½
+ * @param {number} [ttl=CACHE_TTL] - ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ä£¨msï¿½ï¿½ï¿½ï¿½0 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @returns {object|null}
  */
 function readJSON(filePath, ttl = CACHE_TTL) {
@@ -293,9 +293,9 @@ function readJSON(filePath, ttl = CACHE_TTL) {
     }
   } catch (e) { return null; }
 }/**
- * Ð´Èë JSON ÎÄ¼þ£¨×Ô¶¯È·±£Ä¿Â¼´æÔÚ£©
- * @param {string} filePath - ÎÄ¼þÂ·¾¶
- * @param {object} data - Êý¾Ý¶ÔÏó
+ * Ð´ï¿½ï¿½ JSON ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½È·ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½Ú£ï¿½
+ * @param {string} filePath - ï¿½Ä¼ï¿½Â·ï¿½ï¿½
+ * @param {object} data - ï¿½ï¿½ï¿½Ý¶ï¿½ï¿½ï¿½
  */
 function writeJSON(filePath, data) {
   ensureDir(path.dirname(filePath));
@@ -309,7 +309,7 @@ function writeJSON(filePath, data) {
 }
 
 /**
- * È·±£Ä¿Â¼´æÔÚ£¬²»´æÔÚÔòµÝ¹é´´½¨
+ * È·ï¿½ï¿½Ä¿Â¼ï¿½ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¹é´´ï¿½ï¿½
  * @param {string} dirPath
  */
 function ensureDir(dirPath) {
@@ -318,11 +318,11 @@ function ensureDir(dirPath) {
   }
 }
 
-// ===== Â·¾¶¹¤¾ß =====
+// ===== Â·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ =====
 
 /**
- * Æ´½Ó¼¼ÄÜ¸ùÄ¿Â¼ÏÂµÄÂ·¾¶
- * @param {...string} parts - Â·¾¶Æ¬¶Î
+ * Æ´ï¿½Ó¼ï¿½ï¿½Ü¸ï¿½Ä¿Â¼ï¿½Âµï¿½Â·ï¿½ï¿½
+ * @param {...string} parts - Â·ï¿½ï¿½Æ¬ï¿½ï¿½
  * @returns {string}
  */
 function skillPath(...parts) {
@@ -330,7 +330,7 @@ function skillPath(...parts) {
 }
 
 /**
- * Æ´½ÓÓÃ»§ Downloads Ä¿Â¼Â·¾¶
+ * Æ´ï¿½ï¿½ï¿½Ã»ï¿½ Downloads Ä¿Â¼Â·ï¿½ï¿½
  * @param {string} filename
  * @returns {string}
  */
@@ -339,8 +339,8 @@ function downloadPath(filename) {
 }
 
 /**
- * Æ´½Ó references/{slug}_lines.json Â·¾¶
- * @param {string} slug - ³ÇÊÐ slug
+ * Æ´ï¿½ï¿½ references/{slug}_lines.json Â·ï¿½ï¿½
+ * @param {string} slug - ï¿½ï¿½ï¿½ï¿½ slug
  * @returns {string}
  */
 function refPath(slug) {
@@ -348,19 +348,19 @@ function refPath(slug) {
 }
 
 /**
- * Æ´½Ó cache/{slug}_raw_polylines.json Â·¾¶
- * @param {string} slug - ³ÇÊÐ slug
+ * Æ´ï¿½ï¿½ cache/{slug}_raw_polylines.json Â·ï¿½ï¿½
+ * @param {string} slug - ï¿½ï¿½ï¿½ï¿½ slug
  * @returns {string}
  */
 function cachePath(filename) {
   return skillPath("cache", filename);
 }
 
-// ===== metroman.cn ÅÀÈ¡ =====
+// ===== metroman.cn ï¿½ï¿½È¡ =====
 
 /**
- * ´Ó metroman.cn ÅÀÈ¡³ÇÊÐÏßÂ·ÁÐ±í£¨ÑÕÉ«¡¢±àºÅ£©
- * @param {string} slug - ³ÇÊÐ slug
+ * ï¿½ï¿½ metroman.cn ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½Å£ï¿½
+ * @param {string} slug - ï¿½ï¿½ï¿½ï¿½ slug
  * @returns {Promise<Array<{num: number, color: string, slug: string}>>}
  */
 async function fetchMetroLines(slug) {
@@ -372,7 +372,7 @@ async function fetchMetroLines(slug) {
   let match;
   while ((match = cardRegex.exec(html)) !== null) {
     const keys = match[1].split('|');
-    // Extract Chinese name (3rd element, e.g. "1ºÅÏß", "Òà×¯Ïß")
+    // Extract Chinese name (3rd element, e.g. "1ï¿½ï¿½ï¿½ï¿½", "ï¿½ï¿½×¯ï¿½ï¿½")
     const cnName = keys[2] || match[2].split('/').pop();
     const hrefSlug = match[2].split('/').pop();
     const numMatch = hrefSlug.match(/line-(\d+)/);
@@ -388,10 +388,10 @@ async function fetchMetroLines(slug) {
 }
 
 /**
- * ´Ó metroman.cn ÅÀÈ¡Ä³ÏßÂ·µÄ³µÕ¾ÁÐ±í
- * @param {string} slug - ³ÇÊÐ slug
- * @param {number|string} lineNum - ÏßÂ·±àºÅ
- * @param {string} [cityName] - ³ÇÊÐÖÐÎÄÃû£¨ÓÃÓÚ¹ýÂËÍ·²¿µ¼º½£©
+ * ï¿½ï¿½ metroman.cn ï¿½ï¿½È¡Ä³ï¿½ï¿½Â·ï¿½Ä³ï¿½Õ¾ï¿½Ð±ï¿½
+ * @param {string} slug - ï¿½ï¿½ï¿½ï¿½ slug
+ * @param {number|string} lineNum - ï¿½ï¿½Â·ï¿½ï¿½ï¿½
+ * @param {string} [cityName] - ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¹ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @returns {Promise<Array<{name: string, slug: string}>>}
  */
 async function fetchMetroStations(slug, lineRef, cityName) {
@@ -423,7 +423,7 @@ async function fetchMetroStations(slug, lineRef, cityName) {
   return null;
 }
 
-// ===== µ¼³ö =====
+// ===== ï¿½ï¿½ï¿½ï¿½ =====
 
 /**
  * ?????? (SPEC P0-1)
@@ -448,13 +448,19 @@ function electBusLine(candidates, config, metroStations, distanceFn) {
 
     // ---- ??????? ----
     // ????????????
-    if (config.firstStop && config.lastStop) {
-      var firstStopName = (bl.start_stop || bl.departure_stop || bl.stops && bl.stops[0] && bl.stops[0].name || "");
-      var lastStopName = (bl.end_stop || bl.arrival_stop || bl.stops && bl.stops[bl.stops.length-1] && bl.stops[bl.stops.length-1].name || "");
-      if (firstStopName.indexOf(config.firstStop) >= 0 && lastStopName.indexOf(config.lastStop) >= 0) {
-        return { line: bl, score: 100, reason: "????: ?????" };
+    // Match by first/last station names from metroStations
+    if (metroStations && metroStations.length >= 2) {
+      var mFirst = (metroStations[0].name || "").replace(/\u7AD9$/, "");
+      var mLast = (metroStations[metroStations.length-1].name || "").replace(/\u7AD9$/, "");
+      if (mFirst && mLast) {
+        var bs = (bl.start_stop || bl.departure_stop || "").replace(/\u7AD9$/, "");
+        var be = (bl.end_stop || bl.arrival_stop || "").replace(/\u7AD9$/, "");
+        if ((bs === mFirst || bs === mLast) && (be === mFirst || be === mLast) && bs !== be) {
+          return { line: bl, score: 100, reason: "\u8D77\u7EC8\u70B9\u5339\u914D: " + bs + "--" + be };
+        }
       }
     }
+
 
     // ---- ??????? ----
     if (bl.start_location && cc) {
@@ -549,6 +555,28 @@ function electBusLine(candidates, config, metroStations, distanceFn) {
     score += distScore;
     reasons.push("Metroman?:" + distScore.toFixed(0));
 
+    // Polyline-station proximity check
+    if (bl.polyline && metroStations && metroStations.length > 3) {
+      var plPts2 = bl.polyline.split(';');
+      if (plPts2.length > 10) {
+        var matched = 0;
+        for (var mi2 = 0; mi2 < metroStations.length; mi2++) {
+          var ms = metroStations[mi2];
+          if (!ms.lat) continue;
+          for (var pi2 = 0; pi2 < plPts2.length; pi2 += 5) {
+            var pp2 = plPts2[pi2].split(',');
+            var dLat = (ms.lat - parseFloat(pp2[1]||0)) * 111 * 1000;
+            var dLng = (ms.lng - parseFloat(pp2[0]||0)) * 111 * 1000 * Math.cos(ms.lat * Math.PI / 180);
+            if (Math.sqrt(dLat*dLat + dLng*dLng) < 1000) { matched++; break; }
+          }
+        }
+        var coverage = matched / metroStations.length;
+        var proxScore = Math.round(coverage * 60);
+        score += proxScore;
+        reasons.push("??:" + proxScore + "(" + matched + "/" + metroStations.length + ")");
+        if (coverage < 0.2) { score = -1; reasons.push("??<20%"); }
+      }
+    }
     results.push({ line: bl, score: score, reason: reasons.join(" | ") });
   }
 
