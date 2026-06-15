@@ -1,0 +1,1570 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:09.804Z",
+  "data": {
+    "cityKey": "dongguan",
+    "lineCounter": 2,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [
+      {
+        "id": "DG1",
+        "name": "东莞地铁1号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#467DD6",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 4,
+        "maxSpeedKmh": 80,
+        "freqPeak": 47,
+        "freqOff": 23,
+        "freqLow": 16,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "dongguan_DG1_1",
+            "lat": 23.009702,
+            "lng": 113.626343,
+            "name": "东莞西站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_2",
+            "lat": 23.009387,
+            "lng": 113.661132,
+            "name": "厚德站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_3",
+            "lat": 23.01678,
+            "lng": 113.687505,
+            "name": "昌平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_4",
+            "lat": 23.026269,
+            "lng": 113.698684,
+            "name": "人民医院站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_5",
+            "lat": 23.032737,
+            "lng": 113.714206,
+            "name": "曲海站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_6",
+            "lat": 23.021898,
+            "lng": 113.726866,
+            "name": "坝头站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_7",
+            "lat": 23.016721,
+            "lng": 113.741818,
+            "name": "元美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_8",
+            "lat": 23.01427,
+            "lng": 113.753181,
+            "name": "中心广场站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_9",
+            "lat": 23.01038,
+            "lng": 113.759163,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_10",
+            "lat": 23.003903,
+            "lng": 113.772705,
+            "name": "立新站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_11",
+            "lat": 22.987596,
+            "lng": 113.775837,
+            "name": "东城南站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_12",
+            "lat": 22.969962,
+            "lng": 113.774969,
+            "name": "同沙公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_13",
+            "lat": 22.959565,
+            "lng": 113.775966,
+            "name": "牛山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_14",
+            "lat": 22.928158,
+            "lng": 113.805984,
+            "name": "连平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_15",
+            "lat": 22.914098,
+            "lng": 113.831274,
+            "name": "大岭山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_16",
+            "lat": 22.911055,
+            "lng": 113.852781,
+            "name": "金桔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_17",
+            "lat": 22.9208,
+            "lng": 113.866794,
+            "name": "广东医大站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_18",
+            "lat": 22.928564,
+            "lng": 113.873857,
+            "name": "松山湖站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_19",
+            "lat": 22.933102,
+            "lng": 113.901583,
+            "name": "松佛站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_20",
+            "lat": 22.928827,
+            "lng": 113.925335,
+            "name": "大朗站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_21",
+            "lat": 22.917967,
+            "lng": 113.951195,
+            "name": "荔香公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_22",
+            "lat": 22.907749,
+            "lng": 113.973837,
+            "name": "凤山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_23",
+            "lat": 22.894513,
+            "lng": 113.998672,
+            "name": "黄江站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_24",
+            "lat": 22.873706,
+            "lng": 113.997732,
+            "name": "黄牛埔站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG1_25",
+            "lat": 22.843696,
+            "lng": 113.98513,
+            "name": "梅塘站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 23.009406,
+              "lng": 113.628127
+            },
+            {
+              "lat": 23.006968,
+              "lng": 113.63302
+            },
+            {
+              "lat": 23.002921,
+              "lng": 113.644418
+            },
+            {
+              "lat": 23.00245,
+              "lng": 113.645935
+            },
+            {
+              "lat": 23.002167,
+              "lng": 113.647891
+            },
+            {
+              "lat": 23.002322,
+              "lng": 113.649609
+            },
+            {
+              "lat": 23.002588,
+              "lng": 113.650587
+            },
+            {
+              "lat": 23.003325,
+              "lng": 113.65217
+            },
+            {
+              "lat": 23.006216,
+              "lng": 113.65553
+            },
+            {
+              "lat": 23.009195,
+              "lng": 113.660851
+            }
+          ],
+          [
+            {
+              "lat": 23.009501,
+              "lng": 113.661437
+            },
+            {
+              "lat": 23.012364,
+              "lng": 113.666556
+            },
+            {
+              "lat": 23.012763,
+              "lng": 113.667723
+            },
+            {
+              "lat": 23.012785,
+              "lng": 113.669284
+            },
+            {
+              "lat": 23.012148,
+              "lng": 113.672125
+            },
+            {
+              "lat": 23.012299,
+              "lng": 113.674046
+            },
+            {
+              "lat": 23.014892,
+              "lng": 113.684772
+            },
+            {
+              "lat": 23.015602,
+              "lng": 113.686094
+            },
+            {
+              "lat": 23.016442,
+              "lng": 113.687191
+            }
+          ],
+          [
+            {
+              "lat": 23.016855,
+              "lng": 113.687673
+            },
+            {
+              "lat": 23.025842,
+              "lng": 113.698228
+            }
+          ],
+          [
+            {
+              "lat": 23.026399,
+              "lng": 113.698885
+            },
+            {
+              "lat": 23.028808,
+              "lng": 113.701749
+            },
+            {
+              "lat": 23.029625,
+              "lng": 113.703007
+            },
+            {
+              "lat": 23.031225,
+              "lng": 113.70674
+            },
+            {
+              "lat": 23.03183,
+              "lng": 113.710155
+            }
+          ],
+          [
+            {
+              "lat": 23.032762,
+              "lng": 113.714409
+            },
+            {
+              "lat": 23.032499,
+              "lng": 113.715962
+            },
+            {
+              "lat": 23.030985,
+              "lng": 113.719531
+            },
+            {
+              "lat": 23.030282,
+              "lng": 113.720732
+            },
+            {
+              "lat": 23.02971,
+              "lng": 113.721309
+            },
+            {
+              "lat": 23.026061,
+              "lng": 113.72343
+            },
+            {
+              "lat": 23.023557,
+              "lng": 113.725499
+            }
+          ],
+          [
+            {
+              "lat": 23.02243,
+              "lng": 113.726493
+            },
+            {
+              "lat": 23.019744,
+              "lng": 113.728808
+            },
+            {
+              "lat": 23.019182,
+              "lng": 113.729449
+            },
+            {
+              "lat": 23.018844,
+              "lng": 113.730135
+            },
+            {
+              "lat": 23.016898,
+              "lng": 113.74074
+            }
+          ],
+          [
+            {
+              "lat": 23.016569,
+              "lng": 113.74253
+            },
+            {
+              "lat": 23.014609,
+              "lng": 113.751755
+            }
+          ],
+          [
+            {
+              "lat": 23.014352,
+              "lng": 113.75299
+            },
+            {
+              "lat": 23.013387,
+              "lng": 113.756875
+            },
+            {
+              "lat": 23.012651,
+              "lng": 113.758498
+            },
+            {
+              "lat": 23.011734,
+              "lng": 113.759772
+            }
+          ],
+          [
+            {
+              "lat": 23.011259,
+              "lng": 113.760518
+            },
+            {
+              "lat": 23.004267,
+              "lng": 113.772039
+            }
+          ],
+          [
+            {
+              "lat": 23.00379,
+              "lng": 113.772866
+            },
+            {
+              "lat": 23.000798,
+              "lng": 113.77802
+            },
+            {
+              "lat": 23.00022,
+              "lng": 113.778541
+            },
+            {
+              "lat": 22.994181,
+              "lng": 113.779044
+            },
+            {
+              "lat": 22.992515,
+              "lng": 113.7787
+            },
+            {
+              "lat": 22.991017,
+              "lng": 113.777988
+            }
+          ],
+          [
+            {
+              "lat": 22.986853,
+              "lng": 113.775408
+            },
+            {
+              "lat": 22.984193,
+              "lng": 113.773854
+            },
+            {
+              "lat": 22.98321,
+              "lng": 113.773548
+            },
+            {
+              "lat": 22.982379,
+              "lng": 113.77347
+            },
+            {
+              "lat": 22.970821,
+              "lng": 113.774885
+            }
+          ],
+          [
+            {
+              "lat": 22.961951,
+              "lng": 113.775351
+            },
+            {
+              "lat": 22.960125,
+              "lng": 113.775546
+            }
+          ],
+          [
+            {
+              "lat": 22.956042,
+              "lng": 113.776021
+            },
+            {
+              "lat": 22.954178,
+              "lng": 113.776162
+            },
+            {
+              "lat": 22.950623,
+              "lng": 113.775523
+            },
+            {
+              "lat": 22.949326,
+              "lng": 113.775769
+            },
+            {
+              "lat": 22.947832,
+              "lng": 113.776764
+            },
+            {
+              "lat": 22.941351,
+              "lng": 113.782462
+            },
+            {
+              "lat": 22.939846,
+              "lng": 113.784602
+            },
+            {
+              "lat": 22.933006,
+              "lng": 113.799988
+            },
+            {
+              "lat": 22.930312,
+              "lng": 113.803802
+            },
+            {
+              "lat": 22.929612,
+              "lng": 113.805135
+            }
+          ],
+          [
+            {
+              "lat": 22.92919,
+              "lng": 113.805972
+            },
+            {
+              "lat": 22.928697,
+              "lng": 113.806973
+            },
+            {
+              "lat": 22.926289,
+              "lng": 113.81056
+            },
+            {
+              "lat": 22.920412,
+              "lng": 113.818586
+            },
+            {
+              "lat": 22.915345,
+              "lng": 113.827872
+            },
+            {
+              "lat": 22.914291,
+              "lng": 113.83044
+            },
+            {
+              "lat": 22.914131,
+              "lng": 113.831145
+            }
+          ],
+          [
+            {
+              "lat": 22.91395,
+              "lng": 113.8319
+            },
+            {
+              "lat": 22.911177,
+              "lng": 113.852025
+            }
+          ],
+          [
+            {
+              "lat": 22.91058,
+              "lng": 113.857675
+            },
+            {
+              "lat": 22.910866,
+              "lng": 113.859617
+            },
+            {
+              "lat": 22.911469,
+              "lng": 113.860872
+            },
+            {
+              "lat": 22.913465,
+              "lng": 113.862492
+            },
+            {
+              "lat": 22.914434,
+              "lng": 113.862975
+            },
+            {
+              "lat": 22.917428,
+              "lng": 113.863769
+            },
+            {
+              "lat": 22.919304,
+              "lng": 113.864851
+            },
+            {
+              "lat": 22.919737,
+              "lng": 113.865318
+            }
+          ],
+          [
+            {
+              "lat": 22.921171,
+              "lng": 113.867113
+            },
+            {
+              "lat": 22.923518,
+              "lng": 113.869976
+            },
+            {
+              "lat": 22.928004,
+              "lng": 113.873165
+            }
+          ],
+          [
+            {
+              "lat": 22.9289,
+              "lng": 113.873771
+            },
+            {
+              "lat": 22.930883,
+              "lng": 113.875231
+            },
+            {
+              "lat": 22.93223,
+              "lng": 113.876604
+            },
+            {
+              "lat": 22.933042,
+              "lng": 113.877958
+            },
+            {
+              "lat": 22.933418,
+              "lng": 113.87936
+            },
+            {
+              "lat": 22.933405,
+              "lng": 113.881531
+            },
+            {
+              "lat": 22.932445,
+              "lng": 113.887802
+            },
+            {
+              "lat": 22.93216,
+              "lng": 113.891886
+            },
+            {
+              "lat": 22.932412,
+              "lng": 113.897776
+            },
+            {
+              "lat": 22.932949,
+              "lng": 113.901293
+            }
+          ],
+          [
+            {
+              "lat": 22.933054,
+              "lng": 113.901783
+            },
+            {
+              "lat": 22.93448,
+              "lng": 113.908395
+            },
+            {
+              "lat": 22.934525,
+              "lng": 113.909761
+            },
+            {
+              "lat": 22.929039,
+              "lng": 113.924676
+            }
+          ],
+          [
+            {
+              "lat": 22.92844,
+              "lng": 113.925976
+            },
+            {
+              "lat": 22.925852,
+              "lng": 113.931423
+            },
+            {
+              "lat": 22.921647,
+              "lng": 113.942886
+            },
+            {
+              "lat": 22.918324,
+              "lng": 113.950213
+            }
+          ],
+          [
+            {
+              "lat": 22.917814,
+              "lng": 113.951317
+            },
+            {
+              "lat": 22.908519,
+              "lng": 113.971988
+            }
+          ],
+          [
+            {
+              "lat": 22.90695,
+              "lng": 113.975453
+            },
+            {
+              "lat": 22.905297,
+              "lng": 113.979119
+            },
+            {
+              "lat": 22.903899,
+              "lng": 113.98348
+            },
+            {
+              "lat": 22.903745,
+              "lng": 113.985183
+            },
+            {
+              "lat": 22.903967,
+              "lng": 113.988208
+            },
+            {
+              "lat": 22.903906,
+              "lng": 113.98963
+            },
+            {
+              "lat": 22.903054,
+              "lng": 113.993417
+            },
+            {
+              "lat": 22.902236,
+              "lng": 113.99548
+            },
+            {
+              "lat": 22.901104,
+              "lng": 113.997094
+            },
+            {
+              "lat": 22.899558,
+              "lng": 113.99819
+            },
+            {
+              "lat": 22.897499,
+              "lng": 113.9987
+            },
+            {
+              "lat": 22.895139,
+              "lng": 113.998735
+            }
+          ],
+          [
+            {
+              "lat": 22.893783,
+              "lng": 113.998348
+            },
+            {
+              "lat": 22.892365,
+              "lng": 113.997922
+            },
+            {
+              "lat": 22.888485,
+              "lng": 113.997769
+            },
+            {
+              "lat": 22.884895,
+              "lng": 113.99847
+            },
+            {
+              "lat": 22.875951,
+              "lng": 113.998593
+            },
+            {
+              "lat": 22.874773,
+              "lng": 113.998408
+            },
+            {
+              "lat": 22.87419,
+              "lng": 113.998085
+            }
+          ],
+          [
+            {
+              "lat": 22.873573,
+              "lng": 113.997533
+            },
+            {
+              "lat": 22.87143,
+              "lng": 113.99534
+            },
+            {
+              "lat": 22.869438,
+              "lng": 113.993714
+            },
+            {
+              "lat": 22.866185,
+              "lng": 113.989772
+            },
+            {
+              "lat": 22.863546,
+              "lng": 113.987109
+            },
+            {
+              "lat": 22.862618,
+              "lng": 113.986415
+            },
+            {
+              "lat": 22.86013,
+              "lng": 113.985103
+            },
+            {
+              "lat": 22.853509,
+              "lng": 113.981125
+            },
+            {
+              "lat": 22.85199,
+              "lng": 113.980734
+            },
+            {
+              "lat": 22.850675,
+              "lng": 113.980997
+            },
+            {
+              "lat": 22.846113,
+              "lng": 113.984364
+            },
+            {
+              "lat": 22.845268,
+              "lng": 113.984842
+            },
+            {
+              "lat": 22.844443,
+              "lng": 113.985077
+            }
+          ]
+        ]
+      },
+      {
+        "id": "DG2",
+        "name": "东莞地铁2号线",
+        "_lineNameCustomizedByUser": true,
+        "color": "#E62B2D",
+        "isRing": false,
+        "branchRootId": null,
+        "trainType": "B",
+        "trainCars": 6,
+        "maxSpeedKmh": 80,
+        "freqPeak": 31,
+        "freqOff": 15,
+        "freqLow": 10,
+        "freqPeakWeekend": null,
+        "freqOffWeekend": null,
+        "serviceOpenMin": 360,
+        "serviceCloseMin": 1380,
+        "service24h": false,
+        "expressStops": null,
+        "expressCaps": null,
+        "stations": [
+          {
+            "sid": "dongguan_DG2_1",
+            "lat": 22.85934,
+            "lng": 113.671653,
+            "name": "虎门火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_2",
+            "lat": 22.902383,
+            "lng": 113.661567,
+            "name": "展览中心站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_3",
+            "lat": 22.926217,
+            "lng": 113.664214,
+            "name": "珊美站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_4",
+            "lat": 22.940976,
+            "lng": 113.67361,
+            "name": "寮厦站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_5",
+            "lat": 22.957699,
+            "lng": 113.690217,
+            "name": "陈屋站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_6",
+            "lat": 22.978081,
+            "lng": 113.728908,
+            "name": "蛤地站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_7",
+            "lat": 22.993907,
+            "lng": 113.746892,
+            "name": "西平站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_8",
+            "lat": 23.01038,
+            "lng": 113.759163,
+            "name": "市民中心站",
+            "isTransfer": true,
+            "transferType": "same_station",
+            "transferGroupId": "市民中心站",
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_9",
+            "lat": 23.019951,
+            "lng": 113.767704,
+            "name": "旗峰公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_10",
+            "lat": 23.032663,
+            "lng": 113.776398,
+            "name": "东城站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_11",
+            "lat": 23.04732,
+            "lng": 113.778679,
+            "name": "天宝站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_12",
+            "lat": 23.062816,
+            "lng": 113.788297,
+            "name": "下桥站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_13",
+            "lat": 23.080272,
+            "lng": 113.814231,
+            "name": "榴花公园站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_14",
+            "lat": 23.079696,
+            "lng": 113.845077,
+            "name": "茶山站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          },
+          {
+            "sid": "dongguan_DG2_15",
+            "lat": 23.088625,
+            "lng": 113.860183,
+            "name": "东莞火车站站",
+            "isTransfer": false,
+            "transferType": null,
+            "transferGroupId": null,
+            "latlngWgs": {
+              "lat": 0,
+              "lng": 0
+            }
+          }
+        ],
+        "segmentAnchors": [
+          [
+            {
+              "lat": 22.859816,
+              "lng": 113.671166
+            },
+            {
+              "lat": 22.861526,
+              "lng": 113.66954
+            },
+            {
+              "lat": 22.868891,
+              "lng": 113.664353
+            },
+            {
+              "lat": 22.87027,
+              "lng": 113.663516
+            },
+            {
+              "lat": 22.872514,
+              "lng": 113.662604
+            },
+            {
+              "lat": 22.87781,
+              "lng": 113.66127
+            },
+            {
+              "lat": 22.880739,
+              "lng": 113.66078
+            },
+            {
+              "lat": 22.889323,
+              "lng": 113.659849
+            },
+            {
+              "lat": 22.897392,
+              "lng": 113.66076
+            },
+            {
+              "lat": 22.901723,
+              "lng": 113.661446
+            }
+          ],
+          [
+            {
+              "lat": 22.902386,
+              "lng": 113.661569
+            },
+            {
+              "lat": 22.904901,
+              "lng": 113.662014
+            },
+            {
+              "lat": 22.908024,
+              "lng": 113.66225
+            },
+            {
+              "lat": 22.918693,
+              "lng": 113.662171
+            },
+            {
+              "lat": 22.920428,
+              "lng": 113.662265
+            },
+            {
+              "lat": 22.92316,
+              "lng": 113.662818
+            },
+            {
+              "lat": 22.925523,
+              "lng": 113.663849
+            }
+          ],
+          [
+            {
+              "lat": 22.926212,
+              "lng": 113.664219
+            },
+            {
+              "lat": 22.936592,
+              "lng": 113.669938
+            },
+            {
+              "lat": 22.938057,
+              "lng": 113.670949
+            },
+            {
+              "lat": 22.940332,
+              "lng": 113.673012
+            }
+          ],
+          [
+            {
+              "lat": 22.940975,
+              "lng": 113.67361
+            },
+            {
+              "lat": 22.945444,
+              "lng": 113.677523
+            },
+            {
+              "lat": 22.948232,
+              "lng": 113.679768
+            },
+            {
+              "lat": 22.951357,
+              "lng": 113.682667
+            },
+            {
+              "lat": 22.953107,
+              "lng": 113.684606
+            },
+            {
+              "lat": 22.956118,
+              "lng": 113.68863
+            }
+          ],
+          [
+            {
+              "lat": 22.957699,
+              "lng": 113.690221
+            },
+            {
+              "lat": 22.959801,
+              "lng": 113.692329
+            },
+            {
+              "lat": 22.960547,
+              "lng": 113.693525
+            },
+            {
+              "lat": 22.967155,
+              "lng": 113.71629
+            },
+            {
+              "lat": 22.967588,
+              "lng": 113.717309
+            },
+            {
+              "lat": 22.968286,
+              "lng": 113.718385
+            },
+            {
+              "lat": 22.970782,
+              "lng": 113.721371
+            },
+            {
+              "lat": 22.977501,
+              "lng": 113.72828
+            }
+          ],
+          [
+            {
+              "lat": 22.978074,
+              "lng": 113.728913
+            },
+            {
+              "lat": 22.987974,
+              "lng": 113.740994
+            },
+            {
+              "lat": 22.99109,
+              "lng": 113.744422
+            },
+            {
+              "lat": 22.993111,
+              "lng": 113.746264
+            }
+          ],
+          [
+            {
+              "lat": 22.993905,
+              "lng": 113.746895
+            },
+            {
+              "lat": 23.010059,
+              "lng": 113.758922
+            }
+          ],
+          [
+            {
+              "lat": 23.010374,
+              "lng": 113.759166
+            },
+            {
+              "lat": 23.014574,
+              "lng": 113.762327
+            },
+            {
+              "lat": 23.019166,
+              "lng": 113.766864
+            }
+          ],
+          [
+            {
+              "lat": 23.019953,
+              "lng": 113.767706
+            },
+            {
+              "lat": 23.02118,
+              "lng": 113.768979
+            },
+            {
+              "lat": 23.025552,
+              "lng": 113.7723
+            },
+            {
+              "lat": 23.031802,
+              "lng": 113.776051
+            }
+          ],
+          [
+            {
+              "lat": 23.032659,
+              "lng": 113.776406
+            },
+            {
+              "lat": 23.034532,
+              "lng": 113.777062
+            },
+            {
+              "lat": 23.038887,
+              "lng": 113.77808
+            },
+            {
+              "lat": 23.042133,
+              "lng": 113.778433
+            },
+            {
+              "lat": 23.046331,
+              "lng": 113.778668
+            }
+          ],
+          [
+            {
+              "lat": 23.047321,
+              "lng": 113.778679
+            },
+            {
+              "lat": 23.050171,
+              "lng": 113.778502
+            },
+            {
+              "lat": 23.051546,
+              "lng": 113.778658
+            },
+            {
+              "lat": 23.052331,
+              "lng": 113.778972
+            },
+            {
+              "lat": 23.05777,
+              "lng": 113.7844
+            },
+            {
+              "lat": 23.060283,
+              "lng": 113.786109
+            },
+            {
+              "lat": 23.062154,
+              "lng": 113.787678
+            }
+          ],
+          [
+            {
+              "lat": 23.062821,
+              "lng": 113.788305
+            },
+            {
+              "lat": 23.064265,
+              "lng": 113.78968
+            },
+            {
+              "lat": 23.067544,
+              "lng": 113.793584
+            },
+            {
+              "lat": 23.069752,
+              "lng": 113.795475
+            },
+            {
+              "lat": 23.074317,
+              "lng": 113.800559
+            },
+            {
+              "lat": 23.074993,
+              "lng": 113.801686
+            },
+            {
+              "lat": 23.077143,
+              "lng": 113.807016
+            },
+            {
+              "lat": 23.079495,
+              "lng": 113.811768
+            },
+            {
+              "lat": 23.080069,
+              "lng": 113.813418
+            }
+          ],
+          [
+            {
+              "lat": 23.080269,
+              "lng": 113.814234
+            },
+            {
+              "lat": 23.080568,
+              "lng": 113.815646
+            },
+            {
+              "lat": 23.080877,
+              "lng": 113.819801
+            },
+            {
+              "lat": 23.081717,
+              "lng": 113.82227
+            },
+            {
+              "lat": 23.081911,
+              "lng": 113.823248
+            },
+            {
+              "lat": 23.082078,
+              "lng": 113.829076
+            },
+            {
+              "lat": 23.081871,
+              "lng": 113.830836
+            },
+            {
+              "lat": 23.080604,
+              "lng": 113.835728
+            },
+            {
+              "lat": 23.080061,
+              "lng": 113.837155
+            },
+            {
+              "lat": 23.078808,
+              "lng": 113.839623
+            },
+            {
+              "lat": 23.078877,
+              "lng": 113.841356
+            }
+          ],
+          [
+            {
+              "lat": 23.079695,
+              "lng": 113.845082
+            },
+            {
+              "lat": 23.080572,
+              "lng": 113.848545
+            },
+            {
+              "lat": 23.081416,
+              "lng": 113.850273
+            },
+            {
+              "lat": 23.084876,
+              "lng": 113.856141
+            },
+            {
+              "lat": 23.085743,
+              "lng": 113.857336
+            },
+            {
+              "lat": 23.08754,
+              "lng": 113.859204
+            }
+          ]
+        ]
+      }
+    ],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

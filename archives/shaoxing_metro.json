@@ -1,0 +1,15 @@
+{
+  "app": "Cities Designers",
+  "version": 2,
+  "exportedAt": "2026-05-31T04:07:13.995Z",
+  "data": {
+    "cityKey": "shaoxing",
+    "lineCounter": 0,
+    "simMin": 420,
+    "simDay": 0,
+    "paused": false,
+    "lines": [],
+    "coordSystem": "gcj02",
+    "stationODHourlyMults": null
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  "slug": "beijing",
+  "name": "北京",
+  "bbox": { "minLat": 39.6, "maxLat": 40.2, "minLng": 116.0, "maxLng": 116.8 },
+  "linePatterns": ["地铁\\d+号线", "有轨电车\\w+线"]
+}

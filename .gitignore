@@ -1,0 +1,4 @@
+cache/
+*_coords.json
+*_osm_cache.json
+check_*.js
