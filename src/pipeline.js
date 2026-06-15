@@ -9,7 +9,7 @@ function cf(s){try{return JSON.parse(fs.readFileSync(sp("config",s+".json"),"utf
 
 async function fetchLines(slug,cn){
   var is=[],ls;try{ls=await amap.fetchMetroLines(slug);}catch(e){return {data:null,meta:{step:"fetchLines"},health:"FAIL",issues:[{severity:"FAIL",code:"E001",msg:e.message}]};}
-  for(var i=0;i<ls.length;i++){try{ls[i].stations=await amap.fetchMetroStations(slug,ls[i].num);}catch(e){ls[i].stations=[];}}
+  for(var i=0;i<ls.length;i++){try{ls[i].stations=await amap.fetchMetroStations(slug,ls[i].slug||ls[i].num);}catch(e){ls[i].stations=[];}}
   if(ls.length===0)is.push({severity:"FAIL",code:"E001",msg:"0 lines"});
   return {data:{lines:ls},meta:{step:"fetchLines",lineCount:ls.length},health:is.length?"FAIL":"OK",issues:is};
 }
@@ -19,11 +19,13 @@ async function fetchCoords(slug,cn,ld){
   var slugs=[...new Set(Object.values(al).flatMap(function(l){return (l.stations||[]).map(function(s){return s.slug;});}))];
   var sc={},done=0;
   for(var i=0;i<slugs.length;i++){try{var c=await amap.fetchMetroCoord(slugs[i]);if(c){sc[slugs[i]]=c;done++;}}catch(e){}}
-  var ol={},ts=0,mc=0,cl=[],obl=[];
+  var ol={},ts=0,mc=0,cl=[],obl=[],lidSeq=0;
   Object.entries(al).forEach(function(e){
     var lid=e[0],line=e[1];
     var sts=(line.stations||[]).map(function(st){var c=sc[st.slug]||{};return {name:st.name,slug:st.slug,lat:c.lat||0,lng:c.lng||0};});
-    ol[lid]={num:line.num,name:line.name,color:line.color,stations:sts,isRing:!!line.ring};
+    var useKey = (line.slug||line.num) ? (line.slug||"l"+line.num) : String(lidSeq);
+    ol[useKey]={num:line.num,name:line.name,color:line.color,stations:sts,isRing:!!line.ring};
+    lidSeq++;
     ts+=sts.length;var miss=sts.filter(function(s){return s.lat===0&&s.lng===0;});if(miss.length)mc+=miss.length;
     var f=sts[0];if(f&&sts.length>1&&sts.every(function(s){return s.lat===f.lat&&s.lng===f.lng;}))cl.push(lid);
     if(bb.minLat!==undefined){var o=sts.filter(function(s){return s.lat!==0&&(s.lat<bb.minLat||s.lat>bb.maxLat||s.lng<bb.minLng||s.lng>bb.maxLng);});if(o.length)obl.push({lid:lid,count:o.length});}
@@ -35,18 +37,17 @@ async function fetchCoords(slug,cn,ld){
 }
 
 function detectBranches(slug,ld){
-  var al=JSON.parse(JSON.stringify(ld.lines||ld)),sc={};
-  Object.values(al).forEach(function(l){(l.stations||[]).forEach(function(s){if(s.slug&&s.lat)sc[s.slug]={lat:s.lat,lng:s.lng};});});
-  var br=tr.detectBranches(al,sc);
-  for(var b=0;b<br.length;b++){var r=br[b],p=al[r.slug];if(!p)continue;var rm=p.stations.splice(r.i+1,r.j-r.i);al[r.slug+"-b"]={num:p.num,color:p.color,stations:[p.stations[r.i]].concat(rm),isBranch:true,isRing:false};}
+  var al=JSON.parse(JSON.stringify(ld.lines||ld)),sc={},ea=Object.entries(al);
+  ea.forEach(function(e){var l=e[1];(l.stations||[]).forEach(function(s){if(s.slug&&s.lat)sc[s.slug]={lat:s.lat,lng:s.lng};});});
+  var br=tr.detectBranches(ea.map(function(e){return e[1];}),sc);
+  for(var b=0;b<br.length;b++){var r=br[b],ei=ea[parseInt(r.slug)];if(!ei)continue;var pKey=ei[0],p=ei[1];var rm=p.stations.splice(r.i+1,r.j-r.i);al[pKey+"-b"]={num:p.num,color:p.color,stations:[p.stations[r.i]].concat(rm),isBranch:true,isRing:false};}
   return {data:{lines:al},meta:{step:"detectBranches",branchCount:br.length},health:"OK",issues:[]};
 }
-
 function buildReference(slug,ld){
   var al=ld.lines||ld,ref={},brc={};
   Object.entries(al).forEach(function(e){
     var lid=e[0],line=e[1];
-    var nm=tr.resolveLineName(lid,slug)||tr.resolveLineName(String(line.num),slug)||line.name||slug+"m";
+    var nm=tr.resolveLineName(lid,slug)||line.name||tr.resolveLineName(String(line.num),slug)||slug+"m";
     var md=tr.enrichLineMetadata(line,slug),rl=tr.getRingForCity(slug);
     var sn=[],sw=(line.stations||[]);
     sw.forEach(function(s){var n=s.name||s;sn.push(n);if(s.lat)brc[n+"|"+lid]={lat:s.lat,lng:s.lng,source:"m"};});
@@ -54,7 +55,6 @@ function buildReference(slug,ld){
   });
   return {data:{ref:ref,brCoords:brc},meta:{step:"buildReference",lineCount:Object.keys(ref).length},health:"OK",issues:[]};
 }
-
 function buildGameJson(slug,rd){
   var is=[],ref=rd.ref||rd,bc=rd.brCoords||{},coords={};
   Object.entries(ref).forEach(function(e){var lid=e[0],line=e[1];(line.stations||[]).forEach(function(s){coords[s+"|"+lid]={lat:0,lng:0,s:"i"};});});
@@ -74,16 +74,18 @@ async function generateAnchors(slug,cn,gj){
   var is=[],od=JSON.parse(JSON.stringify(gj));
   if(!od.data)od={data:{lines:od.lines||od}};
   var ls=(od.data&&od.data.lines)||od.lines||[],ta=0,zs=0,sc=0,c2=cf(slug);
+  console.log("  Anchors: " + ls.length + " lines...");
   for(var li=0;li<ls.length;li++){
     var l=ls[li];if(!l.stations||l.stations.length<2)continue;
-    try{await amap.rateLimit();var bls=await amap.busLineSearch(l.name||cn+"m",cn);var er=amap.electBusLine(bls,c2,l.stations,tr.haversineKm);if(er.line&&er.line.polyline){var pl=er.line.polyline.split(";").map(function(p){var ps=p.split(",");return {lng:+ps[0],lat:+ps[1]};});if(pl.length>4){var mt=tr.matchStationsToPolyline(l.stations,pl);if(mt&&mt.length>=2){tr.fixCollapsedCoords(l.stations,pl,mt);l.segmentAnchors=tr.anchorsFromMatch(l.stations,pl,mt,!!(l.isRing||l.ring));tr.snapStations(l.stations,mt,pl);}}}}catch(e){is.push({severity:"WARN",code:"E010",msg:cn+" "+(l.id||"")+" fail: "+e.message,detail:{}});}
+    process.stdout.write("    ["+(li+1)+"/"+ls.length+"] "+(l.id||l.name||li)+"... ");
+    try{await amap.rateLimit();var bls=await amap.busLineSearch(l.name||cn+"m",cn);var er=amap.electBusLine(bls,c2,l.stations,tr.haversineKm);if(er.line&&er.line.polyline){var pl=er.line.polyline.split(";").map(function(p){var ps=p.split(",");return {lng:+ps[0],lat:+ps[1]};});if(pl.length>4){var mt=tr.matchStationsToPolyline(l.stations,pl);if(mt&&mt.length>=2){tr.fixCollapsedCoords(l.stations,pl,mt);l.segmentAnchors=tr.anchorsFromMatch(l.stations,pl,mt,!!(l.isRing||l.ring));tr.snapStations(l.stations,mt,pl);console.log((er.score||"ok")+(l.segmentAnchors?l.segmentAnchors.length+"s":"0s"));}else console.log("nomatch");}else console.log("shortpl");}else console.log("nopoly");}catch(e){console.log("FAIL");is.push({severity:"WARN",code:"E010",msg:cn+" "+(l.id||"")+" fail: "+e.message,detail:{}});}
     if(l.segmentAnchors){for(var a=0;a<l.segmentAnchors.length;a++){if(l.segmentAnchors[a]&&l.segmentAnchors[a].length>0)ta+=l.segmentAnchors[a].length;else zs++;sc++;}}
     if(l.segmentAnchors&&l.segmentAnchors.length>0&&l.stations.length>=2){for(var s2=0;s2<l.segmentAnchors.length;s2++){if(!l.segmentAnchors[s2]||!l.segmentAnchors[s2].length){var f=l.stations[s2],t=l.stations[s2+1]||l.stations[s2];if(f&&t){var pts=[];for(var k=1;k<=5;k++)pts.push({lat:f.lat+(t.lat-f.lat)*k/6,lng:f.lng+(t.lng-f.lng)*k/6});l.segmentAnchors[s2]=pts;}}}}
   }
+  console.log("  Anchors done: " + ta + " total, " + zs + " zero/" + sc + " segs (" + (sc?(zs/sc*100).toFixed(1):0) + "%)");
   var zr=sc?zs/sc:0;if(zr>0.3)is.push({severity:"WARN",code:"E007",msg:"zr "+(zr*100).toFixed(1)+"%"});if(ta>5000)is.push({severity:"WARN",code:"E008",msg:"ta "+ta+" >5k"});
   return {data:od,meta:{step:"generateAnchors",totalAnchors:ta},health:is.some(function(i){return i.severity==="FAIL";})?"FAIL":is.length?"WARN":"OK",issues:is};
 }
-
 function validate(slug,gj){
   var is=[],d=gj.data||gj,ls=d.lines||[],c2=cf(slug),bb=c2.bbox||{};
   var ts=0,ta=0,zs=0,sc=0,cl=[],oos=0,tsi=0;
@@ -99,7 +101,7 @@ async function runPipeline(slug,cn,op){
   if(vo){if(fs.existsSync(af)){var gjd=amap.readJSON(af,0);var vr=validate(slug,gjd);return {success:vr.health!=="FAIL",health:vr.health,tier:"VAL",validate:vr,steps:[],stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)}};}return {success:false,health:"FAIL",tier:"VAL",validate:{health:"FAIL",issues:[{severity:"FAIL",code:"E001",msg:"no archive"}]},steps:[],stats:{elapsed:"0"}};}
   var steps=[{n:"fetchLines",fn:function(){return fetchLines(slug,cn);}},{n:"fetchCoords",fn:function(pr){return fetchCoords(slug,cn,pr.data);}},{n:"detectBranches",fn:function(pr){return detectBranches(slug,pr.data);}},{n:"buildReference",fn:function(pr){return buildReference(slug,pr.data);}},{n:"buildGameJson",fn:function(pr){return buildGameJson(slug,pr.data);}},{n:"generateAnchors",fn:function(pr){return generateAnchors(slug,cn,pr.data);}}];
   var sr=[],pr=null,si=0;
-  if(sn){var fd=false;for(var i=0;i<steps.length;i++){if(steps[i].n===sn){si=i;fd=true;break;}}if(!fd)return {success:false,health:"FAIL",tier:"ERR",steps:[],stats:{elapsed:"0"},error:"unknown step:"+sn};}else if(rs){var fdr=false;for(var i=0;i<steps.length;i++){if(steps[i].n===rs){si=i;fdr=true;break;}var c=rc(slug,steps[i].n);if(c){sr.push({data:c,meta:{step:steps[i].n,cached:true},health:"OK",issues:[]});pr={data:c};}else return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"no cache:"+steps[i].n};}if(!fdr)return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"unknown step:"+rs};}
+  if(sn){var fd=false;for(var i=0;i<steps.length;i++){if(steps[i].n===sn){si=i;fd=true;break;}}if(!fd)return {success:false,health:"FAIL",tier:"ERR",steps:[],stats:{elapsed:"0"},error:"unknown step:"+sn};}else if(rs){var fdr=false;for(var i=0;i<steps.length;i++){if(steps[i].n===rs){si=i;fdr=true;break;}var c=rc(slug,steps[i].n);if(c){sr.push({data:c,meta:{step:steps[i].n,cached:true},health:"OK",issues:[]});pr={data:c};}else return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"no cache:"+steps[i].n};}if(!fdr)return {success:false,health:"FAIL",tier:"ERR",steps:sr,stats:{elapsed:"0"},error:"unknown step:"+rs};}if(sn&&si>0){var psc=rc(slug,steps[si-1].n);if(psc){sr.push({data:psc,meta:{step:steps[si-1].n,cached:true},health:"OK",issues:[]});pr={data:psc};}}
   if(si===0&&!f&&!sn&&!rs){var lr=sp("references",slug+"_lines.json");var p1=rc(slug,"fetchLines");if(!p1&&fs.existsSync(lr)){var ld=amap.readJSON(lr,0);if(ld){var cl2={lines:[]};Object.entries(ld).forEach(function(e){cl2.lines.push({num:e[1].line,name:e[1].name,color:e[1].color,stations:(e[1].stations||[]).map(function(s){return {name:s,slug:""};}),isRing:!!e[1].ring});});p1={lines:cl2.lines};wc(slug,"fetchLines",p1);}}if(p1){var rc2=rc(slug,"fetchCoords");if(rc2){sr.push({data:p1,meta:{step:"fetchLines",cached:true},health:"OK",issues:[]});sr.push({data:rc2,meta:{step:"fetchCoords",cached:true},health:"OK",issues:[]});pr={data:rc2};si=2;}else{sr.push({data:p1,meta:{step:"fetchLines",cached:true},health:"OK",issues:[]});pr={data:p1};si=1;}}}
   for(var si2=si;si2<steps.length;si2++){if(sn&&si2>si)break;var res;try{res=await steps[si2].fn(pr);}catch(e){res={data:null,meta:{step:steps[si2].n},health:"FAIL",issues:[{severity:"FAIL",code:"E000",msg:e.message}]};}sr.push(res);pr=res;if(res.data!==null&&res.data!==undefined)wc(slug,steps[si2].n,res.data);if(res.health==="FAIL"){console.log("Step "+steps[si2].n+" FAIL:");res.issues.forEach(function(ix){console.log("  ["+ix.severity+"] "+ix.msg);});return {success:false,health:"FAIL",tier:sn?"STEP":"ERR",steps:sr,stats:{elapsed:((Date.now()-t0)/1000).toFixed(1)}};}if(res.health==="WARN")res.issues.forEach(function(ix){console.warn("  [WARN] "+ix.msg);});}
   var fd2=pr?pr.data:null;

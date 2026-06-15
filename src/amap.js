@@ -1,7 +1,7 @@
-ï»¿// src/amap.js â€” ç½‘ç»œä¸ç¼“å­˜ IO çš„å”¯ä¸€å‡ºå£ï¼ˆé‡æ„ç‰ˆ v8.0ï¼‰
-// ç®¡è¾–æ‰€æœ‰å¤–éƒ¨ç½‘ç»œè¯·æ±‚ï¼ˆAMap POI/è·¯å¾„è§„åˆ’ã€metroman æŠ“å–ï¼‰åŠæœ¬åœ°æ–‡ä»¶ç¼“å­˜è¯»å†™
-// çº¦æŸï¼šé™é¢‘ å¹¶å‘2/é—´éš”1sï¼ˆL1ï¼‰ï¼ŒAMAP_KEY ä» process.env.AMAP_KEY è¯»å–
-// ä½¿ç”¨ Node.js å†…ç½®æ¨¡å—ï¼ˆhttps, fs, pathï¼‰ï¼Œä¸ä½¿ç”¨ç¬¬ä¸‰æ–¹åŒ…
+// src/amap.js ¡ª ÍøÂçÓë»º´æ IO µÄÎ¨Ò»³ö¿Ú£¨ÖØ¹¹°æ v8.0£©
+// ¹ÜÏ½ËùÓĞÍâ²¿ÍøÂçÇëÇó£¨AMap POI/Â·¾¶¹æ»®¡¢metroman ×¥È¡£©¼°±¾µØÎÄ¼ş»º´æ¶ÁĞ´
+// Ô¼Êø£ºÏŞÆµ ²¢·¢2/¼ä¸ô1s£¨L1£©£¬AMAP_KEY ´Ó process.env.AMAP_KEY ¶ÁÈ¡
+// Ê¹ÓÃ Node.js ÄÚÖÃÄ£¿é£¨https, fs, path£©£¬²»Ê¹ÓÃµÚÈı·½°ü
 
 const https = require("https");
 const http = require("http");
@@ -10,23 +10,23 @@ const path = require("path");
 const os = require("os");
 const geo = require("./utils/geo");
 
-// ===== å¸¸é‡ =====
+// ===== ³£Á¿ =====
 const AMAP_KEY = process.env.AMAP_KEY || "";
 const CACHE_TTL = 86400000; // 24h
-const RATE_LIMIT_MS = 1000; // L1: é—´éš” 1s
-const CONCURRENCY = 2;      // L1: æœ€å¤§å¹¶å‘ 2
+const RATE_LIMIT_MS = 1000; // L1: ¼ä¸ô 1s
+const CONCURRENCY = 2;      // L1: ×î´ó²¢·¢ 2
 
-// ===== æŠ€èƒ½æ ¹ç›®å½•ï¼ˆsrc/ çš„çˆ¶ç›®å½•ï¼‰ =====
+// ===== ¼¼ÄÜ¸ùÄ¿Â¼£¨src/ µÄ¸¸Ä¿Â¼£© =====
 const SKILL_DIR = path.resolve(__dirname, "..");
 
-// ===== é™é¢‘å™¨ =====
+// ===== ÏŞÆµÆ÷ =====
 let lastRequestTime = 0;
 let activeRequests = 0;
 const requestQueue = [];
 
 /**
- * é™é¢‘ï¼šæ§åˆ¶å¹¶å‘æ•° + æœ€å°è¯·æ±‚é—´éš”
- * æ¯ä¸ª HTTP è¯·æ±‚å‰å¿…é¡»ç»è¿‡æ­¤å‡½æ•°
+ * ÏŞÆµ£º¿ØÖÆ²¢·¢Êı + ×îĞ¡ÇëÇó¼ä¸ô
+ * Ã¿¸ö HTTP ÇëÇóÇ°±ØĞë¾­¹ı´Ëº¯Êı
  * @returns {Promise<void>}
  */
 async function rateLimit() {
@@ -51,7 +51,7 @@ async function rateLimit() {
 }
 
 /**
- * é‡Šæ”¾é™é¢‘æ§½ä½ï¼Œå”¤é†’ä¸‹ä¸€ä¸ªæ’é˜Ÿè¯·æ±‚
+ * ÊÍ·ÅÏŞÆµ²ÛÎ»£¬»½ĞÑÏÂÒ»¸öÅÅ¶ÓÇëÇó
  */
 function releaseRateLimit() {
   activeRequests = Math.max(0, activeRequests - 1);
@@ -61,11 +61,11 @@ function releaseRateLimit() {
   }
 }
 
-// ===== é€šç”¨ HTTP GET è¯·æ±‚ =====
+// ===== Í¨ÓÃ HTTP GET ÇëÇó =====
 /**
- * é€šç”¨ HTTP GET è¯·æ±‚ï¼Œè¶…æ—¶è‡ªåŠ¨è¿”å›ç©ºå­—ç¬¦ä¸²
- * @param {string} url - è¯·æ±‚åœ°å€
- * @param {number} timeout - è¶…æ—¶æ—¶é—´ï¼ˆmsï¼‰ï¼Œé»˜è®¤ 15000
+ * Í¨ÓÃ HTTP GET ÇëÇó£¬³¬Ê±×Ô¶¯·µ»Ø¿Õ×Ö·û´®
+ * @param {string} url - ÇëÇóµØÖ·
+ * @param {number} timeout - ³¬Ê±Ê±¼ä£¨ms£©£¬Ä¬ÈÏ 15000
  * @returns {Promise<string>}
  */
 function fetchUrl(url, timeout = 15000) {
@@ -90,16 +90,16 @@ function fetchUrl(url, timeout = 15000) {
   });
 }
 
-// ===== AMap API è¯·æ±‚ï¼ˆå¸¦é™é¢‘+é‡è¯•ï¼‰ =====
+// ===== AMap API ÇëÇó£¨´øÏŞÆµ+ÖØÊÔ£© =====
 /**
- * AMap API GET è¯·æ±‚ï¼ˆè‡ªåŠ¨æ‹¼æ¥ key + é™é¢‘ + é‡è¯•ï¼‰
- * @param {string} apiPath - API è·¯å¾„ï¼ˆå¦‚ /v3/place/textï¼‰
+ * AMap API GET ÇëÇó£¨×Ô¶¯Æ´½Ó key + ÏŞÆµ + ÖØÊÔ£©
+ * @param {string} apiPath - API Â·¾¶£¨Èç /v3/place/text£©
  * @param {{timeout?: number, retries?: number}} options
  * @returns {Promise<object|null>}
  */
 async function amapGet(apiPath, options = {}) {
   if (!AMAP_KEY) {
-    console.error("[amap] AMAP_KEY ç¯å¢ƒå˜é‡æœªè®¾ç½®");
+    console.error("[amap] AMAP_KEY »·¾³±äÁ¿Î´ÉèÖÃ");
     return null;
   }
   const { timeout = 10000, retries = 1 } = options;
@@ -126,12 +126,12 @@ async function amapGet(apiPath, options = {}) {
   return null;
 }
 
-// ===== AMap ä¸šåŠ¡æ¥å£ =====
+// ===== AMap ÒµÎñ½Ó¿Ú =====
 
 /**
- * POI æœç´¢ï¼ˆ/v3/place/textï¼‰
- * @param {string} city - åŸå¸‚å
- * @param {string} keywords - æœç´¢å…³é”®è¯
+ * POI ËÑË÷£¨/v3/place/text£©
+ * @param {string} city - ³ÇÊĞÃû
+ * @param {string} keywords - ËÑË÷¹Ø¼ü´Ê
  * @param {{types?: string, offset?: number, page?: number}} options
  * @returns {Promise<Array>}
  */
@@ -143,9 +143,9 @@ async function searchPOI(city, keywords, options = {}) {
 }
 
 /**
- * åœ°ç†ç¼–ç ï¼ˆ/v3/geocode/geoï¼‰
- * @param {string} address - åœ°å€
- * @param {string} city - åŸå¸‚å
+ * µØÀí±àÂë£¨/v3/geocode/geo£©
+ * @param {string} address - µØÖ·
+ * @param {string} city - ³ÇÊĞÃû
  * @returns {Promise<{lat: number, lng: number}|null>}
  */
 async function geocode(address, city) {
@@ -159,9 +159,9 @@ async function geocode(address, city) {
 }
 
 /**
- * å…¬äº¤çº¿è·¯åæœç´¢ï¼ˆ/v3/bus/linenameï¼‰
- * @param {string} keywords - æœç´¢å…³é”®è¯
- * @param {string} city - åŸå¸‚å
+ * ¹«½»ÏßÂ·ÃûËÑË÷£¨/v3/bus/linename£©
+ * @param {string} keywords - ËÑË÷¹Ø¼ü´Ê
+ * @param {string} city - ³ÇÊĞÃû
  * @returns {Promise<Array>}
  */
 async function busLineSearch(keywords, city) {
@@ -174,12 +174,12 @@ async function busLineSearch(keywords, city) {
 }
 
 /**
- * è·¯å¾„è§„åˆ’ â€” è·å–è½¨é“äº¤é€š polylineï¼ˆ/v3/direction/transit/integratedï¼‰
- * @param {{lat: number, lng: number}} origin - èµ·ç‚¹
- * @param {{lat: number, lng: number}} destination - ç»ˆç‚¹
- * @param {string} city - åŸå¸‚å
- * @param {number} strategy - ç­–ç•¥ï¼ˆé»˜è®¤0ï¼‰
- * @param {string} [expectedLine] - æœŸæœ›çº¿è·¯åï¼ˆç”¨äºè¿‡æ»¤ï¼‰
+ * Â·¾¶¹æ»® ¡ª »ñÈ¡¹ìµÀ½»Í¨ polyline£¨/v3/direction/transit/integrated£©
+ * @param {{lat: number, lng: number}} origin - Æğµã
+ * @param {{lat: number, lng: number}} destination - ÖÕµã
+ * @param {string} city - ³ÇÊĞÃû
+ * @param {number} strategy - ²ßÂÔ£¨Ä¬ÈÏ0£©
+ * @param {string} [expectedLine] - ÆÚÍûÏßÂ·Ãû£¨ÓÃÓÚ¹ıÂË£©
  * @returns {Promise<Array<{lat: number, lng: number}>|null>}
  */
 async function getTransitPolyline(origin, destination, city, strategy = 0, expectedLine) {
@@ -194,18 +194,18 @@ async function getTransitPolyline(origin, destination, city, strategy = 0, expec
       for (const busLine of (segment.bus && segment.bus.buslines || [])) {
         if (!busLine.polyline) continue;
         const type = busLine.type || "";
-        // åªå–è½¨é“äº¤é€šç±»å‹
-        if (!type.includes("åœ°é“") && !type.includes("è½¨é“") && !type.includes("è½»è½¨") &&
-            !type.includes("æœ‰è½¨ç”µè½¦") && !type.includes("ç£æµ®") && !type.includes("APM") &&
-            !type.includes("äº‘å·´") && !type.includes("å¸‚åŸŸ") && !type.includes("å¸‚éƒŠ") &&
-            !type.includes("é“è·¯") && !type.includes("ç«è½¦") && !type.includes("æœºåœº")) continue;
-        // çº¿è·¯åæ ¡éªŒ
+        // Ö»È¡¹ìµÀ½»Í¨ÀàĞÍ
+        if (!type.includes("µØÌú") && !type.includes("¹ìµÀ") && !type.includes("Çá¹ì") &&
+            !type.includes("ÓĞ¹ìµç³µ") && !type.includes("´Å¸¡") && !type.includes("APM") &&
+            !type.includes("ÔÆ°Í") && !type.includes("ÊĞÓò") && !type.includes("ÊĞ½¼") &&
+            !type.includes("ÌúÂ·") && !type.includes("»ğ³µ") && !type.includes("»ú³¡")) continue;
+        // ÏßÂ·ÃûĞ£Ñé
         if (expectedLine) {
           const expNum = expectedLine.match(/\d+/);
           const actNum = (busLine.name || "").match(/\d+/);
           if (expNum && actNum && expNum[0] !== actNum[0]) continue;
         }
-        // è§£æ polyline å­—ç¬¦ä¸² â†’ åæ ‡æ•°ç»„
+        // ½âÎö polyline ×Ö·û´® ¡ú ×ø±êÊı×é
         return busLine.polyline.split(";").map(p => {
           const parts = p.split(",");
           return { lng: parseFloat(parts[0]), lat: parseFloat(parts[1]) };
@@ -219,7 +219,7 @@ async function getTransitPolyline(origin, destination, city, strategy = 0, expec
 // ===== OSM Overpass API =====
 
 /**
- * OSM Overpass API æŸ¥è¯¢åœ°é“ç«™èŠ‚ç‚¹
+ * OSM Overpass API ²éÑ¯µØÌúÕ¾½Úµã
  * @param {Array<number>} bbox - [minLat, maxLat, minLng, maxLng]
  * @returns {Promise<Array>}
  */
@@ -254,12 +254,12 @@ async function queryOverpass(bbox) {
   return [];
 }
 
-// ===== æ–‡ä»¶ç¼“å­˜ =====
+// ===== ÎÄ¼ş»º´æ =====
 
 /**
- * è¯»å– JSON æ–‡ä»¶ï¼Œæ”¯æŒ TTL è¿‡æœŸæ£€æµ‹
- * @param {string} filePath - æ–‡ä»¶è·¯å¾„
- * @param {number} [ttl=CACHE_TTL] - è¿‡æœŸæ—¶é—´ï¼ˆmsï¼‰ï¼Œ0 æˆ–è´Ÿæ•°è¡¨ç¤ºæ°¸ä¸è¿‡æœŸ
+ * ¶ÁÈ¡ JSON ÎÄ¼ş£¬Ö§³Ö TTL ¹ıÆÚ¼ì²â
+ * @param {string} filePath - ÎÄ¼şÂ·¾¶
+ * @param {number} [ttl=CACHE_TTL] - ¹ıÆÚÊ±¼ä£¨ms£©£¬0 »ò¸ºÊı±íÊ¾ÓÀ²»¹ıÆÚ
  * @returns {object|null}
  */
 function readJSON(filePath, ttl = CACHE_TTL) {
@@ -293,9 +293,9 @@ function readJSON(filePath, ttl = CACHE_TTL) {
     }
   } catch (e) { return null; }
 }/**
- * å†™å…¥ JSON æ–‡ä»¶ï¼ˆè‡ªåŠ¨ç¡®ä¿ç›®å½•å­˜åœ¨ï¼‰
- * @param {string} filePath - æ–‡ä»¶è·¯å¾„
- * @param {object} data - æ•°æ®å¯¹è±¡
+ * Ğ´Èë JSON ÎÄ¼ş£¨×Ô¶¯È·±£Ä¿Â¼´æÔÚ£©
+ * @param {string} filePath - ÎÄ¼şÂ·¾¶
+ * @param {object} data - Êı¾İ¶ÔÏó
  */
 function writeJSON(filePath, data) {
   ensureDir(path.dirname(filePath));
@@ -309,7 +309,7 @@ function writeJSON(filePath, data) {
 }
 
 /**
- * ç¡®ä¿ç›®å½•å­˜åœ¨ï¼Œä¸å­˜åœ¨åˆ™é€’å½’åˆ›å»º
+ * È·±£Ä¿Â¼´æÔÚ£¬²»´æÔÚÔòµİ¹é´´½¨
  * @param {string} dirPath
  */
 function ensureDir(dirPath) {
@@ -318,11 +318,11 @@ function ensureDir(dirPath) {
   }
 }
 
-// ===== è·¯å¾„å·¥å…· =====
+// ===== Â·¾¶¹¤¾ß =====
 
 /**
- * æ‹¼æ¥æŠ€èƒ½æ ¹ç›®å½•ä¸‹çš„è·¯å¾„
- * @param {...string} parts - è·¯å¾„ç‰‡æ®µ
+ * Æ´½Ó¼¼ÄÜ¸ùÄ¿Â¼ÏÂµÄÂ·¾¶
+ * @param {...string} parts - Â·¾¶Æ¬¶Î
  * @returns {string}
  */
 function skillPath(...parts) {
@@ -330,7 +330,7 @@ function skillPath(...parts) {
 }
 
 /**
- * æ‹¼æ¥ç”¨æˆ· Downloads ç›®å½•è·¯å¾„
+ * Æ´½ÓÓÃ»§ Downloads Ä¿Â¼Â·¾¶
  * @param {string} filename
  * @returns {string}
  */
@@ -339,8 +339,8 @@ function downloadPath(filename) {
 }
 
 /**
- * æ‹¼æ¥ references/{slug}_lines.json è·¯å¾„
- * @param {string} slug - åŸå¸‚ slug
+ * Æ´½Ó references/{slug}_lines.json Â·¾¶
+ * @param {string} slug - ³ÇÊĞ slug
  * @returns {string}
  */
 function refPath(slug) {
@@ -348,19 +348,19 @@ function refPath(slug) {
 }
 
 /**
- * æ‹¼æ¥ cache/{slug}_raw_polylines.json è·¯å¾„
- * @param {string} slug - åŸå¸‚ slug
+ * Æ´½Ó cache/{slug}_raw_polylines.json Â·¾¶
+ * @param {string} slug - ³ÇÊĞ slug
  * @returns {string}
  */
 function cachePath(filename) {
   return skillPath("cache", filename);
 }
 
-// ===== metroman.cn çˆ¬å– =====
+// ===== metroman.cn ÅÀÈ¡ =====
 
 /**
- * ä» metroman.cn çˆ¬å–åŸå¸‚çº¿è·¯åˆ—è¡¨ï¼ˆé¢œè‰²ã€ç¼–å·ï¼‰
- * @param {string} slug - åŸå¸‚ slug
+ * ´Ó metroman.cn ÅÀÈ¡³ÇÊĞÏßÂ·ÁĞ±í£¨ÑÕÉ«¡¢±àºÅ£©
+ * @param {string} slug - ³ÇÊĞ slug
  * @returns {Promise<Array<{num: number, color: string, slug: string}>>}
  */
 async function fetchMetroLines(slug) {
@@ -368,27 +368,38 @@ async function fetchMetroLines(slug) {
   if (!html) return [];
 
   const lines = [];
-  const regex = /href="\/cities\/[^"]+\/lines\/line-(\d+)"[^>]*>[\s\S]*?--line-color:\s*([#0-9A-Fa-f]+)/g;
+  const cardRegex = /<a[^>]*data-key="([^"]+)"[^>]*href="\/([^"]+)"[\s\S]*?--line-color:\s*([#0-9A-Fa-f]+)/g;
   let match;
-  while ((match = regex.exec(html)) !== null) {
+  while ((match = cardRegex.exec(html)) !== null) {
+    const keys = match[1].split('|');
+    // Extract Chinese name (3rd element, e.g. "1ºÅÏß", "Òà×¯Ïß")
+    const cnName = keys[2] || match[2].split('/').pop();
+    const hrefSlug = match[2].split('/').pop();
+    const numMatch = hrefSlug.match(/line-(\d+)/);
+    const num = numMatch ? parseInt(numMatch[1]) : 0;
     lines.push({
-      num: parseInt(match[1]),
-      color: match[2],
-      slug: `line-${match[1]}`
+      num: num,
+      name: cnName,
+      color: match[3],
+      slug: hrefSlug
     });
   }
   return lines;
 }
 
 /**
- * ä» metroman.cn çˆ¬å–æŸçº¿è·¯çš„è½¦ç«™åˆ—è¡¨
- * @param {string} slug - åŸå¸‚ slug
- * @param {number|string} lineNum - çº¿è·¯ç¼–å·
- * @param {string} [cityName] - åŸå¸‚ä¸­æ–‡åï¼ˆç”¨äºè¿‡æ»¤å¤´éƒ¨å¯¼èˆªï¼‰
+ * ´Ó metroman.cn ÅÀÈ¡Ä³ÏßÂ·µÄ³µÕ¾ÁĞ±í
+ * @param {string} slug - ³ÇÊĞ slug
+ * @param {number|string} lineNum - ÏßÂ·±àºÅ
+ * @param {string} [cityName] - ³ÇÊĞÖĞÎÄÃû£¨ÓÃÓÚ¹ıÂËÍ·²¿µ¼º½£©
  * @returns {Promise<Array<{name: string, slug: string}>>}
  */
-async function fetchMetroStations(slug, lineNum, cityName) {
-  const html = await fetchUrl(`https://www.metroman.cn/cities/${slug}/lines/line-${lineNum}`);
+async function fetchMetroStations(slug, lineRef, cityName) {
+  // lineRef can be a number (lineNum) or a slug string (e.g. "yizhuang-line")
+  var linePath = typeof lineRef === "number" || /^\d+$/.test(String(lineRef))
+    ? "line-" + lineRef
+    : lineRef;
+  const html = await fetchUrl("https://www.metroman.cn/cities/" + slug + "/lines/" + linePath);
   if (!html) return [];
 
   const stations = [];
@@ -402,14 +413,7 @@ async function fetchMetroStations(slug, lineNum, cityName) {
     stations.push({ name, slug: match[1] });
   }
   return stations;
-}
-
-/**
- * ä» metroman.cn çˆ¬å–æŒ‡å®šè½¦ç«™çš„åæ ‡
- * @param {string} stationPath - è½¦ç«™è·¯å¾„ï¼ˆå¦‚ /cities/beijing/stations/...ï¼‰
- * @returns {Promise<{lng: number, lat: number}|null>}
- */
-async function fetchMetroCoord(stationPath) {
+}async function fetchMetroCoord(stationPath) {
   const html = await fetchUrl(`https://www.metroman.cn${stationPath}`);
   if (!html) return null;
   const posMatch = html.match(/position=([\d.]+),([\d.]+)/);
@@ -419,7 +423,7 @@ async function fetchMetroCoord(stationPath) {
   return null;
 }
 
-// ===== å¯¼å‡º =====
+// ===== µ¼³ö =====
 
 /**
  * ?????? (SPEC P0-1)

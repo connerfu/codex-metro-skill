@@ -1,7 +1,8 @@
 {
   "lines": {
-    "0": {
+    "line-1": {
       "num": 1,
+      "name": "1号线",
       "color": "#C43830",
       "stations": [
         {
@@ -217,8 +218,9 @@
       ],
       "isRing": false
     },
-    "1": {
+    "line-2": {
       "num": 2,
+      "name": "2号线",
       "color": "#1077B5",
       "stations": [
         {
@@ -332,8 +334,9 @@
       ],
       "isRing": false
     },
-    "2": {
+    "line-3": {
       "num": 3,
+      "name": "3号线",
       "color": "#E21441",
       "stations": [
         {
@@ -399,8 +402,9 @@
       ],
       "isRing": false
     },
-    "3": {
+    "line-4": {
       "num": 4,
+      "name": "4号线",
       "color": "#00979E",
       "stations": [
         {
@@ -616,8 +620,9 @@
       ],
       "isRing": false
     },
-    "4": {
+    "line-5": {
       "num": 5,
+      "name": "5号线",
       "color": "#BF1DA0",
       "stations": [
         {
@@ -761,8 +766,9 @@
       ],
       "isRing": false
     },
-    "5": {
+    "line-6": {
       "num": 6,
+      "name": "6号线",
       "color": "#D3A554",
       "stations": [
         {
@@ -978,8 +984,9 @@
       ],
       "isRing": false
     },
-    "6": {
+    "line-7": {
       "num": 7,
+      "name": "7号线",
       "color": "#FFC375",
       "stations": [
         {
@@ -1165,8 +1172,9 @@
       ],
       "isRing": false
     },
-    "7": {
+    "line-8": {
       "num": 8,
+      "name": "8号线",
       "color": "#009B76",
       "stations": [
         {
@@ -1382,8 +1390,9 @@
       ],
       "isRing": false
     },
-    "8": {
+    "line-9": {
       "num": 9,
+      "name": "9号线",
       "color": "#99CC02",
       "stations": [
         {
@@ -1467,8 +1476,9 @@
       ],
       "isRing": false
     },
-    "9": {
+    "line-10": {
       "num": 10,
+      "name": "10号线",
       "color": "#09A0CE",
       "stations": [
         {
@@ -1744,8 +1754,9 @@
       ],
       "isRing": false
     },
-    "10": {
+    "line-11": {
       "num": 11,
+      "name": "11号线",
       "color": "#FC7E75",
       "stations": [
         {
@@ -1775,8 +1786,9 @@
       ],
       "isRing": false
     },
-    "11": {
+    "line-12": {
       "num": 12,
+      "name": "12号线",
       "color": "#C47323",
       "stations": [
         {
@@ -1902,8 +1914,9 @@
       ],
       "isRing": false
     },
-    "12": {
+    "line-13": {
       "num": 13,
+      "name": "13号线",
       "color": "#FFCB33",
       "stations": [
         {
@@ -2011,8 +2024,9 @@
       ],
       "isRing": false
     },
-    "13": {
+    "line-14": {
       "num": 14,
+      "name": "14号线",
       "color": "#EDAEBA",
       "stations": [
         {
@@ -2216,8 +2230,9 @@
       ],
       "isRing": false
     },
-    "14": {
+    "line-15": {
       "num": 15,
+      "name": "15号线",
       "color": "#7C3699",
       "stations": [
         {
@@ -2343,8 +2358,9 @@
       ],
       "isRing": false
     },
-    "15": {
+    "line-16": {
       "num": 16,
+      "name": "16号线",
       "color": "#67A525",
       "stations": [
         {
@@ -2530,8 +2546,9 @@
       ],
       "isRing": false
     },
-    "16": {
+    "line-17": {
       "num": 17,
+      "name": "17号线",
       "color": "#00B2AE",
       "stations": [
         {
@@ -2657,8 +2674,9 @@
       ],
       "isRing": false
     },
-    "17": {
+    "line-18": {
       "num": 18,
+      "name": "18号线",
       "color": "#5D5DAF",
       "stations": [
         {
@@ -2730,8 +2748,9 @@
       ],
       "isRing": false
     },
-    "18": {
+    "line-19": {
       "num": 19,
+      "name": "19号线",
       "color": "#DDABC9",
       "stations": [
         {
@@ -2793,6 +2812,648 @@
           "slug": "/cities/beijing/stations/xingong",
           "lat": 39.812339,
           "lng": 116.365581
+        }
+      ],
+      "isRing": false
+    },
+    "yizhuang-line": {
+      "num": 0,
+      "name": "亦庄线",
+      "color": "#FF6699",
+      "stations": [
+        {
+          "name": "宋家庄",
+          "slug": "/cities/beijing/stations/songjiazhuang",
+          "lat": 39.845845,
+          "lng": 116.428385
+        },
+        {
+          "name": "肖村",
+          "slug": "/cities/beijing/stations/xiaocun",
+          "lat": 39.834213,
+          "lng": 116.448347
+        },
+        {
+          "name": "小红门",
+          "slug": "/cities/beijing/stations/xiaohong-men",
+          "lat": 39.827945,
+          "lng": 116.459222
+        },
+        {
+          "name": "旧宫",
+          "slug": "/cities/beijing/stations/jiu-gong",
+          "lat": 39.806904,
+          "lng": 116.460772
+        },
+        {
+          "name": "亦庄桥",
+          "slug": "/cities/beijing/stations/yizhuang-qiao",
+          "lat": 39.803018,
+          "lng": 116.480301
+        },
+        {
+          "name": "亦庄文化园",
+          "slug": "/cities/beijing/stations/yizhuang-culture-park",
+          "lat": 39.806908,
+          "lng": 116.490633
+        },
+        {
+          "name": "万源街",
+          "slug": "/cities/beijing/stations/wanyuan-jie",
+          "lat": 39.802914,
+          "lng": 116.505438
+        },
+        {
+          "name": "荣京东街",
+          "slug": "/cities/beijing/stations/rongjing-dongjie",
+          "lat": 39.793127,
+          "lng": 116.513385
+        },
+        {
+          "name": "荣昌东街",
+          "slug": "/cities/beijing/stations/rongchang-dongjie",
+          "lat": 39.782791,
+          "lng": 116.521732
+        },
+        {
+          "name": "同济南路",
+          "slug": "/cities/beijing/stations/tongji-nanlu",
+          "lat": 39.77289,
+          "lng": 116.539821
+        },
+        {
+          "name": "经海路",
+          "slug": "/cities/beijing/stations/jinghai-lu",
+          "lat": 39.783584,
+          "lng": 116.562239
+        },
+        {
+          "name": "次渠南",
+          "slug": "/cities/beijing/stations/ciqu-nan-s",
+          "lat": 39.795119,
+          "lng": 116.58135
+        },
+        {
+          "name": "次渠",
+          "slug": "/cities/beijing/stations/ciqu",
+          "lat": 39.803542,
+          "lng": 116.591532
+        },
+        {
+          "name": "亦庄火车站",
+          "slug": "/cities/beijing/stations/yizhuang-railway-station",
+          "lat": 39.812618,
+          "lng": 116.60192
+        }
+      ],
+      "isRing": false
+    },
+    "changping-line": {
+      "num": 0,
+      "name": "昌平线",
+      "color": "#F7A9D5",
+      "stations": [
+        {
+          "name": "昌平西山口",
+          "slug": "/cities/beijing/stations/changping-xishankou",
+          "lat": 40.244631,
+          "lng": 116.195332
+        },
+        {
+          "name": "十三陵景区",
+          "slug": "/cities/beijing/stations/ming-tombs",
+          "lat": 40.240235,
+          "lng": 116.20763
+        },
+        {
+          "name": "昌平",
+          "slug": "/cities/beijing/stations/changping",
+          "lat": 40.220546,
+          "lng": 116.233587
+        },
+        {
+          "name": "昌平东关",
+          "slug": "/cities/beijing/stations/changping-dongguan",
+          "lat": 40.221729,
+          "lng": 116.262058
+        },
+        {
+          "name": "北邵洼",
+          "slug": "/cities/beijing/stations/beishaowa",
+          "lat": 40.222014,
+          "lng": 116.281932
+        },
+        {
+          "name": "南邵",
+          "slug": "/cities/beijing/stations/nanshao",
+          "lat": 40.207534,
+          "lng": 116.287631
+        },
+        {
+          "name": "沙河高教园",
+          "slug": "/cities/beijing/stations/shahe-univ-park",
+          "lat": 40.164715,
+          "lng": 116.280409
+        },
+        {
+          "name": "沙河",
+          "slug": "/cities/beijing/stations/shahe",
+          "lat": 40.148327,
+          "lng": 116.288797
+        },
+        {
+          "name": "巩华城",
+          "slug": "/cities/beijing/stations/gonghua-cheng",
+          "lat": 40.130938,
+          "lng": 116.294051
+        },
+        {
+          "name": "朱辛庄",
+          "slug": "/cities/beijing/stations/zhuxinzhuang",
+          "lat": 40.104298,
+          "lng": 116.3137
+        },
+        {
+          "name": "生命科学园",
+          "slug": "/cities/beijing/stations/life-science-park",
+          "lat": 40.0948,
+          "lng": 116.294235
+        },
+        {
+          "name": "西二旗",
+          "slug": "/cities/beijing/stations/xi-erqi",
+          "lat": 40.053044,
+          "lng": 116.306294
+        },
+        {
+          "name": "清河站",
+          "slug": "/cities/beijing/stations/qinghe-zhan-qinghe-railway-station",
+          "lat": 40.041159,
+          "lng": 116.314926
+        },
+        {
+          "name": "朱房北",
+          "slug": "/cities/beijing/stations/zhufangbei",
+          "lat": 40.035986,
+          "lng": 116.3317
+        },
+        {
+          "name": "清河小营桥",
+          "slug": "/cities/beijing/stations/qinghe-xiaoyingqiao",
+          "lat": 40.034727,
+          "lng": 116.343743
+        },
+        {
+          "name": "学知园",
+          "slug": "/cities/beijing/stations/xuezhiyuan",
+          "lat": 40.01501,
+          "lng": 116.352191
+        },
+        {
+          "name": "六道口",
+          "slug": "/cities/beijing/stations/liudao-kou",
+          "lat": 40.000959,
+          "lng": 116.352716
+        },
+        {
+          "name": "学院桥",
+          "slug": "/cities/beijing/stations/xueyuanqiao",
+          "lat": 39.988207,
+          "lng": 116.353432
+        },
+        {
+          "name": "西土城",
+          "slug": "/cities/beijing/stations/xitucheng",
+          "lat": 39.97638,
+          "lng": 116.354225
+        },
+        {
+          "name": "蓟门桥",
+          "slug": "/cities/beijing/stations/jimen-qiao",
+          "lat": 39.967734,
+          "lng": 116.354563
+        }
+      ],
+      "isRing": false
+    },
+    "fangshan-line": {
+      "num": 0,
+      "name": "房山线",
+      "color": "#FF7900",
+      "stations": [
+        {
+          "name": "东管头南",
+          "slug": "/cities/beijing/stations/dongguantou-nan-s",
+          "lat": 39.854326,
+          "lng": 116.322951
+        },
+        {
+          "name": "首经贸",
+          "slug": "/cities/beijing/stations/capital-univ-of-economics-business",
+          "lat": 39.844458,
+          "lng": 116.320269
+        },
+        {
+          "name": "花乡东桥",
+          "slug": "/cities/beijing/stations/huaxiang-dongqiao",
+          "lat": 39.829208,
+          "lng": 116.320059
+        },
+        {
+          "name": "白盆窑",
+          "slug": "/cities/beijing/stations/baipenyao",
+          "lat": 39.819592,
+          "lng": 116.313374
+        },
+        {
+          "name": "郭公庄",
+          "slug": "/cities/beijing/stations/guogongzhuang",
+          "lat": 39.814322,
+          "lng": 116.301887
+        },
+        {
+          "name": "大葆台",
+          "slug": "/cities/beijing/stations/dabaotai",
+          "lat": 39.807803,
+          "lng": 116.291685
+        },
+        {
+          "name": "稻田",
+          "slug": "/cities/beijing/stations/daotian",
+          "lat": 39.794885,
+          "lng": 116.21883
+        },
+        {
+          "name": "长阳",
+          "slug": "/cities/beijing/stations/changyang",
+          "lat": 39.763873,
+          "lng": 116.212683
+        },
+        {
+          "name": "篱笆房",
+          "slug": "/cities/beijing/stations/libafang",
+          "lat": 39.760618,
+          "lng": 116.189497
+        },
+        {
+          "name": "广阳城",
+          "slug": "/cities/beijing/stations/guangyang-cheng",
+          "lat": 39.747916,
+          "lng": 116.185055
+        },
+        {
+          "name": "良乡大学城北",
+          "slug": "/cities/beijing/stations/liangxiang-univ-town-north",
+          "lat": 39.729907,
+          "lng": 116.183471
+        },
+        {
+          "name": "良乡大学城",
+          "slug": "/cities/beijing/stations/liangxiang-univ-town",
+          "lat": 39.72318,
+          "lng": 116.176527
+        },
+        {
+          "name": "良乡大学城西",
+          "slug": "/cities/beijing/stations/liangxiang-univ-town-west",
+          "lat": 39.723154,
+          "lng": 116.156284
+        },
+        {
+          "name": "良乡南关",
+          "slug": "/cities/beijing/stations/liangxiang-nanguan",
+          "lat": 39.723203,
+          "lng": 116.140792
+        },
+        {
+          "name": "苏庄",
+          "slug": "/cities/beijing/stations/suzhuang",
+          "lat": 39.723183,
+          "lng": 116.125304
+        },
+        {
+          "name": "阎村东",
+          "slug": "/cities/beijing/stations/yancun-dong-e",
+          "lat": 39.729036,
+          "lng": 116.100821
+        }
+      ],
+      "isRing": false
+    },
+    "yanfang-line": {
+      "num": 0,
+      "name": "燕房线",
+      "color": "#FF7900",
+      "stations": [
+        {
+          "name": "阎村东",
+          "slug": "/cities/beijing/stations/yancun-dong-e",
+          "lat": 39.729036,
+          "lng": 116.100821
+        },
+        {
+          "name": "紫草坞",
+          "slug": "/cities/beijing/stations/zicaowu",
+          "lat": 39.724583,
+          "lng": 116.086714
+        },
+        {
+          "name": "阎村",
+          "slug": "/cities/beijing/stations/yancun",
+          "lat": 39.716793,
+          "lng": 116.080062
+        },
+        {
+          "name": "星城",
+          "slug": "/cities/beijing/stations/xingcheng",
+          "lat": 39.71369,
+          "lng": 116.061308
+        },
+        {
+          "name": "大石河东",
+          "slug": "/cities/beijing/stations/dashihe-dong-e",
+          "lat": 39.709841,
+          "lng": 116.039945
+        },
+        {
+          "name": "马各庄",
+          "slug": "/cities/beijing/stations/magezhuang",
+          "lat": 39.705087,
+          "lng": 116.016601
+        },
+        {
+          "name": "饶乐府",
+          "slug": "/cities/beijing/stations/raole-fu",
+          "lat": 39.701477,
+          "lng": 116.0061
+        },
+        {
+          "name": "房山城关",
+          "slug": "/cities/beijing/stations/fangshan-chengguan",
+          "lat": 39.706057,
+          "lng": 115.989598
+        },
+        {
+          "name": "燕山",
+          "slug": "/cities/beijing/stations/yanshan",
+          "lat": 39.719612,
+          "lng": 115.973393
+        }
+      ],
+      "isRing": false
+    },
+    "line-s1": {
+      "num": 0,
+      "name": "s1线",
+      "color": "#B25B1D",
+      "stations": [
+        {
+          "name": "石厂",
+          "slug": "/cities/beijing/stations/shichang",
+          "lat": 39.889373,
+          "lng": 116.100331
+        },
+        {
+          "name": "小园",
+          "slug": "/cities/beijing/stations/xiaoyuan",
+          "lat": 39.89046,
+          "lng": 116.114424
+        },
+        {
+          "name": "栗园庄",
+          "slug": "/cities/beijing/stations/liyuanzhuang",
+          "lat": 39.895753,
+          "lng": 116.123249
+        },
+        {
+          "name": "上岸",
+          "slug": "/cities/beijing/stations/shang-an",
+          "lat": 39.905142,
+          "lng": 116.122218
+        },
+        {
+          "name": "桥户营",
+          "slug": "/cities/beijing/stations/qiaohuying",
+          "lat": 39.912381,
+          "lng": 116.125804
+        },
+        {
+          "name": "四道桥",
+          "slug": "/cities/beijing/stations/sidao-qiao",
+          "lat": 39.916033,
+          "lng": 116.134011
+        },
+        {
+          "name": "金安桥",
+          "slug": "/cities/beijing/stations/jin-anqiao",
+          "lat": 39.923577,
+          "lng": 116.161108
+        },
+        {
+          "name": "苹果园",
+          "slug": "/cities/beijing/stations/pingguoyuan",
+          "lat": 39.925797,
+          "lng": 116.178387
+        }
+      ],
+      "isRing": false
+    },
+    "xijiao-line": {
+      "num": 0,
+      "name": "西郊线",
+      "color": "#F45858",
+      "stations": [
+        {
+          "name": "香山",
+          "slug": "/cities/beijing/stations/fragrant-hills",
+          "lat": 39.994056,
+          "lng": 116.204483
+        },
+        {
+          "name": "国家植物园",
+          "slug": "/cities/beijing/stations/china-national-botanical-garden",
+          "lat": 39.993543,
+          "lng": 116.215716
+        },
+        {
+          "name": "万安",
+          "slug": "/cities/beijing/stations/wan-an",
+          "lat": 39.984007,
+          "lng": 116.231983
+        },
+        {
+          "name": "茶棚",
+          "slug": "/cities/beijing/stations/chapeng",
+          "lat": 39.982114,
+          "lng": 116.248092
+        },
+        {
+          "name": "颐和园西门",
+          "slug": "/cities/beijing/stations/summer-palace-west-gate",
+          "lat": 39.985696,
+          "lng": 116.263246
+        },
+        {
+          "name": "巴沟",
+          "slug": "/cities/beijing/stations/bagou",
+          "lat": 39.97443,
+          "lng": 116.293358
+        }
+      ],
+      "isRing": false
+    },
+    "capital-airport-express": {
+      "num": 0,
+      "name": "首都机场线",
+      "color": "#BAACE2",
+      "stations": [
+        {
+          "name": "北新桥",
+          "slug": "/cities/beijing/stations/beixinqiao",
+          "lat": 39.940994,
+          "lng": 116.416882
+        },
+        {
+          "name": "东直门",
+          "slug": "/cities/beijing/stations/dongzhimen",
+          "lat": 39.941496,
+          "lng": 116.433548
+        },
+        {
+          "name": "三元桥",
+          "slug": "/cities/beijing/stations/sanyuan-qiao",
+          "lat": 39.96131,
+          "lng": 116.45782
+        },
+        {
+          "name": "3号航站楼",
+          "slug": "/cities/beijing/stations/3-hao-hangzhanlou-terminal-3",
+          "lat": 40.052657,
+          "lng": 116.615585
+        },
+        {
+          "name": "2号航站楼",
+          "slug": "/cities/beijing/stations/2-hao-hangzhanlou-terminal-2",
+          "lat": 40.079316,
+          "lng": 116.592791
+        }
+      ],
+      "isRing": false
+    },
+    "daxing-airport-express": {
+      "num": 0,
+      "name": "大兴机场线",
+      "color": "#0663BF",
+      "stations": [
+        {
+          "name": "草桥",
+          "slug": "/cities/beijing/stations/caoqiao",
+          "lat": 39.845808,
+          "lng": 116.348473
+        },
+        {
+          "name": "大兴新城",
+          "slug": "/cities/beijing/stations/daxing-xincheng",
+          "lat": 39.735586,
+          "lng": 116.365524
+        },
+        {
+          "name": "大兴机场",
+          "slug": "/cities/beijing/stations/daxing-jichang-daxing-airport",
+          "lat": 39.513323,
+          "lng": 116.416619
+        }
+      ],
+      "isRing": false
+    },
+    "yizhuang-t1-line": {
+      "num": 0,
+      "name": "亦庄t1线",
+      "color": "#F45858",
+      "stations": [
+        {
+          "name": "定海园",
+          "slug": "/cities/beijing/stations/dinghai-yuan",
+          "lat": 39.802359,
+          "lng": 116.563873
+        },
+        {
+          "name": "定海园西",
+          "slug": "/cities/beijing/stations/dinghai-yuan-xi-w",
+          "lat": 39.796787,
+          "lng": 116.552007
+        },
+        {
+          "name": "经海一路",
+          "slug": "/cities/beijing/stations/jinghai-yilu",
+          "lat": 39.790967,
+          "lng": 116.539798
+        },
+        {
+          "name": "亦创会展中心",
+          "slug": "/cities/beijing/stations/beijing-etrong-int-l-exhibition-convention-center",
+          "lat": 39.786565,
+          "lng": 116.530099
+        },
+        {
+          "name": "荣昌东街",
+          "slug": "/cities/beijing/stations/rongchang-dongjie",
+          "lat": 39.782791,
+          "lng": 116.521732
+        },
+        {
+          "name": "亦庄同仁",
+          "slug": "/cities/beijing/stations/yizhuang-tongren",
+          "lat": 39.777512,
+          "lng": 116.518834
+        },
+        {
+          "name": "鹿圈东",
+          "slug": "/cities/beijing/stations/lujuan-dong-e",
+          "lat": 39.767023,
+          "lng": 116.514242
+        },
+        {
+          "name": "泰河路",
+          "slug": "/cities/beijing/stations/taihe-lu",
+          "lat": 39.760953,
+          "lng": 116.511753
+        },
+        {
+          "name": "九号村",
+          "slug": "/cities/beijing/stations/jiuhao-cun",
+          "lat": 39.755509,
+          "lng": 116.508791
+        },
+        {
+          "name": "四海庄",
+          "slug": "/cities/beijing/stations/sihai-zhuang",
+          "lat": 39.747888,
+          "lng": 116.505101
+        },
+        {
+          "name": "太和桥北",
+          "slug": "/cities/beijing/stations/taihe-qiao-bei-n",
+          "lat": 39.739968,
+          "lng": 116.501152
+        },
+        {
+          "name": "瑞合庄",
+          "slug": "/cities/beijing/stations/ruihe-zhuang",
+          "lat": 39.726635,
+          "lng": 116.504071
+        },
+        {
+          "name": "融兴街",
+          "slug": "/cities/beijing/stations/rongxing-jie",
+          "lat": 39.718911,
+          "lng": 116.506088
+        },
+        {
+          "name": "屈庄",
+          "slug": "/cities/beijing/stations/qu-zhuang",
+          "lat": 39.710278,
+          "lng": 116.508362
         }
       ],
       "isRing": false
