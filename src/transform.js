@@ -909,11 +909,11 @@ function enrichTransferFields(outputData) {
     }
   }
   var stnNames = Object.keys(index);
-  var TRANSFER_DIST_M = 100; // 100m
+  var TRANSFER_DIST_M = 500; // 500m ? ????????????????????
   for (var ti = 0; ti < stnNames.length; ti++) {
     var entries = index[stnNames[ti]];
     if (entries.length < 2) continue;
-    // SPEC P0-3: ??????????????
+    // ??????????? < 500m ????????> 500m ????????
     var groups = [];
     for (var ei = 0; ei < entries.length; ei++) {
       var stn = lines[entries[ei].li].stations[entries[ei].si];
@@ -931,7 +931,7 @@ function enrichTransferFields(outputData) {
     }
     // ????????? transferGroupId
     for (var gi2 = 0; gi2 < groups.length; gi2++) {
-      var gid = stnNames[ti] + "_" + gi2;
+      var gid = stnNames[ti] + (groups.length > 1 ? "_" + gi2 : "");
       for (var ej = 0; ej < groups[gi2].length; ej++) {
         var stn2 = lines[groups[gi2][ej].li].stations[groups[gi2][ej].si];
         stn2.isTransfer = true;
